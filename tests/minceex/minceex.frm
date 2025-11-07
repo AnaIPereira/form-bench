@@ -58,6 +58,7 @@ L d9c=+vqg(1,mu1)*fp(1,p2)*vqg(1,mu2)*fp(1,p3)*vqg(1,MU)*fp(1,p4)*vqg(1,mu3)*\
  Multiply ep^-1/2;
 #endif
 .sort
+#if `POW' == 8
 Drop;
 Local diff = d9c - (
        + BasicNOIntegral*rat( - 261120*ep^17 - 225024*ep^16 + 14099584*ep^15
@@ -189,4 +190,6 @@ Print +s;
 	#message Error in N=8 result
 	#terminate
 #endif
+#endif
+
 .end

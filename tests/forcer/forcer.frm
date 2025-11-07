@@ -1,4 +1,7 @@
 #-
+
+#: MaxTermSize 100K
+
 Off stats;
 *On codes;
 
@@ -35,7 +38,7 @@ L F1 =
   #enddo
 ;
 
-#define dot "6"
+#define dot "5"
 L F2 =
   #do i=1,3
     + Zno`i'(`dot',1,1,1,1,1,1,1,1,1,1,0,0,0)
