@@ -58,7 +58,7 @@ FORM2="tform-test-fix"
 CPU=24
 
 #TESTS="trace mincer minceex mass-fact forcer forcer-exp mbox1l color chromatic"
-TESTS="trace minceex forcer forcer-exp mbox1l color chromatic"
+TESTS="trace mincer minceex forcer forcer-exp mbox1l color chromatic"
 
 
 for test in $TESTS; do
