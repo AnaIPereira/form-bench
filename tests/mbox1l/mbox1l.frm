@@ -1,5 +1,6 @@
 #-
-#: MaxTermSize 1M
+#: MaxTermSize 3M
+#: WorkSpace 100M
 
 Off Statistics;
 Off ThreadStats;
@@ -45,11 +46,27 @@ CFunction prf,tmpprf;
 CFunction mbox1l,mbox1lm`j'm;
 
 * 3,3,2,2 needs a 400K MaxTermSize. 3,3,3,3 fits in 1M.
-* Explodes extremely quickly for any harder integrals.
-#define n1 "3"
-#define n2 "3"
-#define n3 "3"
-#define n4 "3"
+* 4,3,3,3 fits in 2M. 4,4,3,3 fits in 3M, with 100M workspace.
+* Explodes extremely quickly for harder integrals.
+#ifndef `DIFFICULTY'
+	#define DIFFICULTY "1"
+#endif
+#if `DIFFICULTY' == 1
+	#define n1 "3"
+	#define n2 "3"
+	#define n3 "3"
+	#define n4 "3"
+#elseif `DIFFICULTY' == 2
+	#define n1 "4"
+	#define n2 "3"
+	#define n3 "3"
+	#define n4 "3"
+#else
+	#define n1 "4"
+	#define n2 "4"
+	#define n3 "3"
+	#define n4 "3"
+#endif
 Local test = mbox1l(`n1',`n2',`n3',`n4');
 .sort
 PolyRatFun prf;

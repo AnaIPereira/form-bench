@@ -3,7 +3,6 @@
 #: MaxTermSize 100K
 
 Off stats;
-*On codes;
 
 #include- forcer.h
 CF f,f1,f2,f3;
@@ -32,13 +31,23 @@ Fill emul() =
   + delta_(nargs_(?a2,?a3))  * f1(?a1,p2*x3)
 ;
 
+#ifndef `DIFFICULTY'
+	#define DIFFICULTY "1"
+#endif
+#if `DIFFICULTY' == 1
+	#define dot "5"
+#elseif `DIFFICULTY' == 2
+	#define dot "6"
+#else
+	#define dot "7"
+#endif
+
 L F1 =
   #do i=1,3
     + Zno`i'(1,1,1,1,1,1,1,1,1,1,1,0,0,0)
   #enddo
 ;
 
-#define dot "5"
 L F2 =
   #do i=1,3
     + Zno`i'(`dot',1,1,1,1,1,1,1,1,1,1,0,0,0)

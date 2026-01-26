@@ -29,13 +29,23 @@ Fill emul() =
   + delta_(nargs_(?a2,?a3))  * f1(?a1,p2*x3)
 ;
 
+#ifndef `DIFFICULTY'
+	#define DIFFICULTY "1"
+#endif
+#if `DIFFICULTY' == 1
+	#define dot "6"
+#elseif `DIFFICULTY' == 2
+	#define dot "7"
+#else
+	#define dot "8"
+#endif
+
 L F1 =
   #do i=1,3
     + Zno`i'(1,1,1,1,1,1,1,1,1,1,1,0,0,0)
   #enddo
 ;
 
-#define dot "6"
 L F2 =
   #do i=1,3
     + Zno`i'(`dot',1,1,1,1,1,1,1,1,1,1,0,0,0)

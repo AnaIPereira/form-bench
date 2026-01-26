@@ -8,10 +8,25 @@
 #: MaxTermSize  40K
 #: Filepatches  512
 *
+On statistics;
+On fewerstats 0;
+Off threadstats;
+On totalsize;
+
+#ifndef `DIFFICULTY'
+	#define DIFFICULTY "1"
+#endif
+#if `DIFFICULTY' == 1
+	#define POW "7"
+#elseif `DIFFICULTY' == 2
+	#define POW "11"
+#else
+	#define POW "15"
+#endif
+
 #define NEWPLANE "1"
 #define GAUGE "0"
 #define SCHEME "0"
-#define POW "7"
 #define LONGINT "4"
 #define TRIM "0"
 #define CURRENT "POL"

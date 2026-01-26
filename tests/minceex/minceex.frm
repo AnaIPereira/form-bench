@@ -5,9 +5,22 @@
 
 #include- minceex.h
 #include- treatqaqa.prc
-Off Statistics;
+On Statistics;
+Off threadstats;
+On Fewerstats 0;
+
+#ifndef `DIFFICULTY'
+	#define DIFFICULTY "1"
+#endif
+#if `DIFFICULTY' == 1
+	#define POW "8"
+#elseif `DIFFICULTY' == 2
+	#define POW "10"
+#else
+	#define POW "12"
+#endif
+
 #define GAUGE "0"
-#define POW "8"
 #define PROJ "0"
 #define CURRENT "F2"
 #define MSBAR "1"
@@ -57,6 +70,7 @@ L d9c=+vqg(1,mu1)*fp(1,p2)*vqg(1,mu2)*fp(1,p3)*vqg(1,MU)*fp(1,p4)*vqg(1,mu3)*\
  .sort
  Multiply ep^-1/2;
 #endif
+Print +s;
 .sort
 #if `POW' == 8
 Drop;
@@ -191,5 +205,4 @@ Print +s;
 	#terminate
 #endif
 #endif
-
 .end
