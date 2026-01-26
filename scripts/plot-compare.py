@@ -56,7 +56,7 @@ for file in res_files:
    cpus = []
    for l in labels:
       if l.startswith("form"):
-         cpus.append(0)
+         cpus.append(1)
       elif l.startswith("tform"):
          cpu = re.findall(r"-w(\d+)", l)
          cpus.append(int(cpu[0]))

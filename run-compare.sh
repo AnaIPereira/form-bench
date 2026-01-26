@@ -12,7 +12,7 @@ trap 'echo Cleaning up ; rm -rf $TESTDIR $ORIGDIR/output/$TIMESTAMP' ERR
 
 # Configurable parameters:
 
-LABEL=""
+LABEL="scaling-test-"
 TESTDIRBASE="/dev/shm/"
 # Negative nice can lead to more consistent timings.
 NICE=-10
@@ -31,18 +31,22 @@ tform-test -w20,\
 tform-test -w24\
 "
 
-#TESTS="trace mincer minceex mass-fact forcer forcer-exp mbox1l color chromatic sort-small sort-large sort-disk"
-TESTS="trace mincer minceex forcer forcer-exp mbox1l color chromatic sort-small sort-large sort-disk"
+#TESTS="trace mincer minceex mass-fact forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
+TESTS="trace mincer minceex forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
 
 # Number of times to run test batches:
 N=1
+
+# Run a harder version of the tests? Not all tests are affected by this.
+DIFFICULTY=1
 
 ###############################################################################
 
 
 # For reference, a 7900X with tform -w24 takes about N*30m to run through all
-# tests with two binaries, and form takes about N*6hr. This is quite a long
-# time, but we want tests that are representative of real-world use.
+# DIFFICULTY=1 tests with two binaries, and form takes about N*6hr.
+# This is quite a long time, but we want tests that are representative of
+# real-world use.
 declare -A runs
 runs["trace"]=$((     N * 30 ))
 runs["mincer"]=$((    N * 2  ))
@@ -50,6 +54,7 @@ runs["minceex"]=$((   N * 3  ))
 runs["mass-fact"]=$(( N * 2  ))
 runs["forcer"]=$((    N * 2  ))
 runs["forcer-exp"]=$((N * 2  ))
+runs["fmft"]=$((      N * 3  ))
 runs["mbox1l"]=$((    N * 8  ))
 runs["color"]=$((     N * 8  ))
 runs["chromatic"]=$(( N * 2  ))
@@ -65,6 +70,7 @@ warmup["minceex"]=0
 warmup["mass-fact"]=0
 warmup["forcer"]=0
 warmup["forcer-exp"]=0
+warmup["fmft"]=0
 warmup["mbox1l"]=0
 warmup["color"]=0
 warmup["chromatic"]=0
@@ -93,9 +99,9 @@ done
 
 ORIGDIR=$(pwd)
 TIMESTAMP=$(date +%Y-%m-%d-%H-%M-%S)
-RESULTSDIR=$ORIGDIR/output/$LABEL-$TIMESTAMP/results/
+RESULTSDIR=$ORIGDIR/output/$LABEL$TIMESTAMP/results/
 echo "Results: $RESULTSDIR"
-LOGDIR=$ORIGDIR/output/$LABEL-$TIMESTAMP/logs/
+LOGDIR=$ORIGDIR/output/$LABEL$TIMESTAMP/logs/
 mkdir -p "$RESULTSDIR"
 mkdir -p "$LOGDIR"
 
