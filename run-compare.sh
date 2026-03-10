@@ -38,7 +38,7 @@ TESTS="trace mincer minceex forcer forcer-exp fmft mbox1l color chromatic sort-s
 N=1
 
 # Run a harder version of the tests? Not all tests are affected by this.
-DIFFICULTY=1
+export DIFFICULTY=1
 
 ###############################################################################
 
@@ -60,7 +60,7 @@ runs["color"]=$((     N * 8  ))
 runs["chromatic"]=$(( N * 2  ))
 runs["sort-large"]=$((N * 2  ))
 runs["sort-small"]=$((N * 15 ))
-runs["sort-disk"]=$(( N * 2 ))
+runs["sort-disk"]=$(( N * 2  ))
 
 # A warmup run helps to get stable times from very short-running tests.
 declare -A warmup

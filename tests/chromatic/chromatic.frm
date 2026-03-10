@@ -1,12 +1,12 @@
 #-
 
 #: MaxTermSize 15K
-#: ScratchSize 2G
+#: ScratchSize 2500M
 #: HideSize 1M
 #: LargeSize 3G
 #: LargePatches 512
 #: FilePatches 64
-#: TermsInSmall 600K
+#: TermsInSmall 3M
 #: SmallSize 1G
 
 * Test based on p15.frm "Chromatic Polynomials".
@@ -293,7 +293,7 @@ Local diff = F - (
  -364*q^195
  +q^196
 	);
-#elseif (`N' == 14 && `D' == 2)
+#elseif (`N' == 15 && `D' == 2)
 Local diff = F - (
  +2488424373405537651947963414855975480678053190960194963510080438130265019347319757142277891*q
  -134424175652749963965276733814648728785935981823513526132368943489341373778501005179727385467*q^2

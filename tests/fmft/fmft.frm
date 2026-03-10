@@ -390,6 +390,7 @@ Local diff = test - (
 
 #if `ZERO_diff' == 0
 	#message Error in result for N = `N'
+	#terminate
 #endif
 .end
 

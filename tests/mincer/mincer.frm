@@ -1,12 +1,13 @@
 #-
 #: LargeSize    4G
-#: SmallSize    600M
+#: LargePatches 512
+#: SmallSize    1G
 #: TermsInSmall 20M
 #: SortIOSize   10M
 #: ScratchSize  4G
 #: WorkSpace    100M
 #: MaxTermSize  40K
-#: Filepatches  512
+#: Filepatches  32
 *
 On statistics;
 On fewerstats 0;
@@ -14,14 +15,14 @@ Off threadstats;
 On totalsize;
 
 #ifndef `DIFFICULTY'
-	#define DIFFICULTY "1"
+	#define DIFFICULTY "3"
 #endif
 #if `DIFFICULTY' == 1
 	#define POW "7"
 #elseif `DIFFICULTY' == 2
-	#define POW "11"
+	#define POW "9"
 #else
-	#define POW "15"
+	#define POW "11"
 #endif
 
 #define NEWPLANE "1"
@@ -99,4 +100,29 @@ Multiply replace_(mncxi,xi,mncxii,xii);
 repeat id xi*xii = -1+xii;
 B	signs;
 print;
+.sort
+#if `POW' == 7
+	Local diff = d65c - (
+		+ 130174664675141/5501034000 - 22200832/231*z5 + 22989790444/363825*z3
+	);
+#elseif `POW' == 9
+	Local diff = d65c - (
+		+ 2436287818587941407/19308629340000 - 513061888/1001*z5 +
+		  100450087788944/297972675*z3
+	);
+#elseif `POW' == 11
+	Local diff = d65c - (
+		+ 3986174420063051416183/7301075469187500 - 6660743168/3003*z5 +
+		  23910777558546304/16388497125*z3
+	);
+#else
+	Local diff = 0;
+	#message Warning: unverified result
+#endif
+Print +s diff;
+.sort
+#if `ZERO_diff' != 1
+	#message Error in result
+	#terminate
+#endif
 .end

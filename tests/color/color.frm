@@ -5,7 +5,16 @@ Off Statistics;
 
 #define SIZE "8"
 * Extend the runtime without increasing SIZE:
-#define LONGER "2"
+#ifndef `DIFFICULTY'
+	#define DIFFICULTY "1"
+#endif
+#if `DIFFICULTY' == 1
+	#define LONGER "2"
+#elseif `DIFFICULTY' == 2
+	#define LONGER "4"
+#else
+	#define LONGER "8"
+#endif
 *#define ALTERNATEMETHOD "1"
 *
 *	Test program for the color traces in the paper and a few more.
