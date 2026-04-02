@@ -14,6 +14,7 @@ trap 'echo Cleaning up ; rm -rf $TESTDIR $ORIGDIR/output/$TIMESTAMP' ERR
 
 LABEL="scaling-test-"
 TESTDIRBASE="/dev/shm/"
+#TESTDIRBASE="/home/ana/Documents/GitHub/form-bench/tests/"
 # Negative nice can lead to more consistent timings.
 NICE=0
 
