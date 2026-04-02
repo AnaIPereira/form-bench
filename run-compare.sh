@@ -15,7 +15,7 @@ trap 'echo Cleaning up ; rm -rf $TESTDIR $ORIGDIR/output/$TIMESTAMP' ERR
 LABEL="scaling-test-"
 TESTDIRBASE="/dev/shm/"
 # Negative nice can lead to more consistent timings.
-NICE=-10
+NICE=0
 
 FORM_CMDS="\
 form-test,\
@@ -32,7 +32,9 @@ tform-test -w24\
 "
 
 #TESTS="trace mincer minceex mass-fact forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
-TESTS="trace mincer minceex forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
+#TESTS="trace mincer minceex forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
+
+TESTS="trace"
 
 # Number of times to run test batches:
 N=1
