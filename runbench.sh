@@ -11,6 +11,6 @@
 
 export FORMTMP=${TMPDIR:-/tmp}
 
-batch run-compare.sh
+./run-compare.sh
 
 
