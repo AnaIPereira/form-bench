@@ -119,7 +119,7 @@ warmup["sort-disk"]=0
 
 
 # Check for python and hyperfine:
-for bin in hyperfine python; do
+for bin in hyperfine python3; do
 	if ! command -v "$bin" &> /dev/null; then
 		echo "Error, script requires $bin"
 		exit 1
@@ -166,7 +166,7 @@ for test in $TESTS; do
 		"nice -n $NICE {form} $test.frm > $LOGDIR/$test.log"
 	)
 done
-python "$ORIGDIR/scripts/plot-compare.py" "$RESULTSDIR"
+python3 "$ORIGDIR/scripts/plot-compare.py" "$RESULTSDIR"
 
 # Clean up
 cd "$ORIGDIR"
