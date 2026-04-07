@@ -11,7 +11,7 @@
 
 #SBATCH --array=1-10
 
-case $SLURM_ARRAY_TASK_ID in:
+case $SLURM_ARRAY_TASK_ID in
        1) TESTS="trace" ;;
 esac
 

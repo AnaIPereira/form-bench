@@ -1,6 +1,0 @@
-====
-Starting job 10167850 at Tue  7 Apr 16:45:10 BST 2026 for user dc-cost5.
-Running on nodes: m8417
-====
-/var/slurm/slurmd/job10167850/slurm_script: line 14: syntax error near unexpected token `in:'
-/var/slurm/slurmd/job10167850/slurm_script: line 14: `case $SLURM_ARRAY_TASK_ID in:'
