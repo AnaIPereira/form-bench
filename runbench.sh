@@ -9,8 +9,14 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time 0-01:00:00
 
-export FORMTMP=${TMPDIR:-/tmp}
+#SBATCH --array=1-10
 
-./run-compare.sh
+do
+    case $SLURM_ARRAY_TASK_ID in:
+        1) TESTS="trace" ;;
+    esac
+done
+
+./run-compare.sh --tests="$TESTS" --label="myname" --timestamp="1" --testdir="$TMP"
 
 
