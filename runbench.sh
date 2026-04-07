@@ -11,11 +11,9 @@
 
 #SBATCH --array=1-10
 
-do
-    case $SLURM_ARRAY_TASK_ID in:
-        1) TESTS="trace" ;;
-    esac
-done
+case $SLURM_ARRAY_TASK_ID in:
+       1) TESTS="trace" ;;
+esac
 
 ./run-compare.sh --tests="$TESTS" --label="testsAna" --timestamp="1" --testdir="$TMP"
 
