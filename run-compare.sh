@@ -20,24 +20,24 @@ TIMESTAMP=$(date +%Y-%m-%d-%H-%M-%S)
 NICE=0
 
 FORM_CMDS="\
-form-test,\
-tform-test -w1,\
-tform-test -w2,\
-tform-test -w4,\
-tform-test -w6,\
-tform-test -w8,\
-tform-test -w10,\
-tform-test -w12,\
-tform-test -w16,\
-tform-test -w20,\
-tform-test -w24\
+form,\
+tform -w1,\
+tform -w2,\
+tform -w4,\
+tform -w6,\
+tform -w8,\
+tform -w10,\
+tform -w12,\
+tform -w16,\
+tform -w20,\
+tform -w24\
 "
 
 #TESTS="trace mincer minceex mass-fact forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
 TESTS="trace mincer minceex forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
 
 # Number of times to run test batches:
-N=1
+N=2
 
 # Run a harder version of the tests? Not all tests are affected by this.
 DIFFICULTY=1

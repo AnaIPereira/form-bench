@@ -7,7 +7,7 @@
 #SBATCH --export=ALL
 #SBATCH --mem=20G
 #SBATCH --cpus-per-task=1
-#SBATCH --time 0-01:00:00
+#SBATCH --time 0-05:00:00
 
 #SBATCH --array=1-10
 
@@ -17,6 +17,6 @@ do
     esac
 done
 
-./run-compare.sh --tests="$TESTS" --label="myname" --timestamp="1" --testdir="$TMP"
+./run-compare.sh --tests="$TESTS" --label="testsAna" --timestamp="1" --testdir="$TMP"
 
 
