@@ -1,0 +1,19 @@
+====
+Starting job 10183314 at Wed  8 Apr 21:47:48 BST 2026 for user dc-cost5.
+Running on nodes: m8390
+====
+form-bench: d39f24fa8393e08867a09fac3db42f5875fa1a32
+	LABEL      = testsAna_64_difficulty=2
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = mbox1l
+	N          = 2
+	DIFFICULTY = 2
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=2-1/results/
+
+
+Running mbox1l
+Benchmark 1: form
+[2026-04-08T21:52:22.409] error: *** JOB 10183314 ON m8390 CANCELLED AT 2026-04-08T21:52:22 DUE to SIGNAL Terminated ***
