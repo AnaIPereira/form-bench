@@ -1,0 +1,14 @@
+====
+Starting job 10174927 at Wed  8 Apr 10:07:14 BST 2026 for user dc-cost5.
+Running on nodes: m8422
+====
+form-bench: 297fc55655d2d42372d3913e60202d1467a27e8d
+	LABEL      = testsAna
+	TESTDIR    = 
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,# tform -w1,# tform -w2,tform -w4,# tform -w6,# tform -w8,# tform -w10,# tform -w12,# tform -w16,# tform -w20,# tform -w24
+	TESTS      = 
+	N          = 1
+	DIFFICULTY = 1
+Error, script requires #
