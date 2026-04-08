@@ -14,21 +14,17 @@
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
-#SBATCH --array=1-13
+#SBATCH --array=1-9
 case $SLURM_ARRAY_TASK_ID in
-       1) TESTS="trace" ;;
-       2) TESTS="mincer" ;;
-       3) TESTS="minceex" ;;
-       4) TESTS="mass-fact" ;;
-       5) TESTS="forcer" ;;
-       6) TESTS="forcer-exp" ;;
-       7) TESTS="fmft" ;;
-       8) TESTS="mbox1l" ;;
-       9) TESTS="color" ;;
-       10) TESTS="chromatic" ;;
-       11) TESTS="sort-small" ;;
-       12) TESTS="sort-large" ;;
-       13) TESTS="sort-disk" ;;
+       1) TESTS="mincer" ;;
+       2) TESTS="minceex" ;;
+       3) TESTS="mass-fact" ;;
+       4) TESTS="forcer" ;;
+       5) TESTS="forcer-exp" ;;
+       6) TESTS="fmft" ;;
+       7) TESTS="mbox1l" ;;
+       8) TESTS="color" ;;
+       9) TESTS="chromatic" ;;
 esac       
 
 #running for array

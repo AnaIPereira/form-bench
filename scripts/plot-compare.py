@@ -116,8 +116,10 @@ all_commands = [all_commands[i] for i in ordering]
 
 speedup_ideal = [int(cpu/min(all_cpus[0])) for cpu in all_cpus[0]]
 plt.figure(figsize = (16,9), constrained_layout = True)
-plt.xticks(range(min(all_cpus[0]),max(all_cpus[0])+1))
-plt.yticks(range(min(speedup_ideal),max(speedup_ideal)+1))
+#plt.xticks(range(min(all_cpus[0]),max(all_cpus[0])+1))
+#plt.yticks(range(min(speedup_ideal),max(speedup_ideal)+1))
+plt.xticks(all_cpus[0])
+plt.yticks(speedup_ideal)
 plt.ylabel("Parallel speedup w.r.t "+str(all_commands[0]))
 plt.xlabel("Workers")
 plt.plot(all_cpus[0], speedup_ideal, linestyle=":", color="maroon", label="ideal")

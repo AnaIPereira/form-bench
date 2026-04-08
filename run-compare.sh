@@ -46,7 +46,7 @@ FORM_CMDS="form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16,tform -w24,tf
 N=2
 
 # Run a harder version of the tests? Not all tests are affected by this.
-DIFFICULTY=1
+DIFFICULTY=2
 
 
 options=$(getopt -o "" -l "label:,testdir:,timestamp:,nice:,form_cmds:,tests:,runs:,difficulty:" -- "$@")
