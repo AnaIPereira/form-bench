@@ -19,11 +19,15 @@ TIMESTAMP=$(date +%Y-%m-%d-%H-%M-%S)
 # Negative nice can lead to more consistent timings if the user has permission.
 NICE=0
 
-FORM_CMDS="\
-form,\
+
+# FORM_CMDS options:
+# form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16
+
+#FORM_CMDS="\
+#form,\
 # tform -w1,\
 # tform -w2,\
-tform -w4,\
+# tform -w4,\
 # tform -w6,\
 # tform -w8,\
 # tform -w10,\
@@ -31,7 +35,9 @@ tform -w4,\
 # tform -w16,\
 # tform -w20,\
 # tform -w24\
-"
+#"
+
+FORM_CMDS="form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16"
 
 #TESTS="trace mincer minceex mass-fact forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
 # TESTS="trace mincer minceex forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
