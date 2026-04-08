@@ -17,22 +17,20 @@
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
-#threads for tform
-#THREADS=4
-
-#SBATCH --array=1-10
-#case $SLURM_ARRAY_TASK_ID in
- #      1) TESTS="trace" ;;
-#esac
+#SBATCH --array=1-2
+case $SLURM_ARRAY_TASK_ID in
+       1) TESTS="trace" ;;
+       2) TESTS="mincer" ;;
+esac
 
 #running for array
-#./run-compare.sh --tests="$TESTS" --label="testsAna" --timestamp="1" --testdir="$TMP"
+./run-compare.sh --tests="$TESTS" --label="testsAna" --timestamp="1" --testdir="$TMPDIR"
 
 #if running for one test
-./run-compare.sh \
---tests="trace" \
---label="testsAnatrace" \
---timestamp="1" \
---testdir="$TMP"
+#./run-compare.sh \
+#--tests="trace" \
+#--label="testsAnatrace" \
+#--timestamp="1" \
+#--testdir="$TMP"
 
 
