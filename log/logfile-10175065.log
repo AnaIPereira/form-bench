@@ -20,3 +20,35 @@ Benchmark 1: form
   Range (min … max):   656.903 s … 656.952 s    2 runs
  
 Benchmark 2: tform -w1
+  Time (mean ± σ):     675.576 s ±  0.436 s    [User: 676.086 s, System: 1.535 s]
+  Range (min … max):   675.268 s … 675.884 s    2 runs
+ 
+Benchmark 3: tform -w2
+  Time (mean ± σ):     346.402 s ±  1.431 s    [User: 676.905 s, System: 1.578 s]
+  Range (min … max):   345.390 s … 347.414 s    2 runs
+ 
+Benchmark 4: tform -w4
+  Time (mean ± σ):     185.199 s ±  0.074 s    [User: 687.393 s, System: 2.097 s]
+  Range (min … max):   185.147 s … 185.251 s    2 runs
+ 
+Benchmark 5: tform -w8
+  Time (mean ± σ):     105.855 s ±  0.001 s    [User: 704.991 s, System: 9.561 s]
+  Range (min … max):   105.855 s … 105.856 s    2 runs
+ 
+Benchmark 6: tform -w16
+  Time (mean ± σ):     72.638 s ±  0.694 s    [User: 745.521 s, System: 71.700 s]
+  Range (min … max):   72.147 s … 73.129 s    2 runs
+ 
+Summary
+  tform -w16 ran
+    1.46 ± 0.01 times faster than tform -w8
+    2.55 ± 0.02 times faster than tform -w4
+    4.77 ± 0.05 times faster than tform -w2
+    9.04 ± 0.09 times faster than form
+    9.30 ± 0.09 times faster than tform -w1
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/testsAna-1/results/
+    results-mincer.json
+    results-trace.json
+Create combined scaling plot...
+    mincer
+    trace
