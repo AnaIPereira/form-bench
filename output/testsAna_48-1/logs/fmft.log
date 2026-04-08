@@ -1,28 +1,49 @@
-TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 24 workers  Run: Wed Apr  8 19:17:58 2026
+TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 64 workers  Run: Wed Apr  8 19:39:52 2026
     #-
 ~~~
 ~~~reduction X started                 
 ~~~
-  0.62 sec + 1.19 sec: 1.81 sec out of 0.85 sec
+  0.70 sec + 1.50 sec: 2.21 sec out of 0.91 sec
 ~~~
 ~~~reduction H started                 
 ~~~
-  0.66 sec + 24.13 sec: 24.79 sec out of 2.10 sec
+  0.75 sec + 30.72 sec: 31.47 sec out of 1.67 sec
 ~~~
 ~~~reduction BMW started                 
 ~~~
-  2.09 sec + 37.27 sec: 39.37 sec out of 4.87 sec
+  2.40 sec + 48.05 sec: 50.45 sec out of 4.24 sec
 ~~~
 ~~~reduction FG started                 
 ~~~
 ~~~
 ~~~reduce F                
 ~~~
-  5.81 sec + 312.19 sec: 318.00 sec out of 21.09 sec
+  6.15 sec + 357.45 sec: 363.61 sec out of 14.37 sec
 ~~~
 ~~~reduce V                
 ~~~
-  10.60 sec + 366.80 sec: 377.41 sec out of 29.10 sec
+  10.94 sec + 479.62 sec: 490.57 sec out of 22.66 sec
 ~~~
 ~~~reduce J
 ~~~
+  19.16 sec + 619.17 sec: 638.34 sec out of 37.56 sec
+~~~
+~~~reduce T2                
+~~~
+  22.50 sec + 650.43 sec: 672.93 sec out of 41.72 sec
+~~~
+~~~reduce G                
+~~~
+  30.83 sec + 813.29 sec: 844.13 sec out of 54.54 sec
+~~~
+~~~drr T1                
+~~~
+~~~
+~~~reduce T1                
+~~~
+  31.15 sec + 815.11 sec: 846.26 sec out of 55.01 sec
+~~~
+~~~Started 1d reduction        
+~~~
+  31.24 sec + 815.32 sec: 846.56 sec out of 55.14 sec
+  31.25 sec + 909.02 sec: 940.28 sec out of 55.16 sec

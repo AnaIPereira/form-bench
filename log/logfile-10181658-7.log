@@ -40,3 +40,55 @@ Benchmark 6: tform -w16
   Range (min … max):   70.520 s … 72.696 s    6 runs
  
 Benchmark 7: tform -w24
+  Time (mean ± σ):     62.103 s ±  0.537 s    [User: 607.992 s, System: 64.645 s]
+  Range (min … max):   61.472 s … 62.872 s    6 runs
+ 
+Benchmark 8: tform -w32
+  Time (mean ± σ):     57.823 s ±  0.366 s    [User: 618.504 s, System: 101.921 s]
+  Range (min … max):   57.403 s … 58.349 s    6 runs
+ 
+Benchmark 9: tform -w48
+  Time (mean ± σ):     52.603 s ±  0.423 s    [User: 640.324 s, System: 183.760 s]
+  Range (min … max):   52.136 s … 53.137 s    6 runs
+ 
+Benchmark 10: tform -w64
+  Time (mean ± σ):     55.552 s ±  0.655 s    [User: 661.950 s, System: 272.691 s]
+  Range (min … max):   54.873 s … 56.660 s    6 runs
+ 
+Summary
+  tform -w48 ran
+    1.06 ± 0.02 times faster than tform -w64
+    1.10 ± 0.01 times faster than tform -w32
+    1.18 ± 0.01 times faster than tform -w24
+    1.36 ± 0.02 times faster than tform -w16
+    1.89 ± 0.02 times faster than tform -w8
+    3.05 ± 0.04 times faster than tform -w4
+    5.33 ± 0.05 times faster than tform -w2
+    9.59 ± 0.08 times faster than form
+    9.99 ± 0.09 times faster than tform -w1
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_48-1/results/
+    results-chromatic.json
+    results-color.json
+    results-fmft.json
+    results-forcer-exp.json
+    results-forcer.json
+    results-mbox1l.json
+    results-minceex.json
+    results-mincer.json
+    results-sort-disk.json
+    results-sort-large.json
+    results-sort-small.json
+    results-trace.json
+Create combined scaling plot...
+    chromatic
+    color
+    fmft
+    forcer
+    forcer-exp
+    mbox1l
+    minceex
+    mincer
+    sort-disk
+    sort-large
+    sort-small
+    trace
