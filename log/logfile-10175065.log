@@ -1,0 +1,22 @@
+====
+Starting job 10175065 at Wed  8 Apr 11:27:41 BST 2026 for user dc-cost5.
+Running on nodes: m8408
+====
+form-bench: cfd80f16943664d6591d0631a0472e12d0f50e96
+	LABEL      = testsAna
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16
+	TESTS      = mincer
+	N          = 1
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna-1/results/
+
+
+Running mincer
+Benchmark 1: form
+  Time (mean ± σ):     656.928 s ±  0.035 s    [User: 654.247 s, System: 0.318 s]
+  Range (min … max):   656.903 s … 656.952 s    2 runs
+ 
+Benchmark 2: tform -w1
