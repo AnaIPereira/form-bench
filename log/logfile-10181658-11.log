@@ -1,0 +1,97 @@
+====
+Starting job 10181694 at Wed  8 Apr 16:37:52 BST 2026 for user dc-cost5.
+Running on nodes: m8387
+====
+form-bench: 278513ff9f9d0729c97b327516cef8aa158446e3
+	LABEL      = testsAna_48
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = sort-small
+	N          = 2
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_48-1/results/
+
+
+Running sort-small
+Benchmark 1: form
+  Time (mean ± σ):     25.009 s ±  0.179 s    [User: 24.880 s, System: 0.030 s]
+  Range (min … max):   24.838 s … 25.607 s    30 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 2: tform -w1
+  Time (mean ± σ):     26.550 s ±  0.338 s    [User: 26.407 s, System: 0.041 s]
+  Range (min … max):   26.336 s … 28.080 s    30 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 3: tform -w2
+  Time (mean ± σ):     13.245 s ±  0.064 s    [User: 26.278 s, System: 0.050 s]
+  Range (min … max):   13.170 s … 13.404 s    30 runs
+ 
+Benchmark 4: tform -w4
+  Time (mean ± σ):      6.647 s ±  0.021 s    [User: 26.208 s, System: 0.069 s]
+  Range (min … max):    6.625 s …  6.728 s    30 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 5: tform -w8
+  Time (mean ± σ):      3.391 s ±  0.022 s    [User: 26.320 s, System: 0.095 s]
+  Range (min … max):    3.364 s …  3.450 s    30 runs
+ 
+Benchmark 6: tform -w16
+  Time (mean ± σ):      1.848 s ±  0.020 s    [User: 27.780 s, System: 0.160 s]
+  Range (min … max):    1.798 s …  1.886 s    30 runs
+ 
+Benchmark 7: tform -w24
+  Time (mean ± σ):      1.460 s ±  0.270 s    [User: 31.961 s, System: 0.263 s]
+  Range (min … max):    1.288 s …  2.122 s    30 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 8: tform -w32
+  Time (mean ± σ):      1.098 s ±  0.042 s    [User: 30.907 s, System: 0.355 s]
+  Range (min … max):    1.020 s …  1.165 s    30 runs
+ 
+Benchmark 9: tform -w48
+  Time (mean ± σ):     941.8 ms ± 126.3 ms    [User: 38020.5 ms, System: 535.8 ms]
+  Range (min … max):   809.1 ms … 1167.7 ms    30 runs
+ 
+Benchmark 10: tform -w64
+  Time (mean ± σ):     712.6 ms ±  35.2 ms    [User: 35273.1 ms, System: 703.8 ms]
+  Range (min … max):   647.0 ms … 797.8 ms    30 runs
+ 
+Summary
+  tform -w64 ran
+    1.32 ± 0.19 times faster than tform -w48
+    1.54 ± 0.10 times faster than tform -w32
+    2.05 ± 0.39 times faster than tform -w24
+    2.59 ± 0.13 times faster than tform -w16
+    4.76 ± 0.24 times faster than tform -w8
+    9.33 ± 0.46 times faster than tform -w4
+   18.59 ± 0.92 times faster than tform -w2
+   35.10 ± 1.75 times faster than form
+   37.26 ± 1.90 times faster than tform -w1
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_48-1/results/
+    results-chromatic.json
+    results-color.json
+    results-fmft.json
+Traceback (most recent call last):
+  File "/cosma/home/dr004/dc-cost5/form-bench/scripts/plot-compare.py", line 43, in <module>
+    res = json.load(of)["results"]
+          ^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Cleaning up

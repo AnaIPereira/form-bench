@@ -1,0 +1,5 @@
+TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 64 workers  Run: Wed Apr  8 18:27:47 2026
+    #-
+~~~call color
+~~~call adjoint
+  6.35 sec + 157.24 sec: 163.59 sec out of 12.64 sec

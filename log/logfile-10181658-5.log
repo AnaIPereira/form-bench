@@ -1,0 +1,96 @@
+====
+Starting job 10181663 at Wed  8 Apr 16:32:32 BST 2026 for user dc-cost5.
+Running on nodes: m8484
+====
+form-bench: 278513ff9f9d0729c97b327516cef8aa158446e3
+	LABEL      = testsAna_48
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = forcer
+	N          = 2
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_48-1/results/
+
+
+Running forcer
+Benchmark 1: form
+  Time (mean ± σ):     174.504 s ±  0.551 s    [User: 173.117 s, System: 0.594 s]
+  Range (min … max):   173.975 s … 175.093 s    4 runs
+ 
+Benchmark 2: tform -w1
+  Time (mean ± σ):     188.048 s ±  0.495 s    [User: 184.733 s, System: 3.378 s]
+  Range (min … max):   187.331 s … 188.413 s    4 runs
+ 
+Benchmark 3: tform -w2
+  Time (mean ± σ):     119.812 s ±  0.424 s    [User: 188.969 s, System: 3.833 s]
+  Range (min … max):   119.188 s … 120.128 s    4 runs
+ 
+Benchmark 4: tform -w4
+  Time (mean ± σ):     94.792 s ±  2.782 s    [User: 208.053 s, System: 5.559 s]
+  Range (min … max):   91.497 s … 98.301 s    4 runs
+ 
+Benchmark 5: tform -w8
+  Time (mean ± σ):     84.588 s ±  0.197 s    [User: 227.777 s, System: 11.191 s]
+  Range (min … max):   84.332 s … 84.800 s    4 runs
+ 
+Benchmark 6: tform -w16
+  Time (mean ± σ):     82.404 s ±  1.995 s    [User: 261.742 s, System: 20.804 s]
+  Range (min … max):   81.231 s … 85.378 s    4 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 7: tform -w24
+  Time (mean ± σ):     84.901 s ±  1.314 s    [User: 281.562 s, System: 31.569 s]
+  Range (min … max):   83.382 s … 86.446 s    4 runs
+ 
+Benchmark 8: tform -w32
+  Time (mean ± σ):     84.653 s ±  1.225 s    [User: 298.046 s, System: 43.244 s]
+  Range (min … max):   83.556 s … 86.408 s    4 runs
+ 
+Benchmark 9: tform -w48
+  Time (mean ± σ):     89.230 s ±  1.333 s    [User: 322.250 s, System: 60.455 s]
+  Range (min … max):   87.684 s … 90.656 s    4 runs
+ 
+Benchmark 10: tform -w64
+  Time (mean ± σ):     90.417 s ±  0.755 s    [User: 343.589 s, System: 108.489 s]
+  Range (min … max):   89.790 s … 91.495 s    4 runs
+ 
+Summary
+  tform -w16 ran
+    1.03 ± 0.02 times faster than tform -w8
+    1.03 ± 0.03 times faster than tform -w32
+    1.03 ± 0.03 times faster than tform -w24
+    1.08 ± 0.03 times faster than tform -w48
+    1.10 ± 0.03 times faster than tform -w64
+    1.15 ± 0.04 times faster than tform -w4
+    1.45 ± 0.04 times faster than tform -w2
+    2.12 ± 0.05 times faster than form
+    2.28 ± 0.06 times faster than tform -w1
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_48-1/results/
+    results-chromatic.json
+    results-color.json
+    results-fmft.json
+    results-forcer-exp.json
+    results-forcer.json
+    results-mbox1l.json
+    results-minceex.json
+    results-mincer.json
+    results-sort-disk.json
+    results-sort-large.json
+    results-sort-small.json
+    results-trace.json
+Create combined scaling plot...
+    chromatic
+    color
+    fmft
+    forcer
+    forcer-exp
+    mbox1l
+    minceex
+    mincer
+    sort-disk
+    sort-large
+    sort-small
+    trace

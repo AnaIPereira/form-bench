@@ -1,0 +1,42 @@
+====
+Starting job 10181674 at Wed  8 Apr 16:33:45 BST 2026 for user dc-cost5.
+Running on nodes: m8384
+====
+form-bench: 278513ff9f9d0729c97b327516cef8aa158446e3
+	LABEL      = testsAna_48
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = fmft
+	N          = 2
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_48-1/results/
+
+
+Running fmft
+Benchmark 1: form
+  Time (mean ± σ):     504.378 s ±  1.476 s    [User: 502.071 s, System: 0.081 s]
+  Range (min … max):   501.958 s … 505.860 s    6 runs
+ 
+Benchmark 2: tform -w1
+  Time (mean ± σ):     525.757 s ±  1.545 s    [User: 526.495 s, System: 0.737 s]
+  Range (min … max):   524.070 s … 527.711 s    6 runs
+ 
+Benchmark 3: tform -w2
+  Time (mean ± σ):     280.530 s ±  0.773 s    [User: 526.375 s, System: 0.687 s]
+  Range (min … max):   279.513 s … 281.728 s    6 runs
+ 
+Benchmark 4: tform -w4
+  Time (mean ± σ):     160.324 s ±  1.438 s    [User: 532.840 s, System: 0.976 s]
+  Range (min … max):   158.838 s … 162.976 s    6 runs
+ 
+Benchmark 5: tform -w8
+  Time (mean ± σ):     99.392 s ±  0.937 s    [User: 547.586 s, System: 2.338 s]
+  Range (min … max):   98.335 s … 100.635 s    6 runs
+ 
+Benchmark 6: tform -w16
+  Time (mean ± σ):     71.624 s ±  0.866 s    [User: 576.315 s, System: 24.546 s]
+  Range (min … max):   70.520 s … 72.696 s    6 runs
+ 
+Benchmark 7: tform -w24

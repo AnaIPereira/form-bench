@@ -1,0 +1,28 @@
+TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 24 workers  Run: Wed Apr  8 19:17:58 2026
+    #-
+~~~
+~~~reduction X started                 
+~~~
+  0.62 sec + 1.19 sec: 1.81 sec out of 0.85 sec
+~~~
+~~~reduction H started                 
+~~~
+  0.66 sec + 24.13 sec: 24.79 sec out of 2.10 sec
+~~~
+~~~reduction BMW started                 
+~~~
+  2.09 sec + 37.27 sec: 39.37 sec out of 4.87 sec
+~~~
+~~~reduction FG started                 
+~~~
+~~~
+~~~reduce F                
+~~~
+  5.81 sec + 312.19 sec: 318.00 sec out of 21.09 sec
+~~~
+~~~reduce V                
+~~~
+  10.60 sec + 366.80 sec: 377.41 sec out of 29.10 sec
+~~~
+~~~reduce J
+~~~

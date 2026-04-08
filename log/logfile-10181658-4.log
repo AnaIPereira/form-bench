@@ -1,0 +1,17 @@
+====
+Starting job 10181662 at Wed  8 Apr 16:32:32 BST 2026 for user dc-cost5.
+Running on nodes: m8483
+====
+form-bench: 278513ff9f9d0729c97b327516cef8aa158446e3
+	LABEL      = testsAna_48
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = mass-fact
+	N          = 2
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_48-1/results/
+./run-compare.sh: line 163: cd: mass-fact: No such file or directory
+Cleaning up
+Cleaning up
