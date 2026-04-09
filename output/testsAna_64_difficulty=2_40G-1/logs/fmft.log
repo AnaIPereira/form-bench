@@ -1,0 +1,94 @@
+TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 64 workers  Run: Thu Apr  9 17:41:10 2026
+    #-
+~~~
+~~~reduction X started                 
+~~~
+  0.84 sec + 1.88 sec: 2.72 sec out of 1.09 sec
+~~~
+~~~reduction H started                 
+~~~
+  0.92 sec + 52.20 sec: 53.13 sec out of 2.33 sec
+~~~
+~~~reduction BMW started                 
+~~~
+  3.41 sec + 79.78 sec: 83.19 sec out of 6.00 sec
+StageSort in thread 41
+StageSort in thread 25
+StageSort in thread 5
+StageSort in thread 13
+StageSort in thread 29
+StageSort in thread 53
+StageSort in thread 28
+StageSort in thread 23
+StageSort in thread 30
+StageSort in thread 34
+StageSort in thread 13
+StageSort in thread 7
+StageSort in thread 58
+StageSort in thread 44
+StageSort in thread 1
+StageSort in thread 15
+StageSort in thread 8
+StageSort in thread 42
+StageSort in thread 14
+StageSort in thread 18
+StageSort in thread 20
+StageSort in thread 62
+StageSort in thread 9
+StageSort in thread 22
+StageSort in thread 51
+StageSort in thread 60
+StageSort in thread 64
+StageSort in thread 12
+StageSort in thread 40
+StageSort in thread 19
+StageSort in thread 33
+StageSort in thread 32
+StageSort in thread 36
+StageSort in thread 61
+StageSort in thread 2
+StageSort in thread 17
+StageSort in thread 27
+StageSort in thread 37
+StageSort in thread 63
+StageSort in thread 46
+StageSort in thread 31
+StageSort in thread 24
+StageSort in thread 57
+StageSort in thread 59
+StageSort in thread 3
+~~~
+~~~reduction FG started                 
+~~~
+~~~
+~~~reduce F                
+~~~
+  14.55 sec + 1597.31 sec: 1611.87 sec out of 46.50 sec
+~~~
+~~~reduce V                
+~~~
+  25.73 sec + 1844.03 sec: 1869.76 sec out of 65.64 sec
+~~~
+~~~reduce J
+~~~
+  44.39 sec + 2155.16 sec: 2199.55 sec out of 96.54 sec
+~~~
+~~~reduce T2                
+~~~
+  53.94 sec + 2268.02 sec: 2321.97 sec out of 108.15 sec
+~~~
+~~~reduce G                
+~~~
+  74.25 sec + 2861.94 sec: 2936.20 sec out of 142.72 sec
+~~~
+~~~drr T1                
+~~~
+~~~
+~~~reduce T1                
+~~~
+  74.88 sec + 2865.46 sec: 2940.34 sec out of 143.58 sec
+~~~
+~~~Started 1d reduction        
+~~~
+  74.99 sec + 2865.74 sec: 2940.73 sec out of 143.75 sec
+  75.00 sec + 3118.71 sec: 3193.72 sec out of 143.77 sec

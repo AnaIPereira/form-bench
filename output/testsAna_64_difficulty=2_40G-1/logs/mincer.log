@@ -1,0 +1,449 @@
+TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 64 workers  Run: Thu Apr  9 16:09:42 2026
+    #-
+~~~GAUGE = 0, POW = 9
+
+Time =       0.35 sec    Generated terms =          3
+            d65c         Terms in output =          3
+                         Bytes used      =       1508
+special Line 48 --> Warning: This module is forced to run in sequential mode du
+e to $-variables: $maxprop, $props
+
+Time =       0.35 sec    Generated terms =          3
+            d65c         Terms in output =          3
+               special-1 Bytes used      =       1580
+
+Time =       0.35 sec    Generated terms =          3
+            d65c         Terms in output =          3
+           Special cases Bytes used      =       1508
+
+Time =       0.35 sec    Generated terms =         60
+            d65c         Terms in output =         60
+                 Physics Bytes used      =      23540
+
+Time =       0.35 sec    Generated terms =       1080
+            d65c         Terms in output =        684
+        loop propagators Bytes used      =     142088
+
+Time =       0.36 sec    Generated terms =        684
+            d65c         Terms in output =        684
+       Gluon Propagators Bytes used      =     128800
+
+Time =       0.36 sec    Generated terms =        588
+            d65c         Terms in output =        588
+            Vertex sub-2 Bytes used      =     116504
+
+Time =       0.36 sec    Generated terms =        588
+            d65c         Terms in output =        588
+           Vertex sub-2a Bytes used      =     116504
+
+Time =       0.37 sec    Generated terms =        588
+            d65c         Terms in output =        588
+           Vertex sub-2b Bytes used      =     116504
+
+Time =       0.37 sec    Generated terms =        588
+            d65c         Terms in output =        588
+           Vertex sub-2c Bytes used      =     116504
+
+Time =       0.37 sec    Generated terms =        588
+            d65c         Terms in output =        588
+            Vertex sub-3 Bytes used      =     116504
+
+Time =       0.38 sec    Generated terms =        588
+            d65c         Terms in output =        588
+    Vertex substitutions Bytes used      =     137672
+
+Time =       0.38 sec    Generated terms =        588
+            d65c         Terms in output =        588
+       Vertex identities Bytes used      =     137672
+
+Time =       0.40 sec    Generated terms =    7199989
+            d65c         Terms in output =      33874
+                  Traces Bytes used      =    9313920
+
+Time =       0.41 sec    Generated terms =     108294
+            d65c         Terms in output =      20071
+                   moms0 Bytes used      =    5709496
+
+Time =       0.42 sec    Generated terms =      20071
+            d65c         Terms in output =      20071
+                    sym1 Bytes used      =    5709496
+
+Time =       0.43 sec    Generated terms =      54205
+            d65c         Terms in output =      16939
+                moms1(1) Bytes used      =    4670776
+
+Time =       0.44 sec    Generated terms =     180106
+            d65c         Terms in output =      26827
+                moms2(1) Bytes used      =    6589260
+
+Time =       0.46 sec    Generated terms =      90005
+            d65c         Terms in output =      30055
+                   moms3 Bytes used      =    5243056
+
+Time =       0.47 sec    Generated terms =      30055
+            d65c         Terms in output =      30055
+                    moms Bytes used      =    6709932
+
+Time =       0.48 sec    Generated terms =      30055
+            d65c         Terms in output =      30055
+                    moms Bytes used      =    6709932
+
+Time =       0.49 sec    Generated terms =      50887
+            d65c         Terms in output =      31367
+            no rewrite 0 Bytes used      =    6050936
+
+Time =       0.50 sec    Generated terms =      52561
+            d65c         Terms in output =      31292
+            no rewrite 2 Bytes used      =    5907912
+
+Time =       0.52 sec    Generated terms =      73885
+            d65c         Terms in output =      33749
+            no rewrite 3 Bytes used      =    6329468
+
+Time =       0.53 sec    Generated terms =      77136
+            d65c         Terms in output =      31226
+            no rewrite 4 Bytes used      =    6666928
+
+Time =       0.55 sec    Generated terms =      31226
+            d65c         Terms in output =      31226
+            no rewrite 5 Bytes used      =    6666928
+
+Time =       0.56 sec    Generated terms =      31226
+            d65c         Terms in output =      31226
+                         Bytes used      =    4795748
+
+   d65c =
+       + [P-p2].[P-p2]^-1*[P-p7].[P-p7]^-1*[P-p8].[P-p8]^-1 * (  31226 terms )
+         ;
+
+
+Time =       0.69 sec    Generated terms =    1518305
+            d65c         Terms in output =     669199
+             Expand in P Bytes used      =  137760804
+
+Time =       0.89 sec    Generated terms =     659247
+            d65c         Terms in output =     659247
+                moms1(1) Bytes used      =  135852144
+
+Time =       1.06 sec    Generated terms =     659247
+            d65c         Terms in output =     659247
+                moms2(1) Bytes used      =  135852144
+
+Time =       1.26 sec    Generated terms =     659247
+            d65c         Terms in output =     659247
+                   moms3 Bytes used      =  123882384
+
+Time =       1.48 sec    Generated terms =     659247
+            d65c         Terms in output =     335268
+                    moms Bytes used      =   62191936
+
+Time =       5.89 sec    Generated terms =   46719326
+            d65c         Terms in output =    3778114
+                  dots 0 Bytes used      =  856135740
+
+Time =       6.42 sec    Generated terms =   12961984
+            d65c         Terms in output =    2586564
+                  dots 1 Bytes used      =  611572780
+
+Time =       7.16 sec    Generated terms =   35898404
+            d65c         Terms in output =    3767211
+                dots 2,0 Bytes used      =  888878052
+
+Time =       7.77 sec    Generated terms =   32575708
+            d65c         Terms in output =    3160139
+                dots 3,0 Bytes used      =  738562060
+
+Time =       8.25 sec    Generated terms =    6985712
+            d65c         Terms in output =    3015250
+            dots 4,13->6 Bytes used      =  706606684
+
+Time =       8.75 sec    Generated terms =   14986486
+            d65c         Terms in output =    2960422
+             dots 4,5->3 Bytes used      =  715064232
+
+Time =       8.98 sec    Generated terms =    9684289
+            d65c         Terms in output =    1608042
+                  dots 4 Bytes used      =  430732920
+
+Time =       9.46 sec    Generated terms =    1626358
+            d65c         Terms in output =    1621448
+       Q.p2 recursion(1) Bytes used      =  433887668
+
+Time =       9.99 sec    Generated terms =    1666356
+            d65c         Terms in output =    1645741
+       Q.p2 recursion(2) Bytes used      =  439694344
+
+Time =      10.52 sec    Generated terms =    1708308
+            d65c         Terms in output =    1665465
+       Q.p2 recursion(3) Bytes used      =  444419912
+
+Time =      11.08 sec    Generated terms =    1737046
+            d65c         Terms in output =    1675864
+       Q.p2 recursion(4) Bytes used      =  446977364
+
+Time =      11.66 sec    Generated terms =    1749527
+            d65c         Terms in output =    1680474
+       Q.p2 recursion(5) Bytes used      =  448160332
+
+Time =      12.22 sec    Generated terms =    1751443
+            d65c         Terms in output =    1680791
+       Q.p2 recursion(6) Bytes used      =  448290768
+
+Time =      12.78 sec    Generated terms =    1746378
+            d65c         Terms in output =    1678502
+       Q.p2 recursion(7) Bytes used      =  447772436
+
+Time =      13.35 sec    Generated terms =    1737372
+            d65c         Terms in output =    1674910
+       Q.p2 recursion(8) Bytes used      =  446921976
+
+Time =      13.91 sec    Generated terms =    1726108
+            d65c         Terms in output =    1670627
+       Q.p2 recursion(9) Bytes used      =  445885264
+
+Time =      14.45 sec    Generated terms =    1713533
+            d65c         Terms in output =    1665907
+      Q.p2 recursion(10) Bytes used      =  444734452
+
+Time =      14.99 sec    Generated terms =    1700114
+            d65c         Terms in output =    1660835
+      Q.p2 recursion(11) Bytes used      =  443488536
+
+Time =      15.59 sec    Generated terms =    1686208
+            d65c         Terms in output =    1655581
+      Q.p2 recursion(12) Bytes used      =  442190088
+
+Time =      16.10 sec    Generated terms =    1672080
+            d65c         Terms in output =    1650079
+      Q.p2 recursion(13) Bytes used      =  440824376
+
+Time =      16.68 sec    Generated terms =    1657802
+            d65c         Terms in output =    1644366
+      Q.p2 recursion(14) Bytes used      =  439418872
+
+Time =      17.17 sec    Generated terms =    1644366
+            d65c         Terms in output =    1637955
+      Q.p2 recursion(15) Bytes used      =  437820604
+
+Time =      17.76 sec    Generated terms =    1638069
+            d65c         Terms in output =    1629964
+          Q.p2 recursion Bytes used      =  436136108
+
+Time =      18.23 sec    Generated terms =    1634504
+            d65c         Terms in output =    1629912
+           Preparation-1 Bytes used      =  436118536
+
+Time =      18.70 sec    Generated terms =    1629912
+            d65c         Terms in output =    1629912
+           Preparation-2 Bytes used      =  436118536
+
+Time =      19.16 sec    Generated terms =    1629912
+            d65c         Terms in output =    1629912
+     noplane recursion,1 Bytes used      =  436118536
+
+Time =      19.95 sec    Generated terms =    1632900
+            d65c         Terms in output =    1318723
+                Rewiring Bytes used      =  366493836
+
+Time =      20.75 sec    Generated terms =    4460738
+            d65c         Terms in output =    1530064
+     Prepare second-A(1) Bytes used      =  426481972
+
+Time =      21.21 sec    Generated terms =    1534904
+            d65c         Terms in output =    1529113
+     Prepare second-A(2) Bytes used      =  426257020
+
+Time =      21.69 sec    Generated terms =    1618313
+            d65c         Terms in output =    1557952
+     Prepare second-B(1) Bytes used      =  433472884
+
+Time =      22.18 sec    Generated terms =    1579836
+            d65c         Terms in output =    1558934
+     Prepare second-B(2) Bytes used      =  433729896
+
+Time =      22.66 sec    Generated terms =    1559418
+            d65c         Terms in output =    1558604
+     Prepare second-B(3) Bytes used      =  433630732
+
+Time =      23.48 sec    Generated terms =    3429713
+            d65c         Terms in output =    1865063
+     Prepare second-C(1) Bytes used      =  516924512
+
+Time =      24.40 sec    Generated terms =    3521861
+            d65c         Terms in output =    1830596
+     Prepare second-C(2) Bytes used      =  506238168
+
+Time =      25.01 sec    Generated terms =    1964740
+            d65c         Terms in output =    1803353
+     Prepare second-C(3) Bytes used      =  498433216
+
+Time =      25.66 sec    Generated terms =    2072329
+            d65c         Terms in output =    1864420
+        Prepare second-D Bytes used      =  515740288
+
+Time =      26.78 sec    Generated terms =    3785099
+            d65c         Terms in output =    2077326
+        Second recursion Bytes used      =  581536172
+
+Time =      27.41 sec    Generated terms =    2077326
+            d65c         Terms in output =    2070805
+                Symmetry Bytes used      =  572125216
+
+Time =      30.97 sec    Generated terms =   11400142
+            d65c         Terms in output =    4043566
+      Setup first loop 1 Bytes used      = 1117669980
+
+Time =      32.43 sec    Generated terms =    4710626
+            d65c         Terms in output =    3819561
+      Setup first loop 2 Bytes used      = 1059196680
+
+Time =      33.47 sec    Generated terms =    3846010
+            d65c         Terms in output =    3800940
+      Setup first loop 3 Bytes used      = 1054271612
+
+Time =      34.50 sec    Generated terms =    3800967
+            d65c         Terms in output =    3800943
+      Setup first loop 4 Bytes used      = 1054272280
+
+Time =      41.13 sec    Generated terms =   19110485
+            d65c         Terms in output =    9199795
+    Prepare first loop 1 Bytes used      = 2663837732
+
+Time =      47.75 sec    Generated terms =   18619106
+            d65c         Terms in output =    8345026
+    Prepare first loop 2 Bytes used      = 2423541428
+
+Time =      50.74 sec    Generated terms =    9069688
+            d65c         Terms in output =    8009811
+    Prepare first loop 3 Bytes used      = 2326502640
+
+Time =      56.17 sec    Generated terms =   14948731
+            d65c         Terms in output =    9362783
+      Prepare first loop Bytes used      = 2397013660
+
+Time =      60.41 sec    Generated terms =   46947576
+            d65c         Terms in output =   11441362
+   First loop integral A Bytes used      = 3219224116
+
+Time =      67.21 sec    Generated terms =   42808570
+            d65c         Terms in output =    6570023
+   First loop integral B Bytes used      = 1865742776
+
+Time =      69.87 sec    Generated terms =    6570023
+            d65c         Terms in output =    6281506
+           Presymmetrize Bytes used      = 1493685048
+
+Time =      71.31 sec    Generated terms =   19967385
+            d65c         Terms in output =    7549490
+    Rewrite vectors(2) 1 Bytes used      = 1807431680
+
+Time =      72.64 sec    Generated terms =   20972049
+            d65c         Terms in output =    7710856
+    Rewrite vectors(2) 2 Bytes used      = 1861401764
+
+Time =      73.84 sec    Generated terms =   16154903
+            d65c         Terms in output =    7188940
+    Rewrite vectors(2) 3 Bytes used      = 1661206100
+
+Time =      74.81 sec    Generated terms =   14720856
+            d65c         Terms in output =    5563066
+            Scalars(2) 1 Bytes used      = 1288299452
+
+Time =      75.45 sec    Generated terms =   12562503
+            d65c         Terms in output =    3647596
+            Scalars(2) 2 Bytes used      =  863682492
+
+Time =      75.91 sec    Generated terms =   33232209
+            d65c         Terms in output =    2290305
+            Scalars(2) 3 Bytes used      =  551552896
+
+Time =      76.19 sec    Generated terms =   19887470
+            d65c         Terms in output =    1251506
+            Scalars(2) 4 Bytes used      =  306393180
+
+Time =      76.33 sec    Generated terms =    6309932
+            d65c         Terms in output =     566443
+            Scalars(2) 5 Bytes used      =  141117736
+
+Time =      76.41 sec    Generated terms =     948836
+            d65c         Terms in output =     487599
+            Scalars(2) 6 Bytes used      =  134526616
+
+Time =      76.82 sec    Generated terms =     487599
+            d65c         Terms in output =     258492
+         Use symmetry(2) Bytes used      =   75342816
+
+Time =      76.90 sec    Generated terms =     258532
+            d65c         Terms in output =     258486
+     Reduction 2 loops,1 Bytes used      =   75342040
+
+Time =      77.04 sec    Generated terms =     525858
+            d65c         Terms in output =     261562
+    Two loop reduction,1 Bytes used      =   77139208
+
+Time =      77.12 sec    Generated terms =     261632
+            d65c         Terms in output =     261555
+    Two loop reduction,2 Bytes used      =   77136700
+
+Time =      77.20 sec    Generated terms =     261553
+            d65c         Terms in output =     258040
+      Two loop reduction Bytes used      =   75516928
+
+Time =      77.51 sec    Generated terms =    1096719
+            d65c         Terms in output =     108552
+     Prepare second loop Bytes used      =   30482504
+
+Time =      77.55 sec    Generated terms =     277530
+            d65c         Terms in output =       6884
+             Second loop Bytes used      =    2072484
+
+Time =      77.56 sec    Generated terms =      98933
+            d65c         Terms in output =        961
+              Third loop Bytes used      =     337664
+
+Time =      77.57 sec    Generated terms =        960
+            d65c         Terms in output =          7
+        Simplify mncG(3) Bytes used      =       1444
+
+Time =      77.57 sec    Generated terms =         25
+            d65c         Terms in output =         25
+     Expression G scheme Bytes used      =       1072
+
+Time =      77.57 sec    Generated terms =        100
+            d65c         Terms in output =          3
+           Sub integrals Bytes used      =         96
+~~~Answer in MS-bar
+
+Time =      77.57 sec    Generated terms =          3
+            d65c         Terms in output =          3
+                         Bytes used      =         96
+
+Time =      77.57 sec    Generated terms =          3
+            d65c         Terms in output =          3
+                         Bytes used      =        112
+
+   d65c =
+       + 2436287818587941407/19308629340000 - 513061888/1001*z5 + 
+         100450087788944/297972675*z3;
+
+
+Time =      77.57 sec    Generated terms =          3
+            d65c         Terms in output =          3
+                         Bytes used      =         96
+
+Time =      77.58 sec    Generated terms =          6
+            diff         Terms in output =          0
+                         Bytes used      =          4
+
+   diff = 0;
+
+
+Time =      77.58 sec    Generated terms =          3
+            d65c         Terms in output =          3
+                         Bytes used      =         96
+
+Time =      77.58 sec    Generated terms =          0
+            diff         Terms in output =          0
+                         Bytes used      =          4
+Max. space for expressions:          5616237848 bytes
+  77.58 sec + 5203.19 sec: 5280.77 sec out of 175.36 sec

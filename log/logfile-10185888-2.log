@@ -1,0 +1,16 @@
+====
+Starting job 10185890 at Thu  9 Apr 11:06:48 BST 2026 for user dc-cost5.
+Running on nodes: m8402
+====
+form-bench: e21c8ef6a308cae7b84829d26044a971acd8a028
+	LABEL      = testsAna_64_difficulty=2_40G
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = minceex
+	N          = 2
+	DIFFICULTY = 2
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=2_40G-1/results/
+mkdir: cannot create directory ‘/tmp/form-bench-1/’: File exists
+Cleaning up

@@ -1,0 +1,66 @@
+====
+Starting job 10185892 at Thu  9 Apr 11:06:48 BST 2026 for user dc-cost5.
+Running on nodes: m8483
+====
+form-bench: e21c8ef6a308cae7b84829d26044a971acd8a028
+	LABEL      = testsAna_64_difficulty=2_40G
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = forcer-exp
+	N          = 2
+	DIFFICULTY = 2
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=2_40G-1/results/
+
+
+Running forcer-exp
+Benchmark 1: form
+  Time (mean ± σ):     1101.951 s ±  0.896 s    [User: 1090.833 s, System: 7.185 s]
+  Range (min … max):   1101.344 s … 1103.272 s    4 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     418.821 s ±  2.765 s    [User: 1187.294 s, System: 21.421 s]
+  Range (min … max):   414.839 s … 421.008 s    4 runs
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     321.309 s ±  3.720 s    [User: 1285.789 s, System: 40.328 s]
+  Range (min … max):   317.970 s … 326.494 s    4 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     294.895 s ±  2.153 s    [User: 1473.458 s, System: 261.283 s]
+  Range (min … max):   292.216 s … 297.277 s    4 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     269.995 s ±  2.542 s    [User: 1583.234 s, System: 170.961 s]
+  Range (min … max):   266.368 s … 272.230 s    4 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):     259.738 s ±  1.705 s    [User: 1662.052 s, System: 273.206 s]
+  Range (min … max):   257.563 s … 261.618 s    4 runs
+ 
+Benchmark 7: tform -w48
+  Time (mean ± σ):     266.441 s ±  5.032 s    [User: 1774.776 s, System: 776.243 s]
+  Range (min … max):   259.153 s … 270.570 s    4 runs
+ 
+Benchmark 8: tform -w64
+  Time (mean ± σ):     251.492 s ±  1.758 s    [User: 1832.532 s, System: 550.237 s]
+  Range (min … max):   249.306 s … 253.003 s    4 runs
+ 
+Summary
+  tform -w64 ran
+    1.03 ± 0.01 times faster than tform -w32
+    1.06 ± 0.02 times faster than tform -w48
+    1.07 ± 0.01 times faster than tform -w24
+    1.17 ± 0.01 times faster than tform -w16
+    1.28 ± 0.02 times faster than tform -w8
+    1.67 ± 0.02 times faster than tform -w4
+    4.38 ± 0.03 times faster than form
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=2_40G-1/results/
+    results-chromatic.json
+Traceback (most recent call last):
+  File "/cosma/home/dr004/dc-cost5/form-bench/scripts/plot-compare.py", line 85, in <module>
+    plt.xticks(all_cpus[0])
+               ~~~~~~~~^^^
+IndexError: list index out of range
+Cleaning up
