@@ -1,14 +1,36 @@
-FORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec)      Run: Wed Apr  8 21:47:25 2026
+TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 1 worker  Run: Thu Apr  9 03:22:23 2026
     #-
 ~~~
 ~~~reduction X started                 
 ~~~
-  1.61 sec out of 1.63 sec
+  0.45 sec + 1.23 sec: 1.69 sec out of 1.70 sec
 ~~~
 ~~~reduction H started                 
 ~~~
-  43.35 sec out of 43.57 sec
+  0.46 sec + 42.69 sec: 43.16 sec out of 43.34 sec
 ~~~
 ~~~reduction BMW started                 
 ~~~
-  65.21 sec out of 65.53 sec
+  1.29 sec + 64.62 sec: 65.91 sec out of 66.00 sec
+~~~
+~~~reduction FG started                 
+~~~
+~~~
+~~~reduce F                
+~~~
+  3.50 sec + 1445.47 sec: 1448.97 sec out of 1453.21 sec
+~~~
+~~~reduce V                
+~~~
+  7.16 sec + 1516.17 sec: 1523.34 sec out of 1526.09 sec
+~~~
+~~~reduce J
+~~~
+  14.24 sec + 1629.87 sec: 1644.12 sec out of 1643.66 sec
+~~~
+~~~reduce T2                
+~~~
+  19.13 sec + 1689.08 sec: 1708.21 sec out of 1705.12 sec
+~~~
+~~~reduce G                
+~~~

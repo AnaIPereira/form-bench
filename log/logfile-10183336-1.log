@@ -1,0 +1,27 @@
+====
+Starting job 10183337 at Wed  8 Apr 21:56:22 BST 2026 for user dc-cost5.
+Running on nodes: m8493
+====
+form-bench: 4174cfa04d37703d39b54eaad2f2fed161525a55
+	LABEL      = testsAna_64_difficulty=2
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = mincer
+	N          = 2
+	DIFFICULTY = 2
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=2-1/results/
+
+
+Running mincer
+Benchmark 1: form
+  Time (mean ± σ):     2357.870 s ±  2.191 s    [User: 2348.961 s, System: 0.788 s]
+  Range (min … max):   2355.369 s … 2360.252 s    4 runs
+ 
+Benchmark 2: tform -w1
+  Time (mean ± σ):     2416.394 s ±  0.771 s    [User: 2422.210 s, System: 4.321 s]
+  Range (min … max):   2415.389 s … 2417.047 s    4 runs
+ 
+Benchmark 3: tform -w2
+[2026-04-09T03:56:40.009] error: *** JOB 10183337 ON m8493 CANCELLED AT 2026-04-09T03:56:40 DUE TO TIME LIMIT ***

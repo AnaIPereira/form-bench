@@ -1,0 +1,89 @@
+====
+Starting job 10183340 at Wed  8 Apr 21:57:51 BST 2026 for user dc-cost5.
+Running on nodes: m8395
+====
+form-bench: 4174cfa04d37703d39b54eaad2f2fed161525a55
+	LABEL      = testsAna_64_difficulty=2
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w1,tform -w2,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = forcer
+	N          = 2
+	DIFFICULTY = 2
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=2-1/results/
+
+
+Running forcer
+Benchmark 1: form
+  Time (mean ± σ):     520.887 s ±  0.672 s    [User: 513.320 s, System: 5.073 s]
+  Range (min … max):   519.907 s … 521.377 s    4 runs
+ 
+Benchmark 2: tform -w1
+  Time (mean ± σ):     559.734 s ±  0.966 s    [User: 547.978 s, System: 12.020 s]
+  Range (min … max):   558.909 s … 561.083 s    4 runs
+ 
+Benchmark 3: tform -w2
+  Time (mean ± σ):     341.167 s ±  1.744 s    [User: 553.582 s, System: 11.708 s]
+  Range (min … max):   339.243 s … 342.767 s    4 runs
+ 
+Benchmark 4: tform -w4
+  Time (mean ± σ):     251.967 s ±  1.418 s    [User: 590.943 s, System: 14.329 s]
+  Range (min … max):   250.320 s … 253.647 s    4 runs
+ 
+Benchmark 5: tform -w8
+  Time (mean ± σ):     216.827 s ±  2.555 s    [User: 649.851 s, System: 25.113 s]
+  Range (min … max):   213.359 s … 219.398 s    4 runs
+ 
+Benchmark 6: tform -w16
+  Time (mean ± σ):     204.348 s ±  2.619 s    [User: 743.239 s, System: 44.435 s]
+  Range (min … max):   202.437 s … 208.134 s    4 runs
+ 
+Benchmark 7: tform -w24
+  Time (mean ± σ):     202.316 s ±  0.384 s    [User: 809.253 s, System: 69.301 s]
+  Range (min … max):   201.747 s … 202.569 s    4 runs
+ 
+Benchmark 8: tform -w32
+  Time (mean ± σ):     198.110 s ±  2.455 s    [User: 849.317 s, System: 95.604 s]
+  Range (min … max):   195.169 s … 200.881 s    4 runs
+ 
+Benchmark 9: tform -w48
+  Time (mean ± σ):     197.363 s ±  0.681 s    [User: 905.336 s, System: 159.414 s]
+  Range (min … max):   196.574 s … 198.212 s    4 runs
+ 
+Benchmark 10: tform -w64
+  Time (mean ± σ):     199.898 s ±  1.853 s    [User: 965.256 s, System: 349.075 s]
+  Range (min … max):   197.441 s … 201.637 s    4 runs
+ 
+Summary
+  tform -w48 ran
+    1.00 ± 0.01 times faster than tform -w32
+    1.01 ± 0.01 times faster than tform -w64
+    1.03 ± 0.00 times faster than tform -w24
+    1.04 ± 0.01 times faster than tform -w16
+    1.10 ± 0.01 times faster than tform -w8
+    1.28 ± 0.01 times faster than tform -w4
+    1.73 ± 0.01 times faster than tform -w2
+    2.64 ± 0.01 times faster than form
+    2.84 ± 0.01 times faster than tform -w1
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=2-1/results/
+    results-chromatic.json
+    results-color.json
+    results-fmft.json
+Traceback (most recent call last):
+  File "/cosma/home/dr004/dc-cost5/form-bench/scripts/plot-compare.py", line 43, in <module>
+    res = json.load(of)["results"]
+          ^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Cleaning up
