@@ -27,7 +27,7 @@ case $SLURM_ARRAY_TASK_ID in
 esac       
 
 #running for array
-./run-compare.sh --tests="$TESTS" --label="testsAna_64_difficulty=2_40G" --timestamp="1" --testdir="$TMPDIR"
+./run-compare.sh --tests="$TESTS" --label="testsAna_64_difficulty=3_40G" --timestamp="1" --testdir="$TMPDIR"
 
 #if running for one test
 #./run-compare.sh \
