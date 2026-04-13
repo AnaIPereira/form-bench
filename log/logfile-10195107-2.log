@@ -1,0 +1,47 @@
+====
+Starting job 10195109 at Fri 10 Apr 11:37:19 BST 2026 for user dc-cost5.
+Running on nodes: m8425
+====
+form-bench: fb4d64d220ad80e25388081e857146173565094f
+	LABEL      = testsAna_64_difficulty=3_40G
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = minceex
+	N          = 2
+	DIFFICULTY = 3
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=3_40G-1/results/
+
+
+Running minceex
+Benchmark 1: form
+  Time (mean ± σ):     6632.576 s ± 18.179 s    [User: 6449.032 s, System: 151.942 s]
+  Range (min … max):   6607.818 s … 6664.202 s    6 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     1688.643 s ±  7.744 s    [User: 5778.127 s, System: 159.867 s]
+  Range (min … max):   1680.661 s … 1701.504 s    6 runs
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     1031.121 s ±  2.154 s    [User: 5974.995 s, System: 167.481 s]
+  Range (min … max):   1027.563 s … 1033.763 s    6 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     718.632 s ±  6.524 s    [User: 6346.402 s, System: 181.846 s]
+  Range (min … max):   708.945 s … 728.134 s    6 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     606.016 s ±  7.118 s    [User: 6675.967 s, System: 190.840 s]
+  Range (min … max):   598.583 s … 614.877 s    6 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):     559.107 s ±  2.036 s    [User: 6804.963 s, System: 205.331 s]
+  Range (min … max):   556.481 s … 561.643 s    6 runs
+ 
+Benchmark 7: tform -w48
+  Time (mean ± σ):     498.509 s ±  2.575 s    [User: 6997.519 s, System: 236.924 s]
+  Range (min … max):   494.555 s … 501.697 s    6 runs
+ 
+Benchmark 8: tform -w64
+[2026-04-11T07:37:40.033] error: *** JOB 10195109 ON m8425 CANCELLED AT 2026-04-11T07:37:40 DUE TO TIME LIMIT ***

@@ -1,0 +1,42 @@
+====
+Starting job 10195108 at Fri 10 Apr 11:37:13 BST 2026 for user dc-cost5.
+Running on nodes: m8450
+====
+form-bench: fb4d64d220ad80e25388081e857146173565094f
+	LABEL      = testsAna_64_difficulty=3_40G
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = mincer
+	N          = 2
+	DIFFICULTY = 3
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=3_40G-1/results/
+
+
+Running mincer
+Benchmark 1: form
+  Time (mean ± σ):     8576.037 s ±  3.991 s    [User: 8470.603 s, System: 49.786 s]
+  Range (min … max):   8571.187 s … 8579.437 s    4 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     2547.977 s ±  5.421 s    [User: 9253.889 s, System: 79.402 s]
+  Range (min … max):   2542.638 s … 2555.216 s    4 runs
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     1637.426 s ± 20.639 s    [User: 10104.864 s, System: 129.249 s]
+  Range (min … max):   1622.849 s … 1667.447 s    4 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     1088.417 s ± 11.173 s    [User: 9481.656 s, System: 597.037 s]
+  Range (min … max):   1081.006 s … 1104.751 s    4 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     966.492 s ±  8.049 s    [User: 9345.777 s, System: 1563.088 s]
+  Range (min … max):   959.823 s … 978.062 s    4 runs
+ 
+Benchmark 6: tform -w32
+Error: Command terminated with non-zero exit code 137 in the first benchmark run. Use the '-i'/'--ignore-failure' option if you want to ignore this. Alternatively, use the '--show-output' option to debug what went wrong.
+Cleaning up
+Cleaning up
+[2026-04-11T04:14:09.835] error: Detected 1 oom_kill event in StepId=10195108.batch. Some of the step tasks have been OOM Killed.

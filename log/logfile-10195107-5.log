@@ -1,0 +1,23 @@
+====
+Starting job 10195112 at Fri 10 Apr 11:37:38 BST 2026 for user dc-cost5.
+Running on nodes: m8437
+====
+form-bench: fb4d64d220ad80e25388081e857146173565094f
+	LABEL      = testsAna_64_difficulty=3_40G
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = fmft
+	N          = 2
+	DIFFICULTY = 3
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_64_difficulty=3_40G-1/results/
+
+
+Running fmft
+Benchmark 1: form
+  Time (mean ± σ):     9550.056 s ± 22.967 s    [User: 9491.439 s, System: 20.222 s]
+  Range (min … max):   9516.383 s … 9579.939 s    6 runs
+ 
+Benchmark 2: tform -w4
+[2026-04-11T07:37:40.035] error: *** JOB 10195112 ON m8437 CANCELLED AT 2026-04-11T07:37:40 DUE TO TIME LIMIT ***
