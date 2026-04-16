@@ -10,7 +10,7 @@
 #SBATCH --export=ALL
 #SBATCH --mem=40G
 #SBATCH --cpus-per-task=32
-#SBATCH --time 0-20:00:00
+#SBATCH --time 0-40:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
@@ -27,7 +27,7 @@ case $SLURM_ARRAY_TASK_ID in
 esac       
 
 #running for array
-./run-compare.sh --tests="$TESTS" --label="testsAna_32_difficulty=3_40G" --timestamp="1" --testdir="$TMPDIR"
+./run-compare.sh --tests="$TESTS" --label="testsAna_32_difficulty=3_40G_40h" --timestamp="1" --testdir="$TMPDIR"
 
 #if running for one test
 #./run-compare.sh \
