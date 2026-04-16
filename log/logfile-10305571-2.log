@@ -1,0 +1,27 @@
+====
+Starting job 10305598 at Tue 14 Apr 09:23:35 BST 2026 for user dc-cost5.
+Running on nodes: m8057
+====
+form-bench: 20ade3cc174175a20993a95391dee58473780df7
+	LABEL      = testsAna_32_difficulty=3_40G
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = minceex
+	N          = 2
+	DIFFICULTY = 3
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G-1/results/
+
+
+Running minceex
+Benchmark 1: form
+  Time (mean ± σ):     8710.039 s ± 11.153 s    [User: 8447.740 s, System: 216.726 s]
+  Range (min … max):   8695.790 s … 8722.734 s    6 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     2274.868 s ±  4.793 s    [User: 7770.366 s, System: 228.029 s]
+  Range (min … max):   2268.527 s … 2280.727 s    6 runs
+ 
+Benchmark 3: tform -w8
+[2026-04-15T05:23:49.037] error: *** JOB 10305598 ON m8057 CANCELLED AT 2026-04-15T05:23:49 DUE TO TIME LIMIT ***
