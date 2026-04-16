@@ -11,12 +11,15 @@
 
 set -e
 
-# always run from submission directory
 cd $SLURM_SUBMIT_DIR
-
 mkdir -p log
 
-# choose test
+echo "Node: $(hostname)"
+echo "PATH=$PATH"
+
+# find perf dynamically
+PERF=$(command -v perf) || { echo "perf not found on compute node"; exit 1; }
+
 case $SLURM_ARRAY_TASK_ID in
   1) TESTS="trace" ;;
   2) TESTS="mincer" ;;
@@ -24,18 +27,11 @@ esac
 
 OUT=perf-${SLURM_ARRAY_TASK_ID}
 
-echo "Running test: $TESTS"
-echo "Node: $(hostname)"
-echo "TMPDIR: ${TMPDIR:-not set}"
+echo "Using perf: $PERF"
 
-# run profiler
-/usr/bin/perf record -g --call-graph fp -o ${OUT}.data -- \
+$PERF record -g --call-graph fp -o ${OUT}.data -- \
 ./run-compare.sh \
   --tests="$TESTS" \
   --testdir="${TMPDIR:-.}"
 
-# generate report
-/usr/bin/perf report --stdio -i ${OUT}.data > ${OUT}.txt || {
-  echo "perf report failed"
-  exit 0
-}
+$PERF report --stdio -i ${OUT}.data > ${OUT}.txt || echo "report failed"
