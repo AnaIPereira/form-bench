@@ -1,4 +1,6 @@
 #!/bin/bash
+#SBATCH --partition cosma8
+#SBATCH -A dr004
 #SBATCH --job-name=formbenchmark
 #SBATCH --output=log/logfile-%A-%a.log
 #SBATCH --mem=40G
