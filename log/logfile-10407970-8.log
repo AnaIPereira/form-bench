@@ -1,0 +1,6 @@
+====
+Starting job 10407970 at Thu 16 Apr 10:46:20 BST 2026 for user dc-cost5.
+Running on nodes: m8418
+====
+/var/slurm/slurmd/job10407970/slurm_script: line 28: perf: command not found
+/var/slurm/slurmd/job10407970/slurm_script: line 34: perf: command not found
