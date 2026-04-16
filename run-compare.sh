@@ -43,10 +43,10 @@ FORM_CMDS="form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,
 # TESTS="trace mincer minceex forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
 
 # Number of times to run test batches:
-N=1
+N=2
 
 # Run a harder version of the tests? Not all tests are affected by this.
-DIFFICULTY=1
+DIFFICULTY=3
 
 
 options=$(getopt -o "" -l "label:,testdir:,timestamp:,nice:,form_cmds:,tests:,runs:,difficulty:" -- "$@")
