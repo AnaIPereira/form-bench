@@ -21,16 +21,7 @@ case $SLURM_ARRAY_TASK_ID in
 esac       
 
 #running for array
-#./run-compare.sh --tests="$TESTS" --label="testsAna_32_difficulty=3_40G_40h" --timestamp="1" --testdir="$TMPDIR"
+./run-compare.sh --tests="$TESTS" --label="testsAna_32_difficulty=3_40G_40h" --timestamp="1" --testdir="$TMPDIR"
 
-OUT=perf-${SLURM_ARRAY_TASK_ID}
-
-perf record -g -o ${OUT}.data \
-./run-compare.sh --tests="$TESTS" \
---label="testsAna_16_difficulty=1_40G_10h_N=1_perf" \
---timestamp="1" \
---testdir="$TMPDIR"
-
-perf report --stdio -i ${OUT}.data > ${OUT}.txt
 
 
