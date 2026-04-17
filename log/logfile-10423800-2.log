@@ -1,0 +1,14 @@
+====
+Starting job 10423800 at Thu 16 Apr 14:33:46 BST 2026 for user dc-cost5.
+Running on nodes: m8478
+====
+ERROR: Unable to locate a modulefile for 'perf'
+[2026-04-16T14:33:48.019] error: execve(): perf: No such file or directory
+[2026-04-16T14:33:48.019] error: execve(): perf: No such file or directory
+[2026-04-16T14:33:48.019] error: execve(): perf: No such file or directory
+[2026-04-16T14:33:48.019] error: execve(): perf: No such file or directory
+[2026-04-16T14:33:48.019] error: execve(): perf: No such file or directory
+[2026-04-16T14:33:48.019] error: execve(): perf: No such file or directory
+[2026-04-16T14:33:48.019] error: execve(): perf: No such file or directory
+[2026-04-16T14:33:48.019] error: execve(): perf: No such file or directory
+srun: error: m8478: tasks 0-7: Exited with exit code 2

@@ -1,0 +1,7 @@
+====
+Starting job 10410040 at Thu 16 Apr 11:34:43 BST 2026 for user dc-cost5.
+Running on nodes: m8410
+====
+Node: m8410.pri.cosma.local
+PATH=/cosma/local/gadgetviewer/1.2.0/bin:/cosma/local/hdfview/HDFView/3.3.2/bin:/cosma/local/arm/forge/23.1.0/bin:/cosma/local/Python/3.12.4/bin:/cosma/local/bin/system:/cosma/local/bin:/cosma/home/dr004/dc-cost5/.cargo/bin:/cosma/local/Modules/default/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/cosma/home/dr004/dc-cost5/software/bin
+perf not found on compute node

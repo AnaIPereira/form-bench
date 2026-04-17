@@ -1,17 +1,542 @@
-FORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec)      Run: Thu Apr 16 10:00:25 2026
+TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 64 workers  Run: Fri Apr 17 15:23:52 2026
     #-
 ~~~
 ~~~reduction X started                 
 ~~~
-  1.94 sec out of 1.95 sec
+  0.95 sec + 2.31 sec: 3.27 sec out of 1.25 sec
 ~~~
 ~~~reduction H started                 
 ~~~
-  78.25 sec out of 78.59 sec
+  1.08 sec + 89.87 sec: 90.95 sec out of 3.32 sec
 ~~~
 ~~~reduction BMW started                 
 ~~~
-  114.12 sec out of 114.61 sec
+  4.66 sec + 131.86 sec: 136.52 sec out of 8.40 sec
+StageSort in thread 14
+StageSort in thread 10
+StageSort in thread 43
+StageSort in thread 40
+StageSort in thread 12
+StageSort in thread 29
+StageSort in thread 7
+StageSort in thread 41
+StageSort in thread 37
+StageSort in thread 31
+StageSort in thread 53
+StageSort in thread 55
+StageSort in thread 42
+StageSort in thread 30
+StageSort in thread 2
+StageSort in thread 19
+StageSort in thread 48
+StageSort in thread 15
+StageSort in thread 61
+StageSort in thread 64
+StageSort in thread 18
+StageSort in thread 28
+StageSort in thread 47
+StageSort in thread 46
+StageSort in thread 13
+StageSort in thread 3
+StageSort in thread 63
+StageSort in thread 45
+StageSort in thread 54
+StageSort in thread 58
+StageSort in thread 44
+StageSort in thread 25
+StageSort in thread 33
+StageSort in thread 52
+StageSort in thread 39
+StageSort in thread 16
+StageSort in thread 6
+StageSort in thread 9
+StageSort in thread 21
+StageSort in thread 27
+StageSort in thread 20
+StageSort in thread 24
+StageSort in thread 36
+StageSort in thread 56
+StageSort in thread 35
+StageSort in thread 34
+StageSort in thread 43
+StageSort in thread 50
+StageSort in thread 62
+StageSort in thread 32
+StageSort in thread 40
+StageSort in thread 4
+StageSort in thread 7
+StageSort in thread 59
+StageSort in thread 5
+StageSort in thread 57
+StageSort in thread 17
+StageSort in thread 22
+StageSort in thread 11
+StageSort in thread 49
+StageSort in thread 55
+StageSort in thread 41
+StageSort in thread 37
+StageSort in thread 53
+StageSort in thread 8
+StageSort in thread 1
+StageSort in thread 60
+StageSort in thread 48
+StageSort in thread 51
+StageSort in thread 61
+StageSort in thread 14
+StageSort in thread 47
+StageSort in thread 15
+StageSort in thread 46
+StageSort in thread 54
+StageSort in thread 44
+StageSort in thread 12
+StageSort in thread 38
+StageSort in thread 45
+StageSort in thread 29
+StageSort in thread 63
+StageSort in thread 13
+StageSort in thread 31
+StageSort in thread 52
+StageSort in thread 33
+StageSort in thread 28
+StageSort in thread 19
+StageSort in thread 10
+StageSort in thread 42
+StageSort in thread 23
+StageSort in thread 34
+StageSort in thread 39
+StageSort in thread 4
+StageSort in thread 26
+StageSort in thread 2
+StageSort in thread 18
+StageSort in thread 20
+StageSort in thread 3
+StageSort in thread 64
+StageSort in thread 43
+StageSort in thread 25
+StageSort in thread 56
+StageSort in thread 4
+StageSort in thread 11
+StageSort in thread 16
+StageSort in thread 62
+StageSort in thread 21
+StageSort in thread 6
+StageSort in thread 17
+StageSort in thread 44
+StageSort in thread 53
+StageSort in thread 27
+StageSort in thread 52
+StageSort in thread 30
+StageSort in thread 15
+StageSort in thread 4
+StageSort in thread 45
+StageSort in thread 41
+StageSort in thread 59
+StageSort in thread 48
+StageSort in thread 14
+StageSort in thread 35
+StageSort in thread 50
+StageSort in thread 46
+StageSort in thread 24
+StageSort in thread 37
+StageSort in thread 61
+StageSort in thread 9
+StageSort in thread 36
+StageSort in thread 63
+StageSort in thread 7
+StageSort in thread 32
+StageSort in thread 4
+StageSort in thread 28
+StageSort in thread 57
+StageSort in thread 54
+StageSort in thread 58
+StageSort in thread 1
+StageSort in thread 5
+StageSort in thread 51
+StageSort in thread 55
+StageSort in thread 40
+StageSort in thread 49
+StageSort in thread 44
+StageSort in thread 25
+StageSort in thread 60
+StageSort in thread 19
+StageSort in thread 64
+StageSort in thread 59
+StageSort in thread 56
+StageSort in thread 47
+StageSort in thread 8
+StageSort in thread 6
+StageSort in thread 3
+StageSort in thread 39
+StageSort in thread 18
+StageSort in thread 4
+StageSort in thread 38
+StageSort in thread 2
+StageSort in thread 12
+StageSort in thread 44
+StageSort in thread 29
+StageSort in thread 21
+StageSort in thread 17
+StageSort in thread 13
+StageSort in thread 22
+StageSort in thread 15
+StageSort in thread 14
+StageSort in thread 31
+StageSort in thread 27
+StageSort in thread 59
+StageSort in thread 34
+StageSort in thread 20
+StageSort in thread 24
+StageSort in thread 33
+StageSort in thread 10
+StageSort in thread 58
+StageSort in thread 32
+StageSort in thread 35
+StageSort in thread 52
+StageSort in thread 53
+StageSort in thread 26
+StageSort in thread 43
+StageSort in thread 44
+StageSort in thread 6
+StageSort in thread 62
+StageSort in thread 41
+StageSort in thread 42
+StageSort in thread 46
+StageSort in thread 16
+StageSort in thread 54
+StageSort in thread 61
+StageSort in thread 37
+StageSort in thread 48
+StageSort in thread 25
+StageSort in thread 23
+StageSort in thread 30
+StageSort in thread 28
+StageSort in thread 45
+StageSort in thread 56
+StageSort in thread 9
+StageSort in thread 36
+StageSort in thread 63
+StageSort in thread 1
+StageSort in thread 51
+StageSort in thread 5
+StageSort in thread 59
+StageSort in thread 11
+StageSort in thread 40
+StageSort in thread 18
+StageSort in thread 50
+StageSort in thread 7
+StageSort in thread 8
+StageSort in thread 44
+StageSort in thread 57
+StageSort in thread 55
+StageSort in thread 38
+StageSort in thread 49
+StageSort in thread 60
+StageSort in thread 15
+StageSort in thread 2
+StageSort in thread 39
+StageSort in thread 29
+StageSort in thread 21
+StageSort in thread 14
+StageSort in thread 17
+StageSort in thread 4
+StageSort in thread 34
+StageSort in thread 19
+StageSort in thread 27
+StageSort in thread 64
+StageSort in thread 3
+StageSort in thread 47
+StageSort in thread 4
+StageSort in thread 21
+StageSort in thread 44
+StageSort in thread 39
+StageSort in thread 63
+StageSort in thread 34
+StageSort in thread 15
+StageSort in thread 29
+StageSort in thread 61
+StageSort in thread 48
+StageSort in thread 59
+StageSort in thread 40
+StageSort in thread 37
+StageSort in thread 3
+StageSort in thread 55
+StageSort in thread 54
+StageSort in thread 25
+StageSort in thread 46
+StageSort in thread 18
+StageSort in thread 14
+StageSort in thread 53
+StageSort in thread 28
+StageSort in thread 6
+StageSort in thread 2
+StageSort in thread 27
+StageSort in thread 47
+StageSort in thread 64
+StageSort in thread 19
+StageSort in thread 7
+StageSort in thread 45
+StageSort in thread 41
+StageSort in thread 43
+StageSort in thread 52
+StageSort in thread 17
+StageSort in thread 56
 ~~~
 ~~~reduction FG started                 
 ~~~
+StageSort in thread 17
+StageSort in thread 49
+StageSort in thread 12
+StageSort in thread 27
+StageSort in thread 18
+StageSort in thread 33
+StageSort in thread 48
+StageSort in thread 29
+StageSort in thread 20
+StageSort in thread 25
+StageSort in thread 50
+StageSort in thread 42
+StageSort in thread 54
+StageSort in thread 57
+StageSort in thread 38
+StageSort in thread 23
+StageSort in thread 7
+StageSort in thread 8
+StageSort in thread 46
+StageSort in thread 63
+StageSort in thread 53
+StageSort in thread 62
+StageSort in thread 55
+StageSort in thread 32
+StageSort in thread 1
+StageSort in thread 51
+StageSort in thread 15
+StageSort in thread 36
+StageSort in thread 9
+StageSort in thread 45
+StageSort in thread 22
+StageSort in thread 24
+StageSort in thread 3
+StageSort in thread 37
+StageSort in thread 61
+StageSort in thread 64
+StageSort in thread 47
+StageSort in thread 5
+StageSort in thread 2
+StageSort in thread 52
+StageSort in thread 30
+StageSort in thread 59
+StageSort in thread 63
+StageSort in thread 21
+StageSort in thread 18
+StageSort in thread 31
+StageSort in thread 6
+StageSort in thread 15
+~~~
+~~~reduce F                
+~~~
+StageSort in thread 8
+StageSort in thread 51
+StageSort in thread 14
+StageSort in thread 4
+StageSort in thread 10
+StageSort in thread 7
+StageSort in thread 15
+StageSort in thread 29
+StageSort in thread 58
+StageSort in thread 61
+StageSort in thread 23
+StageSort in thread 2
+StageSort in thread 3
+StageSort in thread 39
+StageSort in thread 17
+StageSort in thread 53
+StageSort in thread 31
+StageSort in thread 1
+StageSort in thread 16
+StageSort in thread 36
+StageSort in thread 25
+StageSort in thread 55
+StageSort in thread 52
+StageSort in thread 21
+StageSort in thread 19
+StageSort in thread 44
+StageSort in thread 18
+StageSort in thread 63
+StageSort in thread 62
+StageSort in thread 24
+StageSort in thread 56
+StageSort in thread 6
+StageSort in thread 54
+StageSort in thread 13
+StageSort in thread 50
+StageSort in thread 33
+StageSort in thread 9
+StageSort in thread 34
+StageSort in thread 42
+StageSort in thread 20
+StageSort in thread 46
+StageSort in thread 49
+StageSort in thread 48
+StageSort in thread 28
+StageSort in thread 32
+StageSort in thread 45
+StageSort in thread 41
+StageSort in thread 57
+StageSort in thread 26
+StageSort in thread 12
+StageSort in thread 37
+StageSort in thread 43
+StageSort in thread 5
+StageSort in thread 60
+StageSort in thread 64
+StageSort in thread 27
+StageSort in thread 38
+StageSort in thread 47
+StageSort in thread 11
+StageSort in thread 30
+StageSort in thread 59
+StageSort in thread 22
+StageSort in thread 40
+StageSort in thread 35
+StageSort in thread 51
+StageSort in thread 15
+StageSort in thread 4
+StageSort in thread 6
+StageSort in thread 12
+StageSort in thread 3
+StageSort in thread 35
+StageSort in thread 36
+StageSort in thread 48
+StageSort in thread 53
+StageSort in thread 33
+StageSort in thread 64
+StageSort in thread 19
+StageSort in thread 14
+StageSort in thread 7
+StageSort in thread 43
+StageSort in thread 41
+StageSort in thread 54
+StageSort in thread 52
+StageSort in thread 50
+StageSort in thread 59
+StageSort in thread 27
+StageSort in thread 42
+StageSort in thread 26
+StageSort in thread 30
+StageSort in thread 29
+StageSort in thread 49
+StageSort in thread 45
+StageSort in thread 8
+StageSort in thread 56
+StageSort in thread 9
+StageSort in thread 11
+StageSort in thread 47
+StageSort in thread 38
+StageSort in thread 46
+StageSort in thread 2
+StageSort in thread 21
+StageSort in thread 63
+StageSort in thread 1
+StageSort in thread 25
+StageSort in thread 18
+StageSort in thread 57
+StageSort in thread 24
+StageSort in thread 10
+StageSort in thread 17
+StageSort in thread 13
+StageSort in thread 34
+StageSort in thread 23
+StageSort in thread 58
+StageSort in thread 20
+StageSort in thread 39
+StageSort in thread 55
+StageSort in thread 61
+StageSort in thread 32
+StageSort in thread 40
+StageSort in thread 16
+StageSort in thread 28
+StageSort in thread 62
+StageSort in thread 31
+StageSort in thread 44
+StageSort in thread 5
+StageSort in thread 46
+StageSort in thread 30
+StageSort in thread 26
+StageSort in thread 31
+  33.18 sec + 7619.08 sec: 7652.27 sec out of 178.66 sec
+~~~
+~~~reduce V                
+~~~
+StageSort in thread 40
+StageSort in thread 30
+StageSort in thread 45
+StageSort in thread 22
+StageSort in thread 26
+StageSort in thread 7
+StageSort in thread 53
+StageSort in thread 45
+StageSort in thread 40
+  55.35 sec + 8049.84 sec: 8105.20 sec out of 221.30 sec
+StageSort in thread 26
+~~~
+~~~reduce J
+~~~
+StageSort in thread 5
+StageSort in thread 61
+StageSort in thread 8
+StageSort in thread 54
+StageSort in thread 30
+StageSort in thread 35
+StageSort in thread 31
+StageSort in thread 47
+StageSort in thread 10
+StageSort in thread 56
+StageSort in thread 10
+StageSort in thread 54
+StageSort in thread 7
+StageSort in thread 63
+StageSort in thread 27
+StageSort in thread 3
+StageSort in thread 17
+StageSort in thread 64
+StageSort in thread 11
+StageSort in thread 58
+StageSort in thread 63
+StageSort in thread 60
+StageSort in thread 2
+StageSort in thread 7
+StageSort in thread 42
+StageSort in thread 62
+  99.34 sec + 8644.93 sec: 8744.28 sec out of 299.28 sec
+StageSort in thread 55
+StageSort in thread 33
+~~~
+~~~reduce T2                
+~~~
+  131.04 sec + 8956.49 sec: 9087.54 sec out of 337.03 sec
+StageSort in thread 35
+StageSort in thread 2
+StageSort in thread 43
+StageSort in thread 2
+~~~
+~~~reduce G                
+~~~
+StageSort in thread 6
+StageSort in thread 11
+StageSort in thread 55
+StageSort in thread 4
+StageSort in thread 48
+  174.70 sec + 11671.57 sec: 11846.27 sec out of 437.85 sec
+~~~
+~~~drr T1                
+~~~
+~~~
+~~~reduce T1                
+~~~
+  175.66 sec + 11678.47 sec: 11854.13 sec out of 439.11 sec
+~~~
+~~~Started 1d reduction        
+~~~
+  175.78 sec + 11678.83 sec: 11854.62 sec out of 439.30 sec
+~~~Warning, skipping result check for N = 9
+  175.79 sec + 12229.80 sec: 12405.60 sec out of 439.32 sec

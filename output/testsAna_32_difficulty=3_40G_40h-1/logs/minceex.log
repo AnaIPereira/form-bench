@@ -1,4 +1,4 @@
-FORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec)      Run: Thu Apr 16 09:59:25 2026
+TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 64 workers  Run: Fri Apr 17 08:02:30 2026
     #-
 ~~~GAUGE = 0, POW = 12, PROJ = 0
 
@@ -22,442 +22,1378 @@ Time =       0.00 sec    Generated terms =          6
              d9c         Terms in output =          6
        Vertex identities Bytes used      =       1312
 
-Time =       0.13 sec    Generated terms =      28080
+Time =       0.01 sec    Generated terms =      28080
              d9c         Terms in output =        315
                   Traces Bytes used      =      77488
 
-Time =       0.13 sec    Generated terms =        495
+Time =       0.01 sec    Generated terms =        495
              d9c         Terms in output =        267
                    moms0 Bytes used      =      68660
 
-Time =       0.13 sec    Generated terms =        267
+Time =       0.01 sec    Generated terms =        267
              d9c         Terms in output =        267
                  symtopo Bytes used      =      68660
 
-Time =       0.13 sec    Generated terms =       1068
+Time =       0.01 sec    Generated terms =       1068
              d9c         Terms in output =        636
                 momsubs1 Bytes used      =     159204
 
-Time =       0.14 sec    Generated terms =       2104
+Time =       0.02 sec    Generated terms =       2104
              d9c         Terms in output =        569
                    subs2 Bytes used      =     144128
 
-Time =       0.14 sec    Generated terms =        891
+Time =       0.02 sec    Generated terms =        891
              d9c         Terms in output =        439
                  momsubs Bytes used      =     112404
 
-Time =       0.14 sec    Generated terms =        439
+Time =       0.02 sec    Generated terms =        439
              d9c         Terms in output =        439
             no rewrite 0 Bytes used      =     102020
 
-Time =       0.14 sec    Generated terms =        666
+Time =       0.02 sec    Generated terms =        666
              d9c         Terms in output =        467
             no rewrite 1 Bytes used      =     111164
 
-Time =       0.14 sec    Generated terms =        734
+Time =       0.03 sec    Generated terms =        734
              d9c         Terms in output =        557
             no rewrite 2 Bytes used      =     130880
 
-Time =       0.14 sec    Generated terms =        959
+Time =       0.03 sec    Generated terms =        959
              d9c         Terms in output =        696
             no rewrite 3 Bytes used      =     164900
 
-Time =       0.15 sec    Generated terms =       1022
+Time =       0.03 sec    Generated terms =       1022
              d9c         Terms in output =        779
             no rewrite 4 Bytes used      =     169980
 
-Time =       0.16 sec    Generated terms =       3959
+Time =       0.04 sec    Generated terms =       3959
              d9c         Terms in output =       1018
             no rewrite 5 Bytes used      =     210644
 
-Time =       0.52 sec    Generated terms =      11837
+Time =       0.05 sec    Generated terms =      11837
              d9c         Terms in output =       7888
              Expand in P Bytes used      =    1542900
 
-Time =       0.55 sec    Generated terms =       7888
+Time =       0.05 sec    Generated terms =       7888
              d9c         Terms in output =       7888
                 momsubs1 Bytes used      =    1542900
 
-Time =       0.55 sec    Generated terms =       7888
+Time =       0.06 sec    Generated terms =       7888
              d9c         Terms in output =       7888
                    subs2 Bytes used      =    1542900
 
-Time =       0.57 sec    Generated terms =       7888
+Time =       0.07 sec    Generated terms =       7888
              d9c         Terms in output =       7800
                     sym2 Bytes used      =    1642916
 
-Time =      20.94 sec    Generated terms =     258909
+Time =       0.30 sec    Generated terms =     258909
              d9c         Terms in output =     156234
                harmonics Bytes used      =   85774140
 
-Time =      21.05 sec    Generated terms =     156234
+Time =       0.40 sec    Generated terms =     156234
              d9c         Terms in output =     156234
                          Bytes used      =   85774140
 
-Time =      22.28 sec    Generated terms =     229917
+Time =       0.51 sec    Generated terms =     229917
              d9c         Terms in output =     187090
                integno-1 Bytes used      =  107737172
 
-Time =      22.45 sec    Generated terms =     187090
+Time =       0.61 sec    Generated terms =     187090
              d9c         Terms in output =     187090
               integno-1a Bytes used      =  107737172
 
-Time =      22.62 sec    Generated terms =     187090
+Time =       0.69 sec    Generated terms =     187090
              d9c         Terms in output =     187090
               integno-1b Bytes used      =  107737172
 
-Time =      22.79 sec    Generated terms =     187090
+Time =       0.76 sec    Generated terms =     187090
              d9c         Terms in output =     187090
               integno-2a Bytes used      =  107737172
 
-Time =      22.96 sec    Generated terms =     187090
+Time =       0.84 sec    Generated terms =     187090
              d9c         Terms in output =     187090
               integno-2b Bytes used      =  107737172
 
-Time =      23.15 sec    Generated terms =     187090
+Time =       0.92 sec    Generated terms =     187090
              d9c         Terms in output =     187090
              integno-3-1 Bytes used      =  107737172
 
-Time =      23.36 sec    Generated terms =     187090
+Time =       1.01 sec    Generated terms =     187090
              d9c         Terms in output =     187090
                integno-4 Bytes used      =  102964656
 
-Time =      23.81 sec    Generated terms =     200791
+Time =       1.09 sec    Generated terms =     200791
              d9c         Terms in output =     185251
               integno-4a Bytes used      =  100909444
 
-Time =      35.49 sec    Generated terms =    1127676
+Time =       1.16 sec    Generated terms =    1127676
              d9c         Terms in output =     192663
               integno-4b Bytes used      =  110113496
 
-Time =      35.80 sec    Generated terms =     198430
+Time =       1.22 sec    Generated terms =     198430
              d9c         Terms in output =     192917
                integno-5 Bytes used      =  109753772
 
-Time =      36.31 sec    Generated terms =     220518
+Time =       1.27 sec    Generated terms =     220518
              d9c         Terms in output =     192918
                integno-6 Bytes used      =  111578864
 
-Time =      36.65 sec    Generated terms =     206536
+Time =       1.37 sec    Generated terms =     206536
              d9c         Terms in output =     193253
                integno-7 Bytes used      =  111816292
 
-Time =      36.83 sec    Generated terms =     193253
+Time =       1.45 sec    Generated terms =     193253
              d9c         Terms in output =     193253
                integno-8 Bytes used      =  111754052
 
-Time =      36.99 sec    Generated terms =     193253
+Time =       1.53 sec    Generated terms =     193253
              d9c         Terms in output =     193253
                integno-9 Bytes used      =  111754052
 
-Time =      65.88 sec    Generated terms =    1394649
+Time =       1.64 sec    Generated terms =    1394649
              d9c         Terms in output =     197352
               integno-10 Bytes used      =  114964168
 
-Time =      66.04 sec    Generated terms =     197352
+Time =       1.73 sec    Generated terms =     197352
              d9c         Terms in output =     197352
               integno-11 Bytes used      =  114964168
 
-Time =      66.21 sec    Generated terms =     197896
+Time =       1.81 sec    Generated terms =     197896
              d9c         Terms in output =     197460
               integno-12 Bytes used      =  115069084
 
-Time =      66.36 sec    Generated terms =     197460
+Time =       1.89 sec    Generated terms =     197460
              d9c         Terms in output =     197460
               integno-13 Bytes used      =  115069084
 
-Time =      66.52 sec    Generated terms =     197460
+Time =       1.98 sec    Generated terms =     197460
              d9c         Terms in output =     197460
               integno-14 Bytes used      =  115069084
 
-Time =      66.89 sec    Generated terms =     197460
+Time =       2.06 sec    Generated terms =     197460
              d9c         Terms in output =     197460
               integno-15 Bytes used      =  115069084
 
-Time =      67.05 sec    Generated terms =     197512
+Time =       2.15 sec    Generated terms =     197512
              d9c         Terms in output =     197494
               integno-16 Bytes used      =  115112072
 
-Time =      67.21 sec    Generated terms =     197494
+Time =       2.23 sec    Generated terms =     197494
              d9c         Terms in output =     197494
               integno-17 Bytes used      =  115112072
 
-Time =      67.37 sec    Generated terms =     197494
+Time =       2.32 sec    Generated terms =     197494
              d9c         Terms in output =     197494
               integno-18 Bytes used      =  115112072
 
-Time =      67.53 sec    Generated terms =     197494
+Time =       2.40 sec    Generated terms =     197494
              d9c         Terms in output =     197494
               integno-19 Bytes used      =  115112072
 
-Time =      67.71 sec    Generated terms =     198509
+Time =       2.49 sec    Generated terms =     198509
              d9c         Terms in output =     197452
               integno-20 Bytes used      =  115082216
 
-Time =      67.87 sec    Generated terms =     197542
+Time =       2.57 sec    Generated terms =     197542
              d9c         Terms in output =     197487
             integno-21-1 Bytes used      =  115117856
 
-Time =      68.03 sec    Generated terms =     197562
+Time =       2.66 sec    Generated terms =     197562
              d9c         Terms in output =     197486
             integno-21-2 Bytes used      =  115116960
 
-Time =      68.20 sec    Generated terms =     197546
+Time =       2.74 sec    Generated terms =     197546
              d9c         Terms in output =     197485
             integno-21-3 Bytes used      =  115115944
 
-Time =      68.36 sec    Generated terms =     197530
+Time =       2.83 sec    Generated terms =     197530
              d9c         Terms in output =     197484
             integno-21-4 Bytes used      =  115115104
 
-Time =      68.52 sec    Generated terms =     197514
+Time =       2.91 sec    Generated terms =     197514
              d9c         Terms in output =     197483
             integno-21-5 Bytes used      =  115114288
 
-Time =      68.68 sec    Generated terms =     197498
+Time =       2.99 sec    Generated terms =     197498
              d9c         Terms in output =     197482
             integno-21-6 Bytes used      =  115113464
 
-Time =      68.92 sec    Generated terms =     197489
+Time =       3.09 sec    Generated terms =     197489
              d9c         Terms in output =     195081
               integno-22 Bytes used      =  113777360
 
-Time =      81.58 sec    Generated terms =    1407970
+Time =       3.33 sec    Generated terms =    1407970
              d9c         Terms in output =     241774
                integfa-1 Bytes used      =  138462812
 
-Time =      83.36 sec    Generated terms =     387973
+Time =       3.46 sec    Generated terms =     387973
              d9c         Terms in output =     268370
                integfa-2 Bytes used      =  152929708
 
-Time =      87.95 sec    Generated terms =     659844
+Time =       3.68 sec    Generated terms =     659844
              d9c         Terms in output =     293290
                integfa-3 Bytes used      =  167417548
 
-Time =     178.10 sec    Generated terms =    9881783
+Time =       4.35 sec    Generated terms =    9881783
              d9c         Terms in output =     391096
                integfa-4 Bytes used      =  216008784
 
-Time =     292.36 sec    Generated terms =   12637032
+Time =       4.76 sec    Generated terms =   12637032
              d9c         Terms in output =     444130
                integfa-5 Bytes used      =  254099428
 
-Time =     372.17 sec    Generated terms =    7765754
+Time =       5.14 sec    Generated terms =    7765754
              d9c         Terms in output =     517954
                integfa-6 Bytes used      =  304516580
 
-Time =     373.82 sec    Generated terms =     647299
+Time =       5.38 sec    Generated terms =     647299
              d9c         Terms in output =     574729
                integfa-7 Bytes used      =  335306616
 
-Time =     377.06 sec    Generated terms =     859387
+Time =       5.61 sec    Generated terms =     859387
              d9c         Terms in output =     580696
                integfa-8 Bytes used      =  338016560
 
-Time =     411.79 sec    Generated terms =    1317288
+Time =       6.58 sec    Generated terms =    1317288
              d9c         Terms in output =     759074
                integfa-9 Bytes used      =  526872628
 
-Time =     423.32 sec    Generated terms =    1964711
+Time =       7.10 sec    Generated terms =    1964711
              d9c         Terms in output =     791901
                integbu-1 Bytes used      =  545481392
 
-Time =     424.18 sec    Generated terms =     791901
+Time =       7.55 sec    Generated terms =     791901
              d9c         Terms in output =     791901
                integbu-2 Bytes used      =  545481392
 
-Time =     434.17 sec    Generated terms =    1876084
+Time =       8.13 sec    Generated terms =    1876084
              d9c         Terms in output =     814973
                integbu-3 Bytes used      =  559476736
 
-Time =     435.75 sec    Generated terms =     844723
+Time =       8.67 sec    Generated terms =     844723
              d9c         Terms in output =     814963
                integbu-4 Bytes used      =  544810976
 
-Time =     494.97 sec    Generated terms =    5885043
+Time =       8.94 sec    Generated terms =    5885043
              d9c         Terms in output =     842705
                integbu-5 Bytes used      =  584287340
 
-Time =     498.20 sec    Generated terms =    1054978
+Time =       9.21 sec    Generated terms =    1054978
              d9c         Terms in output =     842031
                integbu-6 Bytes used      =  594627540
 
-Time =     500.81 sec    Generated terms =     978416
+Time =       9.49 sec    Generated terms =     978416
              d9c         Terms in output =     844366
                integbu-7 Bytes used      =  578191020
 
-Time =     502.09 sec    Generated terms =     865627
+Time =       9.70 sec    Generated terms =     865627
              d9c         Terms in output =     842879
                integbu-8 Bytes used      =  576871420
 
-Time =     531.20 sec    Generated terms =    1404687
+Time =      10.89 sec    Generated terms =    1404687
              d9c         Terms in output =     911325
                integbu-9 Bytes used      =  663963620
 
-Time =     681.24 sec    Generated terms =   10259766
+Time =      11.49 sec    Generated terms =   10259766
              d9c         Terms in output =    1017830
                intego4-1 Bytes used      =  763572600
 
-Time =     685.03 sec    Generated terms =    1253367
+Time =      12.10 sec    Generated terms =    1253367
              d9c         Terms in output =    1034912
                intego4-2 Bytes used      =  774008404
 
-Time =     686.68 sec    Generated terms =    1058115
+Time =      12.71 sec    Generated terms =    1058115
              d9c         Terms in output =    1034770
                intego4-3 Bytes used      =  773932100
 
-Time =     776.51 sec
-             d9c         Terms active    =     795383
-               intego4-4 Bytes used      =   85619897
-
-Time =     816.90 sec
-             d9c         Terms active    =    1149628
-               intego4-4 Bytes used      =   63663502
-
-Time =     817.53 sec    Generated terms =   11701622
+Time =      14.45 sec    Generated terms =   11701622
              d9c         Terms in output =    1131212
                intego4-4 Bytes used      =  849199276
 
-Time =     827.89 sec
-             d9c         Terms active    =    1149810
-               intego4-5 Bytes used      =  187582496
-
-Time =     828.95 sec
-             d9c         Terms active    =    1174312
-               intego4-5 Bytes used      =   64821216
-
-Time =     829.53 sec    Generated terms =    1589665
+Time =      14.88 sec    Generated terms =    1589665
              d9c         Terms in output =    1174285
                intego4-5 Bytes used      =  862755132
 
-Time =     839.39 sec
-             d9c         Terms active    =    1181376
-               intego4-6 Bytes used      =   59337687
-
-Time =     840.42 sec    Generated terms =    1498336
+Time =      15.28 sec    Generated terms =    1498336
              d9c         Terms in output =    1181328
                intego4-6 Bytes used      =  864690288
 
-Time =     845.85 sec
-             d9c         Terms active    =    1114369
-             intego4-7-0 Bytes used      =  182449694
-
-Time =     847.15 sec
-             d9c         Terms active    =    1181328
-             intego4-7-0 Bytes used      =   65238473
-
-Time =     847.73 sec    Generated terms =    1181328
+Time =      16.04 sec    Generated terms =    1181328
              d9c         Terms in output =    1181328
              intego4-7-0 Bytes used      =  846801432
 
-Time =     862.57 sec
-             d9c         Terms active    =    1069291
-             intego4-7-1 Bytes used      =  169072871
-
-Time =     865.56 sec
-             d9c         Terms active    =    1327498
-             intego4-7-1 Bytes used      =   78619385
-
-Time =     866.65 sec    Generated terms =    1723999
+Time =      16.90 sec    Generated terms =    1723999
              d9c         Terms in output =    1327493
              intego4-7-1 Bytes used      = 1021836680
 
-Time =     896.34 sec
-             d9c         Terms active    =    1016500
-             intego4-7-2 Bytes used      =  124971215
-
-Time =     901.43 sec
-             d9c         Terms active    =    1387120
-             intego4-7-2 Bytes used      =   85509892
-
-Time =     902.59 sec    Generated terms =    2509292
+Time =      18.26 sec    Generated terms =    2509292
              d9c         Terms in output =    1387092
              intego4-7-2 Bytes used      = 1106761460
 
-Time =     936.84 sec
-             d9c         Terms active    =     970288
-             intego4-7-3 Bytes used      =  108696290
-
-Time =     943.29 sec
-             d9c         Terms active    =    1383044
-             intego4-7-3 Bytes used      =   86379993
-
-Time =     944.45 sec    Generated terms =    2757552
+Time =      19.70 sec    Generated terms =    2757552
              d9c         Terms in output =    1383004
              intego4-7-3 Bytes used      = 1115198168
 
-Time =     974.76 sec
-             d9c         Terms active    =    1026039
-             intego4-7-4 Bytes used      =  159556518
-
-Time =     981.62 sec
-             d9c         Terms active    =    1339425
-             intego4-7-4 Bytes used      =   82218368
-
-Time =     982.73 sec    Generated terms =    2593098
+Time =      21.11 sec    Generated terms =    2593098
              d9c         Terms in output =    1339407
              intego4-7-4 Bytes used      = 1068660708
 
-Time =    1005.23 sec
-             d9c         Terms active    =    1100197
-             intego4-7-5 Bytes used      =  186120836
-
-Time =    1011.40 sec
-             d9c         Terms active    =    1278748
-             intego4-7-5 Bytes used      =   76787419
-
-Time =    1012.03 sec    Generated terms =    2174128
+Time =      22.01 sec    Generated terms =    2174128
              d9c         Terms in output =    1278748
              intego4-7-5 Bytes used      =  994890828
 
-Time =    1025.09 sec
-             d9c         Terms active    =    1075540
-             intego4-7-6 Bytes used      =  185148339
-
-Time =    1029.96 sec
-             d9c         Terms active    =    1223990
-             intego4-7-6 Bytes used      =   72226094
-
-Time =    1030.55 sec    Generated terms =    1679197
+Time =      22.49 sec    Generated terms =    1679197
              d9c         Terms in output =    1223990
              intego4-7-6 Bytes used      =  926592696
 
-Time =    1038.34 sec
-             d9c         Terms active    =    1166542
-             intego4-7-7 Bytes used      =  175796489
-
-Time =    1040.61 sec
-             d9c         Terms active    =    1200140
-             intego4-7-7 Bytes used      =   71048177
-
-Time =    1041.19 sec    Generated terms =    1302134
+Time =      22.90 sec    Generated terms =    1302134
              d9c         Terms in output =    1200140
              intego4-7-7 Bytes used      =  899194244
 
-Time =    1047.49 sec
-             d9c         Terms active    =    1059108
-             intego4-8-0 Bytes used      =  188809501
-
-Time =    1049.52 sec
-             d9c         Terms active    =    1200140
-             intego4-8-0 Bytes used      =   71797680
-
-Time =    1050.13 sec    Generated terms =    1200140
+Time =      23.26 sec    Generated terms =    1200140
              d9c         Terms in output =    1200140
              intego4-8-0 Bytes used      =  928046580
 
-Time =    1059.51 sec
-             d9c         Terms active    =    1089126
-               intego4-8 Bytes used      =  163294320
-
-Time =    1061.90 sec
-             d9c         Terms active    =    1305217
-               intego4-8 Bytes used      =   76198439
-
-Time =    1062.47 sec    Generated terms =    1622167
+Time =      23.74 sec    Generated terms =    1622167
              d9c         Terms in output =    1305117
                intego4-8 Bytes used      =  982734500
 
-Time =    1460.98 sec
-             d9c         Terms active    =     598472
-               intego4-9 Bytes used      =  104236727
+Time =      27.42 sec    Generated terms =    4066267
+             d9c         Terms in output =    1336264
+               intego4-9 Bytes used      = 1143984048
+
+Time =      29.14 sec    Generated terms =    1444857
+             d9c         Terms in output =    1443967
+               intego1-1 Bytes used      = 1204272988
+
+Time =      31.09 sec    Generated terms =    1706173
+             d9c         Terms in output =    1459542
+               intego1-2 Bytes used      = 1213984204
+
+Time =      33.29 sec    Generated terms =    1993973
+             d9c         Terms in output =    1540955
+               intego1-3 Bytes used      = 1261018960
+
+Time =      35.29 sec    Generated terms =    1601746
+             d9c         Terms in output =    1555565
+               intego1-4 Bytes used      = 1277255496
+
+Time =      36.65 sec    Generated terms =    1495058
+             d9c         Terms in output =    1495058
+               intego1-5 Bytes used      = 1238600916
+
+Time =      38.02 sec    Generated terms =    1852830
+             d9c         Terms in output =    1578538
+               intego1-6 Bytes used      = 1258208664
+
+Time =      39.80 sec    Generated terms =    5203601
+             d9c         Terms in output =    2132730
+               intego1-7 Bytes used      = 1769222424
+
+Time =      41.71 sec    Generated terms =    5656394
+             d9c         Terms in output =    2175171
+               intego1-8 Bytes used      = 1802022380
+
+Time =      43.49 sec    Generated terms =    3829865
+             d9c         Terms in output =    2064941
+               intego1-9 Bytes used      = 1849560320
+
+Time =      47.08 sec    Generated terms =    3121961
+             d9c         Terms in output =    3010354
+             IntOne-o1-1 Bytes used      = 2772963788
+
+Time =      52.34 sec    Generated terms =    3010354
+             d9c         Terms in output =    1511333
+             IntOne-o1-2 Bytes used      = 1323949048
+
+Time =      54.86 sec    Generated terms =    2212856
+             d9c         Terms in output =    2021635
+               intego2-1 Bytes used      = 1827075048
+
+Time =      58.46 sec    Generated terms =    6316168
+             d9c         Terms in output =    1893328
+               intego2-2 Bytes used      = 1767334624
+
+Time =      60.33 sec    Generated terms =    1874275
+             d9c         Terms in output =    1850340
+               intego2-3 Bytes used      = 1730508088
+
+Time =      62.17 sec    Generated terms =    2204323
+             d9c         Terms in output =    1841772
+               intego2-4 Bytes used      = 1683710292
+
+Time =      65.11 sec    Generated terms =   12125304
+             d9c         Terms in output =    2948443
+               intego2-5 Bytes used      = 3028087976
+StageSort in thread 30
+StageSort in thread 53
+StageSort in thread 45
+StageSort in thread 6
+StageSort in thread 5
+StageSort in thread 56
+StageSort in thread 38
+StageSort in thread 39
+StageSort in thread 34
+StageSort in thread 3
+StageSort in thread 32
+StageSort in thread 21
+StageSort in thread 50
+StageSort in thread 52
+StageSort in thread 28
+
+Time =      69.20 sec    Generated terms =   18399584
+             d9c         Terms in output =    4103029
+               intego2-6 Bytes used      = 4310087820
+
+Time =      72.96 sec    Generated terms =    5390483
+             d9c         Terms in output =    3787207
+               intego2-7 Bytes used      = 4182788092
+StageSort in thread 31
+StageSort in thread 39
+StageSort in thread 3
+StageSort in thread 1
+StageSort in thread 8
+StageSort in thread 5
+StageSort in thread 33
+StageSort in thread 35
+StageSort in thread 42
+StageSort in thread 45
+StageSort in thread 12
+StageSort in thread 48
+StageSort in thread 56
+StageSort in thread 15
+StageSort in thread 38
+StageSort in thread 23
+StageSort in thread 59
+StageSort in thread 9
+StageSort in thread 29
+StageSort in thread 52
+StageSort in thread 30
+StageSort in thread 13
+StageSort in thread 32
+StageSort in thread 60
+StageSort in thread 34
+StageSort in thread 55
+StageSort in thread 51
+StageSort in thread 36
+StageSort in thread 40
+StageSort in thread 37
+StageSort in thread 44
+StageSort in thread 54
+StageSort in thread 4
+StageSort in thread 10
+StageSort in thread 64
+StageSort in thread 14
+StageSort in thread 58
+StageSort in thread 50
+StageSort in thread 18
+StageSort in thread 62
+StageSort in thread 57
+StageSort in thread 41
+StageSort in thread 19
+StageSort in thread 63
+StageSort in thread 2
+StageSort in thread 22
+StageSort in thread 28
+StageSort in thread 26
+StageSort in thread 43
+StageSort in thread 25
+StageSort in thread 17
+StageSort in thread 47
+StageSort in thread 11
+StageSort in thread 7
+StageSort in thread 6
+StageSort in thread 20
+StageSort in thread 16
+StageSort in thread 24
+StageSort in thread 61
+StageSort in thread 53
+StageSort in thread 27
+StageSort in thread 21
+StageSort in thread 49
+StageSort in thread 46
+
+Time =      80.67 sec    Generated terms =    5583395
+             d9c         Terms in output =    5419926
+             IntOne-o2-1 Bytes used      = 6007687956
+StageSort in thread 3
+StageSort in thread 12
+StageSort in thread 15
+StageSort in thread 19
+StageSort in thread 23
+StageSort in thread 27
+StageSort in thread 22
+StageSort in thread 37
+StageSort in thread 36
+StageSort in thread 11
+StageSort in thread 39
+StageSort in thread 44
+StageSort in thread 13
+StageSort in thread 57
+StageSort in thread 1
+StageSort in thread 58
+StageSort in thread 61
+StageSort in thread 63
+StageSort in thread 64
+StageSort in thread 9
+StageSort in thread 33
+StageSort in thread 31
+StageSort in thread 34
+StageSort in thread 7
+StageSort in thread 42
+StageSort in thread 40
+StageSort in thread 43
+StageSort in thread 14
+StageSort in thread 46
+StageSort in thread 16
+StageSort in thread 52
+StageSort in thread 55
+StageSort in thread 17
+StageSort in thread 47
+StageSort in thread 18
+StageSort in thread 20
+StageSort in thread 56
+StageSort in thread 62
+StageSort in thread 4
+StageSort in thread 5
+StageSort in thread 6
+StageSort in thread 26
+StageSort in thread 51
+StageSort in thread 35
+StageSort in thread 38
+StageSort in thread 24
+StageSort in thread 48
+StageSort in thread 21
+StageSort in thread 30
+StageSort in thread 41
+StageSort in thread 32
+
+Time =      92.21 sec    Generated terms =    5419926
+             d9c         Terms in output =    1684431
+             IntOne-o2-2 Bytes used      = 1648815320
+
+Time =      94.77 sec    Generated terms =    2691734
+             d9c         Terms in output =    1765597
+               integy4-1 Bytes used      = 1693380468
+
+Time =      98.23 sec    Generated terms =    8893989
+             d9c         Terms in output =    1958473
+               integy4-2 Bytes used      = 1814751984
+
+Time =     100.60 sec    Generated terms =    1649239
+             d9c         Terms in output =    1649239
+                         Bytes used      = 1631148076
+
+Time =     102.88 sec    Generated terms =    1668730
+             d9c         Terms in output =    1668371
+             IntOne-y4-1 Bytes used      = 1642303948
+
+Time =     105.15 sec    Generated terms =    1668371
+             d9c         Terms in output =    1632259
+             IntOne-y4-2 Bytes used      = 1622545432
+
+Time =     107.52 sec    Generated terms =    1915549
+             d9c         Terms in output =    1717787
+               integy3-1 Bytes used      = 1668294360
+
+Time =     110.45 sec    Generated terms =    2886481
+             d9c         Terms in output =    1668144
+               integy3-2 Bytes used      = 1640425564
+
+Time =     112.94 sec    Generated terms =    2073385
+             d9c         Terms in output =    1653174
+               integy3-3 Bytes used      = 1633332620
+
+Time =     115.47 sec    Generated terms =    3147008
+             d9c         Terms in output =    1744636
+               integy3-4 Bytes used      = 1683007420
+
+Time =     118.91 sec    Generated terms =    3845988
+             d9c         Terms in output =    1685375
+               integy3-5 Bytes used      = 1650635784
+
+Time =     121.25 sec    Generated terms =    1634605
+             d9c         Terms in output =    1583032
+             IntOne-y3-1 Bytes used      = 1605485176
+
+Time =     123.48 sec    Generated terms =    1583032
+             d9c         Terms in output =    1203989
+             IntOne-y3-2 Bytes used      = 1373226984
+
+Time =     125.31 sec    Generated terms =    1203989
+             d9c         Terms in output =    1203989
+               integy2-1 Bytes used      = 1373226984
+
+Time =     127.15 sec    Generated terms =    1203989
+             d9c         Terms in output =    1203989
+               integy2-2 Bytes used      = 1373226984
+
+Time =     129.06 sec    Generated terms =    1234632
+             d9c         Terms in output =    1220957
+             IntOne-y2-1 Bytes used      = 1384173368
+
+Time =     130.96 sec    Generated terms =    1220957
+             d9c         Terms in output =    1196002
+             IntOne-y2-2 Bytes used      = 1370541860
+
+Time =     132.83 sec    Generated terms =    1234270
+             d9c         Terms in output =    1197760
+               integy1-1 Bytes used      = 1371728076
+
+Time =     134.85 sec    Generated terms =    1685368
+             d9c         Terms in output =    1227365
+               integy1-2 Bytes used      = 1390822112
+
+Time =     136.73 sec    Generated terms =    1193814
+             d9c         Terms in output =    1193814
+             IntOne-y1-1 Bytes used      = 1369850668
+
+Time =     138.57 sec    Generated terms =    1193814
+             d9c         Terms in output =    1193691
+             IntOne-y1-2 Bytes used      = 1369759616
+StageSort in thread 54
+StageSort in thread 27
+StageSort in thread 37
+StageSort in thread 28
+StageSort in thread 32
+StageSort in thread 51
+StageSort in thread 21
+StageSort in thread 59
+StageSort in thread 3
+StageSort in thread 35
+StageSort in thread 13
+StageSort in thread 63
+StageSort in thread 8
+StageSort in thread 25
+StageSort in thread 46
+StageSort in thread 2
+StageSort in thread 45
+StageSort in thread 62
+StageSort in thread 14
+StageSort in thread 16
+StageSort in thread 43
+StageSort in thread 52
+StageSort in thread 60
+StageSort in thread 41
+StageSort in thread 18
+StageSort in thread 4
+StageSort in thread 29
+StageSort in thread 24
+StageSort in thread 12
+StageSort in thread 30
+StageSort in thread 7
+StageSort in thread 26
+StageSort in thread 40
+StageSort in thread 58
+StageSort in thread 36
+StageSort in thread 42
+StageSort in thread 22
+StageSort in thread 64
+StageSort in thread 34
+StageSort in thread 50
+StageSort in thread 31
+StageSort in thread 56
+StageSort in thread 19
+StageSort in thread 49
+StageSort in thread 47
+StageSort in thread 10
+StageSort in thread 44
+StageSort in thread 57
+StageSort in thread 6
+StageSort in thread 39
+StageSort in thread 17
+StageSort in thread 23
+StageSort in thread 1
+StageSort in thread 38
+StageSort in thread 33
+StageSort in thread 15
+StageSort in thread 55
+StageSort in thread 53
+StageSort in thread 48
+StageSort in thread 9
+StageSort in thread 61
+StageSort in thread 11
+StageSort in thread 20
+StageSort in thread 5
+StageSort in thread 13
+StageSort in thread 60
+StageSort in thread 28
+StageSort in thread 16
+StageSort in thread 14
+StageSort in thread 27
+StageSort in thread 62
+StageSort in thread 2
+StageSort in thread 8
+StageSort in thread 37
+StageSort in thread 35
+StageSort in thread 21
+StageSort in thread 26
+StageSort in thread 59
+StageSort in thread 7
+StageSort in thread 64
+StageSort in thread 63
+StageSort in thread 42
+StageSort in thread 51
+StageSort in thread 47
+StageSort in thread 29
+StageSort in thread 58
+StageSort in thread 11
+StageSort in thread 10
+StageSort in thread 9
+StageSort in thread 1
+StageSort in thread 41
+StageSort in thread 19
+StageSort in thread 53
+StageSort in thread 30
+StageSort in thread 18
+StageSort in thread 32
+StageSort in thread 15
+StageSort in thread 5
+StageSort in thread 54
+StageSort in thread 46
+StageSort in thread 50
+StageSort in thread 55
+StageSort in thread 23
+StageSort in thread 22
+StageSort in thread 25
+StageSort in thread 44
+StageSort in thread 3
+StageSort in thread 43
+StageSort in thread 36
+StageSort in thread 39
+StageSort in thread 57
+StageSort in thread 12
+StageSort in thread 6
+StageSort in thread 31
+StageSort in thread 4
+StageSort in thread 33
+StageSort in thread 61
+StageSort in thread 34
+StageSort in thread 40
+StageSort in thread 45
+StageSort in thread 38
+StageSort in thread 17
+StageSort in thread 48
+StageSort in thread 56
+StageSort in thread 20
+StageSort in thread 24
+StageSort in thread 52
+
+Time =     151.85 sec    Generated terms =   12329814
+             d9c         Terms in output =    1058168
+               integt1-0 Bytes used      = 1302163600
+
+Time =     153.94 sec    Generated terms =    1106067
+             d9c         Terms in output =    1085209
+             integt1-1-1 Bytes used      = 1330622744
+
+Time =     156.08 sec    Generated terms =    1133364
+             d9c         Terms in output =    1089357
+             integt1-1-2 Bytes used      = 1334678756
+
+Time =     158.25 sec    Generated terms =    1134098
+             d9c         Terms in output =    1086965
+             integt1-1-3 Bytes used      = 1332597152
+
+Time =     160.39 sec    Generated terms =    1114903
+             d9c         Terms in output =    1081971
+             integt1-1-4 Bytes used      = 1328037932
+
+Time =     162.49 sec    Generated terms =    1093474
+             d9c         Terms in output =    1078385
+             integt1-1-5 Bytes used      = 1324407420
+
+Time =     164.55 sec    Generated terms =    1081152
+             d9c         Terms in output =    1077038
+             integt1-1-6 Bytes used      = 1322885168
+
+Time =     166.50 sec    Generated terms =    1077268
+             d9c         Terms in output =    1076878
+             integt1-1-7 Bytes used      = 1322685148
+
+Time =     168.33 sec    Generated terms =    1076878
+             d9c         Terms in output =    1076878
+             integt1-2-1 Bytes used      = 1322685148
+
+Time =     170.20 sec    Generated terms =    1108255
+             d9c         Terms in output =    1089485
+             integt1-3-1 Bytes used      = 1333502076
+
+Time =     172.21 sec    Generated terms =    1168763
+             d9c         Terms in output =    1101797
+             integt1-3-2 Bytes used      = 1344249296
+
+Time =     174.25 sec    Generated terms =    1188707
+             d9c         Terms in output =    1110965
+             integt1-3-3 Bytes used      = 1352721108
+
+Time =     176.28 sec    Generated terms =    1169212
+             d9c         Terms in output =    1116506
+             integt1-3-4 Bytes used      = 1358251136
+
+Time =     178.20 sec    Generated terms =    1141018
+             d9c         Terms in output =    1119011
+             integt1-3-5 Bytes used      = 1360884152
+
+Time =     180.05 sec    Generated terms =    1125139
+             d9c         Terms in output =    1119861
+             integt1-3-6 Bytes used      = 1361852912
+
+Time =     181.88 sec    Generated terms =    1120342
+             d9c         Terms in output =    1119904
+             integt1-3-7 Bytes used      = 1361906000
+
+Time =     183.75 sec    Generated terms =    1119904
+             d9c         Terms in output =    1119904
+             integt1-4-0 Bytes used      = 1330900576
+
+Time =     185.88 sec    Generated terms =    2097364
+             d9c         Terms in output =    1134546
+             integt1-4-1 Bytes used      = 1366085336
+
+Time =     188.08 sec    Generated terms =    1794713
+             d9c         Terms in output =    1118280
+             integt1-4-2 Bytes used      = 1347828224
+
+Time =     190.13 sec    Generated terms =    1492310
+             d9c         Terms in output =    1104089
+             integt1-4-3 Bytes used      = 1326750136
+
+Time =     191.86 sec    Generated terms =    1281492
+             d9c         Terms in output =    1093805
+             integt1-4-4 Bytes used      = 1309433392
+
+Time =     193.37 sec    Generated terms =    1160840
+             d9c         Terms in output =    1087670
+             integt1-4-5 Bytes used      = 1298331108
+
+Time =     194.77 sec    Generated terms =    1105684
+             d9c         Terms in output =    1084977
+             integt1-4-6 Bytes used      = 1293110732
+
+Time =     196.11 sec    Generated terms =    1087549
+             d9c         Terms in output =    1084268
+             integt1-4-7 Bytes used      = 1291745432
+
+Time =     197.45 sec    Generated terms =    1084268
+             d9c         Terms in output =    1084268
+             integt1-5-0 Bytes used      = 1293423260
+
+Time =     199.49 sec    Generated terms =    1435719
+             d9c         Terms in output =    1088142
+             integt1-5-1 Bytes used      = 1310718024
+
+Time =     201.34 sec    Generated terms =    1268837
+             d9c         Terms in output =    1083172
+             integt1-5-2 Bytes used      = 1302531808
+
+Time =     203.03 sec    Generated terms =    1182688
+             d9c         Terms in output =    1079437
+             integt1-5-3 Bytes used      = 1295891832
+
+Time =     204.56 sec    Generated terms =    1130050
+             d9c         Terms in output =    1076769
+             integt1-5-4 Bytes used      = 1290834892
+
+Time =     205.99 sec    Generated terms =    1099520
+             d9c         Terms in output =    1074977
+             integt1-5-5 Bytes used      = 1287259760
+
+Time =     207.37 sec    Generated terms =    1082720
+             d9c         Terms in output =    1073840
+             integt1-5-6 Bytes used      = 1284863828
+
+Time =     208.70 sec    Generated terms =    1075116
+             d9c         Terms in output =    1073385
+             integt1-5-7 Bytes used      = 1283884036
+
+Time =     210.03 sec    Generated terms =    1073385
+             d9c         Terms in output =    1073385
+             integt1-6-0 Bytes used      = 1295018676
+
+Time =     211.56 sec    Generated terms =    1143961
+             d9c         Terms in output =    1065317
+             integt1-6-1 Bytes used      = 1286510468
+
+Time =     212.91 sec    Generated terms =    1074044
+             d9c         Terms in output =    1064389
+             integt1-6-2 Bytes used      = 1285202792
+
+Time =     214.24 sec    Generated terms =    1066167
+             d9c         Terms in output =    1063994
+             integt1-6-3 Bytes used      = 1284681008
+
+Time =     215.56 sec    Generated terms =    1064068
+             d9c         Terms in output =    1063960
+             integt1-6-4 Bytes used      = 1284645652
+
+Time =     216.82 sec    Generated terms =    1063960
+             d9c         Terms in output =    1063960
+               integt1-7 Bytes used      = 1301038640
+
+Time =     219.09 sec    Generated terms =    1650342
+             d9c         Terms in output =    1059799
+               integt1-8 Bytes used      = 1312764936
+
+Time =     220.88 sec    Generated terms =    1060138
+             d9c         Terms in output =    1060025
+               integt1-9 Bytes used      = 1312985984
+
+Time =     222.67 sec    Generated terms =    1060322
+             d9c         Terms in output =    1060015
+               integt1-9 Bytes used      = 1312986712
+
+Time =     224.43 sec    Generated terms =    1060270
+             d9c         Terms in output =    1060002
+               integt1-9 Bytes used      = 1312982620
+
+Time =     226.19 sec    Generated terms =    1060218
+             d9c         Terms in output =    1059990
+               integt1-9 Bytes used      = 1312977812
+
+Time =     227.95 sec    Generated terms =    1060170
+             d9c         Terms in output =    1059979
+               integt1-9 Bytes used      = 1312972656
+
+Time =     229.72 sec    Generated terms =    1060126
+             d9c         Terms in output =    1059969
+               integt1-9 Bytes used      = 1312966576
+
+Time =     231.47 sec    Generated terms =    1060086
+             d9c         Terms in output =    1059960
+               integt1-9 Bytes used      = 1312960788
+
+Time =     233.22 sec    Generated terms =    1060050
+             d9c         Terms in output =    1059952
+               integt1-9 Bytes used      = 1312954900
+
+Time =     234.98 sec    Generated terms =    1060018
+             d9c         Terms in output =    1059945
+               integt1-9 Bytes used      = 1312949312
+
+Time =     236.74 sec    Generated terms =    1059990
+             d9c         Terms in output =    1059939
+               integt1-9 Bytes used      = 1312944128
+
+Time =     238.51 sec    Generated terms =    1059966
+             d9c         Terms in output =    1059934
+               integt1-9 Bytes used      = 1312939500
+
+Time =     240.26 sec    Generated terms =    1059946
+             d9c         Terms in output =    1059930
+               integt1-9 Bytes used      = 1312935376
+
+Time =     242.04 sec    Generated terms =    1060467
+             d9c         Terms in output =    1060183
+              integt1-10 Bytes used      = 1313170964
+
+Time =     243.78 sec    Generated terms =    1060645
+             d9c         Terms in output =    1060160
+              integt1-10 Bytes used      = 1313153552
+
+Time =     245.52 sec    Generated terms =    1060550
+             d9c         Terms in output =    1060138
+              integt1-10 Bytes used      = 1313136304
+
+Time =     247.34 sec    Generated terms =    1060462
+             d9c         Terms in output =    1060118
+              integt1-10 Bytes used      = 1313120472
+
+Time =     249.15 sec    Generated terms =    1060382
+             d9c         Terms in output =    1060100
+              integt1-10 Bytes used      = 1313105712
+
+Time =     250.94 sec    Generated terms =    1060310
+             d9c         Terms in output =    1060084
+              integt1-10 Bytes used      = 1313092584
+
+Time =     252.71 sec    Generated terms =    1060246
+             d9c         Terms in output =    1060070
+              integt1-10 Bytes used      = 1313080640
+
+Time =     254.50 sec    Generated terms =    1060190
+             d9c         Terms in output =    1060058
+              integt1-10 Bytes used      = 1313070112
+
+Time =     256.34 sec    Generated terms =    1060142
+             d9c         Terms in output =    1060048
+              integt1-10 Bytes used      = 1313061000
+
+Time =     258.07 sec    Generated terms =    1060102
+             d9c         Terms in output =    1060040
+              integt1-10 Bytes used      = 1313053328
+
+Time =     259.84 sec    Generated terms =    1060070
+             d9c         Terms in output =    1060034
+              integt1-10 Bytes used      = 1313047288
+
+Time =     261.63 sec    Generated terms =    1060046
+             d9c         Terms in output =    1060030
+              integt1-10 Bytes used      = 1313042788
+
+Time =     263.41 sec    Generated terms =    1060030
+             d9c         Terms in output =    1060030
+              integt1-11 Bytes used      = 1313042788
+
+Time =     265.17 sec    Generated terms =    1060351
+             d9c         Terms in output =    1060250
+              integt1-12 Bytes used      = 1313284780
+
+Time =     266.93 sec    Generated terms =    1060532
+             d9c         Terms in output =    1060239
+              integt1-12 Bytes used      = 1313275648
+
+Time =     268.71 sec    Generated terms =    1060479
+             d9c         Terms in output =    1060227
+              integt1-12 Bytes used      = 1313265112
+
+Time =     270.46 sec    Generated terms =    1060431
+             d9c         Terms in output =    1060215
+              integt1-12 Bytes used      = 1313254488
+
+Time =     272.23 sec    Generated terms =    1060383
+             d9c         Terms in output =    1060205
+              integt1-12 Bytes used      = 1313245328
+
+Time =     273.99 sec    Generated terms =    1060343
+             d9c         Terms in output =    1060195
+              integt1-12 Bytes used      = 1313236144
+
+Time =     275.75 sec    Generated terms =    1060303
+             d9c         Terms in output =    1060187
+              integt1-12 Bytes used      = 1313228576
+
+Time =     277.50 sec    Generated terms =    1060271
+             d9c         Terms in output =    1060179
+              integt1-12 Bytes used      = 1313220824
+
+Time =     279.24 sec    Generated terms =    1060239
+             d9c         Terms in output =    1060173
+              integt1-12 Bytes used      = 1313214920
+
+Time =     281.04 sec    Generated terms =    1060215
+             d9c         Terms in output =    1060167
+              integt1-12 Bytes used      = 1313208736
+
+Time =     282.83 sec    Generated terms =    1060191
+             d9c         Terms in output =    1060163
+              integt1-12 Bytes used      = 1313204400
+
+Time =     284.61 sec    Generated terms =    1060175
+             d9c         Terms in output =    1060159
+              integt1-12 Bytes used      = 1313199924
+
+Time =     286.42 sec    Generated terms =    1060253
+             d9c         Terms in output =    1059403
+              integt1-13 Bytes used      = 1312442636
+
+Time =     293.67 sec    Generated terms =    3567330
+             d9c         Terms in output =     899211
+               integt2-1 Bytes used      = 1150385164
+StageSort in thread 3
+StageSort in thread 20
+StageSort in thread 52
+
+Time =     302.07 sec    Generated terms =    4000328
+             d9c         Terms in output =     652163
+               integt2-2 Bytes used      =  936823264
+
+Time =     304.83 sec    Generated terms =    1622574
+             d9c         Terms in output =     471110
+               integt2-3 Bytes used      =  716413252
+
+Time =     305.23 sec    Generated terms =     396470
+             d9c         Terms in output =     396470
+             IntOne-t2-1 Bytes used      =  571366280
+
+Time =     305.72 sec    Generated terms =     396470
+             d9c         Terms in output =      62474
+             IntOne-t2-2 Bytes used      =   74792792
+
+Time =     305.98 sec    Generated terms =     189934
+             d9c         Terms in output =      53165
+               integt3-1 Bytes used      =   66364932
+
+Time =     306.12 sec    Generated terms =     505015
+             d9c         Terms in output =      21847
+               integt3-2 Bytes used      =   39403852
+
+Time =     306.16 sec    Generated terms =      12752
+             d9c         Terms in output =      12752
+             IntOne-t3-1 Bytes used      =   32554824
+
+Time =     306.21 sec    Generated terms =      12752
+             d9c         Terms in output =       7719
+             IntOne-t3-2 Bytes used      =   23766636
+
+Time =     306.24 sec    Generated terms =       7719
+             d9c         Terms in output =       7719
+               integl1-1 Bytes used      =   23766636
+
+Time =     306.38 sec    Generated terms =     148442
+             d9c         Terms in output =       2138
+               integl1-2 Bytes used      =    9090368
+
+Time =     306.39 sec    Generated terms =       1431
+             d9c         Terms in output =       1431
+             IntOne-l1-1 Bytes used      =    6545772
+
+Time =     306.40 sec    Generated terms =       1431
+             d9c         Terms in output =          5
+             IntOne-l1-2 Bytes used      =      20972
+
+Time =     306.40 sec    Generated terms =          5
+             d9c         Terms in output =          5
+                         Bytes used      =      20868
+
+   d9c =
+       + BasicNOIntegral*rat( - 7741440*ep^23 + 8271872*ep^22 + 854995968*
+      ep^21 - 189097472*ep^20 - 42442722048*ep^19 - 13972037248*ep^18 + 
+      1337064231616*ep^17 + 1290223655648*ep^16 - 31386801508080*ep^15 - 
+      85653892241264*ep^14 + 352245427850064*ep^13 + 2441761197218048*ep^12 + 
+      5030710212842608*ep^11 - 227545786486240*ep^10 - 22300659988915728*ep^9
+       - 47860952571509792*ep^8 - 44171123090601024*ep^7 - 10902191422473136*
+      ep^6 + 11413467442640320*ep^5 + 9657843207058368*ep^4 - 112078118025216*
+      ep^3 - 9858001918109184*ep^2 - 5103914562109440*ep + 1912021106688000,
+      119750400*ep^7 - 2903947200*ep^6 + 28410782400*ep^5 - 143438526000*ep^4
+       + 395318523600*ep^3 - 573310653300*ep^2 + 373604408100*ep - 63212774625
+      )
+       + GschemeConstants(0,0)*BasicT1Integral*rat( - 8625678336*ep^44 - 
+      491285110272*ep^43 - 11530663243264*ep^42 - 127788194850048*ep^41 - 
+      247175608344576*ep^40 + 11047963424020032*ep^39 + 132201664289634496*
+      ep^38 + 331847677873377248*ep^37 - 5741781437619467080*ep^36 - 
+      57905686130202950326*ep^35 - 94075495469243443326*ep^34 + 
+      1897028411757591771331*ep^33 + 13727790959885111186067*ep^32 - 
+      1208849055845898850148*ep^31 - 531913917773575868582696*ep^30 - 
+      3216712891058422413865800*ep^29 - 3165908364839098603610244*ep^28 + 
+      76096344019469972500255830*ep^27 + 629208904625275140676284186*ep^26 + 
+      2818888331071657302982098990*ep^25 + 8345260554323729269669742326*ep^24
+       + 15807663495954869466727005342*ep^23 + 11588258301420094970645508594*
+      ep^22 - 36019294365763133631407006892*ep^21 - 
+      157297267703317933236606489724*ep^20 - 357079158622092094951440496592*
+      ep^19 - 693034255698879059326592343356*ep^18 - 
+      1293217749636555935708262983873*ep^17 - 1805424117502267781144171072745*
+      ep^16 - 1228379498119383291737332489114*ep^15 + 
+      404453924719804764522768989046*ep^14 + 1386725897559219550594088946404*
+      ep^13 + 835965699156392722579060568168*ep^12 - 
+      235757430662625711926857495152*ep^11 - 628282727891303743099903810464*
+      ep^10 - 228017211298904054261519000640*ep^9 + 
+      153444020697371069162010889344*ep^8 + 100593752497524545752610438400*
+      ep^7 - 17515086586733282658153993216*ep^6 - 
+      13123997895288993366195486720*ep^5 + 1849975044813992394499276800*ep^4
+       + 338980321500081688092672000*ep^3 + 27714691796481220608000000*ep^2 - 
+      27285030669841072128000000*ep,15328051200*ep^26 + 627172761600*ep^25 + 
+      9700740403200*ep^24 + 51424973107200*ep^23 - 369079035494400*ep^22 - 
+      6836293830643200*ep^21 - 30357124649913600*ep^20 + 96093360166003200*
+      ep^19 + 1556562336172905600*ep^18 + 5121961900068736800*ep^17 - 
+      11260512096408867600*ep^16 - 136288529513415694800*ep^15 - 
+      335161616093341052400*ep^14 + 477725099602477661550*ep^13 + 
+      4588855148937273585525*ep^12 + 8984160559313004958200*ep^11 - 
+      4936159778024577858525*ep^10 - 52469799382805343912450*ep^9 - 
+      87045266373541113901725*ep^8 - 15368231460974059968300*ep^7 + 
+      140035476188676643638525*ep^6 + 199362898196039459158200*ep^5 + 
+      94553892811813236694200*ep^4 - 14047139214489964968000*ep^3 - 
+      23143179868852310190000*ep^2 - 1623712457464297200000*ep + 
+      1476102234058452000000)
+       + GschemeConstants(0,0)^2*GschemeConstants(1,0)*rat( - 2441257943040*
+      ep^56 - 327557769854976*ep^55 - 20682816499089408*ep^54 - 
+      814688231059881984*ep^53 - 22341020219318599680*ep^52 - 
+      449655018704708911104*ep^51 - 6791230860265639632896*ep^50 - 
+      76545298302638793924608*ep^49 - 609603230126983779291136*ep^48 - 
+      2672501584203413156701184*ep^47 + 7685122795242792201388544*ep^46 + 
+      256177184939193644240775168*ep^45 + 2419066285718091853966475264*ep^44
+       + 12693436549753359004655457600*ep^43 + 20948778436456218870374736864*
+      ep^42 - 270740664199263426665736984096*ep^41 - 
+      2857811090926449607375011830976*ep^40 - 14102676396255593836019025805912
+      *ep^39 - 29050921848450304585372144164768*ep^38 + 
+      120816445165661958332797253647448*ep^37 + 
+      1349325457267382194875421310588392*ep^36 + 
+      5836358715275760966070427865619256*ep^35 + 
+      9835975056986667832987367354394544*ep^34 - 
+      47103228233883663933122899089291392*ep^33 - 4782077499196732179942330993\
+      97138432*ep^32 - 2360375252221214313726019806032350864*ep^31 - 838893952\
+      7196953265904401492067107296*ep^30 - 23247066368702519156100266477623939\
+      024*ep^29 - 50336697250298146521860349770067807536*ep^28 - 7764522195981\
+      6149488123078191365081712*ep^27 - 42696618715888571037447399343742791904
+      *ep^26 + 222633094440936190949702094315467515872*ep^25 + 102115670523421\
+      7074156297108837619768256*ep^24 + 26766133287715770153198667499506535638\
+      80*ep^23 + 5180840196483222251023087108522840761216*ep^22 + 778777672639\
+      6521757065311856988993715896*ep^21 + 91424322095282418071006605884422469\
+      46056*ep^20 + 8329254417775260602955159870668616226552*ep^19 + 598058213\
+      3420866390302264390071399593808*ep^18 + 37298270186762664658372805050492\
+      81520512*ep^17 + 2051843706159049974153627993804133805888*ep^16 - 
+      439252684848936424963934713166460282880*ep^15 - 416239578029214321475580\
+      5336013208193536*ep^14 - 6224081161365863279952974334406837730304*ep^13
+       - 3894029008834557419658914841781763954688*ep^12 + 64201401359089702089\
+      0030904050926512128*ep^11 + 2797256228398590284881349810188778237952*
+      ep^10 + 1542071489735788951710906627918494810112*ep^9 - 3403405798705183\
+      56221027346708787642368*ep^8 - 696465275813892824463347907540516470784*
+      ep^7 - 127045982184508784865659581348064133120*ep^6 + 143292243405585713\
+      297071134142129766400*ep^5 + 64849909301489061758926066036506624000*ep^4
+       - 2286140712422863678604154419281920000*ep^3 - 390201346344066334463892\
+      8093184000000*ep^2 + 1576571537126976617348522311680000000*ep - 40990934\
+      5880137829707677696000000000,45984153600*ep^40 + 5452954214400*ep^39 + 
+      298971722649600*ep^38 + 9999993778790400*ep^37 + 225992056272998400*
+      ep^36 + 3586368456964339200*ep^35 + 39570061153298860800*ep^34 + 
+      273019671892514131200*ep^33 + 501614247559225046400*ep^32 - 
+      12950841362946506157600*ep^31 - 172369491028532925296400*ep^30 - 
+      1060022386202394535905600*ep^29 - 2151759073327668719006400*ep^28 + 
+      21269699588174209730192250*ep^27 + 228018417862893883362262125*ep^26 + 
+      1001294592022038433737011625*ep^25 + 1062755376703688053829086875*ep^24
+       - 13906401812203212800563642875*ep^23 - 94639041053764034168151830250*
+      ep^22 - 273792605944980320473590834750*ep^21 - 
+      84157681357488866203760225850*ep^20 + 2605963943252543284437209360100*
+      ep^19 + 11309165734796048267301884294025*ep^18 + 
+      22003035975165999595242746839725*ep^17 + 2259613022241744686158307178975
+      *ep^16 - 111247600828924569474663291861075*ep^15 - 
+      330346847726125022518583445888300*ep^14 - 
+      465809109876608602533130092976200*ep^13 - 
+      155979859693067451467884978304400*ep^12 + 
+      704503660191249951040784875545600*ep^11 + 
+      1545929967596305299009061674398400*ep^10 + 
+      1539753162569727609900326539593600*ep^9 + 
+      634371225764788436151690038822400*ep^8 - 
+      283701152387605394400775518240000*ep^7 - 
+      510265274576831245522582963200000*ep^6 - 
+      253390309709874853382041190400000*ep^5 - 
+      32050058748633055270457856000000*ep^4 + 14861782732315852078986240000000
+      *ep^3 + 4242331991265438009139200000000*ep^2)
+       + GschemeConstants(0,0)^2*GschemeConstants(2,0)*rat(482555888640*ep^54
+       + 71863625026304*ep^53 + 4980433000524288*ep^52 + 213606101378335360*
+      ep^51 + 6344789465622964416*ep^50 + 137991925557134868736*ep^49 + 
+      2255290461641338741328*ep^48 + 27739700271268153517720*ep^47 + 
+      247782567397581287840304*ep^46 + 1383517128588422626872741*ep^45 + 
+      605625674928047812722293*ep^44 - 80885517464932535073547036*ep^43 - 
+      951312715321982166959577677*ep^42 - 6009761342000359671815943480*ep^41
+       - 17624545607327081012724922654*ep^40 + 65960130131299759756516723456*
+      ep^39 + 1124361851450943910342848112543*ep^38 + 
+      6782738447422629364926443598705*ep^37 + 19965859914993383143894176169065
+      *ep^36 - 22509405111971071732384052684736*ep^35 - 
+      570004065025029433114973098504646*ep^34 - 
+      3040962933817151822918704094799672*ep^33 - 
+      7060244323274893015811223641889516*ep^32 + 
+      18226732990999044205077396980419688*ep^31 + 2743139214759468949671551495\
+      76309094*ep^30 + 1612791500760844376975586497954444071*ep^29 + 675626312\
+      6123628728466525735455019375*ep^28 + 22439593417578621853433755449004716\
+      468*ep^27 + 60567059501605588088572883353493202991*ep^26 + 1295973947762\
+      26205161940397064825848304*ep^25 + 1942846739424637480216214575621189462\
+      82*ep^24 + 75046428974266168328169370983388341216*ep^23 - 70081211592208\
+      7511990295282147665130133*ep^22 - 29516167935324334054014154708742106854\
+      05*ep^21 - 7507652850863275520473976809874026136701*ep^20 - 143445000020\
+      12534249866622306845268780856*ep^19 - 2170870409835735563933139213853484\
+      0442108*ep^18 - 26430678216885114579441452154221970986720*ep^17 - 
+      25985666485155021313753112840569986092800*ep^16 - 2073035068593896853289\
+      0100961948598610944*ep^15 - 13674379676949633957091726912984855323264*
+      ep^14 - 7635556798112063824628650235911052266752*ep^13 - 317391557991306\
+      4933550490460768226272512*ep^12 + 203914255072703896589037512805637281792
+      *ep^11 + 2069600667285418326325593922204121379840*ep^10 + 18049713973556\
+      90074615947085565730029568*ep^9 + 322996202454450559642299826154939031552
+      *ep^8 - 643753971538499708731461254883078832128*ep^7 - 51519849289915360\
+      2573110196727480320000*ep^6 - 30521297660319495401433376474556006400*
+      ep^5 + 153211318736484777400161505251164160000*ep^4 + 903201298691169475\
+      54917079182213120000*ep^3 + 19926910770449377759928384067993600000*ep^2
+       + 1509551360377286372740363714560000000*ep + 17572635436426778264859574\
+      27200000000,11496038400*ep^38 + 1373776588800*ep^37 + 76000309862400*
+      ep^36 + 2569436432640000*ep^35 + 58840664079859200*ep^34 + 
+      950101150242182400*ep^33 + 10753634565366739200*ep^32 + 
+      77954066133007680000*ep^31 + 195069183417502178400*ep^30 - 
+      3071889266959417489200*ep^29 - 45940782782415614385600*ep^28 - 
+      306605999223319710915000*ep^27 - 811338470489557645692750*ep^26 + 
+      4624798965632011209148875*ep^25 + 61379226595967740723234125*ep^24 + 
+      305817139224208035562359375*ep^23 + 535791350698784755935562125*ep^22 - 
+      3036427904780951846460372000*ep^21 - 26532451067940011860615892250*ep^20
+       - 92263493647726599016218881250*ep^19 - 101192214338464930339038048900*
+      ep^18 + 574108704944164068134553942075*ep^17 + 
+      3370423115620906617671985195225*ep^16 + 8494628732286636953654247481875*
+      ep^15 + 7789909074219702276110639453925*ep^14 - 
+      22086921677910854774506778046150*ep^13 - 
+      104131374981986156218962181256700*ep^12 - 
+      208224884256320984704913393055000*ep^11 - 
+      212512546327896739476648158000400*ep^10 + 
+      16026894956627307357420972895200*ep^9 + 
+      436592569997300813076009336753600*ep^8 + 
+      782476997313853096568520031440000*ep^7 + 
+      803097958979345645379730982400000*ep^6 + 
+      534835008081856643569806182400000*ep^5 + 
+      228849445600936504328388096000000*ep^4 + 
+      57291913026413641693877760000000*ep^3 + 6363497986898157013708800000000*
+      ep^2)
+       + GschemeConstants(0,0)*GschemeConstants(1,0)*GschemeConstants(2,0)*
+      rat(3403508170752*ep^61 - 176257080373248*ep^60 - 46000891784042496*
+      ep^59 - 3015710655310537728*ep^58 - 111812188637353632256*ep^57 - 
+      2772065635835414691328*ep^56 - 48989811679582632911872*ep^55 - 
+      627089928059298281812864*ep^54 - 5602681590506359045072128*ep^53 - 
+      28596133441697018058079216*ep^52 + 43378411403512988354847336*ep^51 + 
+      2433703438070593455104666636*ep^50 + 24792594034806344944080204062*ep^49
+       + 132882188094988579097821177200*ep^48 + 167906735833661274684780563071
+      *ep^47 - 3715212592756577371097948905559*ep^46 - 
+      36379673361184509690317128693278*ep^45 - 
+      161421567433500600467481997155742*ep^44 - 
+      83166117203331494845822759828216*ep^43 + 
+      4300587927165522402204191343677376*ep^42 + 
+      35467249237448031258400939395180154*ep^41 + 1498658325413274502252186236\
+      51868888*ep^40 + 139352261426887987421534285785103099*ep^39 - 3594134711\
+      523689136928237794648003683*ep^38 - 380302745210158309706242799318869042\
+      34*ep^37 - 251219123457130553405789596589701860838*ep^36 - 1290000121977\
+      645890157108391602549979196*ep^35 - 542854774602137876470838545831484871\
+      8436*ep^34 - 18926037538410442365844923830822960366094*ep^33 - 540429496\
+      59314009786954085805304157155888*ep^32 - 1212936857767836528108686215203\
+      29620831259*ep^31 - 187623416333315271917538235652767720075341*ep^30 - 
+      70355807111721839337745664156193415434178*ep^29 + 7134212844509498289801\
+      97303402745314856534*ep^28 + 2977451165779920822307945151842752842587944
+      *ep^27 + 7466572667190705798545307190737166615361584*ep^26 + 13882866685\
+      461686759120948706498179229020998*ep^25 + 199216595198017416290418004072\
+      96328576695272*ep^24 + 21700027331856223250662789287869782186304801*
+      ep^23 + 16455500512383382777306463355743191799406599*ep^22 + 58797105209\
+      57675240026314351848481467389514*ep^21 - 3828931190231807467801781095270\
+      685313287010*ep^20 - 6982325199185594099955540383971147307618268*ep^19
+       - 3920367292271863911146719848502170772791064*ep^18 - 80542659732399299\
+      099321579215579790404240*ep^17 + 683320993750875724092890939037338376301\
+      696*ep^16 - 361266559856941007404700115624108922735872*ep^15 - 501461752\
+      209774817505421275174376124070400*ep^14 + 281654324138981647452707173397\
+      972961211392*ep^13 + 495755414062326929118481955998684558493184*ep^12 - 
+      12244830691865766568900805335978032417792*ep^11 - 3189926030959819873169\
+      26285071055147038720*ep^10 - 151888851965324190767996929323580043710464*
+      ep^9 + 53409827217665084796448801273784894570496*ep^8 + 6913672067888491\
+      3604683818482350134558720*ep^7 + 107295018239500039474356362085831868416\
+      00*ep^6 - 12144745104669110536331499208088616960000*ep^5 - 3709260969096\
+      857005063944329609871360000*ep^4 + 9808973209532651077366486068363264000\
+      00*ep^3 + 100183938113056688799627872305152000000*ep^2 - 844415336154098\
+      92991127728947200000000*ep + 34271985744674132457733226496000000000,
+      1655429529600*ep^45 + 204445546905600*ep^44 + 11739846382387200*ep^43 + 
+      414307107422208000*ep^42 + 9982069232357376000*ep^41 + 
+      171670901491198771200*ep^40 + 2117378280310865510400*ep^39 + 
+      17757959830688157696000*ep^38 + 76651976245823246822400*ep^37 - 
+      305821970987483682547200*ep^36 - 8356141754819838621734400*ep^35 - 
+      71955201372271707764736000*ep^34 - 309785938545419126654371200*ep^33 + 
+      105452126064028904200286400*ep^32 + 11373801683719335969667204800*ep^31
+       + 81771188263920129357627552000*ep^30 + 275027178884068463753085327450*
+      ep^29 - 45169887222946094591526823125*ep^28 - 
+      5554387201400681443232572841625*ep^27 - 30166867936785886085906391746250
+      *ep^26 - 76556708167954678450422975246600*ep^25 + 
+      4427856412071021490118559257025*ep^24 + 
+      837963977499159115511343640012425*ep^23 + 
+      3476940636363224986127105262252000*ep^22 + 
+      7032220937892544085752058623028250*ep^21 + 
+      2491252732651255954492908542978925*ep^20 - 
+      30641150216931577378590711400460775*ep^19 - 1055739140862305432631238865\
+      74367250*ep^18 - 179966722114455965508280403903706900*ep^17 - 1323333218\
+      63579826536824359296716425*ep^16 + 142316611260042759700148088349562775*
+      ep^15 + 547353834965853283266070853599033500*ep^14 + 7597332319971030178\
+      80321693868624200*ep^13 + 535765792518037394469801792037875600*ep^12 + 
+      37769485932944702220066233202259200*ep^11 - 3068784642455640740166376112\
+      57592000*ep^10 - 289652923710296697218053794090883200*ep^9 - 
+      91514066499012081002072227567488000*ep^8 + 
+      34054974017711300349076799325600000*ep^7 + 
+      39789260465002931625228701107200000*ep^6 + 
+      10955312107556956599836952576000000*ep^5 - 
+      1257750168034712115127795200000000*ep^4 - 
+      1254222037748843788815590400000000*ep^3 - 
+      190904939606944710411264000000000*ep^2)
+      ;
+
+
+Time =     306.40 sec    Generated terms =          5
+             d9c         Terms in output =          5
+                         Bytes used      =      20868
+  306.41 sec + 7206.69 sec: 7513.10 sec out of 471.01 sec

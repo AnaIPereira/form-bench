@@ -1,0 +1,8 @@
+====
+Starting job 10409363 at Thu 16 Apr 11:24:26 BST 2026 for user dc-cost5.
+Running on nodes: m8409
+====
+Running test: trace
+Node: m8409.pri.cosma.local
+TMPDIR: /tmp
+/var/slurm/slurmd/job10409363/slurm_script: line 32: /usr/bin/perf: No such file or directory

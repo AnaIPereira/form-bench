@@ -1,0 +1,58 @@
+====
+Starting job 10410719 at Thu 16 Apr 11:48:40 BST 2026 for user dc-cost5.
+Running on nodes: m8415
+====
+form-bench: 8598ff2270ebc24435412e1f8fc717e2677a8f74
+	LABEL      = testsAna_32_difficulty=3_40G_40h
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = mbox1l
+	N          = 2
+	DIFFICULTY = 3
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G_40h-1/results/
+
+
+Running mbox1l
+Benchmark 1: form
+  Time (mean ± σ):     289.225 s ±  1.142 s    [User: 284.543 s, System: 3.419 s]
+  Range (min … max):   287.781 s … 291.396 s    16 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     93.637 s ±  0.505 s    [User: 292.432 s, System: 4.099 s]
+  Range (min … max):   92.917 s … 94.919 s    16 runs
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     65.697 s ±  0.852 s    [User: 296.866 s, System: 4.249 s]
+  Range (min … max):   64.417 s … 67.043 s    16 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     55.098 s ±  1.441 s    [User: 312.517 s, System: 4.896 s]
+  Range (min … max):   52.414 s … 57.161 s    16 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     53.063 s ±  0.958 s    [User: 328.200 s, System: 5.461 s]
+  Range (min … max):   51.484 s … 54.479 s    16 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):     50.114 s ±  1.609 s    [User: 336.121 s, System: 5.674 s]
+  Range (min … max):   48.044 s … 53.162 s    16 runs
+ 
+Benchmark 7: tform -w48
+  Time (mean ± σ):     50.011 s ±  1.944 s    [User: 347.182 s, System: 6.980 s]
+  Range (min … max):   46.763 s … 53.141 s    16 runs
+ 
+Benchmark 8: tform -w64
+  Time (mean ± σ):     46.221 s ±  1.211 s    [User: 354.886 s, System: 8.107 s]
+  Range (min … max):   44.361 s … 48.939 s    16 runs
+ 
+Summary
+  tform -w64 ran
+    1.08 ± 0.05 times faster than tform -w48
+    1.08 ± 0.04 times faster than tform -w32
+    1.15 ± 0.04 times faster than tform -w24
+    1.19 ± 0.04 times faster than tform -w16
+    1.42 ± 0.04 times faster than tform -w8
+    2.03 ± 0.05 times faster than tform -w4
+    6.26 ± 0.17 times faster than form

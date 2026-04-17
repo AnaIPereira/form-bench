@@ -1,0 +1,6 @@
+====
+Starting job 10409284 at Thu 16 Apr 11:18:47 BST 2026 for user dc-cost5.
+Running on nodes: m8399
+====
+ERROR: Unable to locate a modulefile for 'perf'
+perf not available

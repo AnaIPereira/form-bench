@@ -1,0 +1,60 @@
+====
+Starting job 10410715 at Thu 16 Apr 11:48:40 BST 2026 for user dc-cost5.
+Running on nodes: m8378
+====
+form-bench: 8598ff2270ebc24435412e1f8fc717e2677a8f74
+	LABEL      = testsAna_32_difficulty=3_40G_40h
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32,tform -w48,tform -w64
+	TESTS      = minceex
+	N          = 2
+	DIFFICULTY = 3
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G_40h-1/results/
+
+
+Running minceex
+Benchmark 1: form
+  Time (mean ± σ):     6610.923 s ±  6.890 s    [User: 6439.323 s, System: 141.746 s]
+  Range (min … max):   6600.719 s … 6618.746 s    6 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     1699.262 s ± 17.316 s    [User: 5796.715 s, System: 164.199 s]
+  Range (min … max):   1687.319 s … 1733.968 s    6 runs
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (1733.968 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     1035.698 s ±  7.233 s    [User: 5987.252 s, System: 167.061 s]
+  Range (min … max):   1026.283 s … 1048.220 s    6 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     716.294 s ±  4.363 s    [User: 6299.221 s, System: 182.637 s]
+  Range (min … max):   708.461 s … 720.870 s    6 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     610.961 s ±  3.398 s    [User: 6696.226 s, System: 190.847 s]
+  Range (min … max):   606.601 s … 615.528 s    6 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):     561.824 s ±  4.058 s    [User: 6827.315 s, System: 206.133 s]
+  Range (min … max):   556.797 s … 568.542 s    6 runs
+ 
+Benchmark 7: tform -w48
+  Time (mean ± σ):     502.259 s ±  6.585 s    [User: 7056.851 s, System: 238.828 s]
+  Range (min … max):   494.518 s … 512.862 s    6 runs
+ 
+Benchmark 8: tform -w64
+  Time (mean ± σ):     479.517 s ±  6.466 s    [User: 7252.505 s, System: 278.721 s]
+  Range (min … max):   471.950 s … 486.302 s    6 runs
+ 
+Summary
+  tform -w64 ran
+    1.05 ± 0.02 times faster than tform -w48
+    1.17 ± 0.02 times faster than tform -w32
+    1.27 ± 0.02 times faster than tform -w24
+    1.49 ± 0.02 times faster than tform -w16
+    2.16 ± 0.03 times faster than tform -w8
+    3.54 ± 0.06 times faster than tform -w4
+   13.79 ± 0.19 times faster than form
