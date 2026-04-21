@@ -1,0 +1,64 @@
+====
+Starting job 10598016 at Tue 21 Apr 12:32:11 BST 2026 for user dc-cost5.
+Running on nodes: m8254
+====
+form-bench: f57ad81a6a0925757d5efa0673883b72211adf84
+	LABEL      = testsAna_32_difficulty=3_40G_40h
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = mincer
+	N          = 1
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G_40h-1/results/
+
+
+Running mincer
+Benchmark 1: form
+  Time (mean ± σ):     895.205 s ±  0.468 s    [User: 890.966 s, System: 0.350 s]
+  Range (min … max):   894.874 s … 895.536 s    2 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     249.567 s ±  2.065 s    [User: 929.234 s, System: 4.384 s]
+  Range (min … max):   248.107 s … 251.027 s    2 runs
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     140.184 s ±  0.464 s    [User: 941.450 s, System: 7.029 s]
+  Range (min … max):   139.856 s … 140.512 s    2 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     86.875 s ±  0.522 s    [User: 969.466 s, System: 25.372 s]
+  Range (min … max):   86.506 s … 87.244 s    2 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     71.434 s ±  1.228 s    [User: 1041.435 s, System: 49.408 s]
+  Range (min … max):   70.566 s … 72.303 s    2 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):     64.096 s ±  1.293 s    [User: 1020.009 s, System: 149.320 s]
+  Range (min … max):   63.182 s … 65.010 s    2 runs
+ 
+Summary
+  tform -w32 ran
+    1.11 ± 0.03 times faster than tform -w24
+    1.36 ± 0.03 times faster than tform -w16
+    2.19 ± 0.04 times faster than tform -w8
+    3.89 ± 0.08 times faster than tform -w4
+   13.97 ± 0.28 times faster than form
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G_40h-1/results/
+    results-chromatic.json
+    results-fmft.json
+    results-forcer-exp.json
+    results-forcer.json
+    results-mbox1l.json
+    results-minceex.json
+    results-mincer.json
+Create combined scaling plot...
+    chromatic
+    fmft
+    forcer
+    forcer-exp
+    mbox1l
+    minceex
+    mincer

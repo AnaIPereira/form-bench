@@ -1,0 +1,67 @@
+====
+Starting job 10598029 at Tue 21 Apr 12:34:23 BST 2026 for user dc-cost5.
+Running on nodes: m8366
+====
+form-bench: f57ad81a6a0925757d5efa0673883b72211adf84
+	LABEL      = testsAna_32_difficulty=3_40G_40h
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = forcer-exp
+	N          = 1
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G_40h-1/results/
+
+
+Running forcer-exp
+Benchmark 1: form
+  Time (mean ± σ):     393.524 s ±  0.788 s    [User: 389.947 s, System: 2.020 s]
+  Range (min … max):   392.967 s … 394.081 s    2 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     174.067 s ±  0.524 s    [User: 445.802 s, System: 10.710 s]
+  Range (min … max):   173.697 s … 174.437 s    2 runs
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     139.734 s ±  0.990 s    [User: 484.383 s, System: 19.893 s]
+  Range (min … max):   139.034 s … 140.434 s    2 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     133.666 s ±  0.279 s    [User: 562.609 s, System: 105.336 s]
+  Range (min … max):   133.469 s … 133.864 s    2 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     131.404 s ±  7.428 s    [User: 612.113 s, System: 78.506 s]
+  Range (min … max):   126.152 s … 136.656 s    2 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):     127.461 s ±  0.692 s    [User: 639.652 s, System: 111.964 s]
+  Range (min … max):   126.972 s … 127.950 s    2 runs
+ 
+Summary
+  tform -w32 ran
+    1.03 ± 0.06 times faster than tform -w24
+    1.05 ± 0.01 times faster than tform -w16
+    1.10 ± 0.01 times faster than tform -w8
+    1.37 ± 0.01 times faster than tform -w4
+    3.09 ± 0.02 times faster than form
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G_40h-1/results/
+    results-chromatic.json
+Traceback (most recent call last):
+  File "/cosma/home/dr004/dc-cost5/form-bench/scripts/plot-compare.py", line 43, in <module>
+    res = json.load(of)["results"]
+          ^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Cleaning up

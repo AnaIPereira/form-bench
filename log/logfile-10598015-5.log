@@ -1,0 +1,66 @@
+====
+Starting job 10598035 at Tue 21 Apr 12:34:36 BST 2026 for user dc-cost5.
+Running on nodes: m8510
+====
+form-bench: f57ad81a6a0925757d5efa0673883b72211adf84
+	LABEL      = testsAna_32_difficulty=3_40G_40h
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = fmft
+	N          = 1
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G_40h-1/results/
+
+
+Running fmft
+Benchmark 1: form
+  Time (mean ± σ):     511.078 s ±  1.176 s    [User: 508.970 s, System: 0.085 s]
+  Range (min … max):   509.720 s … 511.783 s    3 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     163.035 s ±  1.919 s    [User: 543.022 s, System: 1.012 s]
+  Range (min … max):   161.262 s … 165.073 s    3 runs
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     100.021 s ±  0.229 s    [User: 551.946 s, System: 2.197 s]
+  Range (min … max):   99.792 s … 100.250 s    3 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     73.577 s ±  0.957 s    [User: 592.105 s, System: 23.706 s]
+  Range (min … max):   72.549 s … 74.442 s    3 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     64.602 s ±  0.576 s    [User: 642.918 s, System: 62.008 s]
+  Range (min … max):   63.958 s … 65.069 s    3 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):     60.052 s ±  0.296 s    [User: 654.502 s, System: 103.063 s]
+  Range (min … max):   59.747 s … 60.338 s    3 runs
+ 
+Summary
+  tform -w32 ran
+    1.08 ± 0.01 times faster than tform -w24
+    1.23 ± 0.02 times faster than tform -w16
+    1.67 ± 0.01 times faster than tform -w8
+    2.71 ± 0.03 times faster than tform -w4
+    8.51 ± 0.05 times faster than form
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G_40h-1/results/
+    results-chromatic.json
+    results-fmft.json
+    results-forcer-exp.json
+    results-forcer.json
+    results-mbox1l.json
+    results-minceex.json
+    results-mincer.json
+Create combined scaling plot...
+    chromatic
+    fmft
+    forcer
+    forcer-exp
+    mbox1l
+    minceex
+    mincer

@@ -1,0 +1,17 @@
+====
+Starting job 10598641 at Tue 21 Apr 12:54:33 BST 2026 for user dc-cost5.
+Running on nodes: m8369
+====
+form-bench: f57ad81a6a0925757d5efa0673883b72211adf84
+	LABEL      = testsAna_32_difficulty=3_40G_40h
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = colour
+	N          = 1
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/testsAna_32_difficulty=3_40G_40h-1/results/
+./run-compare.sh: line 163: cd: colour: No such file or directory
+Cleaning up
+Cleaning up
