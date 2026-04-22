@@ -104,7 +104,13 @@ runs["chromatic"]=$(( N * 2  ))
 runs["sort-large"]=$((N * 2  ))
 runs["sort-small"]=$((N * 15 ))
 runs["sort-disk"]=$(( N * 2  ))
-
+runs["nowork-10"]=$(( N * 1  ))
+runs["nowork-100"]=$(( N * 1  ))
+runs["ordered-10"]=$(( N * 1  ))
+runs["ordered-100"]=$(( N * 1  ))
+runs["disordered-10"]=$(( N * 1  ))
+runs["disordered-100"]=$(( N * 1  ))
+     
 # A warmup run helps to get stable times from very short-running tests.
 declare -A warmup
 warmup["trace"]=1
