@@ -1,0 +1,62 @@
+====
+Starting job 10631172 at Wed 22 Apr 12:13:23 BST 2026 for user dc-cost5.
+Running on nodes: m8500
+====
+form-bench: edb6388a340abf69e8f8b44c4aff03e9b85e6993
+	LABEL      = tests_t=32_difficulty=1_20G_N=6
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = ordered-100
+	N          = 6
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=1_20G_N=6-1/results/
+
+
+Running ordered-100
+Benchmark 1: form
+  Time (mean ± σ):     28.426 s ±  0.054 s    [User: 28.313 s, System: 0.007 s]
+  Range (min … max):   28.378 s … 28.530 s    6 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     13.557 s ±  0.071 s    [User: 42.706 s, System: 1.343 s]
+  Range (min … max):   13.483 s … 13.648 s    6 runs
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     15.129 s ±  1.539 s    [User: 54.881 s, System: 1.688 s]
+  Range (min … max):   13.794 s … 17.912 s    6 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     14.642 s ±  1.865 s    [User: 53.624 s, System: 2.378 s]
+  Range (min … max):   12.689 s … 16.920 s    6 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     17.384 s ±  1.511 s    [User: 58.662 s, System: 2.991 s]
+  Range (min … max):   15.902 s … 20.090 s    6 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):     17.252 s ±  2.411 s    [User: 66.786 s, System: 3.759 s]
+  Range (min … max):   14.245 s … 20.824 s    6 runs
+ 
+Summary
+  tform -w4 ran
+    1.08 ± 0.14 times faster than tform -w16
+    1.12 ± 0.11 times faster than tform -w8
+    1.27 ± 0.18 times faster than tform -w32
+    1.28 ± 0.11 times faster than tform -w24
+    2.10 ± 0.01 times faster than form
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=1_20G_N=6-1/results/
+    results-disordered-10.json
+    results-disordered-100.json
+    results-nowork-10.json
+    results-nowork-100.json
+    results-ordered-10.json
+    results-ordered-100.json
+Create combined scaling plot...
+    disordered-10
+    disordered-100
+    nowork-10
+    nowork-100
+    ordered-10
+    ordered-100

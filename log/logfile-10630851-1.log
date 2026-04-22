@@ -1,0 +1,58 @@
+====
+Starting job 10631140 at Wed 22 Apr 12:12:10 BST 2026 for user dc-cost5.
+Running on nodes: m8500
+====
+form-bench: edb6388a340abf69e8f8b44c4aff03e9b85e6993
+	LABEL      = tests_t=32_difficulty=1_20G_N=6
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = nowork-10
+	N          = 6
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=1_20G_N=6-1/results/
+
+
+Running nowork-10
+Benchmark 1: form
+  Time (mean ± σ):     986.4 ms ±  33.1 ms    [User: 961.6 ms, System: 4.8 ms]
+  Range (min … max):   971.9 ms … 1053.8 ms    6 runs
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (1.054 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):      1.406 s ±  0.014 s    [User: 2.469 s, System: 0.340 s]
+  Range (min … max):    1.391 s …  1.425 s    6 runs
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):      1.742 s ±  0.168 s    [User: 3.251 s, System: 0.743 s]
+  Range (min … max):    1.485 s …  1.917 s    6 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):      2.079 s ±  0.146 s    [User: 3.993 s, System: 1.454 s]
+  Range (min … max):    1.911 s …  2.268 s    6 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):      2.348 s ±  0.307 s    [User: 4.534 s, System: 2.156 s]
+  Range (min … max):    1.930 s …  2.765 s    6 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):      2.795 s ±  0.216 s    [User: 5.476 s, System: 2.817 s]
+  Range (min … max):    2.611 s …  3.165 s    6 runs
+ 
+Summary
+  form ran
+    1.43 ± 0.05 times faster than tform -w4
+    1.77 ± 0.18 times faster than tform -w8
+    2.11 ± 0.16 times faster than tform -w16
+    2.38 ± 0.32 times faster than tform -w24
+    2.83 ± 0.24 times faster than tform -w32
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=1_20G_N=6-1/results/
+    results-nowork-10.json
+    results-nowork-100.json
+    results-ordered-10.json
+Create combined scaling plot...
+    nowork-10
+    nowork-100
+    ordered-10

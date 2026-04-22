@@ -1,0 +1,6 @@
+====
+Starting job 10627392 at Wed 22 Apr 10:55:59 BST 2026 for user dc-cost5.
+Running on nodes: m8160
+====
+/var/slurm/slurmd/job10627392/slurm_script: line 31: syntax error near unexpected token `)'
+/var/slurm/slurmd/job10627392/slurm_script: line 31: `       1) TESTS="nowork-10" ;;'
