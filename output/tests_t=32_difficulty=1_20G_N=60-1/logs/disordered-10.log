@@ -1,0 +1,7 @@
+TFORM 5.0.0 (Mar 10 2026, v5.0.0-9-gbf24cec) 32 workers  Run: Wed Apr 22 13:03:44 2026
+    #-
+
+Time =       2.39 sec    Generated terms =      10000  ( 10 K  )
+           test1         Terms in output =      10000  ( 10 K  )
+                         Bytes used      =     240012  (240 KiB)
+  2.39 sec + 18.17 sec: 20.56 sec out of 3.55 sec
