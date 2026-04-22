@@ -126,6 +126,12 @@ warmup["chromatic"]=0
 warmup["sort-large"]=0
 warmup["sort-small"]=1
 warmup["sort-disk"]=0
+warmup["nowork-10"]=0
+warmup["nowork-100"]=0
+warmup["ordered-10"]=0
+warmup["ordered-100"]=0
+warmup["disordered-10"]=0
+warmup["disordered-100"]=0
 
 ###############################################################################
 
