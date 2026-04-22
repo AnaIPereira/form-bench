@@ -8,9 +8,9 @@
 #SBATCH --output=log/logfile-%A-%a.log 
 
 #SBATCH --export=ALL
-#SBATCH --mem=20G
+#SBATCH --mem=40G
 #SBATCH --cpus-per-task=32
-#SBATCH --time 0-05:00:00
+#SBATCH --time 0-20:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
