@@ -27,7 +27,7 @@
        #8) TESTS="chromatic" ;;
 #esac      
 
-#case $SLURM_ARRAY_TASK_ID in
+case $SLURM_ARRAY_TASK_ID in
        1) TESTS="nowork-10" ;;
        2) TESTS="nowork-100" ;;
        3) TESTS="ordered-10" ;;
