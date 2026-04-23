@@ -1,0 +1,64 @@
+====
+Starting job 10645368 at Wed 22 Apr 17:06:25 BST 2026 for user dc-cost5.
+Running on nodes: m8181
+====
+form-bench: f697c935b2ef54c8ec948a2725e37dbcddf73f2d
+	LABEL      = tests_t=32_difficulty=2_20G_N=60
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = ordered-100
+	N          = 60
+	DIFFICULTY = 2
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=2_20G_N=60-1/results/
+
+
+Running ordered-100
+Benchmark 1: form
+  Time (mean ± σ):     40.809 s ±  0.167 s    [User: 40.630 s, System: 0.010 s]
+  Range (min … max):   40.431 s … 41.170 s    60 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):     19.831 s ±  0.488 s    [User: 65.138 s, System: 1.448 s]
+  Range (min … max):   19.160 s … 23.256 s    60 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):     20.163 s ±  2.050 s    [User: 72.994 s, System: 1.713 s]
+  Range (min … max):   15.541 s … 26.201 s    60 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):     21.881 s ±  2.417 s    [User: 81.866 s, System: 2.472 s]
+  Range (min … max):   17.731 s … 28.119 s    60 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):     25.884 s ±  3.661 s    [User: 89.332 s, System: 3.199 s]
+  Range (min … max):   19.432 s … 33.918 s    60 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):     24.551 s ±  3.138 s    [User: 93.627 s, System: 3.775 s]
+  Range (min … max):   19.604 s … 30.721 s    60 runs
+ 
+Summary
+  tform -w4 ran
+    1.02 ± 0.11 times faster than tform -w8
+    1.10 ± 0.12 times faster than tform -w16
+    1.24 ± 0.16 times faster than tform -w32
+    1.31 ± 0.19 times faster than tform -w24
+    2.06 ± 0.05 times faster than form
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=2_20G_N=60-1/results/
+    results-disordered-10.json
+    results-disordered-100.json
+    results-nowork-10.json
+    results-nowork-100.json
+    results-ordered-10.json
+    results-ordered-100.json
+Create combined scaling plot...
+    disordered-10
+    disordered-100
+    nowork-10
+    nowork-100
+    ordered-10
+    ordered-100

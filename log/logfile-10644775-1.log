@@ -1,0 +1,52 @@
+====
+Starting job 10644782 at Wed 22 Apr 16:44:48 BST 2026 for user dc-cost5.
+Running on nodes: m8507
+====
+form-bench: bf7fddcca846ea7fa0e98f563d27a9828d4cab4f
+	LABEL      = tests_t=32_difficulty=1_20G_N=60
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = nowork-10
+	N          = 1
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=1_20G_N=60-1/results/
+
+
+Running nowork-10
+Benchmark 1: form
+  Time (abs ≡):         1.046 s               [User: 0.957 s, System: 0.006 s]
+ 
+Benchmark 2: tform -w4
+  Time (abs ≡):         1.438 s               [User: 2.369 s, System: 0.344 s]
+ 
+Benchmark 3: tform -w8
+  Time (abs ≡):         1.711 s               [User: 3.041 s, System: 0.786 s]
+ 
+Benchmark 4: tform -w16
+  Time (abs ≡):         2.022 s               [User: 3.794 s, System: 1.373 s]
+ 
+Benchmark 5: tform -w24
+  Time (abs ≡):         2.323 s               [User: 4.560 s, System: 2.145 s]
+ 
+Benchmark 6: tform -w32
+  Time (abs ≡):         2.780 s               [User: 5.220 s, System: 2.878 s]
+ 
+Summary
+  form ran
+    1.37 times faster than tform -w4
+    1.64 times faster than tform -w8
+    1.93 times faster than tform -w16
+    2.22 times faster than tform -w24
+    2.66 times faster than tform -w32
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=1_20G_N=60-1/results/
+    results-disordered-10.json
+Traceback (most recent call last):
+  File "/cosma/home/dr004/dc-cost5/form-bench/scripts/plot-compare.py", line 66, in <module>
+    speedup_err = [statistics.stdev(su) for su in speedup_raw]
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/statistics.py", line 970, in stdev
+    raise StatisticsError('stdev requires at least two data points')
+statistics.StatisticsError: stdev requires at least two data points
+Cleaning up
