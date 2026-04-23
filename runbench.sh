@@ -39,7 +39,7 @@ esac
      
 
 #running for array
-./run-compare.sh --tests="$TESTS" --label="tests_t=32_difficulty=2_20G_N=60" --timestamp="1" --testdir="$TMPDIR"
+./run-compare.sh --tests="$TESTS" --label="tests_t=32_difficulty=1_40G_N=120" --timestamp="1" --testdir="$TMPDIR"
 
 
 
