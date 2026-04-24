@@ -25,6 +25,11 @@
        #8) TESTS="chromatic" ;;
 #esac      
 
+source /z/software/form/git/env.sh
+#source /z/software/python/env.sh
+source form-bench-env/bin/activate
+import matplotlib.pyplot as plt
+
 case $SLURM_ARRAY_TASK_ID in
        1) TESTS="nowork-10" ;;
        2) TESTS="nowork-100" ;;
@@ -33,10 +38,6 @@ case $SLURM_ARRAY_TASK_ID in
        5) TESTS="disordered-10" ;;
        6) TESTS="disordered-100" ;;
 esac  
-
-     
-source /z/software/form/git/env.sh
-import matplotlib.pyplot as plt
 
 #running for array
 ./run-compare-local.sh --tests="$TESTS" --label="tests_t=8_difficulty=1_20G_N=12" --timestamp="1" --testdir="$TMPDIR"
