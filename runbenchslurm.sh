@@ -26,7 +26,7 @@
 #esac      
 
 source /z/software/form/git/env.sh
-#source /z/software/python/env.sh
+source /z/software/python/env.sh
 source form-bench-env/bin/activate
 import matplotlib.pyplot as plt
 
