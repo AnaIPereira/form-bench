@@ -40,7 +40,7 @@ case $SLURM_ARRAY_TASK_ID in
 esac  
 
 #running for array
-./run-compare-local.sh --tests="$TESTS" --label="tests_t=8_difficulty=1_20G_N=12" --timestamp="1" --testdir="$TMPDIR"
+perf record ./run-compare-local.sh --tests="$TESTS" --label="tests_t=8_difficulty=1_20G_N=12" --timestamp="1" --testdir="$TMPDIR"
 
 
 
