@@ -1,0 +1,38 @@
+/var/spool/slurmd/job40283/slurm_script: line 29: /z/software/python/env.sh: No such file or directory
+/var/spool/slurmd/job40283/slurm_script: line 31: import: command not found
+form-bench: 3be4a15d17351580aba3dbe646aae6659bfc7064
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8
+	TESTS      = nowork-100
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+
+
+Running nowork-100
+Benchmark 1: form
+  Time (abs ≡):        22.433 s               [User: 22.373 s, System: 0.019 s]
+ 
+Benchmark 2: tform -w4
+  Time (abs ≡):        29.475 s               [User: 80.061 s, System: 3.481 s]
+ 
+Benchmark 3: tform -w8
+  Time (abs ≡):        22.116 s               [User: 81.689 s, System: 4.242 s]
+ 
+Summary
+  tform -w8 ran
+    1.01 times faster than form
+    1.33 times faster than tform -w4
+Create plots for results:  /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+    results-nowork-100.json
+Traceback (most recent call last):
+  File "/z/users/acpereira/form-bench/scripts/plot-compare.py", line 66, in <module>
+    speedup_err = [statistics.stdev(su) for su in speedup_raw]
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/statistics.py", line 970, in stdev
+    raise StatisticsError('stdev requires at least two data points')
+statistics.StatisticsError: stdev requires at least two data points
+Cleaning up

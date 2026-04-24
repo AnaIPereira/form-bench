@@ -1,0 +1,47 @@
+/var/spool/slurmd/job40282/slurm_script: line 29: /z/software/python/env.sh: No such file or directory
+/var/spool/slurmd/job40282/slurm_script: line 31: import: command not found
+form-bench: 3be4a15d17351580aba3dbe646aae6659bfc7064
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8
+	TESTS      = nowork-10
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+
+
+Running nowork-10
+Benchmark 1: form
+  Time (abs ≡):         2.296 s               [User: 2.218 s, System: 0.016 s]
+ 
+Benchmark 2: tform -w4
+  Time (abs ≡):         2.674 s               [User: 6.186 s, System: 0.789 s]
+ 
+Benchmark 3: tform -w8
+  Time (abs ≡):         2.621 s               [User: 8.220 s, System: 1.517 s]
+ 
+Summary
+  form ran
+    1.14 times faster than tform -w8
+    1.16 times faster than tform -w4
+Create plots for results:  /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+    results-nowork-100.json
+Traceback (most recent call last):
+  File "/z/users/acpereira/form-bench/scripts/plot-compare.py", line 43, in <module>
+    res = json.load(of)["results"]
+          ^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Cleaning up
