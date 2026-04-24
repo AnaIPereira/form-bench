@@ -1,0 +1,70 @@
+====
+Starting job 10677212 at Thu 23 Apr 09:30:24 BST 2026 for user dc-cost5.
+Running on nodes: m8102
+====
+form-bench: 5ba014972dd9d1fd4d100eb9ecf45e15640857bc
+	LABEL      = tests_t=32_difficulty=1_40G_N=120
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = ordered-10
+	N          = 120
+	DIFFICULTY = 1
+Results: /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=1_40G_N=120-1/results/
+
+
+Running ordered-10
+Benchmark 1: form
+  Time (mean ± σ):      4.090 s ±  0.023 s    [User: 4.060 s, System: 0.007 s]
+  Range (min … max):    4.026 s …  4.196 s    120 runs
+ 
+Benchmark 2: tform -w4
+  Time (mean ± σ):      2.213 s ±  0.023 s    [User: 6.581 s, System: 0.411 s]
+  Range (min … max):    2.090 s …  2.265 s    120 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 3: tform -w8
+  Time (mean ± σ):      2.133 s ±  0.138 s    [User: 7.417 s, System: 0.790 s]
+  Range (min … max):    1.838 s …  2.460 s    120 runs
+ 
+Benchmark 4: tform -w16
+  Time (mean ± σ):      2.498 s ±  0.177 s    [User: 8.918 s, System: 1.493 s]
+  Range (min … max):    2.197 s …  3.289 s    120 runs
+ 
+Benchmark 5: tform -w24
+  Time (mean ± σ):      3.074 s ±  0.371 s    [User: 10.108 s, System: 2.374 s]
+  Range (min … max):    2.508 s …  4.612 s    120 runs
+ 
+Benchmark 6: tform -w32
+  Time (mean ± σ):      3.527 s ±  0.435 s    [User: 11.258 s, System: 3.328 s]
+  Range (min … max):    3.023 s …  4.789 s    120 runs
+ 
+Summary
+  tform -w8 ran
+    1.04 ± 0.07 times faster than tform -w4
+    1.17 ± 0.11 times faster than tform -w16
+    1.44 ± 0.20 times faster than tform -w24
+    1.65 ± 0.23 times faster than tform -w32
+    1.92 ± 0.12 times faster than form
+Create plots for results:  /cosma/home/dr004/dc-cost5/form-bench/output/tests_t=32_difficulty=1_40G_N=120-1/results/
+    results-disordered-10.json
+    results-disordered-100.json
+Traceback (most recent call last):
+  File "/cosma/home/dr004/dc-cost5/form-bench/scripts/plot-compare.py", line 43, in <module>
+    res = json.load(of)["results"]
+          ^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cosma/local/Python/3.12.4/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Cleaning up
