@@ -35,6 +35,7 @@ case $SLURM_ARRAY_TASK_ID in
 esac  
 
      
+source /z/software/form/git/env.sh
 
 #running for array
 ./run-compare-local.sh --tests="$TESTS" --label="tests_t=8_difficulty=1_20G_N=12" --timestamp="1" --testdir="$TMPDIR"
