@@ -184,7 +184,7 @@ for test in $TESTS; do
 		"nice -n $NICE {form} $test.frm > $LOGDIR/$test.log"
 	)
 done
-python3 "$ORIGDIR/scripts/plot-compare.py" "$RESULTSDIR"
+#python3 "$ORIGDIR/scripts/plot-compare.py" "$RESULTSDIR"
 
 # Clean up
 cd "$ORIGDIR"
