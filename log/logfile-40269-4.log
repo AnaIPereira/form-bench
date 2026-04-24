@@ -1,0 +1,11 @@
+/var/spool/slurmd/job40273/slurm_script: line 31: import: command not found
+form-bench: ccc70167fa9a67abdbc02c231db84b90b399887e
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = ordered-100
+	N          = 1
+	DIFFICULTY = 1
+Error, script requires hyperfine

@@ -1,0 +1,49 @@
+/var/spool/slurmd/job40269/slurm_script: line 31: import: command not found
+form-bench: ccc70167fa9a67abdbc02c231db84b90b399887e
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = disordered-100
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+
+
+Running disordered-100
+Benchmark 1: form
+  Time (abs ≡):        81.823 s               [User: 81.724 s, System: 0.020 s]
+ 
+Benchmark 2: tform -w4
+  Time (abs ≡):        30.768 s               [User: 107.797 s, System: 1.142 s]
+ 
+Benchmark 3: tform -w8
+  Time (abs ≡):        32.059 s               [User: 185.099 s, System: 2.102 s]
+ 
+Benchmark 4: tform -w16
+  Time (abs ≡):        32.070 s               [User: 202.668 s, System: 5.535 s]
+ 
+Benchmark 5: tform -w24
+  Time (abs ≡):        33.077 s               [User: 204.962 s, System: 6.738 s]
+ 
+Benchmark 6: tform -w32
+  Time (abs ≡):        32.959 s               [User: 206.099 s, System: 7.690 s]
+ 
+Summary
+  tform -w4 ran
+    1.04 times faster than tform -w8
+    1.04 times faster than tform -w16
+    1.07 times faster than tform -w32
+    1.08 times faster than tform -w24
+    2.66 times faster than form
+Create plots for results:  /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+    results-nowork-100.json
+Traceback (most recent call last):
+  File "/z/users/acpereira/form-bench/scripts/plot-compare.py", line 66, in <module>
+    speedup_err = [statistics.stdev(su) for su in speedup_raw]
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/statistics.py", line 970, in stdev
+    raise StatisticsError('stdev requires at least two data points')
+statistics.StatisticsError: stdev requires at least two data points
+Cleaning up
