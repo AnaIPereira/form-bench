@@ -1,0 +1,50 @@
+/var/spool/slurmd/job40277/slurm_script: line 29: /z/software/python/env.sh: No such file or directory
+/var/spool/slurmd/job40277/slurm_script: line 31: import: command not found
+form-bench: 081ba397a948c4cdec9dbec89fa19aafc560b2b8
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = nowork-100
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+
+
+Running nowork-100
+Benchmark 1: form
+  Time (abs ≡):        22.915 s               [User: 22.723 s, System: 0.020 s]
+ 
+Benchmark 2: tform -w4
+  Time (abs ≡):        28.583 s               [User: 78.342 s, System: 3.293 s]
+ 
+Benchmark 3: tform -w8
+  Time (abs ≡):        22.063 s               [User: 80.978 s, System: 4.226 s]
+ 
+Benchmark 4: tform -w16
+  Time (abs ≡):        18.641 s               [User: 66.682 s, System: 4.940 s]
+ 
+Benchmark 5: tform -w24
+  Time (abs ≡):        20.457 s               [User: 72.072 s, System: 6.142 s]
+ 
+Benchmark 6: tform -w32
+  Time (abs ≡):        19.475 s               [User: 69.931 s, System: 6.506 s]
+ 
+Summary
+  tform -w16 ran
+    1.04 times faster than tform -w32
+    1.10 times faster than tform -w24
+    1.18 times faster than tform -w8
+    1.23 times faster than form
+    1.53 times faster than tform -w4
+Create plots for results:  /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+    results-nowork-100.json
+Traceback (most recent call last):
+  File "/z/users/acpereira/form-bench/scripts/plot-compare.py", line 66, in <module>
+    speedup_err = [statistics.stdev(su) for su in speedup_raw]
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/statistics.py", line 970, in stdev
+    raise StatisticsError('stdev requires at least two data points')
+statistics.StatisticsError: stdev requires at least two data points
+Cleaning up

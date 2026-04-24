@@ -1,0 +1,12 @@
+/var/spool/slurmd/job40279/slurm_script: line 29: /z/software/python/env.sh: No such file or directory
+/var/spool/slurmd/job40279/slurm_script: line 31: import: command not found
+form-bench: 081ba397a948c4cdec9dbec89fa19aafc560b2b8
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = ordered-100
+	N          = 1
+	DIFFICULTY = 1
+Error, script requires hyperfine
