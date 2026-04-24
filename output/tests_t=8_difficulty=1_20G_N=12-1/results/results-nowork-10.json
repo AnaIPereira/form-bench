@@ -1,0 +1,118 @@
+{
+  "results": [
+    {
+      "command": "form",
+      "mean": 2.66888526574,
+      "stddev": null,
+      "median": 2.66888526574,
+      "user": 2.22566854,
+      "system": 0.01593686,
+      "min": 2.66888526574,
+      "max": 2.66888526574,
+      "times": [
+        2.66888526574
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "form"
+      }
+    },
+    {
+      "command": "tform -w4",
+      "mean": 3.44674462974,
+      "stddev": null,
+      "median": 3.44674462974,
+      "user": 7.95350254,
+      "system": 0.95440586,
+      "min": 3.44674462974,
+      "max": 3.44674462974,
+      "times": [
+        3.44674462974
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w4"
+      }
+    },
+    {
+      "command": "tform -w8",
+      "mean": 2.7106144477400003,
+      "stddev": null,
+      "median": 2.7106144477400003,
+      "user": 8.77406354,
+      "system": 1.57554586,
+      "min": 2.7106144477400003,
+      "max": 2.7106144477400003,
+      "times": [
+        2.7106144477400003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w8"
+      }
+    },
+    {
+      "command": "tform -w16",
+      "mean": 2.87957481974,
+      "stddev": null,
+      "median": 2.87957481974,
+      "user": 8.10345954,
+      "system": 2.40173286,
+      "min": 2.87957481974,
+      "max": 2.87957481974,
+      "times": [
+        2.87957481974
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w16"
+      }
+    },
+    {
+      "command": "tform -w24",
+      "mean": 3.66580626574,
+      "stddev": null,
+      "median": 3.66580626574,
+      "user": 9.628273539999999,
+      "system": 3.9824858599999997,
+      "min": 3.66580626574,
+      "max": 3.66580626574,
+      "times": [
+        3.66580626574
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w24"
+      }
+    },
+    {
+      "command": "tform -w32",
+      "mean": 4.19408373774,
+      "stddev": null,
+      "median": 4.19408373774,
+      "user": 10.803098539999999,
+      "system": 5.37567786,
+      "min": 4.19408373774,
+      "max": 4.19408373774,
+      "times": [
+        4.19408373774
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w32"
+      }
+    }
+  ]
+}

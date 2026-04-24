@@ -1,0 +1,10 @@
+form-bench: f0f135e884bd1d3c37bce89f1392c8789f3f03d6
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = nowork-100
+	N          = 1
+	DIFFICULTY = 1
+Error, script requires form

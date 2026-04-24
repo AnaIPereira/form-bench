@@ -1,0 +1,43 @@
+form-bench: c26c9086b2fb00dec3a3fac8af65498e08cccff5
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = nowork-10
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+
+
+Running nowork-10
+Benchmark 1: form
+  Time (abs ≡):         2.669 s               [User: 2.226 s, System: 0.016 s]
+ 
+Benchmark 2: tform -w4
+  Time (abs ≡):         3.447 s               [User: 7.954 s, System: 0.954 s]
+ 
+Benchmark 3: tform -w8
+  Time (abs ≡):         2.711 s               [User: 8.774 s, System: 1.576 s]
+ 
+Benchmark 4: tform -w16
+  Time (abs ≡):         2.880 s               [User: 8.103 s, System: 2.402 s]
+ 
+Benchmark 5: tform -w24
+  Time (abs ≡):         3.666 s               [User: 9.628 s, System: 3.982 s]
+ 
+Benchmark 6: tform -w32
+  Time (abs ≡):         4.194 s               [User: 10.803 s, System: 5.376 s]
+ 
+Summary
+  form ran
+    1.02 times faster than tform -w8
+    1.08 times faster than tform -w16
+    1.29 times faster than tform -w4
+    1.37 times faster than tform -w24
+    1.57 times faster than tform -w32
+Traceback (most recent call last):
+  File "/z/users/acpereira/form-bench/scripts/plot-compare.py", line 8, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+Cleaning up

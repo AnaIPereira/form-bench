@@ -1,0 +1,10 @@
+form-bench: 68cf23d23a0fc849a0a293192451b1cf6f96d9a8
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = ordered-10
+	N          = 12
+	DIFFICULTY = 1
+Error, script requires hyperfine
