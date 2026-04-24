@@ -1,0 +1,28 @@
+/var/spool/slurmd/job40287/slurm_script: line 29: /z/software/python/env.sh: No such file or directory
+/var/spool/slurmd/job40287/slurm_script: line 31: import: command not found
+form-bench: eb9d70e5c5d3bbe93ac9841983e5a5a6a654c150
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8
+	TESTS      = disordered-100
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+
+
+Running disordered-100
+Benchmark 1: form
+  Time (abs ≡):        87.737 s               [User: 87.653 s, System: 0.010 s]
+ 
+Benchmark 2: tform -w4
+  Time (abs ≡):        31.285 s               [User: 109.549 s, System: 1.158 s]
+ 
+Benchmark 3: tform -w8
+  Time (abs ≡):        31.918 s               [User: 184.085 s, System: 2.235 s]
+ 
+Summary
+  tform -w4 ran
+    1.02 times faster than tform -w8
+    2.80 times faster than form
