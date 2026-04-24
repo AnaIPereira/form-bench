@@ -1,0 +1,44 @@
+/var/spool/slurmd/job40257/slurm_script: line 39: import: command not found
+form-bench: bc737feafdb934ced0621394ae743be18af15c11
+	LABEL      = tests_t=8_difficulty=1_20G_N=12
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32
+	TESTS      = disordered-100
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/tests_t=8_difficulty=1_20G_N=12-1/results/
+
+
+Running disordered-100
+Benchmark 1: form
+  Time (abs ≡):        81.914 s               [User: 81.819 s, System: 0.017 s]
+ 
+Benchmark 2: tform -w4
+  Time (abs ≡):        32.482 s               [User: 112.512 s, System: 1.239 s]
+ 
+Benchmark 3: tform -w8
+  Time (abs ≡):        31.931 s               [User: 183.912 s, System: 2.101 s]
+ 
+Benchmark 4: tform -w16
+  Time (abs ≡):        32.058 s               [User: 202.579 s, System: 5.452 s]
+ 
+Benchmark 5: tform -w24
+  Time (abs ≡):        33.066 s               [User: 205.432 s, System: 6.780 s]
+ 
+Benchmark 6: tform -w32
+  Time (abs ≡):        33.078 s               [User: 207.433 s, System: 7.363 s]
+ 
+Summary
+  tform -w8 ran
+    1.00 times faster than tform -w16
+    1.02 times faster than tform -w4
+    1.04 times faster than tform -w24
+    1.04 times faster than tform -w32
+    2.57 times faster than form
+Traceback (most recent call last):
+  File "/z/users/acpereira/form-bench/scripts/plot-compare.py", line 8, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+Cleaning up
