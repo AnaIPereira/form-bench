@@ -37,13 +37,13 @@ NICE=0
 # tform -w24\
 #"
 
-FORM_CMDS="form,tform -w4,tform -w8,tform -w16,tform -w24,tform -w32"
+FORM_CMDS="form,tform -w4,tform -w8"
 
 #TESTS="trace mincer minceex mass-fact forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
 # TESTS="trace mincer minceex forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
 
 # Number of times to run test batches:
-N=12
+N=1
 
 # Run a harder version of the tests? Not all tests are affected by this.
 DIFFICULTY=1

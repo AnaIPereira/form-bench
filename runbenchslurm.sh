@@ -8,7 +8,7 @@
 #SBATCH --export=ALL
 #SBATCH --mem=20G
 #SBATCH --cpus-per-task=8
-#SBATCH --time 0-05:00:00
+#SBATCH --time 0-01:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
@@ -40,7 +40,7 @@ case $SLURM_ARRAY_TASK_ID in
 esac  
 
 #running for array
-perf record ./run-compare-local.sh --tests="$TESTS" --label="tests_t=8_difficulty=1_20G_N=12" --timestamp="1" --testdir="$TMPDIR"
+perf record ./run-compare-local.sh --tests="$TESTS" --label="tests_perftrial" --timestamp="1" --testdir="$TMPDIR"
 
 
 

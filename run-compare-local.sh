@@ -37,11 +37,11 @@ NICE=0
 # tform -w24\
 #"
 
-FORM_CMDS="form,tform -w4,tform -w8"
+FORM_CMDS="tform -w2"
 
 #TESTS="trace mincer minceex mass-fact forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
 # TESTS="trace mincer minceex forcer forcer-exp fmft mbox1l color chromatic sort-small sort-large sort-disk"
-
+TESTS="nowork-10"
 # Number of times to run test batches:
 N=1
 
@@ -184,7 +184,7 @@ for test in $TESTS; do
 		"nice -n $NICE {form} $test.frm > $LOGDIR/$test.log"
 	)
 done
-#python3 "$ORIGDIR/scripts/plot-compare.py" "$RESULTSDIR"
+python3 "$ORIGDIR/scripts/plot-compare.py" "$RESULTSDIR"
 
 # Clean up
 cd "$ORIGDIR"
