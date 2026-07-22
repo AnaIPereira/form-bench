@@ -9,7 +9,7 @@
 
 #SBATCH --export=ALL
 #SBATCH --mem=20G
-#SBATCH --cpus-per-task=32
+#SBATCH --cpus-per-task=8
 #SBATCH --time 0-2:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
@@ -26,10 +26,10 @@ esac
 #running for array
 ./run-compare.sh \
   --tests "$TESTS" \
-  --label "sortbotsfunc32" \
+  --label "sortbotsfunc8" \
   --timestamp "1" \
   --testdir "$TMPDIR" \
-  --form_cmds "tformsb -w32,tform10_10_1 -w32"
+  --form_cmds "tformsb -w8,tform10_10_1 -w8"
 
 
 
