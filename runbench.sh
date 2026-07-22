@@ -24,7 +24,7 @@ esac
  
 
 #running for array
-./run-compare.sh --tests="$TESTS" --label="sotbotsfunc8" --timestamp="1" --testdir="$TMPDIR" --form_cmds="tformsb -w16, tform10_10_1 -w16"
+./run-compare.sh --tests="$TESTS" --label="sotbotsfunc16" --timestamp="1" --testdir="$TMPDIR" --form_cmds="tformsb -w16, tform10_10_1 -w16"
 
 
 
