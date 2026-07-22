@@ -1,0 +1,19 @@
+form-bench: 789eecdd1a3370ac4aa8ecf18ab01e09463242bf
+	LABEL      = sortbotsfunc8
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsb -w8,/z/users/acpereira/software/bin/tform5.0 -w8
+	TESTS      = sort-2-large
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc8-1/results/
+
+
+Running sort-2-large
+Benchmark 1: /z/users/acpereira/software/bin/tformsb -w8
+  Time (mean ± σ):     102.478 s ±  1.912 s    [User: 664.358 s, System: 32.595 s]
+  Range (min … max):   100.598 s … 105.838 s    6 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform5.0 -w8
+slurmstepd: error: *** JOB 114339 ON node04 CANCELLED AT 2026-07-22T13:11:31 ***

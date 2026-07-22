@@ -1,0 +1,99 @@
+TFORM 5.0.0-beta.1 (Jun  2 2026, v5.0.0-beta.1-366-g110a553) 32 workers  Run: Wed Jul 22 13:25:58 2026
+    #-
+
+Time =       0.02 sec    Generated terms =       6001  (  6 K  )
+            test         Terms in output =       6001  (  6 K  )
+                 setup-0 Bytes used      =     144196  (144 KiB)
+                         Unsorted bytes  =     936060  (936 KiB)
+                         Small Buffer    =    0,    0
+                         Large Buffer    =    0,    0
+                         Comparisons     =      17999  ( 18 K  )
+
+Time =       1.04 sec    Generated terms =       6001  (  6 K  )
+            test         Terms in output =       6001  (  6 K  )
+                 setup-1 Bytes used      =     336092  (336 KiB)
+                         Unsorted bytes  = 1152312060  (  1 GiB)
+                         Small Buffer    =    0,  362
+                         Large Buffer    =    0,    0
+                         Comparisons     =  277426248  (277 M  )
+
+Time =       2.84 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc x 1/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  932
+                         Large Buffer    =    0,    0
+                         Comparisons     =  438384650  (438 M  )
+
+Time =       4.45 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc y 1/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  937
+                         Large Buffer    =    0,    0
+                         Comparisons     =  440590443  (441 M  )
+
+Time =       5.49 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc x 2/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  933
+                         Large Buffer    =    0,    0
+                         Comparisons     =  440359209  (440 M  )
+
+Time =       6.52 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc y 2/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  928
+                         Large Buffer    =    0,    0
+                         Comparisons     =  438979968  (439 M  )
+
+Time =       7.72 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc x 3/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  931
+                         Large Buffer    =    0,    0
+                         Comparisons     =  439200476  (439 M  )
+
+Time =       9.24 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc y 3/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  933
+                         Large Buffer    =    0,    0
+                         Comparisons     =  439295031  (439 M  )
+
+Time =      10.60 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc x 4/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  930
+                         Large Buffer    =    0,    0
+                         Comparisons     =  439094915  (439 M  )
+
+Time =      11.63 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc y 4/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  932
+                         Large Buffer    =    0,    0
+                         Comparisons     =  438945842  (439 M  )
+
+Time =      12.18 sec    Generated terms =       6001  (  6 K  )
+            test         Terms in output =          0  ( <1 K  )
+                         Bytes used      =          4  ( <1 KiB)
+                         Unsorted bytes  =     356252  (356 KiB)
+                         Small Buffer    =    0,    0
+                         Large Buffer    =    0,    0
+                         Comparisons     =      11956  ( 12 K  )
+
+Time =      12.18 sec    Generated terms =          0  ( <1 K  )
+            test         Terms in output =          0  ( <1 K  )
+                         Bytes used      =          4  ( <1 KiB)
+                         Unsorted bytes  =          0  ( <1 KiB)
+                         Small Buffer    =    0,    0
+                         Large Buffer    =    0,    0
+                         Comparisons     =          0  ( <1 K  )
+  12.18 sec + 251.24 sec: 263.42 sec out of 16.58 sec

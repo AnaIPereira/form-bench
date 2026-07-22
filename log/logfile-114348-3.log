@@ -1,0 +1,19 @@
+form-bench: 3837147fa544bb6303624318352272dd6314aea2
+	LABEL      = sortbotsfunc32
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsb -w32,/z/users/acpereira/software/bin/tform5.0 -w32
+	TESTS      = sort-2-small
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc32-1/results/
+
+
+Running sort-2-small
+Benchmark 1: /z/users/acpereira/software/bin/tformsb -w32
+  Time (mean ± σ):      4.793 s ±  0.091 s    [User: 81.042 s, System: 3.490 s]
+  Range (min … max):    4.660 s …  4.905 s    10 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform5.0 -w32
+slurmstepd: error: *** JOB 114348 ON node03 CANCELLED AT 2026-07-22T13:15:45 ***

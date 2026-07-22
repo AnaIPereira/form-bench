@@ -1,0 +1,29 @@
+form-bench: 3837147fa544bb6303624318352272dd6314aea2
+	LABEL      = sortbotsfunc32
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsb -w32,/z/users/acpereira/software/bin/tform5.0 -w32
+	TESTS      = sort-2-small
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc32-1/results/
+
+
+Running sort-2-small
+Benchmark 1: /z/users/acpereira/software/bin/tformsb -w32
+  Time (mean ± σ):      4.225 s ±  0.102 s    [User: 49.516 s, System: 3.738 s]
+  Range (min … max):    4.076 s …  4.378 s    10 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform5.0 -w32
+  Time (mean ± σ):      4.344 s ±  0.100 s    [User: 49.936 s, System: 3.666 s]
+  Range (min … max):    4.215 s …  4.553 s    10 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tformsb -w32 ran
+    1.03 ± 0.03 times faster than /z/users/acpereira/software/bin/tform5.0 -w32
+Traceback (most recent call last):
+  File "/z/users/acpereira/form-bench/scripts/plot-compare.py", line 8, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+Cleaning up

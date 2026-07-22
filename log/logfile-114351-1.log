@@ -1,0 +1,18 @@
+form-bench: a0319107a6ea30b991e264dd5603ea53d6f9678d
+	LABEL      = sortbotsfunc8
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsb -w8,/z/users/acpereira/software/bin/tform5.0 -w8
+	TESTS      = sort-2-disk
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc8-1/results/
+
+
+Running sort-2-disk
+Benchmark 1: /z/users/acpereira/software/bin/tformsb -w8
+  Time (mean ± σ):     285.303 s ±  1.163 s    [User: 1971.233 s, System: 79.587 s]
+  Range (min … max):   284.481 s … 286.126 s    2 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform5.0 -w8
