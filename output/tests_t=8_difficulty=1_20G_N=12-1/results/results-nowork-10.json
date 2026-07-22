@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "command": "form",
+      "mean": 2.18694032904,
+      "stddev": null,
+      "median": 2.18694032904,
+      "user": 2.14176244,
+      "system": 0.00520018,
+      "min": 2.18694032904,
+      "max": 2.18694032904,
+      "times": [
+        2.18694032904
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "form"
+      }
+    },
+    {
+      "command": "tform -w4",
+      "mean": 3.51216109504,
+      "stddev": null,
+      "median": 3.51216109504,
+      "user": 8.458340439999999,
+      "system": 0.86072818,
+      "min": 3.51216109504,
+      "max": 3.51216109504,
+      "times": [
+        3.51216109504
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w4"
+      }
+    },
+    {
+      "command": "tform -w8",
+      "mean": 2.46753685104,
+      "stddev": null,
+      "median": 2.46753685104,
+      "user": 7.409396439999999,
+      "system": 1.3317631799999998,
+      "min": 2.46753685104,
+      "max": 2.46753685104,
+      "times": [
+        2.46753685104
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w8"
+      }
+    }
+  ]
+}

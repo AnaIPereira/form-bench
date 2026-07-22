@@ -1,0 +1,13 @@
+FORM 4.1 (May 14 2026, v4.1-20131025-926-g64d92a4-dirty)  Run: Fri May 15 20:24:55 2026
+    #-
+~~~sort-test.h: generating terms: 33554432
+
+Time =       0.00 sec    Generated terms =         64
+           test1         Terms in output =         64
+                         Bytes used      =       4888
+
+Time =       0.03 sec    Generated terms =     131072
+           test1         Terms in output =     131072
+                         Bytes used      =    3145744
+  0.03 sec out of 0.03 sec
+~~~sort-test.h: expand and cancel

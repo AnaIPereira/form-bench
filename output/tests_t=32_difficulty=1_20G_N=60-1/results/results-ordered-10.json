@@ -1,0 +1,136 @@
+{
+  "results": [
+    {
+      "command": "form",
+      "mean": 4.18950174068,
+      "stddev": null,
+      "median": 4.18950174068,
+      "user": 4.096304040000001,
+      "system": 0.01100538,
+      "min": 4.18950174068,
+      "max": 4.18950174068,
+      "times": [
+        4.18950174068
+      ],
+      "memory_usage_byte": [
+        13455360
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "form"
+      }
+    },
+    {
+      "command": "tform -w4",
+      "mean": 2.1828531396799997,
+      "stddev": null,
+      "median": 2.1828531396799997,
+      "user": 6.36348104,
+      "system": 0.41805637999999995,
+      "min": 2.1828531396799997,
+      "max": 2.1828531396799997,
+      "times": [
+        2.1828531396799997
+      ],
+      "memory_usage_byte": [
+        37376000
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w4"
+      }
+    },
+    {
+      "command": "tform -w8",
+      "mean": 1.81407358668,
+      "stddev": null,
+      "median": 1.81407358668,
+      "user": 6.73897904,
+      "system": 0.8624033799999999,
+      "min": 1.81407358668,
+      "max": 1.81407358668,
+      "times": [
+        1.81407358668
+      ],
+      "memory_usage_byte": [
+        66555904
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w8"
+      }
+    },
+    {
+      "command": "tform -w16",
+      "mean": 2.44474060968,
+      "stddev": null,
+      "median": 2.44474060968,
+      "user": 8.77790404,
+      "system": 1.54216738,
+      "min": 2.44474060968,
+      "max": 2.44474060968,
+      "times": [
+        2.44474060968
+      ],
+      "memory_usage_byte": [
+        120864768
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w16"
+      }
+    },
+    {
+      "command": "tform -w24",
+      "mean": 3.08605366268,
+      "stddev": null,
+      "median": 3.08605366268,
+      "user": 10.176044039999999,
+      "system": 2.49826338,
+      "min": 3.08605366268,
+      "max": 3.08605366268,
+      "times": [
+        3.08605366268
+      ],
+      "memory_usage_byte": [
+        200847360
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w24"
+      }
+    },
+    {
+      "command": "tform -w32",
+      "mean": 3.20355635968,
+      "stddev": null,
+      "median": 3.20355635968,
+      "user": 10.649947039999999,
+      "system": 3.23688038,
+      "min": 3.20355635968,
+      "max": 3.20355635968,
+      "times": [
+        3.20355635968
+      ],
+      "memory_usage_byte": [
+        270204928
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "form": "tform -w32"
+      }
+    }
+  ]
+}

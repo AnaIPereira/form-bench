@@ -1,0 +1,24 @@
+FORM 4.1 (May  8 2026, v4.1-20131025-926-g64d92a4)  Run: Wed May 13 05:09:09 2026
+    #-
+~~~
+~~~reduction X started                 
+~~~
+  1.93 sec out of 1.94 sec
+~~~
+~~~reduction H started                 
+~~~
+  31.84 sec out of 31.99 sec
+~~~
+~~~reduction BMW started                 
+~~~
+  52.43 sec out of 52.68 sec
+~~~
+~~~reduction FG started                 
+~~~
+~~~
+~~~reduce F                
+~~~
+  429.67 sec out of 431.70 sec
+~~~
+~~~reduce V                
+~~~

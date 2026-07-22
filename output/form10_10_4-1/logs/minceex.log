@@ -1,0 +1,423 @@
+TFORM 4.1 (May 14 2026, v4.1-20131025-926-g64d92a4-dirty) 8 workers  Run: Fri May 15 15:55:24 2026
+    #-
+~~~GAUGE = 0, POW = 8, PROJ = 0
+
+Time =       0.00 sec    Generated terms =          1
+             d9c         Terms in output =          1
+                 Physics Bytes used      =        636
+
+Time =       0.00 sec    Generated terms =          1
+             d9c         Terms in output =          1
+                         Bytes used      =        420
+
+Time =       0.00 sec    Generated terms =          1
+             d9c         Terms in output =          1
+       Gluon Propagators Bytes used      =        324
+
+Time =       0.00 sec    Generated terms =          6
+             d9c         Terms in output =          6
+    Vertex substitutions Bytes used      =       1312
+
+Time =       0.00 sec    Generated terms =          6
+             d9c         Terms in output =          6
+       Vertex identities Bytes used      =       1312
+
+Time =       0.00 sec    Generated terms =      28080
+             d9c         Terms in output =        315
+                  Traces Bytes used      =      77488
+
+Time =       0.00 sec    Generated terms =        495
+             d9c         Terms in output =        267
+                   moms0 Bytes used      =      68660
+
+Time =       0.00 sec    Generated terms =        267
+             d9c         Terms in output =        267
+                 symtopo Bytes used      =      68660
+
+Time =       0.00 sec    Generated terms =       1068
+             d9c         Terms in output =        636
+                momsubs1 Bytes used      =     159204
+
+Time =       0.00 sec    Generated terms =       2104
+             d9c         Terms in output =        569
+                   subs2 Bytes used      =     144128
+
+Time =       0.00 sec    Generated terms =        891
+             d9c         Terms in output =        439
+                 momsubs Bytes used      =     112404
+
+Time =       0.01 sec    Generated terms =        439
+             d9c         Terms in output =        439
+            no rewrite 0 Bytes used      =     102020
+
+Time =       0.01 sec    Generated terms =        666
+             d9c         Terms in output =        467
+            no rewrite 1 Bytes used      =     111164
+
+Time =       0.01 sec    Generated terms =        734
+             d9c         Terms in output =        557
+            no rewrite 2 Bytes used      =     130880
+
+Time =       0.01 sec    Generated terms =        959
+             d9c         Terms in output =        696
+            no rewrite 3 Bytes used      =     164900
+
+Time =       0.01 sec    Generated terms =       1022
+             d9c         Terms in output =        779
+            no rewrite 4 Bytes used      =     169980
+
+Time =       0.01 sec    Generated terms =       3959
+             d9c         Terms in output =       1018
+            no rewrite 5 Bytes used      =     210644
+
+Time =       0.01 sec    Generated terms =       7765
+             d9c         Terms in output =       5252
+             Expand in P Bytes used      =    1025204
+
+Time =       0.02 sec    Generated terms =       5252
+             d9c         Terms in output =       5252
+                momsubs1 Bytes used      =    1025204
+
+Time =       0.02 sec    Generated terms =       5252
+             d9c         Terms in output =       5252
+                   subs2 Bytes used      =    1025204
+
+Time =       0.02 sec    Generated terms =       5252
+             d9c         Terms in output =       5164
+                    sym2 Bytes used      =    1086116
+
+Time =       0.06 sec    Generated terms =      71791
+             d9c         Terms in output =      47329
+               harmonics Bytes used      =   19920436
+
+Time =       0.08 sec    Generated terms =      47329
+             d9c         Terms in output =      47329
+                         Bytes used      =   19920436
+
+Time =       0.11 sec    Generated terms =      69559
+             d9c         Terms in output =      56458
+               integno-1 Bytes used      =   25317124
+
+Time =       0.13 sec    Generated terms =      56458
+             d9c         Terms in output =      56458
+              integno-1a Bytes used      =   25317124
+
+Time =       0.15 sec    Generated terms =      56458
+             d9c         Terms in output =      56458
+              integno-1b Bytes used      =   25317124
+
+Time =       0.17 sec    Generated terms =      56458
+             d9c         Terms in output =      56458
+              integno-2a Bytes used      =   25317124
+
+Time =       0.19 sec    Generated terms =      56458
+             d9c         Terms in output =      56458
+              integno-2b Bytes used      =   25317124
+
+Time =       0.21 sec    Generated terms =      56458
+             d9c         Terms in output =      56458
+             integno-3-1 Bytes used      =   25317124
+
+Time =       0.23 sec    Generated terms =      56458
+             d9c         Terms in output =      56458
+               integno-4 Bytes used      =   23998032
+
+Time =       0.25 sec    Generated terms =      60279
+             d9c         Terms in output =      55894
+              integno-4a Bytes used      =   23473448
+
+Time =       0.28 sec    Generated terms =     107063
+             d9c         Terms in output =      56839
+              integno-4b Bytes used      =   25179612
+
+Time =       0.30 sec    Generated terms =      58318
+             d9c         Terms in output =      56733
+               integno-5 Bytes used      =   24927160
+
+Time =       0.32 sec    Generated terms =      60898
+             d9c         Terms in output =      56728
+               integno-6 Bytes used      =   25445608
+
+Time =       0.34 sec    Generated terms =      61199
+             d9c         Terms in output =      56778
+               integno-7 Bytes used      =   25474712
+
+Time =       0.36 sec    Generated terms =      56778
+             d9c         Terms in output =      56778
+               integno-8 Bytes used      =   25453024
+
+Time =       0.38 sec    Generated terms =      56778
+             d9c         Terms in output =      56778
+               integno-9 Bytes used      =   25453024
+
+Time =       0.41 sec    Generated terms =     143982
+             d9c         Terms in output =      58547
+              integno-10 Bytes used      =   26432116
+
+Time =       0.43 sec    Generated terms =      58547
+             d9c         Terms in output =      58547
+              integno-11 Bytes used      =   26432116
+
+Time =       0.45 sec    Generated terms =      58899
+             d9c         Terms in output =      58619
+              integno-12 Bytes used      =   26480952
+
+Time =       0.47 sec    Generated terms =      58619
+             d9c         Terms in output =      58619
+              integno-13 Bytes used      =   26480952
+
+Time =       0.49 sec    Generated terms =      58619
+             d9c         Terms in output =      58619
+              integno-14 Bytes used      =   26480952
+
+Time =       0.51 sec    Generated terms =      58619
+             d9c         Terms in output =      58619
+              integno-15 Bytes used      =   26480952
+
+Time =       0.53 sec    Generated terms =      58671
+             d9c         Terms in output =      58653
+              integno-16 Bytes used      =   26510404
+
+Time =       0.55 sec    Generated terms =      58653
+             d9c         Terms in output =      58653
+              integno-17 Bytes used      =   26510404
+
+Time =       0.57 sec    Generated terms =      58653
+             d9c         Terms in output =      58653
+              integno-18 Bytes used      =   26510404
+
+Time =       0.59 sec    Generated terms =      58653
+             d9c         Terms in output =      58653
+              integno-19 Bytes used      =   26510404
+
+Time =       0.61 sec    Generated terms =      59003
+             d9c         Terms in output =      58633
+              integno-20 Bytes used      =   26499556
+
+Time =       0.63 sec    Generated terms =      58693
+             d9c         Terms in output =      58656
+            integno-21-1 Bytes used      =   26516284
+
+Time =       0.65 sec    Generated terms =      58701
+             d9c         Terms in output =      58655
+            integno-21-2 Bytes used      =   26515676
+
+Time =       0.67 sec    Generated terms =      58685
+             d9c         Terms in output =      58654
+            integno-21-3 Bytes used      =   26515132
+
+Time =       0.69 sec    Generated terms =      58669
+             d9c         Terms in output =      58653
+            integno-21-4 Bytes used      =   26514580
+
+Time =       0.71 sec    Generated terms =      58660
+             d9c         Terms in output =      57615
+              integno-22 Bytes used      =   26077332
+
+Time =       0.76 sec    Generated terms =     133429
+             d9c         Terms in output =      68775
+               integfa-1 Bytes used      =   30479980
+
+Time =       0.79 sec    Generated terms =      83853
+             d9c         Terms in output =      75458
+               integfa-2 Bytes used      =   33286128
+
+Time =       0.83 sec    Generated terms =     110759
+             d9c         Terms in output =      82213
+               integfa-3 Bytes used      =   36234992
+
+Time =       0.92 sec    Generated terms =     491903
+             d9c         Terms in output =      94244
+               integfa-4 Bytes used      =   39694912
+
+Time =       0.98 sec    Generated terms =     653491
+             d9c         Terms in output =     103723
+               integfa-5 Bytes used      =   45199100
+
+Time =       1.03 sec    Generated terms =     493019
+             d9c         Terms in output =     117110
+               integfa-6 Bytes used      =   52017332
+
+Time =       1.07 sec    Generated terms =     136413
+             d9c         Terms in output =     125075
+               integfa-7 Bytes used      =   55352360
+
+Time =       1.11 sec    Generated terms =     166631
+             d9c         Terms in output =     125750
+               integfa-8 Bytes used      =   55470816
+
+Time =       1.22 sec    Generated terms =     278541
+             d9c         Terms in output =     167595
+               integfa-9 Bytes used      =   86297376
+
+Time =       1.31 sec    Generated terms =     243329
+             d9c         Terms in output =     175993
+               integbu-1 Bytes used      =   89799108
+
+Time =       1.37 sec    Generated terms =     175993
+             d9c         Terms in output =     175993
+               integbu-2 Bytes used      =   89799108
+
+Time =       1.47 sec    Generated terms =     230063
+             d9c         Terms in output =     178993
+               integbu-3 Bytes used      =   91082072
+
+Time =       1.55 sec    Generated terms =     183837
+             d9c         Terms in output =     178987
+               integbu-4 Bytes used      =   88730296
+
+Time =       1.59 sec    Generated terms =     408025
+             d9c         Terms in output =     184104
+               integbu-5 Bytes used      =   94915656
+
+Time =       1.64 sec    Generated terms =     200808
+             d9c         Terms in output =     183905
+               integbu-6 Bytes used      =   96929716
+
+Time =       1.69 sec    Generated terms =     200305
+             d9c         Terms in output =     183941
+               integbu-7 Bytes used      =   93722812
+
+Time =       1.73 sec    Generated terms =     188412
+             d9c         Terms in output =     183470
+               integbu-8 Bytes used      =   93000140
+
+Time =       1.88 sec    Generated terms =     300127
+             d9c         Terms in output =     200162
+               integbu-9 Bytes used      =  107959932
+
+Time =       1.98 sec    Generated terms =     490237
+             d9c         Terms in output =     218681
+               intego4-1 Bytes used      =  120881688
+
+Time =       2.06 sec    Generated terms =     231778
+             d9c         Terms in output =     221612
+               intego4-2 Bytes used      =  122232344
+
+Time =       2.14 sec    Generated terms =     223025
+             d9c         Terms in output =     221552
+               intego4-3 Bytes used      =  122208064
+
+Time =       2.38 sec    Generated terms =     597204
+             d9c         Terms in output =     232025
+               intego4-4 Bytes used      =  131157368
+
+Time =       2.45 sec    Generated terms =     258960
+             d9c         Terms in output =     236395
+               intego4-5 Bytes used      =  131056588
+
+Time =       2.50 sec    Generated terms =     258796
+             d9c         Terms in output =     235734
+               intego4-6 Bytes used      =  129415732
+
+Time =       2.62 sec    Generated terms =     235734
+             d9c         Terms in output =     235734
+             intego4-7-0 Bytes used      =  126874760
+
+Time =       2.69 sec    Generated terms =     338828
+             d9c         Terms in output =     262555
+             intego4-7-1 Bytes used      =  150056708
+
+Time =       2.75 sec    Generated terms =     457329
+             d9c         Terms in output =     266979
+             intego4-7-2 Bytes used      =  155770464
+
+Time =       2.82 sec    Generated terms =     443696
+             d9c         Terms in output =     258368
+             intego4-7-3 Bytes used      =  149605688
+
+Time =       2.88 sec    Generated terms =     356473
+             d9c         Terms in output =     245912
+             intego4-7-4 Bytes used      =  139228380
+
+Time =       2.93 sec    Generated terms =     266856
+             d9c         Terms in output =     239500
+             intego4-7-5 Bytes used      =  134190096
+
+Time =       2.99 sec    Generated terms =     239500
+             d9c         Terms in output =     239500
+             intego4-8-0 Bytes used      =  139365984
+
+Time =       3.05 sec    Generated terms =     276572
+             d9c         Terms in output =     247544
+               intego4-8 Bytes used      =  140774268
+
+Time =       3.44 sec    Generated terms =     544878
+             d9c         Terms in output =     246772
+               intego4-9 Bytes used      =  153571196
+
+Time =       3.57 sec    Generated terms =     263873
+             d9c         Terms in output =     263540
+               intego1-1 Bytes used      =  160688672
+
+Time =       3.70 sec    Generated terms =     284448
+             d9c         Terms in output =     264577
+               intego1-2 Bytes used      =  161283612
+
+Time =       3.86 sec    Generated terms =     316245
+             d9c         Terms in output =     271373
+               intego1-3 Bytes used      =  164335428
+
+Time =       4.02 sec    Generated terms =     279108
+             d9c         Terms in output =     272387
+               intego1-4 Bytes used      =  166398880
+
+Time =       4.09 sec    Generated terms =     264778
+             d9c         Terms in output =     264778
+               intego1-5 Bytes used      =  162786776
+
+Time =       4.16 sec    Generated terms =     302540
+             d9c         Terms in output =     275745
+               intego1-6 Bytes used      =  163626756
+
+Time =       4.24 sec    Generated terms =     641510
+             d9c         Terms in output =     352179
+               intego1-7 Bytes used      =  217007160
+
+Time =       4.33 sec    Generated terms =     604900
+             d9c         Terms in output =     354488
+               intego1-8 Bytes used      =  218254760
+
+Time =       4.40 sec    Generated terms =     544806
+             d9c         Terms in output =     357286
+               intego1-9 Bytes used      =  233079716
+
+Time =       4.62 sec    Generated terms =     459863
+             d9c         Terms in output =     453529
+             IntOne-o1-1 Bytes used      =  306291832
+
+Time =       5.01 sec    Generated terms =     453529
+             d9c         Terms in output =     259540
+             IntOne-o1-2 Bytes used      =  164029608
+
+Time =       5.21 sec    Generated terms =     369641
+             d9c         Terms in output =     335361
+               intego2-1 Bytes used      =  221298364
+
+Time =       5.52 sec    Generated terms =     624613
+             d9c         Terms in output =     317739
+               intego2-2 Bytes used      =  216339048
+
+Time =       5.61 sec    Generated terms =     314859
+             d9c         Terms in output =     312106
+               intego2-3 Bytes used      =  212084316
+
+Time =       5.69 sec    Generated terms =     352789
+             d9c         Terms in output =     310666
+               intego2-4 Bytes used      =  205224936
+
+Time =       5.82 sec    Generated terms =    1485947
+             d9c         Terms in output =     478142
+               intego2-5 Bytes used      =  352106608
+
+Time =       6.00 sec    Generated terms =    2034440
+             d9c         Terms in output =     638336
+               intego2-6 Bytes used      =  473444236
+
+Time =       6.14 sec    Generated terms =     765222
+             d9c         Terms in output =     601365
+               intego2-7 Bytes used      =  465541140
+
+Time =       6.54 sec    Generated terms =     768372
+             d9c         Terms in output =     756925
+             IntOne-o2-1 Bytes used      =  595366444

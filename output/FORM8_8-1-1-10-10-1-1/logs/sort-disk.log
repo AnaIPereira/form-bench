@@ -1,0 +1,151 @@
+TFORM 4.1 (May 14 2026, v4.1-20131025-926-g64d92a4-dirty) 8 workers  Run: Fri Jun 26 09:04:54 2026
+    #-
+~~~sort-test.h: generating terms: 33554432
+
+Time =       0.00 sec    Generated terms =         64
+           test1         Terms in output =         64
+                         Bytes used      =       4888
+
+Time =       0.00 sec    Generated terms =     131072
+           test1         Terms in output =     131072
+                         Bytes used      =    3145744
+  0.00 sec + 0.06 sec: 0.07 sec out of 0.01 sec
+~~~sort-test.h: expand and cancel
+             Thread 7 reporting
+Time =      62.13 sec
+           test1         Terms active    =      94807
+                         Bytes used      =   26448516
+             Thread 8 reporting
+Time =      67.88 sec
+           test1         Terms active    =     101571
+                         Bytes used      =   28144812
+             Thread 1 reporting
+Time =      67.94 sec
+           test1         Terms active    =      92890
+                         Bytes used      =   26022527
+             Thread 5 reporting
+Time =      73.21 sec
+           test1         Terms active    =      73574
+                         Bytes used      =   21228835
+             Thread 6 reporting
+Time =      74.72 sec
+           test1         Terms active    =      81498
+                         Bytes used      =   23248458
+             Thread 3 reporting
+Time =      75.02 sec
+           test1         Terms active    =      86695
+                         Bytes used      =   24539539
+             Thread 2 reporting
+Time =      75.16 sec
+           test1         Terms active    =      89731
+                         Bytes used      =   25322187
+             Thread 4 reporting
+Time =      75.64 sec
+           test1         Terms active    =      93531
+                         Bytes used      =   26094813
+             Thread 7 reporting
+Time =     122.82 sec
+           test1         Terms active    =     195743
+                         Bytes used      =   51846396
+             Thread 8 reporting
+Time =     133.89 sec
+           test1         Terms active    =     200151
+                         Bytes used      =   53005682
+             Thread 1 reporting
+Time =     138.16 sec
+           test1         Terms active    =     155983
+                         Bytes used      =   41812136
+             Thread 5 reporting
+Time =     145.77 sec
+           test1         Terms active    =     151015
+                         Bytes used      =   40721021
+             Thread 6 reporting
+Time =     146.85 sec
+           test1         Terms active    =     175063
+                         Bytes used      =   46814103
+             Thread 3 reporting
+Time =     146.92 sec
+           test1         Terms active    =     155249
+                         Bytes used      =   41413074
+             Thread 2 reporting
+Time =     147.02 sec
+           test1         Terms active    =     159655
+                         Bytes used      =   42826113
+             Thread 4 reporting
+Time =     148.13 sec
+           test1         Terms active    =     179709
+                         Bytes used      =   47978098
+             Thread 4 reporting
+Time =     150.07 sec
+           test1         Terms active    =     184780
+                         Bytes used      =   46465662
+             Thread 2 reporting
+Time =     150.09 sec
+           test1         Terms active    =     167719
+                         Bytes used      =   42183628
+             Thread 3 reporting
+Time =     150.08 sec
+           test1         Terms active    =     163550
+                         Bytes used      =   41115773
+             Thread 6 reporting
+Time =     150.12 sec
+           test1         Terms active    =     183632
+                         Bytes used      =   46215376
+             Thread 5 reporting
+Time =     150.07 sec
+           test1         Terms active    =     162447
+                         Bytes used      =   40858817
+             Thread 4 reporting
+Time =     150.27 sec    Generated terms =    3984384
+           test1         Terms in thread =     123942
+                         Bytes used      =  122871324
+             Thread 3 reporting
+Time =     150.26 sec    Generated terms =    4015360
+           test1         Terms in thread =     102370
+                         Bytes used      =  101493724
+             Thread 5 reporting
+Time =     150.24 sec    Generated terms =    4049920
+           test1         Terms in thread =     106717
+                         Bytes used      =  105914932
+             Thread 6 reporting
+Time =     150.31 sec    Generated terms =    4015360
+           test1         Terms in thread =     122596
+                         Bytes used      =  121522644
+             Thread 1 reporting
+Time =     150.34 sec
+           test1         Terms active    =     185117
+                         Bytes used      =   46411638
+             Thread 2 reporting
+Time =     150.29 sec    Generated terms =    4015104
+           test1         Terms in thread =     101316
+                         Bytes used      =  100516476
+             Thread 8 reporting
+Time =     150.33 sec
+           test1         Terms active    =     237156
+                         Bytes used      =   59559158
+             Thread 1 reporting
+Time =     150.55 sec    Generated terms =    4271872
+           test1         Terms in thread =     123215
+                         Bytes used      =  122083924
+             Thread 7 reporting
+Time =     150.56 sec
+           test1         Terms active    =     250890
+                         Bytes used      =   63017457
+             Thread 8 reporting
+Time =     150.63 sec    Generated terms =    4412928
+           test1         Terms in thread =     121138
+                         Bytes used      =  120088684
+             Thread 7 reporting
+Time =     150.95 sec    Generated terms =    4789504
+           test1         Terms in thread =     125823
+                         Bytes used      =  124737164
+
+Time =       0.33 sec    Generated terms =   33554432
+           test1         Terms in output =          0
+                         Bytes used      =          4
+  0.33 sec + 1203.53 sec: 1203.87 sec out of 151.71 sec
+
+Time =       0.33 sec    Generated terms =          0
+           test1         Terms in output =          0
+                         Bytes used      =          4
+  0.33 sec + 1204.90 sec: 1205.23 sec out of 151.71 sec

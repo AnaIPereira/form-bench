@@ -1,0 +1,39 @@
+TFORM 4.1 (May 26 2026, v4.1-20131025-926-g64d92a4-dirty) 4 workers  Run: Tue May 26 15:53:17 2026
+    #-
+~~~sort-test.h: generating terms: 4194304
+
+Time =       0.00 sec    Generated terms =         64
+           test1         Terms in output =         64
+                         Bytes used      =       4888
+
+Time =       0.00 sec    Generated terms =      65536
+           test1         Terms in output =      65536
+                         Bytes used      =    1572880
+  0.00 sec + 0.02 sec: 0.02 sec out of 0.01 sec
+~~~sort-test.h: expand and cancel
+             Thread 2 reporting
+Time =      10.95 sec    Generated terms =     805888
+           test1         Terms in thread =      60764
+                         Bytes used      =   19498924
+             Thread 4 reporting
+Time =      10.96 sec    Generated terms =    1240128
+           test1         Terms in thread =      65304
+                         Bytes used      =   20960556
+             Thread 3 reporting
+Time =      11.00 sec    Generated terms =    1059648
+           test1         Terms in thread =      64367
+                         Bytes used      =   20655660
+             Thread 1 reporting
+Time =      11.02 sec    Generated terms =    1088640
+           test1         Terms in thread =      63900
+                         Bytes used      =   20505756
+
+Time =       0.06 sec    Generated terms =    4194304
+           test1         Terms in output =          0
+                         Bytes used      =          4
+  0.06 sec + 43.95 sec: 44.01 sec out of 11.07 sec
+
+Time =       0.06 sec    Generated terms =          0
+           test1         Terms in output =          0
+                         Bytes used      =          4
+  0.06 sec + 44.07 sec: 44.13 sec out of 11.07 sec

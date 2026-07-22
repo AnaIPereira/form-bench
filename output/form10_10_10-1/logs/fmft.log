@@ -1,0 +1,36 @@
+TFORM 4.1 (May 14 2026, v4.1-20131025-926-g64d92a4-dirty) 4 workers  Run: Fri May 15 17:31:51 2026
+    #-
+~~~
+~~~reduction X started                 
+~~~
+  0.53 sec + 0.92 sec: 1.46 sec out of 0.79 sec
+~~~
+~~~reduction H started                 
+~~~
+  0.57 sec + 23.05 sec: 23.62 sec out of 6.48 sec
+~~~
+~~~reduction BMW started                 
+~~~
+  1.81 sec + 35.57 sec: 37.39 sec out of 10.84 sec
+~~~
+~~~reduction FG started                 
+~~~
+~~~
+~~~reduce F                
+~~~
+  5.72 sec + 314.03 sec: 319.75 sec out of 83.77 sec
+~~~
+~~~reduce V                
+~~~
+  11.26 sec + 343.19 sec: 354.45 sec out of 95.90 sec
+~~~
+~~~reduce J
+~~~
+  19.77 sec + 389.10 sec: 408.87 sec out of 115.93 sec
+~~~
+~~~reduce T2                
+~~~
+  22.96 sec + 408.03 sec: 430.99 sec out of 122.53 sec
+~~~
+~~~reduce G                
+~~~
