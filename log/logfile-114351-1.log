@@ -16,3 +16,9 @@ Benchmark 1: /z/users/acpereira/software/bin/tformsb -w8
   Range (min … max):   284.481 s … 286.126 s    2 runs
  
 Benchmark 2: /z/users/acpereira/software/bin/tform5.0 -w8
+  Time (mean ± σ):     305.488 s ±  0.647 s    [User: 1927.431 s, System: 99.472 s]
+  Range (min … max):   305.031 s … 305.945 s    2 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tformsb -w8 ran
+    1.07 ± 0.00 times faster than /z/users/acpereira/software/bin/tform5.0 -w8

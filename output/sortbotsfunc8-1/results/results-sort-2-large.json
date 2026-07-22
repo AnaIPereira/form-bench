@@ -28,6 +28,35 @@
       "parameters": {
         "form": "/z/users/acpereira/software/bin/tformsb -w8"
       }
+    },
+    {
+      "command": "/z/users/acpereira/software/bin/tform5.0 -w8",
+      "mean": 111.29523780067332,
+      "stddev": 2.3566753833624294,
+      "median": 111.32045758584,
+      "user": 645.3960585133333,
+      "system": 32.53640835333333,
+      "min": 107.90618152434,
+      "max": 114.12905489134,
+      "times": [
+        107.90618152434,
+        109.63595394334,
+        114.12905489134,
+        110.68185743934,
+        113.45932127334001,
+        111.95905773234
+      ],
+      "exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "parameters": {
+        "form": "/z/users/acpereira/software/bin/tform5.0 -w8"
+      }
     }
   ]
 }

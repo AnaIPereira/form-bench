@@ -56,3 +56,44 @@ Time =      31.69 sec    Generated terms =   36000001  ( 36 M  )
                          Small Buffer    =    0,  240
                          Large Buffer    =    0,    0
                          Comparisons     =  402026403  (402 M  )
+
+Time =      36.47 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc y 3/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  239
+                         Large Buffer    =    0,    0
+                         Comparisons     =  401305212  (401 M  )
+
+Time =      41.65 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc x 4/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  241
+                         Large Buffer    =    0,    0
+                         Comparisons     =  401743932  (402 M  )
+
+Time =      46.60 sec    Generated terms =   36000001  ( 36 M  )
+            test         Terms in output =       6001  (  6 K  )
+               acc y 4/4 Bytes used      = 1152264072  (  1 GiB)
+                         Unsorted bytes  = 3023808060  (  3 GiB)
+                         Small Buffer    =    0,  238
+                         Large Buffer    =    0,    0
+                         Comparisons     =  401307071  (401 M  )
+
+Time =      47.73 sec    Generated terms =       6001  (  6 K  )
+            test         Terms in output =          0  ( <1 K  )
+                         Bytes used      =          4  ( <1 KiB)
+                         Unsorted bytes  =     356252  (356 KiB)
+                         Small Buffer    =    0,    0
+                         Large Buffer    =    0,    0
+                         Comparisons     =      11940  ( 12 K  )
+
+Time =      47.73 sec    Generated terms =          0  ( <1 K  )
+            test         Terms in output =          0  ( <1 K  )
+                         Bytes used      =          4  ( <1 KiB)
+                         Unsorted bytes  =          0  ( <1 KiB)
+                         Small Buffer    =    0,    0
+                         Large Buffer    =    0,    0
+                         Comparisons     =          0  ( <1 K  )
+  47.73 sec + 625.86 sec: 673.60 sec out of 111.00 sec
