@@ -7,8 +7,8 @@
 
 #SBATCH --export=ALL
 #SBATCH --mem=20G
-#SBATCH --cpus-per-task=32
-#SBATCH --time 0-2:00:00
+#SBATCH --cpus-per-task=8
+#SBATCH --time 0-1:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
@@ -25,10 +25,10 @@ export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
 
 ./run-compare.sh \
   --tests "$TESTS" \
-  --label "sortbotsfunc32" \
+  --label "sortbotsfunc8" \
   --timestamp "1" \
   --testdir "$TMPDIR" \
-  --form_cmds "$HOME/software/bin/tformsb -w32,$HOME/software/bin/tform5.0 -w32"
+  --form_cmds "$HOME/software/bin/tformsb -w8,$HOME/software/bin/tform5.0 -w8"
 
 
 
