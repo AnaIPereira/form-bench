@@ -1,16 +1,14 @@
 #!/bin/bash
 
-#SBATCH --partition cosma8
-#SBATCH -A dr004
-#SBATCH --job-name=formbenchmark
+#SBATCH --job-name=formbenchmarksortbots
 
 #for arrays use
 #SBATCH --output=log/logfile-%A-%a.log 
 
 #SBATCH --export=ALL
 #SBATCH --mem=20G
-#SBATCH --cpus-per-task=32
-#SBATCH --time 0-4:00:00
+#SBATCH --cpus-per-task=8
+#SBATCH --time 0-2:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
@@ -22,9 +20,15 @@ case $SLURM_ARRAY_TASK_ID in
        3) TESTS="sort-2-small" ;;
 esac      
  
+export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
 
 #running for array
-./run-compare.sh --tests="$TESTS" --label="sotbotsfunc" --timestamp="1" --testdir="$TMPDIR" --form_cmds="tformsb -w8, tformsb -w16, tformsb -w32"
+./run-compare.sh \
+  --tests="$TESTS" \
+  --label="sortbotsfunc8" \
+  --timestamp="1" \
+  --testdir="$TMPDIR" \
+  --form_cmds="$HOME/software/bin/tformsb -w8, $HOME/software/bin/tform5.0 -w8"
 
 
 
