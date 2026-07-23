@@ -1,0 +1,14 @@
+form-bench: e8f0a3fba01057de8d39ebb7d4f7e18bb787951b
+	LABEL      = sortbotsfunc8
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsortbot -w8,/z/users/acpereira/software/bin/tformformmaster -w8
+	TESTS      = sort-2-large
+	N          = 8
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc8-1/results/
+
+
+Running sort-2-large
+Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w8

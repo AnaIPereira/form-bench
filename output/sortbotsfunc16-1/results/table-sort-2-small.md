@@ -1,4 +1,4 @@
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `/z/users/acpereira/software/bin/tformsb -w16` | 7.143 ± 0.040 | 7.079 | 7.228 | 1.00 |
-| `/z/users/acpereira/software/bin/tform5.0 -w16` | 7.559 ± 0.024 | 7.528 | 7.604 | 1.06 ± 0.01 |
+| `/z/users/acpereira/software/bin/tformsortbot -w16` | 7.186 ± 0.042 | 7.114 | 7.319 | 1.00 |
+| `/z/users/acpereira/software/bin/tformformmaster -w16` | 7.604 ± 0.036 | 7.527 | 7.737 | 1.06 ± 0.01 |

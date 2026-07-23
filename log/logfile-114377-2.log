@@ -1,0 +1,18 @@
+form-bench: 9ec79d81d10316ba658a94bcc0ba03899aa3a3f7
+	LABEL      = sortbotsfunc16
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsortbot -w16,/z/users/acpereira/software/bin/tformformmaster -w16
+	TESTS      = sort-2-large
+	N          = 8
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc16-1/results/
+
+
+Running sort-2-large
+Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w16
+  Time (mean ± σ):     27.182 s ±  0.116 s    [User: 344.226 s, System: 5.530 s]
+  Range (min … max):   26.940 s … 27.448 s    48 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tformformmaster -w16
