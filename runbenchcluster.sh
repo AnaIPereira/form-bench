@@ -7,17 +7,18 @@
 
 #SBATCH --export=ALL
 #SBATCH --mem=20G
-#SBATCH --cpus-per-task=32
-#SBATCH --time 0-1:00:00
+#SBATCH --cpus-per-task=8
+#SBATCH --time 0-3:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
-#SBATCH --array=1-3
+#SBATCH --array=1-4
 
 case $SLURM_ARRAY_TASK_ID in
        1) TESTS="sort-2-disk" ;;
        2) TESTS="sort-2-large" ;;
        3) TESTS="sort-2-small" ;;
+       4) TESTS="chromatic" ;;
 esac      
  
 export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
@@ -25,10 +26,11 @@ export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
 
 ./run-compare.sh \
   --tests "$TESTS" \
-  --label "sortbotsfunc32" \
+  --label "sortbotsfunc8" \
   --timestamp "1" \
   --testdir "$TMPDIR" \
-  --form_cmds "$HOME/software/bin/tformsb -w32,$HOME/software/bin/tform5.0 -w32"
+  --runs 8 \
+  --form_cmds "$HOME/software/bin/tformsortbot -w8,$HOME/software/bin/tformformmaster -w8"
 
 
 
