@@ -1,0 +1,15 @@
+form-bench: 07ffc50332242f3e06d1ac8218c1d28c2891bf0f
+	LABEL      = sortbotsfunc8
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsortbot -w8,/z/users/acpereira/software/bin/tformformmaster -w8
+	TESTS      = sort-2-disk
+	N          = 30
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc8-1/results/
+
+
+Running sort-2-disk
+Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w8
+slurmstepd: error: *** JOB 114407 ON node05 CANCELLED AT 2026-07-23T15:06:00 ***

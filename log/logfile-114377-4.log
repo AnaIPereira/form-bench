@@ -12,3 +12,4 @@ Results: /z/users/acpereira/form-bench/output/sortbotsfunc16-1/results/
 
 Running chromatic
 Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w16
+slurmstepd: error: *** JOB 114377 ON node02 CANCELLED AT 2026-07-23T11:14:42 ***

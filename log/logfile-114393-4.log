@@ -1,0 +1,19 @@
+form-bench: 3f0c65ba34a3003d7498e235d61f5e7cfcd56832
+	LABEL      = sortbotsfunc16
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsortbot -w16,/z/users/acpereira/software/bin/tformformmaster -w16
+	TESTS      = chromatic
+	N          = 30
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc16-1/results/
+
+
+Running chromatic
+Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w16
+  Time (mean ± σ):     149.149 s ±  0.615 s    [User: 1735.582 s, System: 16.096 s]
+  Range (min … max):   147.993 s … 150.829 s    60 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tformformmaster -w16
+slurmstepd: error: *** JOB 114393 ON node02 CANCELLED AT 2026-07-23T14:19:05 DUE TO TIME LIMIT ***

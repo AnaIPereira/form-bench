@@ -1,3 +1,3 @@
 | Command | Mean [s] | Min [s] | Max [s] | Relative |
 |:---|---:|---:|---:|---:|
-| `/z/users/acpereira/software/bin/tformsortbot -w32` | 90.772 ± 2.736 | 85.999 | 96.741 | 1.00 |
+| `/z/users/acpereira/software/bin/tformsortbot -w32` | 89.453 ± 3.038 | 84.771 | 99.291 | 1.00 |

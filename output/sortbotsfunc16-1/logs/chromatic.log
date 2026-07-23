@@ -1,4 +1,4 @@
-TFORM 5.0.1 (Jul 23 2026, v5.0.1-24-g2afdaf9) 16 workers  Run: Thu Jul 23 11:08:52 2026
+TFORM 5.0.1 (Jul 23 2026, v5.0.1-24-g2afdaf9) 16 workers  Run: Thu Jul 23 15:04:53 2026
     #-
 
 Time =       0.00 sec    Generated terms =          4
@@ -149,7 +149,7 @@ Time =       0.00 sec    Generated terms =          4
              F36         Terms in output =          4
                          Bytes used      =        120
 
-Time =       0.01 sec    Generated terms =          4
+Time =       0.00 sec    Generated terms =          4
              F37         Terms in output =          4
                          Bytes used      =        120
 
@@ -465,11 +465,11 @@ Time =       0.01 sec    Generated terms =          4
             F115         Terms in output =          4
                          Bytes used      =        120
 
-Time =       0.02 sec    Generated terms =          4
+Time =       0.01 sec    Generated terms =          4
             F116         Terms in output =          4
                          Bytes used      =        120
 
-Time =       0.02 sec    Generated terms =          4
+Time =       0.01 sec    Generated terms =          4
             F117         Terms in output =          4
                          Bytes used      =        120
 
@@ -777,14 +777,14 @@ Time =       0.02 sec    Generated terms =          2
             F193         Terms in output =          2
                          Bytes used      =         56
 
-Time =       0.03 sec    Generated terms =          2
+Time =       0.02 sec    Generated terms =          2
             F194         Terms in output =          2
                          Bytes used      =         56
 
-Time =       0.03 sec    Generated terms =          1
+Time =       0.02 sec    Generated terms =          1
             F195         Terms in output =          1
                          Bytes used      =         20
-  0.03 sec + 0.07 sec: 0.10 sec out of 0.04 sec
+  0.02 sec + 0.07 sec: 0.10 sec out of 0.04 sec
 ~~~iter 0/195
 
 Time =       0.03 sec    Generated terms =          4
@@ -826,7 +826,7 @@ Time =       0.03 sec    Generated terms =         80
 Time =       0.03 sec    Generated terms =        160
                F         Terms in output =         96
                        6 Bytes used      =      10560
-  0.03 sec + 0.08 sec: 0.11 sec out of 0.04 sec
+  0.03 sec + 0.07 sec: 0.11 sec out of 0.04 sec
 ~~~iter 7/195
 
 Time =       0.03 sec    Generated terms =        320
@@ -838,7 +838,7 @@ Time =       0.03 sec    Generated terms =        320
 Time =       0.03 sec    Generated terms =        640
                F         Terms in output =        384
                        8 Bytes used      =      45808
-  0.03 sec + 0.09 sec: 0.13 sec out of 0.04 sec
+  0.03 sec + 0.09 sec: 0.12 sec out of 0.04 sec
 ~~~iter 9/195
 
 Time =       0.03 sec    Generated terms =       1280
@@ -850,7 +850,7 @@ Time =       0.03 sec    Generated terms =       1280
 Time =       0.03 sec    Generated terms =       2560
                F         Terms in output =       1536
                       10 Bytes used      =     196984
-  0.03 sec + 0.16 sec: 0.19 sec out of 0.05 sec
+  0.03 sec + 0.15 sec: 0.19 sec out of 0.05 sec
 ~~~iter 11/195
 
 Time =       0.03 sec    Generated terms =       5120
@@ -868,569 +868,677 @@ Time =       0.04 sec    Generated terms =      10240
 Time =       0.04 sec    Generated terms =      10240
                F         Terms in output =       4096
                       13 Bytes used      =     636556
-  0.04 sec + 0.60 sec: 0.64 sec out of 0.08 sec
+  0.04 sec + 0.58 sec: 0.63 sec out of 0.08 sec
 ~~~iter 14/195
 
 Time =       0.04 sec    Generated terms =      14336
                F         Terms in output =       6144
                       14 Bytes used      =    1087204
-  0.04 sec + 0.87 sec: 0.92 sec out of 0.11 sec
+  0.04 sec + 0.83 sec: 0.88 sec out of 0.10 sec
 ~~~iter 15/195
 
 Time =       0.05 sec    Generated terms =      17920
                F         Terms in output =       6144
                       15 Bytes used      =    1232704
-  0.05 sec + 1.27 sec: 1.33 sec out of 0.13 sec
+  0.05 sec + 1.21 sec: 1.26 sec out of 0.13 sec
 ~~~iter 16/195
 
 Time =       0.05 sec    Generated terms =      18176
                F         Terms in output =       6656
                       16 Bytes used      =    1504828
-  0.05 sec + 1.70 sec: 1.76 sec out of 0.17 sec
+  0.05 sec + 1.60 sec: 1.66 sec out of 0.16 sec
 ~~~iter 17/195
 
 Time =       0.06 sec    Generated terms =      19968
                F         Terms in output =       7680
                       17 Bytes used      =    1844804
-  0.06 sec + 2.18 sec: 2.24 sec out of 0.20 sec
+  0.06 sec + 2.03 sec: 2.09 sec out of 0.19 sec
 ~~~iter 18/195
 
 Time =       0.06 sec    Generated terms =      23296
                F         Terms in output =       9088
                       18 Bytes used      =    2275468
-  0.06 sec + 2.74 sec: 2.81 sec out of 0.24 sec
+  0.06 sec + 2.54 sec: 2.61 sec out of 0.23 sec
 ~~~iter 19/195
 
 Time =       0.07 sec    Generated terms =      27744
                F         Terms in output =      10880
                       19 Bytes used      =    2822852
-  0.07 sec + 3.43 sec: 3.51 sec out of 0.29 sec
+  0.07 sec + 3.17 sec: 3.24 sec out of 0.27 sec
 ~~~iter 20/195
 
-Time =       0.08 sec    Generated terms =      33360
+Time =       0.07 sec    Generated terms =      33360
                F         Terms in output =      13088
                       20 Bytes used      =    3511268
-  0.08 sec + 4.26 sec: 4.34 sec out of 0.36 sec
+  0.07 sec + 3.94 sec: 4.02 sec out of 0.33 sec
 ~~~iter 21/195
 
-Time =       0.09 sec    Generated terms =      40240
+Time =       0.08 sec    Generated terms =      40240
                F         Terms in output =      15776
                       21 Bytes used      =    4373256
-  0.09 sec + 5.28 sec: 5.38 sec out of 0.43 sec
+  0.08 sec + 4.87 sec: 4.96 sec out of 0.39 sec
 ~~~iter 22/195
 
-Time =       0.10 sec    Generated terms =      48592
+Time =       0.09 sec    Generated terms =      48592
                F         Terms in output =      19032
                       22 Bytes used      =    5448504
-  0.10 sec + 6.48 sec: 6.59 sec out of 0.52 sec
+  0.09 sec + 6.03 sec: 6.13 sec out of 0.48 sec
 ~~~iter 23/195
 
-Time =       0.11 sec    Generated terms =      58690
+Time =       0.10 sec    Generated terms =      58690
                F         Terms in output =      22968
                       23 Bytes used      =    6783600
-  0.11 sec + 7.91 sec: 8.03 sec out of 0.62 sec
+  0.10 sec + 7.46 sec: 7.57 sec out of 0.57 sec
 ~~~iter 24/195
 
-Time =       0.13 sec    Generated terms =      70883
+Time =       0.12 sec    Generated terms =      70883
                F         Terms in output =      27722
                       24 Bytes used      =    8424012
-  0.13 sec + 9.64 sec: 9.77 sec out of 0.75 sec
+  0.12 sec + 9.21 sec: 9.33 sec out of 0.71 sec
 ~~~iter 25/195
 
-Time =       0.14 sec    Generated terms =      80698
+Time =       0.13 sec    Generated terms =      80698
                F         Terms in output =      33462
                       25 Bytes used      =   10472760
-  0.14 sec + 11.73 sec: 11.88 sec out of 0.90 sec
+  0.13 sec + 11.30 sec: 11.43 sec out of 0.85 sec
 ~~~iter 26/195
 
-Time =       0.16 sec    Generated terms =     104302
+Time =       0.15 sec    Generated terms =     104302
                F         Terms in output =      33462
                       26 Bytes used      =   11828616
-  0.16 sec + 14.47 sec: 14.63 sec out of 1.08 sec
+  0.15 sec + 14.01 sec: 14.17 sec out of 1.04 sec
 ~~~iter 27/195
 
-Time =       0.18 sec    Generated terms =      57123
+Time =       0.16 sec    Generated terms =      57123
                F         Terms in output =      23661
                       27 Bytes used      =    8547416
-  0.18 sec + 15.66 sec: 15.84 sec out of 1.17 sec
+  0.16 sec + 15.20 sec: 15.37 sec out of 1.12 sec
 ~~~iter 28/195
 
-Time =       0.19 sec    Generated terms =      83052
+Time =       0.18 sec    Generated terms =      83052
                F         Terms in output =      33462
                       28 Bytes used      =   12919272
-  0.19 sec + 17.60 sec: 17.79 sec out of 1.31 sec
+  0.18 sec + 17.14 sec: 17.32 sec out of 1.26 sec
 ~~~iter 29/195
 
-Time =       0.21 sec    Generated terms =      98194
+Time =       0.20 sec    Generated terms =      98194
                F         Terms in output =      33462
                       29 Bytes used      =   13480776
-  0.21 sec + 20.29 sec: 20.50 sec out of 1.50 sec
+  0.20 sec + 19.79 sec: 20.00 sec out of 1.45 sec
 ~~~iter 30/195
 
-Time =       0.23 sec    Generated terms =      98549
+Time =       0.22 sec    Generated terms =      98549
                F         Terms in output =      33462
                       30 Bytes used      =   14466736
-  0.23 sec + 23.02 sec: 23.25 sec out of 1.69 sec
+  0.22 sec + 22.50 sec: 22.72 sec out of 1.65 sec
 ~~~iter 31/195
 
-Time =       0.25 sec    Generated terms =      98700
+Time =       0.24 sec    Generated terms =      98700
                F         Terms in output =      34158
                       31 Bytes used      =   15719748
-  0.25 sec + 25.76 sec: 26.01 sec out of 1.88 sec
+  0.24 sec + 25.24 sec: 25.48 sec out of 1.85 sec
 ~~~iter 32/195
 
-Time =       0.27 sec    Generated terms =     101384
+Time =       0.26 sec    Generated terms =     101384
                F         Terms in output =      35598
                       32 Bytes used      =   17177360
-  0.27 sec + 28.60 sec: 28.87 sec out of 2.08 sec
+  0.26 sec + 28.09 sec: 28.36 sec out of 2.04 sec
 ~~~iter 33/195
 
 Time =       0.29 sec    Generated terms =     106053
                F         Terms in output =      37621
                       33 Bytes used      =   18863084
-  0.29 sec + 31.60 sec: 31.89 sec out of 2.29 sec
+  0.29 sec + 31.10 sec: 31.39 sec out of 2.26 sec
 ~~~iter 34/195
 
 Time =       0.31 sec    Generated terms =     112430
                F         Terms in output =      40120
                       34 Bytes used      =   20800212
-  0.31 sec + 34.80 sec: 35.12 sec out of 2.53 sec
+  0.31 sec + 34.31 sec: 34.62 sec out of 2.49 sec
 ~~~iter 35/195
 
 Time =       0.34 sec    Generated terms =     120022
                F         Terms in output =      43000
                       35 Bytes used      =   23003120
-  0.34 sec + 38.30 sec: 38.65 sec out of 2.78 sec
+  0.34 sec + 37.78 sec: 38.12 sec out of 2.75 sec
 ~~~iter 36/195
 
 Time =       0.38 sec    Generated terms =     128648
                F         Terms in output =      46152
                       36 Bytes used      =   25459784
-  0.38 sec + 42.11 sec: 42.50 sec out of 3.04 sec
+  0.38 sec + 41.57 sec: 41.95 sec out of 3.02 sec
 ~~~iter 37/195
 
-Time =       0.42 sec    Generated terms =     137174
+Time =       0.41 sec    Generated terms =     137174
                F         Terms in output =      49329
                       37 Bytes used      =   28140708
-  0.42 sec + 46.23 sec: 46.65 sec out of 3.36 sec
+  0.41 sec + 45.70 sec: 46.11 sec out of 3.32 sec
 ~~~iter 38/195
 
-Time =       0.46 sec    Generated terms =     145747
+Time =       0.45 sec    Generated terms =     145747
                F         Terms in output =      52146
                       38 Bytes used      =   30983712
-  0.46 sec + 50.68 sec: 51.14 sec out of 3.68 sec
+  0.45 sec + 50.17 sec: 50.63 sec out of 3.65 sec
 ~~~iter 39/195
 
-Time =       0.49 sec    Generated terms =     152296
+Time =       0.50 sec    Generated terms =     152296
                F         Terms in output =      52146
                       39 Bytes used      =   33524792
-  0.49 sec + 55.45 sec: 55.95 sec out of 4.02 sec
+  0.50 sec + 54.98 sec: 55.48 sec out of 4.00 sec
 ~~~iter 40/195
 
 Time =       0.54 sec    Generated terms =     162090
                F         Terms in output =      52146
                       40 Bytes used      =   35856240
-  0.54 sec + 60.47 sec: 61.01 sec out of 4.40 sec
+  0.54 sec + 59.96 sec: 60.51 sec out of 4.37 sec
 ~~~iter 41/195
 
-Time =       0.57 sec    Generated terms =      89847
+Time =       0.58 sec    Generated terms =      89847
                F         Terms in output =      37701
                       41 Bytes used      =   26012704
-  0.57 sec + 62.68 sec: 63.26 sec out of 4.57 sec
+  0.58 sec + 62.15 sec: 62.73 sec out of 4.55 sec
 ~~~iter 42/195
 
 Time =       0.62 sec    Generated terms =     131418
                F         Terms in output =      52146
                       42 Bytes used      =   37927952
-  0.62 sec + 66.31 sec: 66.94 sec out of 4.85 sec
+  0.62 sec + 65.81 sec: 66.43 sec out of 4.85 sec
 ~~~iter 43/195
 
 Time =       0.67 sec    Generated terms =     153864
                F         Terms in output =      52146
                       43 Bytes used      =   39045092
-  0.67 sec + 71.24 sec: 71.91 sec out of 5.21 sec
+  0.67 sec + 70.73 sec: 71.41 sec out of 5.21 sec
 ~~~iter 44/195
 
 Time =       0.73 sec    Generated terms =     153484
                F         Terms in output =      52146
                       44 Bytes used      =   40827836
-  0.73 sec + 76.26 sec: 76.99 sec out of 5.62 sec
+  0.73 sec + 75.73 sec: 76.46 sec out of 5.61 sec
 ~~~iter 45/195
 
 Time =       0.78 sec    Generated terms =     153237
                F         Terms in output =      52146
                       45 Bytes used      =   42945112
-  0.78 sec + 81.27 sec: 82.05 sec out of 6.01 sec
+  0.78 sec + 80.75 sec: 81.54 sec out of 5.99 sec
 ~~~iter 46/195
 
-Time =       0.84 sec    Generated terms =     153408
+Time =       0.85 sec    Generated terms =     153408
                F         Terms in output =      52434
                       46 Bytes used      =   45313988
-  0.84 sec + 86.38 sec: 87.22 sec out of 6.40 sec
+  0.85 sec + 85.84 sec: 86.69 sec out of 6.38 sec
 ~~~iter 47/195
 
-Time =       0.90 sec    Generated terms =     154387
+Time =       0.91 sec    Generated terms =     154387
                F         Terms in output =      53070
                       47 Bytes used      =   47900172
-  0.90 sec + 91.53 sec: 92.44 sec out of 6.80 sec
+  0.91 sec + 91.02 sec: 91.93 sec out of 6.81 sec
 ~~~iter 48/195
 
-Time =       0.97 sec    Generated terms =     156347
+Time =       0.98 sec    Generated terms =     156347
                F         Terms in output =      53982
                       48 Bytes used      =   50690896
-  0.97 sec + 96.80 sec: 97.77 sec out of 7.23 sec
+  0.98 sec + 96.28 sec: 97.27 sec out of 7.23 sec
 ~~~iter 49/195
 
-Time =       1.04 sec    Generated terms =     158951
+Time =       1.05 sec    Generated terms =     158951
                F         Terms in output =      55048
                       49 Bytes used      =   53681564
-  1.04 sec + 102.27 sec: 103.32 sec out of 7.67 sec
+  1.05 sec + 101.71 sec: 102.77 sec out of 7.68 sec
 ~~~iter 50/195
 
-Time =       1.11 sec    Generated terms =     161911
+Time =       1.12 sec    Generated terms =     161911
                F         Terms in output =      56080
                       50 Bytes used      =   56844304
-  1.11 sec + 107.92 sec: 109.03 sec out of 8.10 sec
+  1.13 sec + 107.33 sec: 108.46 sec out of 8.12 sec
 ~~~iter 51/195
 
-Time =       1.18 sec    Generated terms =     164366
+Time =       1.20 sec    Generated terms =     164366
                F         Terms in output =      56854
                       51 Bytes used      =   60098956
-  1.19 sec + 113.69 sec: 114.88 sec out of 8.57 sec
+  1.20 sec + 113.10 sec: 114.31 sec out of 8.59 sec
 ~~~iter 52/195
 
-Time =       1.26 sec    Generated terms =     167437
+Time =       1.28 sec    Generated terms =     167437
                F         Terms in output =      56854
                       52 Bytes used      =   63268960
-  1.26 sec + 119.67 sec: 120.94 sec out of 9.04 sec
+  1.28 sec + 119.07 sec: 120.36 sec out of 9.09 sec
 ~~~iter 53/195
 
-Time =       1.35 sec    Generated terms =     166001
+Time =       1.37 sec    Generated terms =     166001
                F         Terms in output =      56854
                       53 Bytes used      =   66227700
-  1.35 sec + 125.70 sec: 127.05 sec out of 9.53 sec
+  1.37 sec + 125.07 sec: 126.45 sec out of 9.59 sec
 ~~~iter 54/195
 
-Time =       1.47 sec    Generated terms =     176008
+Time =       1.46 sec    Generated terms =     176008
                F         Terms in output =      56854
                       54 Bytes used      =   68733584
-  1.47 sec + 131.98 sec: 133.46 sec out of 10.08 sec
+  1.46 sec + 131.43 sec: 132.90 sec out of 10.11 sec
 ~~~iter 55/195
 
-Time =       1.55 sec    Generated terms =      98273
+Time =       1.53 sec    Generated terms =      98273
                F         Terms in output =      41419
                       55 Bytes used      =   49881412
-  1.55 sec + 134.85 sec: 136.40 sec out of 10.38 sec
+  1.53 sec + 134.29 sec: 135.82 sec out of 10.38 sec
 ~~~iter 56/195
 
-Time =       1.62 sec    Generated terms =     143518
+Time =       1.61 sec    Generated terms =     143518
                F         Terms in output =      56854
                       56 Bytes used      =   71000980
-  1.62 sec + 139.49 sec: 141.12 sec out of 10.77 sec
+  1.61 sec + 138.89 sec: 140.51 sec out of 10.78 sec
 ~~~iter 57/195
 
 Time =       1.71 sec    Generated terms =     167586
                F         Terms in output =      56854
                       57 Bytes used      =   72181384
-  1.71 sec + 145.69 sec: 147.40 sec out of 11.26 sec
+  1.71 sec + 145.10 sec: 146.82 sec out of 11.30 sec
 ~~~iter 58/195
 
-Time =       1.79 sec    Generated terms =     167205
+Time =       1.80 sec    Generated terms =     167205
                F         Terms in output =      56854
                       58 Bytes used      =   74101532
-  1.79 sec + 151.94 sec: 153.73 sec out of 11.79 sec
+  1.80 sec + 151.36 sec: 153.17 sec out of 11.83 sec
 ~~~iter 59/195
 
 Time =       1.89 sec    Generated terms =     166697
                F         Terms in output =      56854
                       59 Bytes used      =   76482236
-  1.89 sec + 158.22 sec: 160.11 sec out of 12.32 sec
+  1.89 sec + 157.61 sec: 159.51 sec out of 12.35 sec
 ~~~iter 60/195
 
-Time =       1.98 sec    Generated terms =     166678
+Time =       1.99 sec    Generated terms =     166678
                F         Terms in output =      56854
                       60 Bytes used      =   79223352
-  1.98 sec + 164.53 sec: 166.52 sec out of 12.85 sec
+  1.99 sec + 163.98 sec: 165.97 sec out of 12.89 sec
 ~~~iter 61/195
 
 Time =       2.08 sec    Generated terms =     166601
                F         Terms in output =      56917
                       61 Bytes used      =   82308140
-  2.08 sec + 170.90 sec: 172.98 sec out of 13.39 sec
+  2.09 sec + 170.33 sec: 172.42 sec out of 13.42 sec
 ~~~iter 62/195
 
 Time =       2.18 sec    Generated terms =     166782
                F         Terms in output =      57050
                       62 Bytes used      =   85725156
-  2.18 sec + 177.28 sec: 179.46 sec out of 13.94 sec
+  2.18 sec + 176.78 sec: 178.97 sec out of 13.98 sec
 ~~~iter 63/195
 
-Time =       2.28 sec    Generated terms =     167094
+Time =       2.29 sec    Generated terms =     167094
                F         Terms in output =      57210
                       63 Bytes used      =   89423888
-  2.28 sec + 183.75 sec: 186.04 sec out of 14.49 sec
+  2.29 sec + 183.29 sec: 185.58 sec out of 14.55 sec
 ~~~iter 64/195
 
-Time =       2.39 sec    Generated terms =     167615
+Time =       2.42 sec    Generated terms =     167615
                F         Terms in output =      57332
                       64 Bytes used      =   93322944
-  2.39 sec + 190.33 sec: 192.72 sec out of 15.05 sec
+  2.42 sec + 189.88 sec: 192.31 sec out of 15.17 sec
 ~~~iter 65/195
 
-Time =       2.49 sec    Generated terms =     167862
+Time =       2.53 sec    Generated terms =     167862
                F         Terms in output =      57332
                       65 Bytes used      =   97307020
-  2.49 sec + 197.05 sec: 199.55 sec out of 15.65 sec
+  2.53 sec + 196.59 sec: 199.13 sec out of 15.76 sec
 ~~~iter 66/195
 
-Time =       2.61 sec    Generated terms =     168745
+Time =       2.64 sec    Generated terms =     168745
                F         Terms in output =      57332
                       66 Bytes used      =  101209772
-  2.61 sec + 203.80 sec: 206.41 sec out of 16.24 sec
+  2.64 sec + 203.32 sec: 205.97 sec out of 16.36 sec
 ~~~iter 67/195
 
-Time =       2.72 sec    Generated terms =     167307
+Time =       2.76 sec    Generated terms =     167307
                F         Terms in output =      57332
                       67 Bytes used      =  105027364
-  2.72 sec + 210.63 sec: 213.36 sec out of 16.86 sec
+  2.76 sec + 210.22 sec: 212.98 sec out of 16.98 sec
 ~~~iter 68/195
 
-Time =       2.86 sec    Generated terms =     177318
+Time =       2.88 sec    Generated terms =     177318
                F         Terms in output =      57332
                       68 Bytes used      =  108253276
-  2.86 sec + 217.72 sec: 220.59 sec out of 17.51 sec
+  2.88 sec + 217.36 sec: 220.25 sec out of 17.63 sec
 ~~~iter 69/195
 
-Time =       2.95 sec    Generated terms =      99154
+Time =       2.98 sec    Generated terms =      99154
                F         Terms in output =      41822
                       69 Bytes used      =   78696560
-  2.95 sec + 220.98 sec: 223.93 sec out of 17.84 sec
+  2.98 sec + 220.64 sec: 223.63 sec out of 17.96 sec
 ~~~iter 70/195
 
-Time =       3.06 sec    Generated terms =     144712
+Time =       3.13 sec    Generated terms =     144712
                F         Terms in output =      57332
                       70 Bytes used      =  111186216
-  3.06 sec + 226.22 sec: 229.28 sec out of 18.34 sec
+  3.13 sec + 225.93 sec: 229.06 sec out of 18.48 sec
 ~~~iter 71/195
 
-Time =       3.18 sec    Generated terms =     168892
+Time =       3.25 sec    Generated terms =     168892
                F         Terms in output =      57332
                       71 Bytes used      =  112795620
-  3.18 sec + 233.30 sec: 236.49 sec out of 18.97 sec
+  3.25 sec + 233.03 sec: 236.28 sec out of 19.11 sec
 ~~~iter 72/195
 
-Time =       3.30 sec    Generated terms =     168513
+Time =       3.37 sec    Generated terms =     168513
                F         Terms in output =      57332
                       72 Bytes used      =  115273644
-  3.30 sec + 240.39 sec: 243.69 sec out of 19.61 sec
+  3.37 sec + 240.05 sec: 243.43 sec out of 19.76 sec
 ~~~iter 73/195
 
-Time =       3.42 sec    Generated terms =     168003
+Time =       3.50 sec    Generated terms =     168003
                F         Terms in output =      57332
                       73 Bytes used      =  118213976
-  3.42 sec + 247.51 sec: 250.93 sec out of 20.23 sec
+  3.50 sec + 247.16 sec: 250.67 sec out of 20.38 sec
 ~~~iter 74/195
 
-Time =       3.54 sec    Generated terms =     167944
+Time =       3.63 sec    Generated terms =     167944
                F         Terms in output =      57332
                       74 Bytes used      =  121475808
-  3.54 sec + 254.72 sec: 258.26 sec out of 20.90 sec
+  3.63 sec + 254.31 sec: 257.95 sec out of 21.02 sec
 ~~~iter 75/195
 
-Time =       3.68 sec    Generated terms =     167849
+Time =       3.76 sec    Generated terms =     167849
                F         Terms in output =      57332
                       75 Bytes used      =  125008860
-  3.69 sec + 261.95 sec: 265.64 sec out of 21.54 sec
+  3.76 sec + 261.54 sec: 265.31 sec out of 21.69 sec
 ~~~iter 76/195
 
-Time =       3.82 sec    Generated terms =     167845
+Time =       3.90 sec    Generated terms =     167845
                F         Terms in output =      57338
                       76 Bytes used      =  128750792
-  3.82 sec + 269.24 sec: 273.06 sec out of 22.22 sec
+  3.90 sec + 268.81 sec: 272.72 sec out of 22.36 sec
 ~~~iter 77/195
 
-Time =       3.96 sec    Generated terms =     167839
+Time =       4.07 sec    Generated terms =     167839
                F         Terms in output =      57346
                       77 Bytes used      =  132644540
-  3.96 sec + 276.63 sec: 280.59 sec out of 22.91 sec
+  4.07 sec + 276.16 sec: 280.23 sec out of 23.10 sec
 ~~~iter 78/195
 
-Time =       4.10 sec    Generated terms =     167994
+Time =       4.20 sec    Generated terms =     167994
                F         Terms in output =      57346
                       78 Bytes used      =  136656100
-  4.10 sec + 284.00 sec: 288.11 sec out of 23.59 sec
+  4.20 sec + 283.56 sec: 287.77 sec out of 23.81 sec
 ~~~iter 79/195
 
-Time =       4.25 sec    Generated terms =     167895
+Time =       4.38 sec    Generated terms =     167895
                F         Terms in output =      57346
                       79 Bytes used      =  140728600
-  4.25 sec + 291.51 sec: 295.76 sec out of 24.27 sec
+  4.38 sec + 291.09 sec: 295.47 sec out of 24.55 sec
 ~~~iter 80/195
 
-Time =       4.40 sec    Generated terms =     168778
+Time =       4.52 sec    Generated terms =     168778
                F         Terms in output =      57346
                       80 Bytes used      =  144797112
-  4.40 sec + 299.06 sec: 303.47 sec out of 24.98 sec
+  4.52 sec + 298.69 sec: 303.22 sec out of 25.25 sec
 ~~~iter 81/195
 
-Time =       4.55 sec    Generated terms =     167340
+Time =       4.68 sec    Generated terms =     167340
                F         Terms in output =      57346
                       81 Bytes used      =  148661680
-  4.55 sec + 306.76 sec: 311.31 sec out of 25.68 sec
+  4.68 sec + 306.36 sec: 311.04 sec out of 25.98 sec
 ~~~iter 82/195
 
-Time =       4.70 sec    Generated terms =     177351
+Time =       4.84 sec    Generated terms =     177351
                F         Terms in output =      57346
                       82 Bytes used      =  152178848
-  4.70 sec + 314.70 sec: 319.41 sec out of 26.46 sec
+  4.84 sec + 314.39 sec: 319.23 sec out of 26.77 sec
 ~~~iter 83/195
 
-Time =       4.83 sec    Generated terms =      99181
+Time =       4.96 sec    Generated terms =      99181
                F         Terms in output =      41835
                       83 Bytes used      =  110759000
-  4.83 sec + 318.45 sec: 323.28 sec out of 26.85 sec
+  4.96 sec + 318.16 sec: 323.12 sec out of 27.15 sec
 ~~~iter 84/195
 
-Time =       4.97 sec    Generated terms =     144744
+Time =       5.09 sec    Generated terms =     144744
                F         Terms in output =      57346
                       84 Bytes used      =  155477524
-  4.97 sec + 324.33 sec: 329.31 sec out of 27.44 sec
+  5.09 sec + 324.04 sec: 329.14 sec out of 27.75 sec
 ~~~iter 85/195
 
-Time =       5.12 sec    Generated terms =     168925
+Time =       5.24 sec    Generated terms =     168925
                F         Terms in output =      57346
                       85 Bytes used      =  157427088
-  5.12 sec + 332.19 sec: 337.31 sec out of 28.17 sec
+  5.24 sec + 331.96 sec: 337.21 sec out of 28.51 sec
 ~~~iter 86/195
 
-Time =       5.28 sec    Generated terms =     168546
+Time =       5.42 sec    Generated terms =     168546
                F         Terms in output =      57346
                       86 Bytes used      =  160435480
-  5.28 sec + 340.14 sec: 345.42 sec out of 28.92 sec
+  5.42 sec + 339.85 sec: 345.28 sec out of 29.25 sec
 ~~~iter 87/195
 
-Time =       5.44 sec    Generated terms =     168036
+Time =       5.58 sec    Generated terms =     168036
                F         Terms in output =      57346
                       87 Bytes used      =  163990876
-  5.44 sec + 348.12 sec: 353.57 sec out of 29.68 sec
+  5.58 sec + 347.78 sec: 353.36 sec out of 30.04 sec
 ~~~iter 88/195
 
-Time =       5.60 sec    Generated terms =     167977
+Time =       5.74 sec    Generated terms =     167977
                F         Terms in output =      57346
                       88 Bytes used      =  167963644
-  5.60 sec + 356.14 sec: 361.74 sec out of 30.45 sec
+  5.74 sec + 355.80 sec: 361.54 sec out of 30.84 sec
 ~~~iter 89/195
 
-Time =       5.77 sec    Generated terms =     167880
+Time =       5.91 sec    Generated terms =     167880
                F         Terms in output =      57346
                       89 Bytes used      =  172273432
-  5.77 sec + 364.19 sec: 369.97 sec out of 31.22 sec
+  5.91 sec + 363.86 sec: 369.77 sec out of 31.63 sec
 ~~~iter 90/195
 
-Time =       5.95 sec    Generated terms =     167880
+Time =       6.08 sec    Generated terms =     167880
                F         Terms in output =      57346
                       90 Bytes used      =  176836544
-  5.95 sec + 372.34 sec: 378.29 sec out of 32.02 sec
+  6.08 sec + 372.03 sec: 378.11 sec out of 32.42 sec
 ~~~iter 91/195
 
-Time =       6.11 sec    Generated terms =     167862
+Time =       6.25 sec    Generated terms =     167862
                F         Terms in output =      57346
                       91 Bytes used      =  181619684
-  6.11 sec + 380.53 sec: 386.65 sec out of 32.84 sec
+  6.25 sec + 380.27 sec: 386.52 sec out of 33.24 sec
 ~~~iter 92/195
 
-Time =       6.30 sec    Generated terms =     167994
+Time =       6.46 sec    Generated terms =     167994
                F         Terms in output =      57346
                       92 Bytes used      =  186573372
-  6.30 sec + 388.81 sec: 395.11 sec out of 33.65 sec
+  6.46 sec + 388.56 sec: 395.03 sec out of 34.12 sec
 ~~~iter 93/195
 
-Time =       6.48 sec    Generated terms =     167895
+Time =       6.66 sec    Generated terms =     167895
                F         Terms in output =      57346
                       93 Bytes used      =  191606624
-  6.48 sec + 397.15 sec: 403.64 sec out of 34.47 sec
+  6.66 sec + 396.96 sec: 403.62 sec out of 34.96 sec
 ~~~iter 94/195
 
-Time =       6.67 sec    Generated terms =     168778
+Time =       6.84 sec    Generated terms =     168778
                F         Terms in output =      57346
                       94 Bytes used      =  196547784
-  6.67 sec + 405.67 sec: 412.34 sec out of 35.31 sec
+  6.84 sec + 405.44 sec: 412.28 sec out of 35.82 sec
 ~~~iter 95/195
 
-Time =       6.86 sec    Generated terms =     167340
+Time =       7.03 sec    Generated terms =     167340
                F         Terms in output =      57346
                       95 Bytes used      =  201220112
-  6.86 sec + 414.22 sec: 421.09 sec out of 36.16 sec
+  7.03 sec + 414.05 sec: 421.09 sec out of 36.68 sec
 ~~~iter 96/195
 
-Time =       7.05 sec    Generated terms =     177351
+Time =       7.23 sec    Generated terms =     177351
                F         Terms in output =      57346
                       96 Bytes used      =  205142176
-  7.05 sec + 423.18 sec: 430.24 sec out of 37.04 sec
+  7.23 sec + 422.97 sec: 430.21 sec out of 37.59 sec
 ~~~iter 97/195
 
-Time =       7.20 sec    Generated terms =      99181
+Time =       7.38 sec    Generated terms =      99181
                F         Terms in output =      41835
                       97 Bytes used      =  149295680
-  7.20 sec + 427.44 sec: 434.65 sec out of 37.53 sec
+  7.38 sec + 427.21 sec: 434.59 sec out of 38.05 sec
 ~~~iter 98/195
 
-Time =       7.37 sec    Generated terms =     144744
+Time =       7.54 sec    Generated terms =     144744
                F         Terms in output =      57346
                       98 Bytes used      =  208633324
-  7.37 sec + 434.09 sec: 441.46 sec out of 38.23 sec
+  7.54 sec + 433.86 sec: 441.41 sec out of 38.77 sec
 ~~~iter 99/195
 
-Time =       7.56 sec    Generated terms =     168925
+Time =       7.74 sec    Generated terms =     168925
                F         Terms in output =      57346
                       99 Bytes used      =  210503832
-  7.56 sec + 442.97 sec: 450.54 sec out of 39.08 sec
+  7.74 sec + 442.66 sec: 450.40 sec out of 39.65 sec
 ~~~iter 100/195
 
-Time =       7.79 sec    Generated terms =     168546
+Time =       7.93 sec    Generated terms =     168546
                F         Terms in output =      57346
                      100 Bytes used      =  213387312
-  7.79 sec + 451.80 sec: 459.59 sec out of 40.00 sec
+  7.93 sec + 451.47 sec: 459.41 sec out of 40.54 sec
 ~~~iter 101/195
 
-Time =       7.98 sec    Generated terms =     168036
+Time =       8.12 sec    Generated terms =     168036
                F         Terms in output =      57346
                      101 Bytes used      =  216880092
-  7.98 sec + 460.67 sec: 468.65 sec out of 40.90 sec
+  8.12 sec + 460.38 sec: 468.51 sec out of 41.44 sec
 ~~~iter 102/195
 
-Time =       8.18 sec    Generated terms =     167977
+Time =       8.32 sec    Generated terms =     167977
                F         Terms in output =      57346
                      102 Bytes used      =  220826620
-  8.18 sec + 469.58 sec: 477.77 sec out of 41.81 sec
+  8.32 sec + 469.36 sec: 477.69 sec out of 42.35 sec
 ~~~iter 103/195
 
-Time =       8.41 sec    Generated terms =     167880
+Time =       8.52 sec    Generated terms =     167880
                F         Terms in output =      57346
                      103 Bytes used      =  225194816
-  8.41 sec + 478.60 sec: 487.02 sec out of 42.77 sec
+  8.52 sec + 478.39 sec: 486.91 sec out of 43.27 sec
 ~~~iter 104/195
 
-Time =       8.61 sec    Generated terms =     167880
+Time =       8.73 sec    Generated terms =     167880
                F         Terms in output =      57346
                      104 Bytes used      =  229934984
-  8.61 sec + 487.70 sec: 496.32 sec out of 43.67 sec
+  8.73 sec + 487.42 sec: 496.15 sec out of 44.20 sec
 ~~~iter 105/195
 
-Time =       8.82 sec    Generated terms =     167862
+Time =       8.94 sec    Generated terms =     167862
                F         Terms in output =      57346
                      105 Bytes used      =  234997676
-  8.82 sec + 496.93 sec: 505.75 sec out of 44.62 sec
+  8.94 sec + 496.56 sec: 505.50 sec out of 45.13 sec
 ~~~iter 106/195
 
-Time =       9.03 sec    Generated terms =     167994
+Time =       9.15 sec    Generated terms =     167994
                F         Terms in output =      57346
                      106 Bytes used      =  240334956
-  9.03 sec + 506.16 sec: 515.19 sec out of 45.53 sec
+  9.15 sec + 505.81 sec: 514.96 sec out of 46.08 sec
 ~~~iter 107/195
 
-Time =       9.26 sec    Generated terms =     167895
+Time =       9.37 sec    Generated terms =     167895
                F         Terms in output =      57346
                      107 Bytes used      =  245856632
-  9.26 sec + 515.50 sec: 524.77 sec out of 46.46 sec
+  9.37 sec + 515.09 sec: 524.47 sec out of 47.03 sec
 ~~~iter 108/195
+
+Time =       9.62 sec    Generated terms =     168778
+               F         Terms in output =      57346
+                     108 Bytes used      =  251384376
+  9.62 sec + 524.54 sec: 534.17 sec out of 48.03 sec
+~~~iter 109/195
+
+Time =       9.84 sec    Generated terms =     167340
+               F         Terms in output =      57346
+                     109 Bytes used      =  256809680
+  9.84 sec + 534.03 sec: 543.87 sec out of 49.00 sec
+~~~iter 110/195
+
+Time =      10.07 sec    Generated terms =     177351
+               F         Terms in output =      57346
+                     110 Bytes used      =  261583640
+  10.07 sec + 543.99 sec: 554.06 sec out of 50.05 sec
+~~~iter 111/195
+
+Time =      10.28 sec    Generated terms =      99181
+               F         Terms in output =      41835
+                     111 Bytes used      =  190515872
+  10.28 sec + 548.82 sec: 559.10 sec out of 50.61 sec
+~~~iter 112/195
+
+Time =      10.51 sec    Generated terms =     144744
+               F         Terms in output =      57346
+                     112 Bytes used      =  265798452
+  10.51 sec + 556.24 sec: 566.75 sec out of 51.42 sec
+~~~iter 113/195
+
+Time =      10.77 sec    Generated terms =     168925
+               F         Terms in output =      57346
+                     113 Bytes used      =  268212208
+  10.77 sec + 566.08 sec: 576.86 sec out of 52.49 sec
+~~~iter 114/195
+
+Time =      11.00 sec    Generated terms =     168546
+               F         Terms in output =      57346
+                     114 Bytes used      =  271917432
+  11.00 sec + 576.00 sec: 587.01 sec out of 53.55 sec
+~~~iter 115/195
+
+Time =      11.27 sec    Generated terms =     168036
+               F         Terms in output =      57346
+                     115 Bytes used      =  276281812
+  11.27 sec + 585.84 sec: 597.11 sec out of 54.64 sec
+~~~iter 116/195
+
+Time =      11.51 sec    Generated terms =     167977
+               F         Terms in output =      57346
+                     116 Bytes used      =  281081748
+  11.51 sec + 595.74 sec: 607.25 sec out of 55.68 sec
+~~~iter 117/195
+
+Time =      11.74 sec    Generated terms =     167880
+               F         Terms in output =      57346
+                     117 Bytes used      =  286262760
+  11.74 sec + 605.73 sec: 617.47 sec out of 56.71 sec
+~~~iter 118/195
+
+Time =      12.03 sec    Generated terms =     167880
+               F         Terms in output =      57346
+                     118 Bytes used      =  291729632
+  12.03 sec + 615.83 sec: 627.86 sec out of 57.80 sec
+~~~iter 119/195
+
+Time =      12.28 sec    Generated terms =     167862
+               F         Terms in output =      57346
+                     119 Bytes used      =  297379044
+  12.28 sec + 625.99 sec: 638.28 sec out of 58.90 sec
+~~~iter 120/195
+
+Time =      12.54 sec    Generated terms =     167994
+               F         Terms in output =      57346
+                     120 Bytes used      =  303119724
+  12.54 sec + 636.25 sec: 648.79 sec out of 59.99 sec
+~~~iter 121/195
+
+Time =      12.79 sec    Generated terms =     167895
+               F         Terms in output =      57346
+                     121 Bytes used      =  308839448
+  12.79 sec + 646.39 sec: 659.18 sec out of 61.15 sec
+~~~iter 122/195
+
+Time =      13.07 sec    Generated terms =     168778
+               F         Terms in output =      57346
+                     122 Bytes used      =  314443184
+  13.07 sec + 656.69 sec: 669.77 sec out of 62.34 sec
+~~~iter 123/195
+
+Time =      13.33 sec    Generated terms =     167340
+               F         Terms in output =      57346
+                     123 Bytes used      =  319663664
+  13.33 sec + 666.85 sec: 680.19 sec out of 63.50 sec
+~~~iter 124/195
+
+Time =      13.62 sec    Generated terms =     177351
+               F         Terms in output =      57346
+                     124 Bytes used      =  324176352
+  13.62 sec + 678.66 sec: 692.28 sec out of 64.79 sec
+~~~iter 125/195
+
+Time =      13.84 sec    Generated terms =      99181
+               F         Terms in output =      41835
+                     125 Bytes used      =  236118784
+  13.84 sec + 684.11 sec: 697.95 sec out of 65.44 sec
+~~~iter 126/195

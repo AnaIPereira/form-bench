@@ -1,4 +1,4 @@
-TFORM 5.0.1 (Jul 22 2026, v5.0.1-23-g7a8f756) 32 workers  Run: Thu Jul 23 11:08:46 2026
+TFORM 5.0.1 (Jul 22 2026, v5.0.1-23-g7a8f756) 32 workers  Run: Thu Jul 23 14:17:56 2026
     #-
 
 Time =       0.03 sec    Generated terms =      12001  ( 12 K  )
@@ -10,294 +10,289 @@ Time =       0.03 sec    Generated terms =      12001  ( 12 K  )
                          Comparisons     =      35999  ( 36 K  )
                          Largest Term    =         39  ( <1 K  )
 
-Time =       5.17 sec    Generated terms =      12001  ( 12 K  )
+Time =       5.12 sec    Generated terms =      12001  ( 12 K  )
             test         Terms in output =      12001  ( 12 K  )
                  setup-1 Bytes used      =     672092  (672 KiB)
                          Unsorted bytes  = 4608624060  (  5 GiB)
-                         Small Buffer    =    0,  489
+                         Small Buffer    =    0,  484
                          Large Buffer    =    0,    0
-                         Comparisons     = 1165609146  (  1 B  )
+                         Comparisons     = 1166653233  (  1 B  )
                          Largest Term    =      96013  ( 96 K  )
-StageSort in thread 24
-StageSort in thread 2
-StageSort in thread 4
-StageSort in thread 18
-StageSort in thread 25
-StageSort in thread 21
-StageSort in thread 29
+StageSort in thread 6
+StageSort in thread 16
 StageSort in thread 11
+StageSort in thread 18
+StageSort in thread 7
 StageSort in thread 8
 StageSort in thread 17
-StageSort in thread 15
+StageSort in thread 14
 StageSort in thread 5
-StageSort in thread 31
-StageSort in thread 3
-StageSort in thread 23
-StageSort in thread 12
-StageSort in thread 1
-StageSort in thread 9
+StageSort in thread 24
 StageSort in thread 27
-StageSort in thread 6
+StageSort in thread 23
+StageSort in thread 1
+StageSort in thread 28
+StageSort in thread 22
+StageSort in thread 21
+StageSort in thread 9
+StageSort in thread 4
+StageSort in thread 29
+StageSort in thread 32
+StageSort in thread 12
 StageSort in thread 26
 StageSort in thread 10
-StageSort in thread 28
-StageSort in thread 30
 StageSort in thread 20
-StageSort in thread 13
-StageSort in thread 22
-StageSort in thread 14
-StageSort in thread 32
+StageSort in thread 2
+StageSort in thread 15
+StageSort in thread 30
 StageSort in thread 19
-StageSort in thread 16
-StageSort in thread 7
+StageSort in thread 31
+StageSort in thread 3
+StageSort in thread 25
+StageSort in thread 13
 
-Time =      14.60 sec    Generated terms =  144000001  (144 M  )
+Time =      13.78 sec    Generated terms =  144000001  (144 M  )
             test         Terms in output =      12001  ( 12 K  )
                acc x 1/4 Bytes used      = 4608528072  (  5 GiB)
                          Unsorted bytes  =12095616060  ( 12 GiB)
                          Small Buffer    =    0, 1252
-                         Large Buffer    =    0,  398
-                         Comparisons     = 1827510589  (  2 B  )
+                         Large Buffer    =    0,  400
+                         Comparisons     = 1830732590  (  2 B  )
                          Largest Term    =      96013  ( 96 K  )
-StageSort in thread 21
-StageSort in thread 31
-StageSort in thread 6
+StageSort in thread 17
 StageSort in thread 20
-StageSort in thread 25
+StageSort in thread 8
+StageSort in thread 32
+StageSort in thread 23
+StageSort in thread 4
+StageSort in thread 9
+StageSort in thread 5
 StageSort in thread 15
 StageSort in thread 16
-StageSort in thread 27
-StageSort in thread 29
-StageSort in thread 7
-StageSort in thread 5
-StageSort in thread 22
-StageSort in thread 19
-StageSort in thread 17
-StageSort in thread 12
-StageSort in thread 10
-StageSort in thread 23
-StageSort in thread 32
-StageSort in thread 13
-StageSort in thread 18
-StageSort in thread 9
-StageSort in thread 28
-StageSort in thread 2
-StageSort in thread 8
-StageSort in thread 3
 StageSort in thread 24
-StageSort in thread 1
-StageSort in thread 26
 StageSort in thread 11
 StageSort in thread 30
-StageSort in thread 4
-StageSort in thread 14
-StageSort in thread 21
-StageSort in thread 16
-StageSort in thread 22
+StageSort in thread 10
+StageSort in thread 25
+StageSort in thread 28
 StageSort in thread 31
+StageSort in thread 26
+StageSort in thread 2
+StageSort in thread 1
+StageSort in thread 12
+StageSort in thread 21
+StageSort in thread 13
+StageSort in thread 22
 StageSort in thread 27
-StageSort in thread 6
-StageSort in thread 20
-StageSort in thread 15
 StageSort in thread 29
+StageSort in thread 18
+StageSort in thread 19
+StageSort in thread 14
+StageSort in thread 6
+StageSort in thread 3
+StageSort in thread 7
 
-Time =      23.30 sec    Generated terms =  144000001  (144 M  )
+Time =      23.32 sec    Generated terms =  144000001  (144 M  )
             test         Terms in output =      12001  ( 12 K  )
                acc y 1/4 Bytes used      = 4608528072  (  5 GiB)
                          Unsorted bytes  =12095616060  ( 12 GiB)
-                         Small Buffer    =    0, 1249
-                         Large Buffer    =    0,  395
-                         Comparisons     = 1881213549  (  2 B  )
+                         Small Buffer    =    0, 1254
+                         Large Buffer    =    0,  398
+                         Comparisons     = 1826082824  (  2 B  )
                          Largest Term    =      96013  ( 96 K  )
-StageSort in thread 21
-StageSort in thread 15
 StageSort in thread 31
-StageSort in thread 29
-StageSort in thread 25
-StageSort in thread 27
-StageSort in thread 6
-StageSort in thread 5
-StageSort in thread 7
-StageSort in thread 22
-StageSort in thread 16
-StageSort in thread 20
-StageSort in thread 3
 StageSort in thread 8
-StageSort in thread 10
-StageSort in thread 32
-StageSort in thread 17
-StageSort in thread 9
-StageSort in thread 19
-StageSort in thread 1
-StageSort in thread 28
-StageSort in thread 13
-StageSort in thread 2
+StageSort in thread 21
+StageSort in thread 6
+StageSort in thread 14
+StageSort in thread 5
+StageSort in thread 20
 StageSort in thread 11
-StageSort in thread 26
+StageSort in thread 25
+StageSort in thread 2
+StageSort in thread 7
+StageSort in thread 16
+StageSort in thread 3
+StageSort in thread 19
 StageSort in thread 18
 StageSort in thread 4
-StageSort in thread 14
-StageSort in thread 12
 StageSort in thread 30
-StageSort in thread 24
-StageSort in thread 23
-StageSort in thread 29
 StageSort in thread 15
-StageSort in thread 21
-StageSort in thread 31
+StageSort in thread 10
+StageSort in thread 1
+StageSort in thread 24
+StageSort in thread 29
+StageSort in thread 23
+StageSort in thread 26
+StageSort in thread 13
+StageSort in thread 17
+StageSort in thread 22
+StageSort in thread 27
+StageSort in thread 32
+StageSort in thread 28
+StageSort in thread 12
+StageSort in thread 9
 
-Time =      31.65 sec    Generated terms =  144000001  (144 M  )
+Time =      32.23 sec    Generated terms =  144000001  (144 M  )
             test         Terms in output =      12001  ( 12 K  )
                acc x 2/4 Bytes used      = 4608528072  (  5 GiB)
                          Unsorted bytes  =12095616060  ( 12 GiB)
-                         Small Buffer    =    0, 1251
-                         Large Buffer    =    0,  397
-                         Comparisons     = 1854449171  (  2 B  )
+                         Small Buffer    =    0, 1253
+                         Large Buffer    =    0,  399
+                         Comparisons     = 1825891937  (  2 B  )
                          Largest Term    =      96013  ( 96 K  )
+StageSort in thread 3
+StageSort in thread 18
 StageSort in thread 16
-StageSort in thread 20
-StageSort in thread 7
-StageSort in thread 25
-StageSort in thread 21
-StageSort in thread 27
-StageSort in thread 5
+StageSort in thread 14
+StageSort in thread 23
 StageSort in thread 6
-StageSort in thread 15
+StageSort in thread 19
+StageSort in thread 2
 StageSort in thread 31
 StageSort in thread 22
+StageSort in thread 13
+StageSort in thread 24
+StageSort in thread 11
+StageSort in thread 27
+StageSort in thread 17
+StageSort in thread 30
+StageSort in thread 21
 StageSort in thread 29
-StageSort in thread 10
-StageSort in thread 3
-StageSort in thread 28
+StageSort in thread 7
 StageSort in thread 12
 StageSort in thread 32
-StageSort in thread 8
-StageSort in thread 4
-StageSort in thread 24
-StageSort in thread 30
-StageSort in thread 13
-StageSort in thread 19
-StageSort in thread 1
-StageSort in thread 14
+StageSort in thread 15
+StageSort in thread 28
+StageSort in thread 10
 StageSort in thread 9
-StageSort in thread 2
+StageSort in thread 4
+StageSort in thread 5
+StageSort in thread 1
+StageSort in thread 8
 StageSort in thread 26
-StageSort in thread 11
-StageSort in thread 18
-StageSort in thread 17
-StageSort in thread 23
-StageSort in thread 7
 StageSort in thread 25
-StageSort in thread 16
-StageSort in thread 21
 StageSort in thread 20
 
-Time =      38.05 sec    Generated terms =  144000001  (144 M  )
+Time =      39.21 sec    Generated terms =  144000001  (144 M  )
             test         Terms in output =      12001  ( 12 K  )
                acc y 2/4 Bytes used      = 4608528072  (  5 GiB)
                          Unsorted bytes  =12095616060  ( 12 GiB)
-                         Small Buffer    =    0, 1250
+                         Small Buffer    =    0, 1252
                          Large Buffer    =    0,  399
-                         Comparisons     = 1862468667  (  2 B  )
+                         Comparisons     = 1827553022  (  2 B  )
                          Largest Term    =      96013  ( 96 K  )
-StageSort in thread 31
-StageSort in thread 22
-StageSort in thread 5
-StageSort in thread 15
-StageSort in thread 27
-StageSort in thread 20
-StageSort in thread 16
-StageSort in thread 7
-StageSort in thread 21
-StageSort in thread 10
-StageSort in thread 25
-StageSort in thread 29
-StageSort in thread 3
-StageSort in thread 6
-StageSort in thread 8
-StageSort in thread 4
-StageSort in thread 2
-StageSort in thread 28
-StageSort in thread 1
 StageSort in thread 13
-StageSort in thread 30
-StageSort in thread 14
-StageSort in thread 23
-StageSort in thread 9
-StageSort in thread 24
-StageSort in thread 18
-StageSort in thread 17
-StageSort in thread 19
-StageSort in thread 32
 StageSort in thread 11
-StageSort in thread 12
-StageSort in thread 26
-StageSort in thread 31
+StageSort in thread 16
+StageSort in thread 3
+StageSort in thread 2
+StageSort in thread 27
+StageSort in thread 6
+StageSort in thread 7
+StageSort in thread 24
+StageSort in thread 19
+StageSort in thread 14
 StageSort in thread 22
+StageSort in thread 32
+StageSort in thread 23
+StageSort in thread 20
+StageSort in thread 31
+StageSort in thread 8
+StageSort in thread 25
+StageSort in thread 30
+StageSort in thread 28
+StageSort in thread 4
+StageSort in thread 9
+StageSort in thread 17
+StageSort in thread 18
+StageSort in thread 5
+StageSort in thread 29
+StageSort in thread 10
+StageSort in thread 12
+StageSort in thread 21
+StageSort in thread 15
+StageSort in thread 1
+StageSort in thread 26
 
-Time =      44.84 sec    Generated terms =  144000001  (144 M  )
+Time =      46.00 sec    Generated terms =  144000001  (144 M  )
             test         Terms in output =      12001  ( 12 K  )
                acc x 3/4 Bytes used      = 4608528072  (  5 GiB)
                          Unsorted bytes  =12095616060  ( 12 GiB)
-                         Small Buffer    =    0, 1248
-                         Large Buffer    =    0,  397
-                         Comparisons     = 1840862021  (  2 B  )
+                         Small Buffer    =    0, 1250
+                         Large Buffer    =    0,  396
+                         Comparisons     = 1828819648  (  2 B  )
                          Largest Term    =      96013  ( 96 K  )
-StageSort in thread 21
-StageSort in thread 31
-StageSort in thread 16
-StageSort in thread 29
-StageSort in thread 20
-StageSort in thread 25
+StageSort in thread 23
 StageSort in thread 27
-StageSort in thread 7
-StageSort in thread 22
-StageSort in thread 6
-StageSort in thread 15
-StageSort in thread 10
-StageSort in thread 5
+StageSort in thread 11
 StageSort in thread 3
+StageSort in thread 18
+StageSort in thread 7
+StageSort in thread 19
 StageSort in thread 14
-StageSort in thread 17
+StageSort in thread 6
+StageSort in thread 24
+StageSort in thread 30
+StageSort in thread 22
+StageSort in thread 31
+StageSort in thread 9
+StageSort in thread 16
+StageSort in thread 15
+StageSort in thread 13
+StageSort in thread 25
+StageSort in thread 32
+StageSort in thread 21
+StageSort in thread 20
+StageSort in thread 29
+StageSort in thread 5
+StageSort in thread 10
+StageSort in thread 4
+StageSort in thread 12
 StageSort in thread 26
 StageSort in thread 8
 StageSort in thread 28
-StageSort in thread 18
-StageSort in thread 19
-StageSort in thread 23
-StageSort in thread 13
-StageSort in thread 24
-StageSort in thread 12
-StageSort in thread 4
-StageSort in thread 30
-StageSort in thread 1
+StageSort in thread 17
 StageSort in thread 2
-StageSort in thread 9
-StageSort in thread 32
-StageSort in thread 11
-StageSort in thread 21
+StageSort in thread 1
 
-Time =      51.16 sec    Generated terms =  144000001  (144 M  )
+Time =      52.72 sec    Generated terms =  144000001  (144 M  )
             test         Terms in output =      12001  ( 12 K  )
                acc y 3/4 Bytes used      = 4608528072  (  5 GiB)
                          Unsorted bytes  =12095616060  ( 12 GiB)
-                         Small Buffer    =    0, 1252
-                         Large Buffer    =    0,  399
-                         Comparisons     = 1840748880  (  2 B  )
+                         Small Buffer    =    0, 1249
+                         Large Buffer    =    0,  393
+                         Comparisons     = 1828385794  (  2 B  )
                          Largest Term    =      96013  ( 96 K  )
-StageSort in thread 25
-StageSort in thread 7
-StageSort in thread 20
-StageSort in thread 5
-StageSort in thread 16
-StageSort in thread 15
-StageSort in thread 21
-StageSort in thread 31
-StageSort in thread 22
-StageSort in thread 10
-StageSort in thread 27
-StageSort in thread 29
-StageSort in thread 28
 StageSort in thread 6
+StageSort in thread 21
+StageSort in thread 7
+StageSort in thread 31
+StageSort in thread 16
+StageSort in thread 27
+StageSort in thread 11
+StageSort in thread 22
+StageSort in thread 24
+StageSort in thread 19
+StageSort in thread 18
+StageSort in thread 23
+StageSort in thread 30
+StageSort in thread 5
+StageSort in thread 2
+StageSort in thread 3
+StageSort in thread 29
 StageSort in thread 4
+StageSort in thread 32
+StageSort in thread 10
+StageSort in thread 14
+StageSort in thread 13
+StageSort in thread 28
+StageSort in thread 12
+StageSort in thread 25
+StageSort in thread 1
+StageSort in thread 26
+StageSort in thread 15
 StageSort in thread 17
+StageSort in thread 8
+StageSort in thread 9
+StageSort in thread 20

@@ -1,0 +1,26 @@
+form-bench: 042645048034c721e5c30a6fd380eb12b440331b
+	LABEL      = sortbotsfunc32
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsortbot -w32,/z/users/acpereira/software/bin/tformformmaster -w32
+	TESTS      = chromatic
+	N          = 30
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc32-1/results/
+
+
+Running chromatic
+Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w32
+  Time (mean ± σ):     60.187 s ±  0.970 s    [User: 842.734 s, System: 12.281 s]
+  Range (min … max):   57.901 s … 62.230 s    60 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tformformmaster -w32
+  Time (mean ± σ):     51.627 s ±  2.732 s    [User: 753.272 s, System: 7.385 s]
+  Range (min … max):   49.197 s … 55.693 s    60 runs
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (54.722 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+ 
+Summary
+  /z/users/acpereira/software/bin/tformformmaster -w32 ran
+    1.17 ± 0.06 times faster than /z/users/acpereira/software/bin/tformsortbot -w32

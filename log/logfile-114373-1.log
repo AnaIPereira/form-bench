@@ -12,3 +12,4 @@ Results: /z/users/acpereira/form-bench/output/sortbotsfunc8-1/results/
 
 Running sort-2-disk
 Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w8
+slurmstepd: error: *** JOB 114374 ON node05 CANCELLED AT 2026-07-23T11:14:42 ***

@@ -1,0 +1,21 @@
+form-bench: d3f13490744e0550f0288d45c14445fa589a4eb9
+	LABEL      = sortbotsfunc8
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsortbot -w8,/z/users/acpereira/software/bin/tformformmaster -w8
+	TESTS      = sort-2-small
+	N          = 30
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc8-1/results/
+
+
+Running sort-2-small
+Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w8
+  Time (mean ± σ):     21.218 s ±  0.861 s    [User: 119.755 s, System: 9.905 s]
+  Range (min … max):   19.547 s … 28.495 s    300 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tformformmaster -w8
+slurmstepd: error: *** JOB 114392 ON node04 CANCELLED AT 2026-07-23T14:18:35 DUE TO TIME LIMIT ***

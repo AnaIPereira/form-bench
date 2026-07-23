@@ -1,4 +1,4 @@
-TFORM 5.0.1 (Jul 22 2026, v5.0.1-23-g7a8f756) 64 workers  Run: Thu Jul 23 10:54:39 2026
+TFORM 5.0.1 (Jul 22 2026, v5.0.1-23-g7a8f756) 64 workers  Run: Thu Jul 23 15:05:54 2026
     #-
 
 Time =       0.00 sec    Generated terms =       6001  (  6 K  )
@@ -10,102 +10,65 @@ Time =       0.00 sec    Generated terms =       6001  (  6 K  )
                          Comparisons     =      17999  ( 18 K  )
                          Largest Term    =         39  ( <1 K  )
 
-Time =       0.50 sec    Generated terms =       6001  (  6 K  )
+Time =       0.54 sec    Generated terms =       6001  (  6 K  )
             test         Terms in output =       6001  (  6 K  )
                  setup-1 Bytes used      =     336092  (336 KiB)
                          Unsorted bytes  = 1152312060  (  1 GiB)
-                         Small Buffer    =    0,  347
+                         Small Buffer    =    0,  344
                          Large Buffer    =    0,    0
-                         Comparisons     =  298633784  (299 M  )
+                         Comparisons     =  299263887  (299 M  )
                          Largest Term    =      48013  ( 48 K  )
 
-Time =       1.43 sec    Generated terms =   36000001  ( 36 M  )
+Time =       1.45 sec    Generated terms =   36000001  ( 36 M  )
             test         Terms in output =       6001  (  6 K  )
                acc x 1/4 Bytes used      = 1152264072  (  1 GiB)
                          Unsorted bytes  = 3023808060  (  3 GiB)
-                         Small Buffer    =    0,  923
+                         Small Buffer    =    0,  928
                          Large Buffer    =    0,    0
-                         Comparisons     =  458332854  (458 M  )
+                         Comparisons     =  457386636  (457 M  )
                          Largest Term    =      48013  ( 48 K  )
 
 Time =       2.33 sec    Generated terms =   36000001  ( 36 M  )
             test         Terms in output =       6001  (  6 K  )
                acc y 1/4 Bytes used      = 1152264072  (  1 GiB)
                          Unsorted bytes  = 3023808060  (  3 GiB)
-                         Small Buffer    =    0,  932
+                         Small Buffer    =    0,  923
                          Large Buffer    =    0,    0
-                         Comparisons     =  458217274  (458 M  )
+                         Comparisons     =  457553165  (458 M  )
                          Largest Term    =      48013  ( 48 K  )
 
-Time =       2.99 sec    Generated terms =   36000001  ( 36 M  )
+Time =       2.96 sec    Generated terms =   36000001  ( 36 M  )
             test         Terms in output =       6001  (  6 K  )
                acc x 2/4 Bytes used      = 1152264072  (  1 GiB)
                          Unsorted bytes  = 3023808060  (  3 GiB)
-                         Small Buffer    =    0,  915
+                         Small Buffer    =    0,  927
                          Large Buffer    =    0,    0
-                         Comparisons     =  456851443  (457 M  )
+                         Comparisons     =  458004462  (458 M  )
                          Largest Term    =      48013  ( 48 K  )
 
-Time =       3.62 sec    Generated terms =   36000001  ( 36 M  )
+Time =       3.61 sec    Generated terms =   36000001  ( 36 M  )
             test         Terms in output =       6001  (  6 K  )
                acc y 2/4 Bytes used      = 1152264072  (  1 GiB)
                          Unsorted bytes  = 3023808060  (  3 GiB)
-                         Small Buffer    =    0,  918
+                         Small Buffer    =    0,  919
                          Large Buffer    =    0,    0
-                         Comparisons     =  457311110  (457 M  )
+                         Comparisons     =  456998360  (457 M  )
                          Largest Term    =      48013  ( 48 K  )
 
-Time =       4.23 sec    Generated terms =   36000001  ( 36 M  )
+Time =       4.30 sec    Generated terms =   36000001  ( 36 M  )
             test         Terms in output =       6001  (  6 K  )
                acc x 3/4 Bytes used      = 1152264072  (  1 GiB)
                          Unsorted bytes  = 3023808060  (  3 GiB)
-                         Small Buffer    =    0,  916
+                         Small Buffer    =    0,  917
                          Large Buffer    =    0,    0
-                         Comparisons     =  456772690  (457 M  )
+                         Comparisons     =  457587602  (458 M  )
                          Largest Term    =      48013  ( 48 K  )
 
-Time =       4.85 sec    Generated terms =   36000001  ( 36 M  )
+Time =       4.95 sec    Generated terms =   36000001  ( 36 M  )
             test         Terms in output =       6001  (  6 K  )
                acc y 3/4 Bytes used      = 1152264072  (  1 GiB)
                          Unsorted bytes  = 3023808060  (  3 GiB)
-                         Small Buffer    =    0,  919
+                         Small Buffer    =    0,  916
                          Large Buffer    =    0,    0
-                         Comparisons     =  457945638  (458 M  )
+                         Comparisons     =  457432632  (457 M  )
                          Largest Term    =      48013  ( 48 K  )
-
-Time =       5.50 sec    Generated terms =   36000001  ( 36 M  )
-            test         Terms in output =       6001  (  6 K  )
-               acc x 4/4 Bytes used      = 1152264072  (  1 GiB)
-                         Unsorted bytes  = 3023808060  (  3 GiB)
-                         Small Buffer    =    0,  915
-                         Large Buffer    =    0,    0
-                         Comparisons     =  456784202  (457 M  )
-                         Largest Term    =      48013  ( 48 K  )
-
-Time =       6.13 sec    Generated terms =   36000001  ( 36 M  )
-            test         Terms in output =       6001  (  6 K  )
-               acc y 4/4 Bytes used      = 1152264072  (  1 GiB)
-                         Unsorted bytes  = 3023808060  (  3 GiB)
-                         Small Buffer    =    0,  914
-                         Large Buffer    =    0,    0
-                         Comparisons     =  457115909  (457 M  )
-                         Largest Term    =      48013  ( 48 K  )
-
-Time =       6.28 sec    Generated terms =       6001  (  6 K  )
-            test         Terms in output =          0  ( <1 K  )
-                         Bytes used      =          4  ( <1 KiB)
-                         Unsorted bytes  =     356252  (356 KiB)
-                         Small Buffer    =    0,    0
-                         Large Buffer    =    0,    0
-                         Comparisons     =      11963  ( 12 K  )
-                         Largest Term    =      48013  ( 48 K  )
-
-Time =       6.28 sec    Generated terms =          0  ( <1 K  )
-            test         Terms in output =          0  ( <1 K  )
-                         Bytes used      =          4  ( <1 KiB)
-                         Unsorted bytes  =          0  ( <1 KiB)
-                         Small Buffer    =    0,    0
-                         Large Buffer    =    0,    0
-                         Comparisons     =          0  ( <1 K  )
-                         Largest Term    =          0  ( <1 K  )
-  6.28 sec + 137.34 sec: 143.62 sec out of 7.00 sec
