@@ -1,0 +1,15 @@
+form-bench: bfda4f3a6b3226d3abf0a3a988c5c877c3a0e794
+	LABEL      = sortbotsfunc64
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsortbot -w64,/z/users/acpereira/software/bin/tformformmaster -w64
+	TESTS      = sort-2-large
+	N          = 30
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc64-1/results/
+
+
+Running sort-2-large
+Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w64
+slurmstepd: error: *** JOB 114420 ON node11 CANCELLED AT 2026-07-23T15:18:14 ***

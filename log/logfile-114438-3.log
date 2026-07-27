@@ -1,0 +1,24 @@
+form-bench: d87021830365c4bb5cc68fd45a2038c917b98305
+	LABEL      = sortbotsfunc64
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsortbot -w64,/z/users/acpereira/software/bin/tformformmaster -w64
+	TESTS      = sort-2-small
+	N          = 30
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc64-1/results/
+
+
+Running sort-2-small
+Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w64
+  Time (mean ± σ):      1.999 s ±  0.085 s    [User: 40.976 s, System: 2.691 s]
+  Range (min … max):    1.730 s …  2.197 s    300 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tformformmaster -w64
+  Time (mean ± σ):      2.076 s ±  0.067 s    [User: 40.905 s, System: 2.640 s]
+  Range (min … max):    1.837 s …  2.240 s    300 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tformsortbot -w64 ran
+    1.04 ± 0.06 times faster than /z/users/acpereira/software/bin/tformformmaster -w64

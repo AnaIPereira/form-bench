@@ -1,0 +1,15 @@
+form-bench: cfe8ab77e0b88e0d0875e3b3c7a207215792bdad
+	LABEL      = sortbotsfunc32
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tformsortbot -w32,/z/users/acpereira/software/bin/tformformmaster -w32
+	TESTS      = sort-2-small
+	N          = 30
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/sortbotsfunc32-1/results/
+
+
+Running sort-2-small
+Benchmark 1: /z/users/acpereira/software/bin/tformsortbot -w32
+slurmstepd: error: *** JOB 114425 ON node03 CANCELLED AT 2026-07-23T15:18:14 ***
