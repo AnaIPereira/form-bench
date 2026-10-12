@@ -15,7 +15,7 @@
 #SBATCH --array=1
 
 case $SLURM_ARRAY_TASK_ID in
-       1) TESTS="testhyperform" ;;
+       1) TESTS="test" ;;
 esac      
  
 export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"

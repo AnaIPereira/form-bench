@@ -34,7 +34,7 @@ tform-5.0.0 -w8\
 TESTS="chromatic color fmft forcer forcer-exp hyperform \
 ibp-box2l ibp-mbox1l ibp-npbox2l ibp-nptri3l ibp-pent1l ibp-tri3l \
 minceex mincer mzv-dm sort-disk sort-large sort-small \
-sort-2-disk sort-2-large sort-2-small trace testhyperform"
+sort-2-disk sort-2-large sort-2-small trace test"
 
 # Number of times to run test batches. Running more times leads to more reliable
 # timing statistics, but increases total test run time.
