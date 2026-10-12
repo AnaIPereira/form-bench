@@ -1,0 +1,22 @@
+form-bench: 592ee80b2ba39c6f95a06d21565b997e4f4f848d
+	LABEL      = hyper
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform222fb05 -w16,/z/users/acpereira/software/bin/tform5f8f71d -w16
+	TESTS      = test
+	N          = 1
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/hyper-1/results/
+
+
+Running test
+Benchmark 1: /z/users/acpereira/software/bin/tform222fb05 -w16
+  Time (abs ≡):        1504.428 s               [User: 15074.099 s, System: 419.350 s]
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform5f8f71d -w16
+  Time (abs ≡):        1597.809 s               [User: 15606.714 s, System: 524.510 s]
+ 
+Summary
+  /z/users/acpereira/software/bin/tform222fb05 -w16 ran
+    1.06 times faster than /z/users/acpereira/software/bin/tform5f8f71d -w16
