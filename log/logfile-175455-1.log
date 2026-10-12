@@ -1,0 +1,24 @@
+form-bench: deae2483dc63d8a86eaffcc9316f271e6512d8e6
+	LABEL      = hyper5runs
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform222fb05 -w16,/z/users/acpereira/software/bin/tform5f8f71d -w16
+	TESTS      = test
+	N          = 5
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/hyper5runs-1/results/
+
+
+Running test
+Benchmark 1: /z/users/acpereira/software/bin/tform222fb05 -w16
+  Time (mean ± σ):     1518.227 s ± 16.837 s    [User: 15120.806 s, System: 425.095 s]
+  Range (min … max):   1503.991 s … 1547.352 s    5 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform5f8f71d -w16
+  Time (mean ± σ):     1646.482 s ± 41.331 s    [User: 15712.243 s, System: 550.360 s]
+  Range (min … max):   1596.995 s … 1700.142 s    5 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tform222fb05 -w16 ran
+    1.08 ± 0.03 times faster than /z/users/acpereira/software/bin/tform5f8f71d -w16
