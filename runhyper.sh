@@ -21,7 +21,7 @@ esac
 export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
 
 
-./run-compare.sh \
+./run-compare-hyper.sh \
   --tests "$TESTS" \
   --label "hyper" \
   --timestamp "1" \
