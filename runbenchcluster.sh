@@ -1,36 +1,57 @@
 #!/bin/bash
 
-#SBATCH --job-name=formbenchmarksortbots
+#SBATCH --job-name=hyperbench16
 
 #for arrays use
 #SBATCH --output=log/logfile-%A-%a.log 
 
 #SBATCH --export=ALL
-#SBATCH --mem=20G
-#SBATCH --cpus-per-task=8
-#SBATCH --time 0-10:00:00
+#SBATCH --mem=50G
+#SBATCH --cpus-per-task=16
+#SBATCH --time 2-00:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
-#SBATCH --array=1-4
+#SBATCH --array=1-22
 
 case $SLURM_ARRAY_TASK_ID in
-       1) TESTS="sort-2-disk" ;;
-       2) TESTS="sort-2-large" ;;
-       3) TESTS="sort-2-small" ;;
+       1) TESTS="color" ;;
+       2) TESTS="fmft" ;;
+       3) TESTS="forcer" ;;
        4) TESTS="chromatic" ;;
+       5) TESTS="forcer-exp" ;;
+       6) TESTS="minceex" ;;
+       7) TESTS="mincer" ;;
+       8) TESTS="sort-disk" ;;
+       9) TESTS="ibp-mbox1l" ;;
+       10) TESTS="ibp-box2l" ;;
+       11) TESTS="ibp-npbox2l" ;;
+       12) TESTS="ibp-nptri3l" ;;
+       13) TESTS="ibp-pent1l" ;;
+       14) TESTS="ibp-tri3l" ;;
+       15) TESTS="mzv-dm " ;;
+       16) TESTS="sort-large" ;;
+       17) TESTS="sort-small" ;;
+       18) TESTS="sort-2-disk" ;;
+       19) TESTS="sort-2-large" ;;
+       20) TESTS="sort-2-small" ;;
+       21) TESTS="trace" ;;
+       22) TESTS="test" ;;
 esac      
+ 
+ 
+
  
 export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
 
 
 ./run-compare.sh \
   --tests "$TESTS" \
-  --label "sortbotsfunc8" \
+  --label "allplushyper16t" \
   --timestamp "1" \
   --testdir "$TMPDIR" \
-  --runs 30 \
-  --form_cmds "$HOME/software/bin/tformsortbot -w8,$HOME/software/bin/tformformmaster -w8"
+  --runs 2 \
+  --form_cmds "$HOME/software/bin/tform222fb05 -w16,$HOME/software/bin/tforma9209a6 -w16"
 
 
 
