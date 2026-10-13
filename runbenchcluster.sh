@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=hyperbench16
+#SBATCH --job-name=alltests16t5.0.2
 
 #for arrays use
 #SBATCH --output=log/logfile-%A-%a.log 
@@ -8,7 +8,7 @@
 #SBATCH --export=ALL
 #SBATCH --mem=50G
 #SBATCH --cpus-per-task=16
-#SBATCH --time 2-00:00:00
+#SBATCH --time 1-00:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
@@ -47,11 +47,11 @@ export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
 
 ./run-compare.sh \
   --tests "$TESTS" \
-  --label "allplushyper16t-8rubs" \
+  --label "alltestsMINWRITENUMBERTERMS" \
   --timestamp "1" \
   --testdir "$TMPDIR" \
-  --runs 8 \
-  --form_cmds "$HOME/software/bin/tform222fb05 -w16,$HOME/software/bin/tforma9209a6 -w16"
+  --runs 3 \
+  --form_cmds "$HOME/software/bin/tform8-1-1 -w16,$HOME/software/bin/tform8-1-2 -w16,$HOME/software/bin/tform8-1-4 -w16,$HOME/software/bin/tform8-1-8 -w16,$HOME/software/bin/tform8-1-16 -w16"
 
 
 
