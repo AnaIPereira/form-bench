@@ -47,10 +47,10 @@ export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
 
 ./run-compare.sh \
   --tests "$TESTS" \
-  --label "allplushyper16t" \
+  --label "allplushyper16t-8rubs" \
   --timestamp "1" \
   --testdir "$TMPDIR" \
-  --runs 2 \
+  --runs 8 \
   --form_cmds "$HOME/software/bin/tform222fb05 -w16,$HOME/software/bin/tforma9209a6 -w16"
 
 
