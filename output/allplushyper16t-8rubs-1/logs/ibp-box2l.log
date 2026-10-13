@@ -1,0 +1,607 @@
+TFORM 5.0.2 (Oct 12 2026, v5.0.2-1-ga9209a6) 16 workers  Run: Tue Oct 13 08:34:24 2026
+    #-
+
+Time =       0.02 sec    Generated terms =          1
+            test         Terms in output =          1
+                         Bytes used      =        132
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.12 sec    Generated terms =          5
+            test         Terms in output =          5
+             red-level-7 Bytes used      =        548
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.19 sec    Generated terms =         73
+            test         Terms in output =         60
+             red-level-7 Bytes used      =       7800
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.27 sec    Generated terms =        558
+            test         Terms in output =        301
+             red-level-7 Bytes used      =      56284
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.35 sec    Generated terms =       1701
+            test         Terms in output =        757
+             red-level-7 Bytes used      =     184232
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.42 sec    Generated terms =       2753
+            test         Terms in output =       1097
+             red-level-7 Bytes used      =     352056
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.50 sec    Generated terms =       3117
+            test         Terms in output =       1278
+             red-level-7 Bytes used      =     484492
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.57 sec    Generated terms =       3118
+            test         Terms in output =       1384
+             red-level-7 Bytes used      =     578676
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.65 sec    Generated terms =       2917
+            test         Terms in output =       1426
+             red-level-7 Bytes used      =     646980
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.73 sec    Generated terms =       2615
+            test         Terms in output =       1442
+             red-level-7 Bytes used      =     703980
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.81 sec    Generated terms =       2383
+            test         Terms in output =       1443
+             red-level-7 Bytes used      =     737616
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.89 sec    Generated terms =       2221
+            test         Terms in output =       1437
+             red-level-7 Bytes used      =     751160
+~~~reducebox2l: reduce level 7 ...
+
+Time =       0.97 sec    Generated terms =       2124
+            test         Terms in output =       1457
+             red-level-7 Bytes used      =     769704
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.05 sec    Generated terms =       2033
+            test         Terms in output =       1439
+             red-level-7 Bytes used      =     758560
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.13 sec    Generated terms =       1832
+            test         Terms in output =       1430
+             red-level-7 Bytes used      =     762708
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.20 sec    Generated terms =       1706
+            test         Terms in output =       1427
+             red-level-7 Bytes used      =     757128
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.28 sec    Generated terms =       1634
+            test         Terms in output =       1424
+             red-level-7 Bytes used      =     751604
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.36 sec    Generated terms =       1606
+            test         Terms in output =       1423
+             red-level-7 Bytes used      =     731736
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.43 sec    Generated terms =       1560
+            test         Terms in output =       1421
+             red-level-7 Bytes used      =     724672
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.51 sec    Generated terms =       1546
+            test         Terms in output =       1420
+             red-level-7 Bytes used      =     696636
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.59 sec    Generated terms =       1500
+            test         Terms in output =       1418
+             red-level-7 Bytes used      =     691364
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.67 sec    Generated terms =       1486
+            test         Terms in output =       1417
+             red-level-7 Bytes used      =     658976
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.74 sec    Generated terms =       1443
+            test         Terms in output =       1416
+             red-level-7 Bytes used      =     641372
+~~~reducebox2l: reduce level 7 ...
+
+Time =       1.82 sec    Generated terms =       1424
+            test         Terms in output =       1414
+             red-level-7 Bytes used      =     634964
+~~~reducebox2l: reduce level 6 ...
+
+Time =       1.90 sec    Generated terms =       9298
+            test         Terms in output =       3881
+             red-level-6 Bytes used      =    2018056
+~~~reducebox2l: reduce level 6 ...
+
+Time =       1.98 sec    Generated terms =      13661
+            test         Terms in output =       4916
+             red-level-6 Bytes used      =    2996708
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.07 sec    Generated terms =      14767
+            test         Terms in output =       5441
+             red-level-6 Bytes used      =    3633928
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.16 sec    Generated terms =      14505
+            test         Terms in output =       5660
+             red-level-6 Bytes used      =    4032028
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.24 sec    Generated terms =      13253
+            test         Terms in output =       5713
+             red-level-6 Bytes used      =    4209160
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.33 sec    Generated terms =      11998
+            test         Terms in output =       5645
+             red-level-6 Bytes used      =    4271744
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.41 sec    Generated terms =      10930
+            test         Terms in output =       5615
+             red-level-6 Bytes used      =    4282128
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.49 sec    Generated terms =      10140
+            test         Terms in output =       5472
+             red-level-6 Bytes used      =    4222628
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.58 sec    Generated terms =       9084
+            test         Terms in output =       5283
+             red-level-6 Bytes used      =    4109376
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.66 sec    Generated terms =       7953
+            test         Terms in output =       5106
+             red-level-6 Bytes used      =    3967540
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.74 sec    Generated terms =       7015
+            test         Terms in output =       4934
+             red-level-6 Bytes used      =    3826868
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.83 sec    Generated terms =       6266
+            test         Terms in output =       4837
+             red-level-6 Bytes used      =    3728368
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.91 sec    Generated terms =       5768
+            test         Terms in output =       4757
+             red-level-6 Bytes used      =    3646112
+~~~reducebox2l: reduce level 6 ...
+
+Time =       2.99 sec    Generated terms =       5393
+            test         Terms in output =       4705
+             red-level-6 Bytes used      =    3540568
+~~~reducebox2l: reduce level 6 ...
+
+Time =       3.07 sec    Generated terms =       5157
+            test         Terms in output =       4682
+             red-level-6 Bytes used      =    3429236
+~~~reducebox2l: reduce level 6 ...
+
+Time =       3.15 sec    Generated terms =       4978
+            test         Terms in output =       4653
+             red-level-6 Bytes used      =    3354904
+~~~reducebox2l: reduce level 6 ...
+
+Time =       3.24 sec    Generated terms =       4866
+            test         Terms in output =       4640
+             red-level-6 Bytes used      =    3309444
+~~~reducebox2l: reduce level 6 ...
+
+Time =       3.33 sec    Generated terms =       4759
+            test         Terms in output =       4620
+             red-level-6 Bytes used      =    3288740
+~~~reducebox2l: reduce level 6 ...
+
+Time =       3.41 sec    Generated terms =       4691
+            test         Terms in output =       4608
+             red-level-6 Bytes used      =    3277172
+~~~reducebox2l: reduce level 6 ...
+
+Time =       3.50 sec    Generated terms =       4625
+            test         Terms in output =       4601
+             red-level-6 Bytes used      =    3271968
+~~~reducebox2l: reduce level 5 ...
+
+Time =       3.60 sec    Generated terms =      24872
+            test         Terms in output =      10008
+             red-level-5 Bytes used      =   10058668
+~~~reducebox2l: reduce level 5 ...
+
+Time =       3.70 sec    Generated terms =      31056
+            test         Terms in output =      11452
+             red-level-5 Bytes used      =   15636836
+~~~reducebox2l: reduce level 5 ...
+
+Time =       3.81 sec    Generated terms =      32413
+            test         Terms in output =      11850
+             red-level-5 Bytes used      =   20298700
+~~~reducebox2l: reduce level 5 ...
+
+Time =       3.92 sec    Generated terms =      30962
+            test         Terms in output =      11661
+             red-level-5 Bytes used      =   24015480
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.02 sec    Generated terms =      27826
+            test         Terms in output =      11335
+             red-level-5 Bytes used      =   26814944
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.13 sec    Generated terms =      25204
+            test         Terms in output =      10758
+             red-level-5 Bytes used      =   28500548
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.24 sec    Generated terms =      22535
+            test         Terms in output =      10078
+             red-level-5 Bytes used      =   29461764
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.34 sec    Generated terms =      19628
+            test         Terms in output =       9353
+             red-level-5 Bytes used      =   29875496
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.45 sec    Generated terms =      17186
+            test         Terms in output =       8794
+             red-level-5 Bytes used      =   29067292
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.55 sec    Generated terms =      15347
+            test         Terms in output =       8328
+             red-level-5 Bytes used      =   28183492
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.66 sec    Generated terms =      13487
+            test         Terms in output =       7913
+             red-level-5 Bytes used      =   26966648
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.76 sec    Generated terms =      11985
+            test         Terms in output =       7530
+             red-level-5 Bytes used      =   25921652
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.86 sec    Generated terms =      10906
+            test         Terms in output =       7217
+             red-level-5 Bytes used      =   24674440
+~~~reducebox2l: reduce level 5 ...
+
+Time =       4.96 sec    Generated terms =       9728
+            test         Terms in output =       6921
+             red-level-5 Bytes used      =   23073160
+~~~reducebox2l: reduce level 5 ...
+
+Time =       5.06 sec    Generated terms =       8902
+            test         Terms in output =       6722
+             red-level-5 Bytes used      =   21816732
+~~~reducebox2l: reduce level 5 ...
+
+Time =       5.17 sec    Generated terms =       8355
+            test         Terms in output =       6579
+             red-level-5 Bytes used      =   20988168
+~~~reducebox2l: reduce level 5 ...
+
+Time =       5.29 sec    Generated terms =       7819
+            test         Terms in output =       6444
+             red-level-5 Bytes used      =   19985836
+~~~reducebox2l: reduce level 5 ...
+
+Time =       5.40 sec    Generated terms =       7404
+            test         Terms in output =       6341
+             red-level-5 Bytes used      =   19003208
+~~~reducebox2l: reduce level 5 ...
+
+Time =       5.51 sec    Generated terms =       7003
+            test         Terms in output =       6254
+             red-level-5 Bytes used      =   18153036
+~~~reducebox2l: reduce level 5 ...
+
+Time =       5.62 sec    Generated terms =       6728
+            test         Terms in output =       6173
+             red-level-5 Bytes used      =   17453104
+~~~reducebox2l: reduce level 5 ...
+
+Time =       5.74 sec    Generated terms =       6517
+            test         Terms in output =       6124
+             red-level-5 Bytes used      =   16793652
+~~~reducebox2l: reduce level 5 ...
+
+Time =       5.85 sec    Generated terms =       6323
+            test         Terms in output =       6070
+             red-level-5 Bytes used      =   16261468
+~~~reducebox2l: reduce level 5 ...
+
+Time =       5.94 sec    Generated terms =       6181
+            test         Terms in output =       6022
+             red-level-5 Bytes used      =   15733188
+~~~reducebox2l: reduce level 5 ...
+
+Time =       6.03 sec    Generated terms =       6072
+            test         Terms in output =       5993
+             red-level-5 Bytes used      =   15408640
+~~~reducebox2l: reduce level 5 ...
+
+Time =       6.14 sec    Generated terms =       6008
+            test         Terms in output =       5977
+             red-level-5 Bytes used      =   15243800
+~~~reducebox2l: reduce level 5 ...
+
+Time =       6.23 sec    Generated terms =       5981
+            test         Terms in output =       5972
+             red-level-5 Bytes used      =   15154004
+~~~reducebox2l: reduce level 5 ...
+
+Time =       6.32 sec    Generated terms =       5974
+            test         Terms in output =       5971
+             red-level-5 Bytes used      =   15104168
+~~~reducebox2l: reduce level 4 ...
+
+Time =       6.42 sec    Generated terms =      31794
+            test         Terms in output =       9755
+             red-level-4 Bytes used      =   27303072
+~~~reducebox2l: reduce level 4 ...
+
+Time =       6.52 sec    Generated terms =      27557
+            test         Terms in output =       9195
+             red-level-4 Bytes used      =   32949656
+~~~reducebox2l: reduce level 4 ...
+
+Time =       6.63 sec    Generated terms =      22894
+            test         Terms in output =       7793
+             red-level-4 Bytes used      =   34609024
+~~~reducebox2l: reduce level 4 ...
+
+Time =       6.74 sec    Generated terms =      17056
+            test         Terms in output =       6400
+             red-level-4 Bytes used      =   34552988
+~~~reducebox2l: reduce level 4 ...
+
+Time =       6.85 sec    Generated terms =      12531
+            test         Terms in output =       5135
+             red-level-4 Bytes used      =   33706584
+~~~reducebox2l: reduce level 4 ...
+
+Time =       6.96 sec    Generated terms =       9390
+            test         Terms in output =       4145
+             red-level-4 Bytes used      =   31877000
+~~~reducebox2l: reduce level 4 ...
+
+Time =       7.07 sec    Generated terms =       7075
+            test         Terms in output =       3452
+             red-level-4 Bytes used      =   29234180
+~~~reducebox2l: reduce level 4 ...
+
+Time =       7.17 sec    Generated terms =       5551
+            test         Terms in output =       2939
+             red-level-4 Bytes used      =   26403984
+~~~reducebox2l: reduce level 4 ...
+
+Time =       7.27 sec    Generated terms =       4564
+            test         Terms in output =       2600
+             red-level-4 Bytes used      =   23784268
+~~~reducebox2l: reduce level 4 ...
+
+Time =       7.38 sec    Generated terms =       3850
+            test         Terms in output =       2344
+             red-level-4 Bytes used      =   21357324
+~~~reducebox2l: reduce level 4 ...
+
+Time =       7.47 sec    Generated terms =       3318
+            test         Terms in output =       2144
+             red-level-4 Bytes used      =   19396628
+~~~reducebox2l: reduce level 4 ...
+
+Time =       7.58 sec    Generated terms =       2963
+            test         Terms in output =       1994
+             red-level-4 Bytes used      =   17630620
+~~~reducebox2l: reduce level 4 ...
+
+Time =       7.68 sec    Generated terms =       2656
+            test         Terms in output =       1869
+             red-level-4 Bytes used      =   16435416
+~~~reducebox2l: reduce level 4 ...
+
+Time =       7.78 sec    Generated terms =       2411
+            test         Terms in output =       1773
+             red-level-4 Bytes used      =   15232904
+~~~reducebox2l: reduce level 4 ...
+
+Time =       7.91 sec    Generated terms =       2206
+            test         Terms in output =       1656
+             red-level-4 Bytes used      =   14014732
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.03 sec    Generated terms =       2062
+            test         Terms in output =       1593
+             red-level-4 Bytes used      =   12998432
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.13 sec    Generated terms =       1929
+            test         Terms in output =       1520
+             red-level-4 Bytes used      =   12106828
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.23 sec    Generated terms =       1800
+            test         Terms in output =       1457
+             red-level-4 Bytes used      =   11243840
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.34 sec    Generated terms =       1626
+            test         Terms in output =       1359
+             red-level-4 Bytes used      =   10300120
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.46 sec    Generated terms =       1483
+            test         Terms in output =       1299
+             red-level-4 Bytes used      =    9503232
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.56 sec    Generated terms =       1349
+            test         Terms in output =       1236
+             red-level-4 Bytes used      =    8811780
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.66 sec    Generated terms =       1287
+            test         Terms in output =       1210
+             red-level-4 Bytes used      =    8342092
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.77 sec    Generated terms =       1242
+            test         Terms in output =       1190
+             red-level-4 Bytes used      =    8015540
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.87 sec    Generated terms =       1190
+            test         Terms in output =       1155
+             red-level-4 Bytes used      =    7576312
+~~~reducebox2l: reduce level 4 ...
+
+Time =       8.95 sec    Generated terms =       1145
+            test         Terms in output =       1132
+             red-level-4 Bytes used      =    7295508
+~~~reducebox2l: reduce level 4 ...
+
+Time =       9.04 sec    Generated terms =       1109
+            test         Terms in output =       1105
+             red-level-4 Bytes used      =    7039336
+~~~reducebox2l: reduce level 4 ...
+
+Time =       9.13 sec    Generated terms =       1105
+            test         Terms in output =       1103
+             red-level-4 Bytes used      =    7019520
+~~~reducebox2l: reduce level 4 ...
+
+Time =       9.21 sec    Generated terms =       1103
+            test         Terms in output =       1101
+             red-level-4 Bytes used      =    6994232
+~~~reducebox2l: reduce level 4 ...
+
+Time =       9.30 sec    Generated terms =       1101
+            test         Terms in output =       1100
+             red-level-4 Bytes used      =    6987228
+~~~reducebox2l: reduce level 4 ...
+
+Time =       9.39 sec    Generated terms =       1100
+            test         Terms in output =       1099
+             red-level-4 Bytes used      =    6976072
+~~~reducebox2l: reduce level 3 ...
+
+Time =       9.47 sec    Generated terms =       3753
+            test         Terms in output =       1277
+             red-level-3 Bytes used      =   10113728
+~~~reducebox2l: reduce level 3 ...
+
+Time =       9.56 sec    Generated terms =       3185
+            test         Terms in output =       1071
+             red-level-3 Bytes used      =   10915920
+~~~reducebox2l: reduce level 3 ...
+
+Time =       9.64 sec    Generated terms =       2445
+            test         Terms in output =        827
+             red-level-3 Bytes used      =    9327616
+~~~reducebox2l: reduce level 3 ...
+
+Time =       9.73 sec    Generated terms =       1776
+            test         Terms in output =        612
+             red-level-3 Bytes used      =    7094340
+~~~reducebox2l: reduce level 3 ...
+
+Time =       9.82 sec    Generated terms =       1210
+            test         Terms in output =        439
+             red-level-3 Bytes used      =    5168728
+~~~reducebox2l: reduce level 3 ...
+
+Time =       9.91 sec    Generated terms =        737
+            test         Terms in output =        306
+             red-level-3 Bytes used      =    3595180
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.01 sec    Generated terms =        459
+            test         Terms in output =        211
+             red-level-3 Bytes used      =    2395600
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.10 sec    Generated terms =        320
+            test         Terms in output =        174
+             red-level-3 Bytes used      =    1439108
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.19 sec    Generated terms =        228
+            test         Terms in output =        132
+             red-level-3 Bytes used      =     890372
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.27 sec    Generated terms =        140
+            test         Terms in output =         94
+             red-level-3 Bytes used      =     591652
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.35 sec    Generated terms =         77
+            test         Terms in output =         58
+             red-level-3 Bytes used      =     314044
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.42 sec    Generated terms =         50
+            test         Terms in output =         43
+             red-level-3 Bytes used      =     199904
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.50 sec    Generated terms =         40
+            test         Terms in output =         35
+             red-level-3 Bytes used      =     127648
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.58 sec    Generated terms =         26
+            test         Terms in output =         22
+             red-level-3 Bytes used      =      73052
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.65 sec    Generated terms =         15
+            test         Terms in output =         14
+             red-level-3 Bytes used      =      52844
+~~~reducebox2l: reduce level 3 ...
+
+Time =      10.73 sec    Generated terms =         14
+            test         Terms in output =         13
+             red-level-3 Bytes used      =      46648
+~~~reducebox2l: reduce level 2 ...
+
+Time =      10.80 sec    Generated terms =         11
+            test         Terms in output =         11
+             red-level-2 Bytes used      =      44900
+
+Time =      10.80 sec    Generated terms =         11
+            test         Terms in output =         11
+                         Bytes used      =      44900
+
+Time =      10.81 sec    Generated terms =         22
+           check         Terms in output =          0
+                         Bytes used      =          4
+
+   check = 0;
+
+
+Time =      10.81 sec    Generated terms =          0
+           check         Terms in output =          0
+                         Bytes used      =          4
+  10.81 sec + 208.01 sec: 218.83 sec out of 41.37 sec

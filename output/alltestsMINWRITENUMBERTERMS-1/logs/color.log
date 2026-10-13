@@ -1,0 +1,5 @@
+TFORM 5.0.2 (Oct 13 2026, v5.0.2-2-gfb12f2e-dirty) 16 workers  Run: Tue Oct 13 11:07:01 2026
+    #-
+~~~call color
+~~~call adjoint
+  2.83 sec + 296.86 sec: 299.69 sec out of 24.18 sec

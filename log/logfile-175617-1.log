@@ -1,0 +1,43 @@
+form-bench: d5023c17da2a721d4a11f1dc9d9111e45cbc5f2d
+	LABEL      = alltestsMINWRITENUMBERTERMS
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform8-1-1 -w16,/z/users/acpereira/software/bin/tform8-1-2 -w16,/z/users/acpereira/software/bin/tform8-1-4 -w16,/z/users/acpereira/software/bin/tform8-1-8 -w16,/z/users/acpereira/software/bin/tform8-1-16 -w16
+	TESTS      = color
+	N          = 3
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/alltestsMINWRITENUMBERTERMS-1/results/
+
+
+Running color
+Benchmark 1: /z/users/acpereira/software/bin/tform8-1-1 -w16
+  Time (mean ± σ):     24.811 s ±  0.469 s    [User: 296.704 s, System: 3.759 s]
+  Range (min … max):   24.501 s … 26.783 s    24 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform8-1-2 -w16
+  Time (mean ± σ):     24.698 s ±  0.265 s    [User: 296.267 s, System: 3.747 s]
+  Range (min … max):   24.092 s … 25.118 s    24 runs
+ 
+Benchmark 3: /z/users/acpereira/software/bin/tform8-1-4 -w16
+  Time (mean ± σ):     24.600 s ±  0.498 s    [User: 295.939 s, System: 3.609 s]
+  Range (min … max):   24.182 s … 26.746 s    24 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 4: /z/users/acpereira/software/bin/tform8-1-8 -w16
+  Time (mean ± σ):     24.513 s ±  0.220 s    [User: 295.357 s, System: 3.657 s]
+  Range (min … max):   23.962 s … 24.986 s    24 runs
+ 
+Benchmark 5: /z/users/acpereira/software/bin/tform8-1-16 -w16
+  Time (mean ± σ):     24.407 s ±  0.170 s    [User: 295.443 s, System: 3.616 s]
+  Range (min … max):   24.132 s … 24.780 s    24 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tform8-1-16 -w16 ran
+    1.00 ± 0.01 times faster than /z/users/acpereira/software/bin/tform8-1-8 -w16
+    1.01 ± 0.02 times faster than /z/users/acpereira/software/bin/tform8-1-4 -w16
+    1.01 ± 0.01 times faster than /z/users/acpereira/software/bin/tform8-1-2 -w16
+    1.02 ± 0.02 times faster than /z/users/acpereira/software/bin/tform8-1-1 -w16

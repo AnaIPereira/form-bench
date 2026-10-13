@@ -1,0 +1,23 @@
+TFORM 5.0.2 (Oct 13 2026, v5.0.2-2-gfb12f2e-dirty) 16 workers  Run: Tue Oct 13 10:27:12 2026
+    #-
+~~~sort-test.h: generating terms: 8388608
+
+Time =       0.00 sec    Generated terms =         64
+           test1         Terms in output =         64
+                         Bytes used      =       4888
+
+Time =       0.00 sec    Generated terms =     131072
+           test1         Terms in output =     131072
+                         Bytes used      =    3145744
+  0.00 sec + 0.03 sec: 0.03 sec out of 0.00 sec
+~~~sort-test.h: expand and cancel
+
+Time =       0.01 sec    Generated terms =    8388608
+           test1         Terms in output =          0
+                         Bytes used      =          4
+  0.01 sec + 21.32 sec: 21.33 sec out of 1.41 sec
+
+Time =       0.01 sec    Generated terms =          0
+           test1         Terms in output =          0
+                         Bytes used      =          4
+  0.01 sec + 21.88 sec: 21.89 sec out of 1.41 sec

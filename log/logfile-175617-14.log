@@ -1,0 +1,43 @@
+form-bench: d5023c17da2a721d4a11f1dc9d9111e45cbc5f2d
+	LABEL      = alltestsMINWRITENUMBERTERMS
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform8-1-1 -w16,/z/users/acpereira/software/bin/tform8-1-2 -w16,/z/users/acpereira/software/bin/tform8-1-4 -w16,/z/users/acpereira/software/bin/tform8-1-8 -w16,/z/users/acpereira/software/bin/tform8-1-16 -w16
+	TESTS      = ibp-tri3l
+	N          = 3
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/alltestsMINWRITENUMBERTERMS-1/results/
+
+
+Running ibp-tri3l
+Benchmark 1: /z/users/acpereira/software/bin/tform8-1-1 -w16
+  Time (mean ± σ):     32.485 s ±  0.416 s    [User: 74.021 s, System: 0.869 s]
+  Range (min … max):   31.475 s … 33.278 s    12 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform8-1-2 -w16
+  Time (mean ± σ):     31.056 s ±  1.698 s    [User: 70.138 s, System: 0.804 s]
+  Range (min … max):   29.680 s … 33.388 s    12 runs
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (33.308 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+ 
+Benchmark 3: /z/users/acpereira/software/bin/tform8-1-4 -w16
+  Time (mean ± σ):     29.643 s ±  0.067 s    [User: 66.683 s, System: 0.766 s]
+  Range (min … max):   29.521 s … 29.761 s    12 runs
+ 
+Benchmark 4: /z/users/acpereira/software/bin/tform8-1-8 -w16
+  Time (mean ± σ):     29.152 s ±  0.251 s    [User: 65.591 s, System: 0.696 s]
+  Range (min … max):   28.802 s … 29.629 s    12 runs
+ 
+Benchmark 5: /z/users/acpereira/software/bin/tform8-1-16 -w16
+  Time (mean ± σ):     28.368 s ±  0.768 s    [User: 61.767 s, System: 0.622 s]
+  Range (min … max):   27.324 s … 29.263 s    12 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tform8-1-16 -w16 ran
+    1.03 ± 0.03 times faster than /z/users/acpereira/software/bin/tform8-1-8 -w16
+    1.04 ± 0.03 times faster than /z/users/acpereira/software/bin/tform8-1-4 -w16
+    1.09 ± 0.07 times faster than /z/users/acpereira/software/bin/tform8-1-2 -w16
+    1.15 ± 0.03 times faster than /z/users/acpereira/software/bin/tform8-1-1 -w16

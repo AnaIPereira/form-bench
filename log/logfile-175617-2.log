@@ -1,0 +1,39 @@
+form-bench: d5023c17da2a721d4a11f1dc9d9111e45cbc5f2d
+	LABEL      = alltestsMINWRITENUMBERTERMS
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform8-1-1 -w16,/z/users/acpereira/software/bin/tform8-1-2 -w16,/z/users/acpereira/software/bin/tform8-1-4 -w16,/z/users/acpereira/software/bin/tform8-1-8 -w16,/z/users/acpereira/software/bin/tform8-1-16 -w16
+	TESTS      = fmft
+	N          = 3
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/alltestsMINWRITENUMBERTERMS-1/results/
+
+
+Running fmft
+Benchmark 1: /z/users/acpereira/software/bin/tform8-1-1 -w16
+  Time (mean ± σ):     323.141 s ±  2.469 s    [User: 3034.871 s, System: 60.001 s]
+  Range (min … max):   320.560 s … 327.161 s    6 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform8-1-2 -w16
+  Time (mean ± σ):     321.851 s ±  2.867 s    [User: 3043.738 s, System: 55.254 s]
+  Range (min … max):   318.322 s … 324.465 s    6 runs
+ 
+Benchmark 3: /z/users/acpereira/software/bin/tform8-1-4 -w16
+  Time (mean ± σ):     320.215 s ±  3.043 s    [User: 3034.948 s, System: 50.757 s]
+  Range (min … max):   314.563 s … 322.842 s    6 runs
+ 
+Benchmark 4: /z/users/acpereira/software/bin/tform8-1-8 -w16
+  Time (mean ± σ):     318.180 s ±  2.986 s    [User: 3028.343 s, System: 47.277 s]
+  Range (min … max):   314.666 s … 322.574 s    6 runs
+ 
+Benchmark 5: /z/users/acpereira/software/bin/tform8-1-16 -w16
+  Time (mean ± σ):     315.886 s ±  1.374 s    [User: 3024.543 s, System: 45.849 s]
+  Range (min … max):   314.278 s … 317.561 s    6 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tform8-1-16 -w16 ran
+    1.01 ± 0.01 times faster than /z/users/acpereira/software/bin/tform8-1-8 -w16
+    1.01 ± 0.01 times faster than /z/users/acpereira/software/bin/tform8-1-4 -w16
+    1.02 ± 0.01 times faster than /z/users/acpereira/software/bin/tform8-1-2 -w16
+    1.02 ± 0.01 times faster than /z/users/acpereira/software/bin/tform8-1-1 -w16

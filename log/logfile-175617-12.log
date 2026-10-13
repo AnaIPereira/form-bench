@@ -1,0 +1,41 @@
+form-bench: d5023c17da2a721d4a11f1dc9d9111e45cbc5f2d
+	LABEL      = alltestsMINWRITENUMBERTERMS
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform8-1-1 -w16,/z/users/acpereira/software/bin/tform8-1-2 -w16,/z/users/acpereira/software/bin/tform8-1-4 -w16,/z/users/acpereira/software/bin/tform8-1-8 -w16,/z/users/acpereira/software/bin/tform8-1-16 -w16
+	TESTS      = ibp-nptri3l
+	N          = 3
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/alltestsMINWRITENUMBERTERMS-1/results/
+
+
+Running ibp-nptri3l
+Benchmark 1: /z/users/acpereira/software/bin/tform8-1-1 -w16
+  Time (mean ± σ):     22.730 s ±  0.273 s    [User: 52.603 s, System: 0.664 s]
+  Range (min … max):   22.055 s … 23.421 s    18 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tform8-1-2 -w16
+  Time (mean ± σ):     21.533 s ±  1.057 s    [User: 49.201 s, System: 0.608 s]
+  Range (min … max):   20.769 s … 23.339 s    18 runs
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (23.214 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+ 
+Benchmark 3: /z/users/acpereira/software/bin/tform8-1-4 -w16
+  Time (mean ± σ):     20.791 s ±  0.044 s    [User: 47.377 s, System: 0.578 s]
+  Range (min … max):   20.661 s … 20.874 s    18 runs
+ 
+Benchmark 4: /z/users/acpereira/software/bin/tform8-1-8 -w16
+  Time (mean ± σ):     20.359 s ±  0.115 s    [User: 44.053 s, System: 0.454 s]
+  Range (min … max):   20.210 s … 20.654 s    18 runs
+ 
+Benchmark 5: /z/users/acpereira/software/bin/tform8-1-16 -w16
+  Time (mean ± σ):     19.455 s ±  0.627 s    [User: 42.496 s, System: 0.439 s]
+  Range (min … max):   18.745 s … 20.362 s    18 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tform8-1-16 -w16 ran
+    1.05 ± 0.03 times faster than /z/users/acpereira/software/bin/tform8-1-8 -w16
+    1.07 ± 0.03 times faster than /z/users/acpereira/software/bin/tform8-1-4 -w16
+    1.11 ± 0.06 times faster than /z/users/acpereira/software/bin/tform8-1-2 -w16
+    1.17 ± 0.04 times faster than /z/users/acpereira/software/bin/tform8-1-1 -w16

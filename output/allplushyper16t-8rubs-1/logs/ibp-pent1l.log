@@ -1,0 +1,117 @@
+TFORM 5.0.2 (Oct 12 2026, v5.0.2-1-ga9209a6) 16 workers  Run: Tue Oct 13 07:31:52 2026
+    #-
+
+Time =       0.00 sec    Generated terms =          1
+            test         Terms in output =          1
+                         Bytes used      =        100
+~~~reducepent1l: reduce level 5 ...
+
+Time =       0.02 sec    Generated terms =         12
+            test         Terms in output =         12
+             red-level-5 Bytes used      =       2800
+~~~reducepent1l: reduce level 5 ...
+
+Time =       0.03 sec    Generated terms =        134
+            test         Terms in output =         48
+             red-level-5 Bytes used      =      36976
+~~~reducepent1l: reduce level 5 ...
+
+Time =       0.04 sec    Generated terms =        436
+            test         Terms in output =        111
+             red-level-5 Bytes used      =     353684
+~~~reducepent1l: reduce level 5 ...
+
+Time =       0.06 sec    Generated terms =        753
+            test         Terms in output =        152
+             red-level-5 Bytes used      =    1536864
+~~~reducepent1l: reduce level 5 ...
+
+Time =       0.07 sec    Generated terms =        827
+            test         Terms in output =        168
+             red-level-5 Bytes used      =    4250440
+~~~reducepent1l: reduce level 5 ...
+
+Time =       0.09 sec    Generated terms =        754
+            test         Terms in output =        173
+             red-level-5 Bytes used      =    9620732
+~~~reducepent1l: reduce level 5 ...
+
+Time =       0.12 sec    Generated terms =        617
+            test         Terms in output =        165
+             red-level-5 Bytes used      =   17891276
+~~~reducepent1l: reduce level 5 ...
+
+Time =       0.15 sec    Generated terms =        486
+            test         Terms in output =        148
+             red-level-5 Bytes used      =   31526356
+~~~reducepent1l: reduce level 4 ...
+
+Time =       0.20 sec    Generated terms =        343
+            test         Terms in output =        130
+             red-level-4 Bytes used      =   50613140
+~~~reducepent1l: reduce level 3 ...
+
+Time =       0.28 sec    Generated terms =        204
+            test         Terms in output =        109
+             red-level-3 Bytes used      =   75242792
+~~~reducepent1l: reduce level 3 ...
+
+Time =       0.36 sec    Generated terms =        142
+            test         Terms in output =         94
+             red-level-3 Bytes used      =   89371948
+~~~reducepent1l: reduce level 3 ...
+
+Time =       0.44 sec    Generated terms =        114
+            test         Terms in output =         74
+             red-level-3 Bytes used      =   74434676
+~~~reducepent1l: reduce level 3 ...
+
+Time =       0.48 sec    Generated terms =         86
+            test         Terms in output =         55
+             red-level-3 Bytes used      =   52185944
+~~~reducepent1l: reduce level 3 ...
+
+Time =       0.52 sec    Generated terms =         63
+            test         Terms in output =         40
+             red-level-3 Bytes used      =   33137604
+~~~reducepent1l: reduce level 3 ...
+
+Time =       0.54 sec    Generated terms =         45
+            test         Terms in output =         28
+             red-level-3 Bytes used      =   22586556
+~~~reducepent1l: reduce level 3 ...
+
+Time =       0.56 sec    Generated terms =         29
+            test         Terms in output =         21
+             red-level-3 Bytes used      =   13648056
+~~~reducepent1l: reduce level 3 ...
+
+Time =       0.58 sec    Generated terms =         20
+            test         Terms in output =         15
+             red-level-3 Bytes used      =    4971728
+~~~reducepent1l: reduce level 2 ...
+
+Time =       0.60 sec    Generated terms =         13
+            test         Terms in output =         12
+             red-level-2 Bytes used      =    3504820
+~~~reducepent1l: reduce level 1 ...
+
+Time =       0.61 sec    Generated terms =         11
+            test         Terms in output =         11
+             red-level-1 Bytes used      =    3440348
+
+Time =       0.61 sec    Generated terms =         11
+            test         Terms in output =         11
+                         Bytes used      =    3440348
+
+Time =       0.67 sec    Generated terms =         22
+           check         Terms in output =          0
+                         Bytes used      =          4
+
+   check = 0;
+
+
+Time =       0.67 sec    Generated terms =          0
+           check         Terms in output =          0
+                         Bytes used      =          4
+  0.67 sec + 27.86 sec: 28.54 sec out of 7.98 sec

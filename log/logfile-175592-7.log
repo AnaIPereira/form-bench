@@ -1,0 +1,24 @@
+form-bench: 9b3ecb2963ed5a081122b53bf63b0b32882bd177
+	LABEL      = allplushyper16t-8rubs
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform222fb05 -w16,/z/users/acpereira/software/bin/tforma9209a6 -w16
+	TESTS      = mincer
+	N          = 8
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/allplushyper16t-8rubs-1/results/
+
+
+Running mincer
+Benchmark 1: /z/users/acpereira/software/bin/tform222fb05 -w16
+  Time (mean ± σ):     128.236 s ±  2.702 s    [User: 1493.225 s, System: 27.753 s]
+  Range (min … max):   123.871 s … 133.025 s    16 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tforma9209a6 -w16
+  Time (mean ± σ):     126.514 s ±  2.692 s    [User: 1490.699 s, System: 28.305 s]
+  Range (min … max):   122.631 s … 131.388 s    16 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tforma9209a6 -w16 ran
+    1.01 ± 0.03 times faster than /z/users/acpereira/software/bin/tform222fb05 -w16
