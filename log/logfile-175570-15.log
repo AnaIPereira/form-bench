@@ -1,0 +1,26 @@
+form-bench: 30a21ac9ef22e36745400cd2e0ce2a304a1bca4e
+	LABEL      = allplushyper16t
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform222fb05 -w16,/z/users/acpereira/software/bin/tforma9209a6 -w16
+	TESTS      = mzv-dm 
+	N          = 2
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/allplushyper16t-1/results/
+
+
+Running mzv-dm
+Benchmark 1: /z/users/acpereira/software/bin/tform222fb05 -w16
+  Time (mean ± σ):     14.786 s ±  0.514 s    [User: 113.933 s, System: 13.360 s]
+  Range (min … max):   13.823 s … 15.262 s    12 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tforma9209a6 -w16
+  Time (mean ± σ):     13.832 s ±  0.546 s    [User: 104.124 s, System: 12.246 s]
+  Range (min … max):   13.191 s … 15.484 s    12 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet system without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Summary
+  /z/users/acpereira/software/bin/tforma9209a6 -w16 ran
+    1.07 ± 0.06 times faster than /z/users/acpereira/software/bin/tform222fb05 -w16

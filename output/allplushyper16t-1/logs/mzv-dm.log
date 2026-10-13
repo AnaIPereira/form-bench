@@ -1,0 +1,450 @@
+TFORM 5.0.2 (Oct 12 2026, v5.0.2-1-ga9209a6) 16 workers  Run: Tue Oct 13 06:06:52 2026
+    #-
+
+Time =       0.00 sec    Generated terms =         18
+       Finvtable         Terms in output =         18
+                         Bytes used      =        660
+~~~Run with Weight = 9, GROUPING = 256, Rational calculus
+
+Time =       0.05 sec    Generated terms =       8748
+              FF         Terms in output =       8748
+                         Bytes used      =     262448
+
+Time =       0.05 sec    Generated terms =       8748
+              FF         Terms in output =       8748
+                         Bytes used      =     489872
+~~~entering DEPTH = 1
+~~~doing doubling
+
+Time =       0.05 sec    Generated terms =       8748
+              FF         Terms in output =       8748
+  substitution(1-3)-8747 Bytes used      =     489868
+~~~entering DEPTH = 2
+~~~doing stuffles
+
+Time =       0.05 sec    Generated terms =       8776
+              FF         Terms in output =       8776
+ substitution(2-st)-8733 Bytes used      =     490932
+~~~doing shuffles (1)(1)
+
+Time =       0.06 sec    Generated terms =       8858
+              FF         Terms in output =       8832
+ substitution(2-sh)-8717 Bytes used      =     492692
+~~~doing doubling
+~~~doing generalized doubling
+~~~entering DEPTH = 3
+~~~doing stuffles
+
+Time =       0.09 sec    Generated terms =       9535
+              FF         Terms in output =       9535
+ substitution(3-st)-8595 Bytes used      =     517140
+~~~doing shuffles (1)(2)
+
+Time =       0.11 sec    Generated terms =      12494
+              FF         Terms in output =      11201
+ substitution(3-sh)-8527 Bytes used      =     573412
+~~~doing doubling
+~~~doing generalized doubling
+
+Time =       0.12 sec    Generated terms =      14841
+              FF         Terms in output =      10410
+substitution(3-gd3)-8524 Bytes used      =     545188
+~~~entering DEPTH = 4
+~~~doing stuffles
+
+Time =       0.17 sec    Generated terms =      12662
+              FF         Terms in output =      12662
+ substitution(4-st)-8360 Bytes used      =     621164
+
+Time =       0.24 sec    Generated terms =      14671
+              FF         Terms in output =      14499
+ substitution(4-st)-8236 Bytes used      =     682500
+
+Time =       0.32 sec    Generated terms =      17594
+              FF         Terms in output =      17594
+ substitution(4-st)-8064 Bytes used      =     787872
+
+Time =       0.34 sec    Generated terms =      19036
+              FF         Terms in output =      18275
+ substitution(4-st)-8020 Bytes used      =     812204
+~~~doing shuffles (1)(3)
+
+Time =       0.41 sec    Generated terms =      31638
+              FF         Terms in output =      20531
+ substitution(4-sh)-7880 Bytes used      =     890260
+
+Time =       0.45 sec    Generated terms =      25816
+              FF         Terms in output =      21310
+ substitution(4-sh)-7832 Bytes used      =     916828
+
+Time =       0.49 sec    Generated terms =      23376
+              FF         Terms in output =      21433
+ substitution(4-sh)-7796 Bytes used      =     920716
+~~~doing doubling
+~~~doing generalized doubling
+~~~entering DEPTH = 5
+~~~doing stuffles
+
+Time =       0.54 sec    Generated terms =      23560
+              FF         Terms in output =      23560
+ substitution(5-st)-7684 Bytes used      =     991144
+
+Time =       0.65 sec    Generated terms =      29107
+              FF         Terms in output =      29107
+ substitution(5-st)-7458 Bytes used      =    1172620
+
+Time =       0.76 sec    Generated terms =      35871
+              FF         Terms in output =      35322
+ substitution(5-st)-7252 Bytes used      =    1371484
+
+Time =       0.81 sec    Generated terms =      51270
+              FF         Terms in output =      36833
+ substitution(5-st)-7148 Bytes used      =    1430192
+
+Time =       0.85 sec    Generated terms =      41804
+              FF         Terms in output =      37505
+ substitution(5-st)-7108 Bytes used      =    1454848
+
+Time =       0.90 sec    Generated terms =      39896
+              FF         Terms in output =      39896
+ substitution(5-st)-7028 Bytes used      =    1533732
+
+Time =       0.96 sec    Generated terms =      45979
+              FF         Terms in output =      43148
+ substitution(5-st)-6916 Bytes used      =    1641736
+
+Time =       1.07 sec    Generated terms =      49400
+              FF         Terms in output =      49400
+ substitution(5-st)-6716 Bytes used      =    1845196
+
+Time =       1.12 sec    Generated terms =      60565
+              FF         Terms in output =      51251
+ substitution(5-st)-6628 Bytes used      =    1911844
+
+Time =       1.16 sec    Generated terms =      53207
+              FF         Terms in output =      53207
+ substitution(5-st)-6564 Bytes used      =    1976828
+~~~doing shuffles (1)(4)
+
+Time =       1.33 sec    Generated terms =     171647
+              FF         Terms in output =      86189
+ substitution(5-sh)-6333 Bytes used      =    3470728
+
+Time =       1.39 sec    Generated terms =     541048
+              FF         Terms in output =      73510
+ substitution(5-sh)-6264 Bytes used      =    2628832
+
+Time =       1.44 sec    Generated terms =      95886
+              FF         Terms in output =      75374
+ substitution(5-sh)-6225 Bytes used      =    2691564
+
+Time =       1.47 sec    Generated terms =      86922
+              FF         Terms in output =      76527
+ substitution(5-sh)-6194 Bytes used      =    2730968
+
+Time =       1.52 sec    Generated terms =      88486
+              FF         Terms in output =      76935
+ substitution(5-sh)-6158 Bytes used      =    2746840
+
+Time =       1.55 sec    Generated terms =      81685
+              FF         Terms in output =      76894
+ substitution(5-sh)-6136 Bytes used      =    2747796
+
+Time =       1.58 sec    Generated terms =      77880
+              FF         Terms in output =      76786
+ substitution(5-sh)-6120 Bytes used      =    2744100
+~~~doing doubling
+~~~doing generalized doubling
+
+Time =       1.60 sec    Generated terms =     122146
+              FF         Terms in output =      66096
+substitution(5-gd5)-6119 Bytes used      =    2389240
+~~~entering DEPTH = 6
+~~~doing stuffles
+
+Time =       1.72 sec    Generated terms =      75343
+              FF         Terms in output =      75343
+ substitution(6-st)-5879 Bytes used      =    2685880
+
+Time =       1.87 sec    Generated terms =      87081
+              FF         Terms in output =      87081
+ substitution(6-st)-5623 Bytes used      =    3053312
+
+Time =       1.92 sec    Generated terms =     102978
+              FF         Terms in output =      91478
+ substitution(6-st)-5544 Bytes used      =    3185428
+
+Time =       2.00 sec    Generated terms =     141966
+              FF         Terms in output =      95843
+ substitution(6-st)-5439 Bytes used      =    3326892
+
+Time =       2.05 sec    Generated terms =     120285
+              FF         Terms in output =      96393
+ substitution(6-st)-5375 Bytes used      =    3357836
+
+Time =       2.10 sec    Generated terms =      98651
+              FF         Terms in output =      97959
+ substitution(6-st)-5339 Bytes used      =    3409380
+
+Time =       2.24 sec    Generated terms =     109134
+              FF         Terms in output =     109134
+ substitution(6-st)-5083 Bytes used      =    3774468
+
+Time =       2.40 sec    Generated terms =     135174
+              FF         Terms in output =     121633
+ substitution(6-st)-4827 Bytes used      =    4171396
+
+Time =       2.47 sec    Generated terms =     133361
+              FF         Terms in output =     127455
+ substitution(6-st)-4715 Bytes used      =    4353988
+
+Time =       2.58 sec    Generated terms =     189570
+              FF         Terms in output =     136716
+ substitution(6-st)-4530 Bytes used      =    4645896
+
+Time =       2.63 sec    Generated terms =     141330
+              FF         Terms in output =     137687
+ substitution(6-st)-4507 Bytes used      =    4677692
+
+Time =       2.69 sec    Generated terms =     164044
+              FF         Terms in output =     138106
+ substitution(6-st)-4427 Bytes used      =    4711788
+
+Time =       2.74 sec    Generated terms =     144130
+              FF         Terms in output =     138137
+ substitution(6-st)-4411 Bytes used      =    4718144
+
+Time =       2.83 sec    Generated terms =     144493
+              FF         Terms in output =     144493
+ substitution(6-st)-4267 Bytes used      =    4926864
+
+Time =       2.85 sec    Generated terms =     148152
+              FF         Terms in output =     144923
+ substitution(6-st)-4251 Bytes used      =    4943080
+~~~doing shuffles (1)(5)
+
+Time =       3.05 sec    Generated terms =     411432
+              FF         Terms in output =     187239
+ substitution(6-sh)-4012 Bytes used      =    6795432
+
+Time =       3.14 sec    Generated terms =    1166217
+              FF         Terms in output =     157756
+ substitution(6-sh)-3904 Bytes used      =    5371216
+
+Time =       3.22 sec    Generated terms =     355510
+              FF         Terms in output =     155608
+ substitution(6-sh)-3823 Bytes used      =    5336820
+
+Time =       3.25 sec    Generated terms =     157059
+              FF         Terms in output =     155608
+ substitution(6-sh)-3821 Bytes used      =    5337204
+
+Time =       3.31 sec    Generated terms =     202137
+              FF         Terms in output =     157260
+ substitution(6-sh)-3758 Bytes used      =    5395968
+
+Time =       3.35 sec    Generated terms =     178013
+              FF         Terms in output =     157140
+ substitution(6-sh)-3737 Bytes used      =    5393264
+
+Time =       3.41 sec    Generated terms =     180674
+              FF         Terms in output =     157419
+ substitution(6-sh)-3686 Bytes used      =    5402652
+
+Time =       3.45 sec    Generated terms =     160857
+              FF         Terms in output =     157396
+ substitution(6-sh)-3674 Bytes used      =    5402484
+
+Time =       3.49 sec    Generated terms =     159614
+              FF         Terms in output =     157412
+ substitution(6-sh)-3655 Bytes used      =    5403088
+~~~doing doubling
+~~~entering DEPTH = 7
+~~~doing stuffles
+
+Time =       3.63 sec    Generated terms =     170189
+              FF         Terms in output =     170189
+ substitution(7-st)-3399 Bytes used      =    5817500
+
+Time =       3.79 sec    Generated terms =     183815
+              FF         Terms in output =     183815
+ substitution(7-st)-3143 Bytes used      =    6254716
+
+Time =       3.95 sec    Generated terms =     238423
+              FF         Terms in output =     198965
+ substitution(7-st)-2887 Bytes used      =    6726704
+
+Time =       4.03 sec    Generated terms =     218161
+              FF         Terms in output =     206899
+ substitution(7-st)-2767 Bytes used      =    6970004
+
+Time =       4.16 sec    Generated terms =     326548
+              FF         Terms in output =     224186
+ substitution(7-st)-2575 Bytes used      =    7472884
+
+Time =       4.22 sec    Generated terms =     249400
+              FF         Terms in output =     226295
+ substitution(7-st)-2520 Bytes used      =    7544840
+
+Time =       4.27 sec    Generated terms =     234663
+              FF         Terms in output =     226556
+ substitution(7-st)-2507 Bytes used      =    7556660
+
+Time =       4.36 sec    Generated terms =     352533
+              FF         Terms in output =     227645
+ substitution(7-st)-2379 Bytes used      =    7634760
+
+Time =       4.41 sec    Generated terms =     238153
+              FF         Terms in output =     229135
+ substitution(7-st)-2347 Bytes used      =    7684652
+
+Time =       4.47 sec    Generated terms =     252049
+              FF         Terms in output =     229204
+ substitution(7-st)-2311 Bytes used      =    7700660
+
+Time =       4.53 sec    Generated terms =     232550
+              FF         Terms in output =     232550
+ substitution(7-st)-2247 Bytes used      =    7809340
+
+Time =       4.69 sec    Generated terms =     250627
+              FF         Terms in output =     245681
+ substitution(7-st)-2023 Bytes used      =    8226668
+
+Time =       4.74 sec    Generated terms =     262485
+              FF         Terms in output =     247945
+ substitution(7-st)-1983 Bytes used      =    8298756
+
+Time =       4.81 sec    Generated terms =     274222
+              FF         Terms in output =     249836
+ substitution(7-st)-1927 Bytes used      =    8368400
+~~~doing shuffles (1)(6)
+
+Time =       4.97 sec    Generated terms =     607118
+              FF         Terms in output =     278341
+ substitution(7-sh)-1709 Bytes used      =    9194784
+
+Time =       5.09 sec    Generated terms =    1322168
+              FF         Terms in output =     259239
+ substitution(7-sh)-1599 Bytes used      =    8723584
+
+Time =       5.15 sec    Generated terms =     365148
+              FF         Terms in output =     262768
+ substitution(7-sh)-1539 Bytes used      =    8842688
+
+Time =       5.20 sec    Generated terms =     372203
+              FF         Terms in output =     260259
+ substitution(7-sh)-1527 Bytes used      =    8769964
+
+Time =       5.25 sec    Generated terms =     282014
+              FF         Terms in output =     260952
+ substitution(7-sh)-1502 Bytes used      =    8794308
+
+Time =       5.31 sec    Generated terms =     295814
+              FF         Terms in output =     261336
+ substitution(7-sh)-1466 Bytes used      =    8810692
+
+Time =       5.36 sec    Generated terms =     266677
+              FF         Terms in output =     261713
+ substitution(7-sh)-1455 Bytes used      =    8822956
+
+Time =       5.41 sec    Generated terms =     275331
+              FF         Terms in output =     261858
+ substitution(7-sh)-1433 Bytes used      =    8828332
+
+Time =       5.45 sec    Generated terms =     265688
+              FF         Terms in output =     262076
+ substitution(7-sh)-1416 Bytes used      =    8835360
+~~~doing doubling
+~~~entering DEPTH = 8
+~~~doing stuffles
+
+Time =       5.60 sec    Generated terms =     276367
+              FF         Terms in output =     276367
+ substitution(8-st)-1160 Bytes used      =    9298420
+
+Time =       5.77 sec    Generated terms =     309614
+              FF         Terms in output =     292003
+  substitution(8-st)-904 Bytes used      =    9794276
+
+Time =       5.89 sec    Generated terms =     347202
+              FF         Terms in output =     306436
+  substitution(8-st)-744 Bytes used      =   10219584
+
+Time =       5.96 sec    Generated terms =     346596
+              FF         Terms in output =     311334
+  substitution(8-st)-680 Bytes used      =   10367308
+
+Time =       6.06 sec    Generated terms =     421790
+              FF         Terms in output =     314147
+  substitution(8-st)-588 Bytes used      =   10477224
+
+Time =       6.12 sec    Generated terms =     327100
+              FF         Terms in output =     315344
+  substitution(8-st)-568 Bytes used      =   10514920
+
+Time =       6.17 sec    Generated terms =     342896
+              FF         Terms in output =     315111
+  substitution(8-st)-532 Bytes used      =   10524416
+
+Time =       6.22 sec    Generated terms =     323711
+              FF         Terms in output =     314589
+  substitution(8-st)-520 Bytes used      =   10516088
+~~~doing shuffles (1)(7)
+
+Time =       6.35 sec    Generated terms =     538648
+              FF         Terms in output =     321761
+  substitution(8-sh)-358 Bytes used      =   10748080
+
+Time =       6.42 sec    Generated terms =     535910
+              FF         Terms in output =     318202
+  substitution(8-sh)-321 Bytes used      =   10669420
+
+Time =       6.48 sec    Generated terms =     354912
+              FF         Terms in output =     318918
+  substitution(8-sh)-287 Bytes used      =   10695608
+
+Time =       6.53 sec    Generated terms =     326366
+              FF         Terms in output =     319353
+  substitution(8-sh)-274 Bytes used      =   10709768
+
+Time =       6.56 sec    Generated terms =     322107
+              FF         Terms in output =     319572
+  substitution(8-sh)-264 Bytes used      =   10716880
+~~~doing doubling
+~~~entering DEPTH = 9
+~~~doing stuffles
+
+Time =       6.67 sec    Generated terms =     328696
+              FF         Terms in output =     328696
+  substitution(9-st)-104 Bytes used      =   11006428
+
+Time =       6.74 sec    Generated terms =     356122
+              FF         Terms in output =     330003
+   substitution(9-st)-64 Bytes used      =   11051964
+~~~doing shuffles (1)(8)
+
+Time =       6.79 sec    Generated terms =     369274
+              FF         Terms in output =     329789
+    substitution(9-sh)-8 Bytes used      =   11050748
+~~~doing doubling
+
+Time =       6.82 sec    Generated terms =     329789
+              FF         Terms in output =     329789
+                         Bytes used      =   11103228
+
+Time =       7.09 sec    Generated terms =     329789
+              FF         Terms in output =     329789
+                         Bytes used      =   10998252
+
+Time =       7.20 sec    Generated terms =     659578
+            diff         Terms in output =          0
+                         Bytes used      =          4
+
+Time =       7.25 sec    Generated terms =     329789
+              FF         Terms in output =     329789
+                         Bytes used      =   10998252
+
+Time =       7.25 sec    Generated terms =          0
+            diff         Terms in output =          0
+                         Bytes used      =          4
+  7.25 sec + 104.09 sec: 111.34 sec out of 13.10 sec

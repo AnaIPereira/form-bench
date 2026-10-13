@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "command": "/z/users/acpereira/software/bin/tform222fb05 -w16",
+      "mean": 321.06976782422,
+      "stddev": 2.9859279191036405,
+      "median": 321.50558775321997,
+      "user": 2999.5131539499994,
+      "system": 45.00866927,
+      "min": 317.16610237822,
+      "max": 324.10179341222,
+      "times": [
+        317.16610237822,
+        324.10179341222,
+        320.52181046322,
+        322.48936504322
+      ],
+      "exit_codes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "parameters": {
+        "form": "/z/users/acpereira/software/bin/tform222fb05 -w16"
+      }
+    },
+    {
+      "command": "/z/users/acpereira/software/bin/tforma9209a6 -w16",
+      "mean": 317.01857487796997,
+      "stddev": 2.5836530687846815,
+      "median": 317.03803656571995,
+      "user": 3013.73615045,
+      "system": 44.864930519999994,
+      "min": 314.26037412322,
+      "max": 319.73785225721997,
+      "times": [
+        315.45328245921996,
+        318.62279067222,
+        319.73785225721997,
+        314.26037412322
+      ],
+      "exit_codes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "parameters": {
+        "form": "/z/users/acpereira/software/bin/tforma9209a6 -w16"
+      }
+    }
+  ]
+}

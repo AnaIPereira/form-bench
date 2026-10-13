@@ -1,0 +1,24 @@
+form-bench: 30a21ac9ef22e36745400cd2e0ce2a304a1bca4e
+	LABEL      = allplushyper16t
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform222fb05 -w16,/z/users/acpereira/software/bin/tforma9209a6 -w16
+	TESTS      = ibp-nptri3l
+	N          = 2
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/allplushyper16t-1/results/
+
+
+Running ibp-nptri3l
+Benchmark 1: /z/users/acpereira/software/bin/tform222fb05 -w16
+  Time (mean ± σ):     21.613 s ±  1.015 s    [User: 49.569 s, System: 0.560 s]
+  Range (min … max):   20.554 s … 23.025 s    12 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tforma9209a6 -w16
+  Time (mean ± σ):     19.768 s ±  0.674 s    [User: 43.967 s, System: 0.452 s]
+  Range (min … max):   18.299 s … 20.405 s    12 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tforma9209a6 -w16 ran
+    1.09 ± 0.06 times faster than /z/users/acpereira/software/bin/tform222fb05 -w16
