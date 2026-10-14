@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=alltests16t5.0.2
-
+#SBATCH --nodelist=node10
 #for arrays use
 #SBATCH --output=log/logfile-%A-%a.log 
 
@@ -47,11 +47,12 @@ export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
 
 ./run-compare.sh \
   --tests "$TESTS" \
-  --label "alltestsMINWRITENUMBERTERMS" \
+  --label "14-10" \
   --timestamp "1" \
   --testdir "$TMPDIR" \
   --runs 3 \
-  --form_cmds "$HOME/software/bin/tform8-1-1 -w16,$HOME/software/bin/tform8-1-2 -w16,$HOME/software/bin/tform8-1-4 -w16,$HOME/software/bin/tform8-1-8 -w16,$HOME/software/bin/tform8-1-16 -w16"
+  --form_cmds "$HOME/software/bin/tform -w16,$HOME/software/bin/tformMIN1 -w16,$HOME/software/bin/tformMIN2 -w16,$HOME/software/bin/tformMIN4 -w16,$HOME/software/bin/tformMIN8 -w16,
+  $HOME/software/bin/tformMIN16 -w16"
 
 
 
