@@ -8,7 +8,7 @@
 #SBATCH --export=ALL
 #SBATCH --mem=50G
 #SBATCH --cpus-per-task=32
-#SBATCH --time 1-00:00:00
+#SBATCH --time 0-10:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 

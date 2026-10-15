@@ -1,0 +1,34 @@
+form-bench: 4aa207f153ea2d6644900efc19ea445185c1d246
+	LABEL      = 15-10
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform -w16,/z/users/acpereira/software/bin/tformMIN16 -w16,/z/users/acpereira/software/bin/tformMIN32 -w16,/z/users/acpereira/software/bin/tformMIN64 -w16
+	TESTS      = ibp-npbox2l
+	N          = 3
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/15-10-1/results/
+
+
+Running ibp-npbox2l
+Benchmark 1: /z/users/acpereira/software/bin/tform -w16
+  Time (mean ± σ):     53.351 s ±  0.489 s    [User: 169.595 s, System: 1.275 s]
+  Range (min … max):   52.272 s … 53.941 s    12 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tformMIN16 -w16
+  Time (mean ± σ):     52.096 s ±  0.486 s    [User: 167.655 s, System: 1.250 s]
+  Range (min … max):   51.398 s … 53.087 s    12 runs
+ 
+Benchmark 3: /z/users/acpereira/software/bin/tformMIN32 -w16
+  Time (mean ± σ):     52.509 s ±  0.251 s    [User: 171.389 s, System: 1.335 s]
+  Range (min … max):   52.079 s … 52.849 s    12 runs
+ 
+Benchmark 4: /z/users/acpereira/software/bin/tformMIN64 -w16
+  Time (mean ± σ):     49.104 s ±  1.521 s    [User: 159.768 s, System: 1.192 s]
+  Range (min … max):   46.933 s … 52.305 s    12 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tformMIN64 -w16 ran
+    1.06 ± 0.03 times faster than /z/users/acpereira/software/bin/tformMIN16 -w16
+    1.07 ± 0.03 times faster than /z/users/acpereira/software/bin/tformMIN32 -w16
+    1.09 ± 0.04 times faster than /z/users/acpereira/software/bin/tform -w16

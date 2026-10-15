@@ -1,0 +1,34 @@
+form-bench: 4aa207f153ea2d6644900efc19ea445185c1d246
+	LABEL      = 15-10
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform -w16,/z/users/acpereira/software/bin/tformMIN16 -w16,/z/users/acpereira/software/bin/tformMIN32 -w16,/z/users/acpereira/software/bin/tformMIN64 -w16
+	TESTS      = chromatic
+	N          = 3
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/15-10-1/results/
+
+
+Running chromatic
+Benchmark 1: /z/users/acpereira/software/bin/tform -w16
+  Time (mean ± σ):     71.432 s ±  0.560 s    [User: 758.956 s, System: 7.182 s]
+  Range (min … max):   70.421 s … 71.828 s    6 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tformMIN16 -w16
+  Time (mean ± σ):     67.962 s ±  0.252 s    [User: 737.496 s, System: 5.294 s]
+  Range (min … max):   67.670 s … 68.382 s    6 runs
+ 
+Benchmark 3: /z/users/acpereira/software/bin/tformMIN32 -w16
+  Time (mean ± σ):     66.479 s ±  0.491 s    [User: 730.994 s, System: 5.163 s]
+  Range (min … max):   66.060 s … 67.246 s    6 runs
+ 
+Benchmark 4: /z/users/acpereira/software/bin/tformMIN64 -w16
+  Time (mean ± σ):     65.271 s ±  0.405 s    [User: 723.351 s, System: 5.008 s]
+  Range (min … max):   64.617 s … 65.666 s    6 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tformMIN64 -w16 ran
+    1.02 ± 0.01 times faster than /z/users/acpereira/software/bin/tformMIN32 -w16
+    1.04 ± 0.01 times faster than /z/users/acpereira/software/bin/tformMIN16 -w16
+    1.09 ± 0.01 times faster than /z/users/acpereira/software/bin/tform -w16

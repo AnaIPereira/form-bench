@@ -1,0 +1,49 @@
+TFORM 5.0.2 (Oct 15 2026, v5.0.2-4-gf63ffa7-dirty) 16 workers  Run: Thu Oct 15 09:54:01 2026
+    #-
+~~~
+~~~reduction X started                 
+~~~
+  0.39 sec + 0.93 sec: 1.33 sec out of 0.65 sec
+~~~
+~~~reduction H started                 
+~~~
+  0.40 sec + 21.41 sec: 21.82 sec out of 2.12 sec
+~~~
+~~~reduction BMW started                 
+~~~
+  0.87 sec + 33.08 sec: 33.95 sec out of 4.25 sec
+~~~
+~~~reduction FG started                 
+~~~
+~~~
+~~~reduce F                
+~~~
+  1.61 sec + 333.06 sec: 334.67 sec out of 27.52 sec
+~~~
+~~~reduce V                
+~~~
+  2.94 sec + 363.62 sec: 366.57 sec out of 34.63 sec
+~~~
+~~~reduce J
+~~~
+  5.50 sec + 414.23 sec: 419.74 sec out of 45.56 sec
+~~~
+~~~reduce T2                
+~~~
+  6.78 sec + 435.60 sec: 442.38 sec out of 48.88 sec
+~~~
+~~~reduce G                
+~~~
+  8.15 sec + 546.52 sec: 554.68 sec out of 66.81 sec
+~~~
+~~~drr T1                
+~~~
+~~~
+~~~reduce T1                
+~~~
+  8.18 sec + 549.03 sec: 557.22 sec out of 67.35 sec
+~~~
+~~~Started 1d reduction        
+~~~
+  8.21 sec + 549.19 sec: 557.40 sec out of 67.41 sec
+  8.21 sec + 656.86 sec: 665.07 sec out of 67.41 sec
