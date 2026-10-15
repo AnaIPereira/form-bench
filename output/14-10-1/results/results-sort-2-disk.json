@@ -1,0 +1,178 @@
+{
+  "results": [
+    {
+      "command": "/z/users/acpereira/software/bin/tform -w16",
+      "mean": 77.01835402506667,
+      "stddev": 0.47317854915645885,
+      "median": 77.0505544784,
+      "user": 986.1562277533332,
+      "system": 8.936532326666665,
+      "min": 76.3175133799,
+      "max": 77.6812537499,
+      "times": [
+        77.6812537499,
+        76.3175133799,
+        76.7023766689,
+        77.0901796369,
+        77.0109293199,
+        77.3078713949
+      ],
+      "exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "parameters": {
+        "form": "/z/users/acpereira/software/bin/tform -w16"
+      }
+    },
+    {
+      "command": "/z/users/acpereira/software/bin/tformMIN1 -w16",
+      "mean": 76.8298810099,
+      "stddev": 0.26836747333821304,
+      "median": 76.8769563569,
+      "user": 980.3763984199999,
+      "system": 9.08691416,
+      "min": 76.3730882639,
+      "max": 77.0634740909,
+      "times": [
+        76.3730882639,
+        76.7429722579,
+        77.0634740909,
+        77.0496757289,
+        77.0109404559,
+        76.7391352619
+      ],
+      "exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "parameters": {
+        "form": "/z/users/acpereira/software/bin/tformMIN1 -w16"
+      }
+    },
+    {
+      "command": "/z/users/acpereira/software/bin/tformMIN2 -w16",
+      "mean": 67.7926482079,
+      "stddev": 0.3676871915353905,
+      "median": 67.7395454004,
+      "user": 865.1566900866666,
+      "system": 7.731130993333333,
+      "min": 67.4214372839,
+      "max": 68.4917950249,
+      "times": [
+        68.4917950249,
+        67.4214372839,
+        67.7069551199,
+        67.7721356809,
+        67.7740308469,
+        67.5895352909
+      ],
+      "exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "parameters": {
+        "form": "/z/users/acpereira/software/bin/tformMIN2 -w16"
+      }
+    },
+    {
+      "command": "/z/users/acpereira/software/bin/tformMIN4 -w16",
+      "mean": 67.71715270723332,
+      "stddev": 0.5491633690437978,
+      "median": 67.7124497854,
+      "user": 857.15828542,
+      "system": 7.3345323266666655,
+      "min": 67.0945851629,
+      "max": 68.3850981369,
+      "times": [
+        68.1521428439,
+        68.0751442559,
+        68.3850981369,
+        67.2461905289,
+        67.0945851629,
+        67.3497553149
+      ],
+      "exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "parameters": {
+        "form": "/z/users/acpereira/software/bin/tformMIN4 -w16"
+      }
+    },
+    {
+      "command": "/z/users/acpereira/software/bin/tformMIN8 -w16",
+      "mean": 67.00079928306666,
+      "stddev": 0.7925513870522319,
+      "median": 67.17606905689999,
+      "user": 842.1915935866665,
+      "system": 7.365630993333332,
+      "min": 65.5576040209,
+      "max": 67.8902997959,
+      "times": [
+        67.1374853359,
+        67.8902997959,
+        67.4037175269,
+        66.8010362409,
+        67.2146527779,
+        65.5576040209
+      ],
+      "exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "parameters": {
+        "form": "/z/users/acpereira/software/bin/tformMIN8 -w16"
+      }
+    },
+    {
+      "command": "\n  /z/users/acpereira/software/bin/tformMIN16 -w16",
+      "mean": 63.4601576384,
+      "stddev": 0.33851788017340106,
+      "median": 63.4218063374,
+      "user": 797.2206547533333,
+      "system": 7.148928659999999,
+      "min": 63.0419416189,
+      "max": 64.0616503629,
+      "times": [
+        64.0616503629,
+        63.3016209019,
+        63.4742371619,
+        63.5121202719,
+        63.3693755129,
+        63.0419416189
+      ],
+      "exit_codes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "parameters": {
+        "form": "\n  /z/users/acpereira/software/bin/tformMIN16 -w16"
+      }
+    }
+  ]
+}

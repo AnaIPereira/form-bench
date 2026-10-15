@@ -1,0 +1,47 @@
+form-bench: e8c52022ccfd777fdec1921791d63059d98db4eb
+	LABEL      = 14-10
+	TESTDIR    = /tmp
+	TIMESTAMP  = 1
+	NICE       = 0
+	FORM_CMDS  = /z/users/acpereira/software/bin/tform -w16,/z/users/acpereira/software/bin/tformMIN1 -w16,/z/users/acpereira/software/bin/tformMIN2 -w16,/z/users/acpereira/software/bin/tformMIN4 -w16,/z/users/acpereira/software/bin/tformMIN8 -w16,
+  /z/users/acpereira/software/bin/tformMIN16 -w16
+	TESTS      = trace
+	N          = 3
+	DIFFICULTY = 1
+Results: /z/users/acpereira/form-bench/output/14-10-1/results/
+
+
+Running trace
+Benchmark 1: /z/users/acpereira/software/bin/tform -w16
+  Time (mean ± σ):      2.078 s ±  0.064 s    [User: 30.741 s, System: 0.581 s]
+  Range (min … max):    1.933 s …  2.184 s    60 runs
+ 
+Benchmark 2: /z/users/acpereira/software/bin/tformMIN1 -w16
+  Time (mean ± σ):      1.959 s ±  0.034 s    [User: 29.007 s, System: 0.587 s]
+  Range (min … max):    1.894 s …  2.041 s    60 runs
+ 
+Benchmark 3: /z/users/acpereira/software/bin/tformMIN2 -w16
+  Time (mean ± σ):      1.958 s ±  0.034 s    [User: 28.981 s, System: 0.589 s]
+  Range (min … max):    1.867 s …  2.045 s    60 runs
+ 
+Benchmark 4: /z/users/acpereira/software/bin/tformMIN4 -w16
+  Time (mean ± σ):      1.959 s ±  0.036 s    [User: 28.966 s, System: 0.578 s]
+  Range (min … max):    1.885 s …  2.062 s    60 runs
+ 
+Benchmark 5: /z/users/acpereira/software/bin/tformMIN8 -w16
+  Time (mean ± σ):      1.954 s ±  0.047 s    [User: 28.808 s, System: 0.579 s]
+  Range (min … max):    1.869 s …  2.138 s    60 runs
+ 
+Benchmark 6: 
+  /z/users/acpereira/software/bin/tformMIN16 -w16
+  Time (mean ± σ):      1.957 s ±  0.038 s    [User: 29.014 s, System: 0.572 s]
+  Range (min … max):    1.859 s …  2.058 s    60 runs
+ 
+Summary
+  /z/users/acpereira/software/bin/tformMIN8 -w16 ran
+    1.00 ± 0.03 times faster than 
+  /z/users/acpereira/software/bin/tformMIN16 -w16
+    1.00 ± 0.03 times faster than /z/users/acpereira/software/bin/tformMIN2 -w16
+    1.00 ± 0.03 times faster than /z/users/acpereira/software/bin/tformMIN4 -w16
+    1.00 ± 0.03 times faster than /z/users/acpereira/software/bin/tformMIN1 -w16
+    1.06 ± 0.04 times faster than /z/users/acpereira/software/bin/tform -w16

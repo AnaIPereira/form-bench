@@ -1,0 +1,107 @@
+TFORM 5.0.2 (Oct 14 2026, v5.0.2-4-gf63ffa7) 16 workers  Run: Wed Oct 14 13:26:17 2026
+    #-
+
+Time =       0.00 sec    Generated terms =          1
+            test         Terms in output =          1
+                         Bytes used      =         92
+~~~reducembox1l: reduce level 4 ...
+
+Time =       0.00 sec    Generated terms =         10
+            test         Terms in output =         10
+             red-level-4 Bytes used      =       6152
+~~~reducembox1l: reduce level 4 ...
+
+Time =       0.01 sec    Generated terms =        100
+            test         Terms in output =         34
+             red-level-4 Bytes used      =      73080
+~~~reducembox1l: reduce level 4 ...
+
+Time =       0.02 sec    Generated terms =        307
+            test         Terms in output =         67
+             red-level-4 Bytes used      =     410172
+~~~reducembox1l: reduce level 4 ...
+
+Time =       0.02 sec    Generated terms =        501
+            test         Terms in output =         81
+             red-level-4 Bytes used      =    1432900
+~~~reducembox1l: reduce level 4 ...
+
+Time =       0.03 sec    Generated terms =        492
+            test         Terms in output =         86
+             red-level-4 Bytes used      =    3752544
+~~~reducembox1l: reduce level 4 ...
+
+Time =       0.05 sec    Generated terms =        426
+            test         Terms in output =        106
+             red-level-4 Bytes used      =    8221968
+~~~reducembox1l: reduce level 4 ...
+
+Time =       0.06 sec    Generated terms =        387
+            test         Terms in output =        146
+             red-level-4 Bytes used      =   15109256
+~~~reducembox1l: reduce level 4 ...
+
+Time =       0.09 sec    Generated terms =        374
+            test         Terms in output =        195
+             red-level-4 Bytes used      =   24020688
+~~~reducembox1l: reduce level 3 ...
+
+Time =       0.14 sec    Generated terms =        355
+            test         Terms in output =        240
+             red-level-3 Bytes used      =   31625912
+~~~reducembox1l: reduce level 2 ...
+
+Time =       0.17 sec    Generated terms =        316
+            test         Terms in output =        246
+             red-level-2 Bytes used      =   31533640
+~~~reducembox1l: reduce level 2 ...
+
+Time =       0.20 sec    Generated terms =        246
+            test         Terms in output =        196
+             red-level-2 Bytes used      =   26300584
+~~~reducembox1l: reduce level 1 ...
+
+Time =       0.22 sec    Generated terms =        196
+            test         Terms in output =        163
+             red-level-1 Bytes used      =   22767432
+~~~reducembox1l: reduce level 1 ...
+
+Time =       0.24 sec    Generated terms =        163
+            test         Terms in output =        153
+             red-level-1 Bytes used      =   22853672
+~~~reducembox1l: reduce level 1 ...
+
+Time =       0.25 sec    Generated terms =        153
+            test         Terms in output =        129
+             red-level-1 Bytes used      =   21558772
+~~~reducembox1l: reduce level 1 ...
+
+Time =       0.26 sec    Generated terms =        129
+            test         Terms in output =        103
+             red-level-1 Bytes used      =   20473968
+~~~reducembox1l: reduce level 1 ...
+
+Time =       0.28 sec    Generated terms =        103
+            test         Terms in output =         88
+             red-level-1 Bytes used      =   20277832
+~~~reducembox1l: reduce level 1 ...
+
+Time =       0.29 sec    Generated terms =         88
+            test         Terms in output =         84
+             red-level-1 Bytes used      =   20264572
+
+Time =       0.30 sec    Generated terms =         84
+            test         Terms in output =         10
+                         Bytes used      =    9474784
+
+Time =       0.50 sec    Generated terms =         20
+           check         Terms in output =          0
+                         Bytes used      =          4
+
+   check = 0;
+
+
+Time =       0.50 sec    Generated terms =          0
+           check         Terms in output =          0
+                         Bytes used      =          4
+  0.50 sec + 41.63 sec: 42.13 sec out of 13.89 sec
