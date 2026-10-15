@@ -7,12 +7,12 @@
 
 #SBATCH --export=ALL
 #SBATCH --mem=50G
-#SBATCH --cpus-per-task=16
+#SBATCH --cpus-per-task=32
 #SBATCH --time 1-00:00:00
 #SBATCH --mail-type=END # notifications 
 #SBATCH --mail-user=ana.costa-pereira@liverpool.ac.uk
 
-#SBATCH --array=1-22
+#SBATCH --array=1-22%10
 
 case $SLURM_ARRAY_TASK_ID in
        1) TESTS="color" ;;
@@ -47,12 +47,11 @@ export LD_LIBRARY_PATH="$HOME/software/lib:$LD_LIBRARY_PATH"
 
 ./run-compare.sh \
   --tests "$TESTS" \
-  --label "14-10" \
+  --label "15-10" \
   --timestamp "1" \
   --testdir "$TMPDIR" \
   --runs 3 \
-  --form_cmds "$HOME/software/bin/tform -w16,$HOME/software/bin/tformMIN1 -w16,$HOME/software/bin/tformMIN2 -w16,$HOME/software/bin/tformMIN4 -w16,$HOME/software/bin/tformMIN8 -w16,
-  $HOME/software/bin/tformMIN16 -w16"
+  --form_cmds "$HOME/software/bin/tform -w16,$HOME/software/bin/tformMIN16 -w16,$HOME/software/bin/tformMIN32 -w16,$HOME/software/bin/tformMIN64 -w16"
 
 
 
